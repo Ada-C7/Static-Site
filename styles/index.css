@@ -1,12 +1,85 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
-/* HEADER
-**********/
-h1 {
-  font-family: 'Permanent Marker', cursive;
+/* CSS RESET + DEFAULT SETTINGS
+*********************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p, a {
+  font-family: monospace;
+  font-size: 1em;
+  margin-bottom: 1em;
+  color: black;
 }
 
 
+/* BODY
+*********************************/
+body {
+  margin: 5%;
+}
+
+
+/* HEADER
+*********************************/
+header {
+  display: block;
+}
+
+header h1 {
+  display: inline;
+  width: 40%;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+header #social {
+  display: inline;
+  width: 40%;
+  border-bottom: 1px solid black;
+}
+
+header #social a i {
+  list-style: none;
+  font-size: 1.75em;
+}
+
+li a:active {
+  border-bottom: 5px solid black;
+}
+
+header nav {
+  padding-top: .5em;
+  padding-top: .5em;
+  border-top: 5px;
+  border-bottom: 1px;
+}
+
+
+/* WORK
+*********************************/
+
+
+/* WORK - PROJECTS
+*********************************/
+
+
+/* WORK - PROJECTS - project1-name
+*********************************/
+
+
+/* WORK - PROJECTS - project2-name
+*********************************/
+
 
 /* FOOTER
-***********/
+*********************************/
+
+footer {
+  padding-top: 1em;
+  border-top: 1px solid black;
+  text-align: center;
+}
