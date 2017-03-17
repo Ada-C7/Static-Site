@@ -10,6 +10,11 @@ header {
   padding:10%
 }
 
+#about {
+  border-style:solid;
+  padding:20%;
+}
+
 .options {
   border-style:solid;
   padding-left:5%;
@@ -21,6 +26,28 @@ header {
   display:inline-block;
   height:450px;
   width:350px;
+}
+
+.project {
+  border-style:solid;
+  height:150px;
+  width:700px;
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.article {
+  border-style:solid;
+  /*display:inline-block;*/
+  height:300px;
+  width:300px;
+  margin-left: auto ;
+  margin-right: auto ;
+  margin-top:10px;
+  margin-bottom:10px;
+
 }
 
 footer {
