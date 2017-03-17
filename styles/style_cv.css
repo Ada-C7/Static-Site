@@ -1,0 +1,59 @@
+/** {
+  margin: 0;
+  padding: 0;
+}*/
+
+body {
+  /*display: inline-block;*/
+  background-color: lightgrey;
+}
+
+header {
+  float: left;
+  /*display: inline-block;*/
+  background-color: lightblue;
+  width: 30%;
+  height: 1000px;
+  /*float: left;*/
+}
+
+ h2 {
+   text-align: center;
+ }
+
+main {
+  display: inline-block;
+  /*clear: left;*/
+  background-color: pink;
+  width: 70%;
+  height: 1000px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+
+}
+
+nav a {
+  text-decoration: none;
+}
+
+section {
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 300px;
+  background-color: purple;
+
+}
+
+section article {
+  /*display: inline-block;*/
+  text-align: center;
+}

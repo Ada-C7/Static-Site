@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500,700|Cinzel:400,700|Cousine:400,700|Julius+Sans+One|Jura:400,500,600|Poiret+One');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(220,220,220);
+}
+
+/*********************
+   header styling
+**********************/
+
+header {
+  /*background-color: grey;*/
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 2em;
+  /*font-family: 'Alegreya Sans SC';*/
+  /*font-family: 'Cinzel';*/
+  font-family: 'Julius Sans One';
+
+  /*great for text*/
+  /*font-family: 'Poiret One';*/
+  /*font-weight: bold;*/
+}
+
+header ul {
+  list-style-type: none;
+  padding-top: 1%;
+  text-align: right;
+}
+
+header li {
+  display: inline-block;
+  padding-left: 1.5%;
+}
+
+header a {
+  color: MidnightBlue;
+  font-size: 1.2em;
+  font-family: 'Cousine';
+  /*font-family: 'Jura';*/
+  font-weight: 700;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #5B5BA6;
+}
+
+/**************
+section styling
+****************/
+
+/*this worked to create equal margin space on left and right side of page*/
+main {
+  /*margin-left: 3%;*/
+  /*margin-right: 3%;*/
+}
+
+/*h1 styling*/
+/*right now taking up all div space*/
+/*things don't look lined up when you add left/right margins..*/
+/*this is your red box and adding left/right margins will offset it*/
+div {
+  /*margin-left: 1%;*/
+  /*margin-right: 1%;*/
+  /*margin-top: 1%;*/
+  /*margin-bottom: 1%;*/
+  background-color: green;
+  width: 100%;
+}
+
+div #title {
+  display: inline-block;
+  width: 100%;
+  background-color: pink;
+}
+
+#title img {
+  /*display: inline;*/
+  width: 60%;
+  height: 300px;
+  float: left;
+  background-color: purple;
+}
+
+#title p {
+  margin: 0;
+  padding: 0;
+}
+
+/*h1 {
+  clear: left;
+  width: 35%;
+  display: inline-block;
+  /*clear: left;*/
+}*/
+
+/*article styling*/
+
+.articles div {
+
+  /*margin-top: 5%;*/
+  /*margin-bottom: 5%;*/
+  background-color: red;
+  width: 100%;
+
+  /*# OMG this centered my article blocks :)*/
+  text-align: center;
+}
+
+.articles article {
+  text-align: center;
+  display: inline-block;
+  /*this percentage takes up the most room*/
+  width: 27%;
+  height: 300px;
+  background-color: grey;
+  border: solid;
+
+  padding: 1.1em;
+  margin: 2% 1% 2% 1%;
+}
+
+.artcles h3 {
+  font-size: 2em;
+  font-family: Arial;
+}
+
+.articles ul {
+  list-style-type: none;
+}
+
+.articles li {
+  padding: 1%;
+}
+
+/*footer styling */
+footer {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height: 100px;
+  background-color: Darkblue;
+}
