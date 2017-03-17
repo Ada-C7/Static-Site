@@ -1,6 +1,5 @@
 
 body {
-  /*background-color: black;*/
   position: absolute;
   background-size: cover;
   font-family: 'Open Sans Condensed', sans-serif;
@@ -16,6 +15,10 @@ body {
   font-size: 26px;
 }
 
+a:visited {
+  color: gray;
+}
+
 img {
   min-height: 100%;
   min-width: 1024px;
@@ -26,45 +29,32 @@ img {
   left: 0;
 }
 
-/*.short-bio {
-  border: double;
-  border-color: white;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.7);
-}*/
-
-.short-bio h3 {
-   /*display: block;
-   float: right;*/
-   z-index: 100;
-   position: absolute;
-   top: 400px;
-   /*left: 900;*/
-   width: 100%;
-   font-size: 60px;
-   color: white;
+.short-bio {
+  display: block;
+  position: absolute;
+  margin: 200px 0 0 200px;
+  width: 100%;
+  font-size: 60px;
+  color: white;
 }
 
 .short-bio p {
-  z-index: 100;
   position: absolute;
-  top: 600px;
-  /*left: 0;*/
+  margin: 0 0 0 0;
   width: 100%;
   font-size: 30px;
   color: white;
 }
 
 footer {
-  position: absolute;
   display: inline-block;
-  width: 100%;
-  color: black;
+  position: fixed;
+  margin: 1000px 1000px 2px 10px;
+  /*padding: 0 60px 0 0;*/
+
 }
 
 #disclaimer {
-  top: 800px;
-  left: 0;
-  font-size: 20px;
   color: white;
+  font-size: 10px;
 }
