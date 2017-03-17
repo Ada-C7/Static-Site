@@ -52,9 +52,6 @@ header ul li {
   color: gold;
 }
 
-div.non-static {
-  position: absolute;
-}
 .content:nth-child(2) {
   margin-top: 180px;
 }
@@ -70,178 +67,85 @@ div.non-static {
 }
 
 .text {
-  position: relative;
-  z-index: 1;
   vertical-align: middle;
   padding: 0px 100px;
   text-align: justify;
   font-size: 2em;
-<<<<<<< HEAD
   padding-top: 100px;
   color: #002AFF;
-=======
-  /*padding-top: 100px;*/
-  margin-top: 160;
-  color: violet;
->>>>>>> 19c62779ddc59c436e56c00bce876aafef12b6f9
   height: 500px;
 }
 
-#monsterbook::after {
-  height: 500px;
+#monsterbook {
   background-image: url("../images/monster-book.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  content: "";
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
 
-#three-categories::after {
-  height: 500px;
+#three-categories {
   background-image: url("../images/three-categories.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  content: "";
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
 
-#reviewsy::after {
-  height: 500px;
+#reviewsy {
   background-image: url("../images/reviewsy-website.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  content: "";
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
 
-#meowspace::after {
-  height: 500px;
+#meowspace {
   background-image: url("../images/meowspace.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  content: "";
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
 
-<<<<<<< HEAD
 #word-guess {
-=======
-#word-guess::after {
-  height: 500px;
->>>>>>> 19c62779ddc59c436e56c00bce876aafef12b6f9
   background-image: url("../images/word-guess.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  content: "";
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
 
-#solar-system::after {
-  height: 500px;
+#solar-system {
   background-image: url("../images/solar-system.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  content: "";
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
 
-#scrabble::after {
-  height: 500px;
+#scrabble {
   background-image: url("../images/scrabble-code.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  content: "";
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
 
-#bank-account::after {
-  height: 500px;
+#bank-account {
   background-image: url("../images/bank-account.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  content: "";
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
 
-#ride-share::after {
-  height: 500px;
+#ride-share {
   background-image: url("../images/ride-share.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
-  content: "";
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
 }
 
 footer {
