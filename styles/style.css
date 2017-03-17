@@ -1,7 +1,41 @@
 * {
-  margin: 0
+  /*margin: 0*/
+  /*border: solid black;*/
+}
+li {
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
 }
 
 header {
-  background-color: gray;
+  background-color: #eee;
+}
+
+ #hero img {
+  width: 100vw;
+}
+
+#title {
+  float: left;
+  clear: left;
+  letter-spacing: 3px;
+  font-size: 3em;
+  color: red;
+}
+
+header ul {
+  float: right;
+  clear: right;
+}
+
+header li {
+  display: inline-block;
+  margin: 40px 20px 0 20px;
+}
+
+footer li {
+  display: inline-block;
+  margin: 20px; 
 }
