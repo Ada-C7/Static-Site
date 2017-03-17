@@ -1,0 +1,110 @@
+* {
+  /*border: 2px black solid;*/
+  font-family: courier, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  top: 0;
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+header h1 > a {
+  color: white;
+  font-size: 2em;
+}
+
+header .nav {
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+}
+
+header ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 2em;
+}
+
+.nav a {
+  color: white;
+}
+
+.nav a:hover, header h1>a:hover {
+  color: gold;
+}
+
+main {
+  margin-top: 160px;
+  height: 400px;
+  background-image: url("../images/eva-in-field.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.bio-info{
+  margin-top: 30px;
+  text-align: justify;
+  color: white;
+  line-height: 1.5;
+}
+
+.bio-info p {
+  width: 40%;
+  font-size: 1.1em;
+}
+
+.tech {
+  float: left;
+  margin-left: 30px;
+}
+
+.other {
+  float: right;
+  margin-right: 30px;
+}
+
+footer {
+  clear: both;
+  margin-bottom: -60px;
+  text-align: center;
+}
+
+.contact-info li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.contact-info a, .contact-info p {
+  color: black;
+}
+
+.contact-info p {
+  font-size: .8em;
+}
+
+
+.contact-info a:hover {
+  color: gold;
+}

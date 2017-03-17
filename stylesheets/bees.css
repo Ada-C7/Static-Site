@@ -1,0 +1,176 @@
+* {
+  /*border: 2px black solid;*/
+  font-family: courier, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  top: 0;
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+header h1 > a {
+  color: white;
+  font-size: 2em;
+}
+
+header .nav {
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+}
+
+header ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 2em;
+}
+
+.nav a {
+  color: white;
+}
+
+.nav a:hover, header h1>a:hover {
+  color: gold;
+}
+
+.content:first-child {
+  margin-top: 180px;
+}
+
+.bar {
+  font-size: 2em;
+  color: white;
+  background-color: #002AFF;
+  text-align: center;
+  padding: 20px 0;
+  margin: -32px 0;
+}
+
+.text {
+  vertical-align: middle;
+  padding: 0px 100px;
+  text-align: justify;
+  font-size: 2em;
+  padding-top: 100px;
+}
+
+#bees {
+  height: 500px;
+  color: black;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/f3/c9/12/f3c912ba9a0abf9565fd582cc5ab6e46.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#queen {
+  height: 500px;
+  color: white;
+  background-image: url("http://c8.alamy.com/comp/CNNE94/the-queen-bee-marked-white-dot-laying-eggs-queen-cups-virgin-queen-CNNE94.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#worker {
+  height: 500px;
+  background-image: url("https://thumbs.dreamstime.com/z/honey-bee-apis-mellifera-variations-isolated-white-background-33590886.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#drone {
+  color: white;
+  height: 500px;
+  background-image: url("http://media.gettyimages.com/photos/male-drone-bee-from-the-side-picture-id568653347?s=170667a");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#comb {
+  height: 500px;
+  background-image: url("http://images.all-free-download.com/images/graphicthumb/cellular_highdefinition_picture_1_167256.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#pollen {
+  color: white;
+  height: 500px;
+  background-image: url("http://www.public-domain-photos.com/free-stock-photos-4/insects/bee-pollen-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#honey {
+  color: white;
+  height: 500px;
+  background-image: url("http://previews.123rf.com/images/daviden/daviden1108/daviden110800022/10261541-The-bees-suck-nectar-of-ventricles-where-it-will-be-enriched-by-enzymes--Stock-Photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#pollination {
+  color: white;
+  height: 500px;
+  background-image: url("https://i0.wp.com/npsot.org/wp/wp-content/uploads/2012/06/sweat_bee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+footer {
+  clear: both;
+  margin-bottom: -60px;
+  text-align: center;
+}
+
+.contact-info li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.contact-info a, .contact-info p {
+  color: black;
+}
+
+.contact-info p {
+  font-size: .8em;
+}
+
+
+.contact-info a:hover {
+  color: gold;
+}
