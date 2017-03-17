@@ -24,6 +24,12 @@ body {
   background-color: black;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
 header p {
   background-color: #3F6BEC;
   padding: 2px 10px;
@@ -54,6 +60,11 @@ nav li::first-letter {
   background-color: #3F6BEC;
 }
 
+nav img {
+  width: 25px;
+  margin-bottom: -5px;
+}
+
 footer {
   margin-top: 10px;
 }
@@ -67,8 +78,6 @@ footer img {
 
 footer a {
   margin-top: 10px;
-  color: white;
-  text-decoration: none;
   font-family: helvetica;
   font-weight: bold;
   text-shadow: 2px 2px #8D8C5E;
