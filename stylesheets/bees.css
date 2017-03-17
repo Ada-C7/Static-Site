@@ -58,8 +58,8 @@ header ul li {
 
 .bar {
   font-size: 2em;
-  color: gold;
-  background-color: tan;
+  color: white;
+  background-color: #002AFF;
   text-align: center;
   /*height: auto;*/
   padding: 20px 0;
@@ -152,23 +152,28 @@ header ul li {
   background-position: center center;
 }
 
-
-
 footer {
-  display: block;
   clear: both;
-  margin-top: 40px;
   margin-bottom: -60px;
   text-align: center;
-  height: 50px;
 }
 
-footer p {
-  display: inline;
-  padding: 0 2em;
+.contact-info li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 30px;
 }
 
-footer a {
+.contact-info a, .contact-info p {
   text-decoration: none;
   color: black;
+}
+
+.contact-info p {
+  font-size: .8em;
+}
+
+
+.contact-info a:hover {
+  color: gold;
 }

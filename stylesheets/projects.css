@@ -61,8 +61,8 @@ div.non-static {
 
 .bar {
   font-size: 2em;
-  color: gold;
-  background-color: violet;
+  color: white;
+  background-color: #002AFF;
   text-align: center;
   /*height: auto;*/
   padding: 20px 0;
@@ -76,9 +76,14 @@ div.non-static {
   padding: 0px 100px;
   text-align: justify;
   font-size: 2em;
+<<<<<<< HEAD
+  padding-top: 100px;
+  color: #002AFF;
+=======
   /*padding-top: 100px;*/
   margin-top: 160;
   color: violet;
+>>>>>>> 19c62779ddc59c436e56c00bce876aafef12b6f9
   height: 500px;
 }
 
@@ -150,8 +155,12 @@ div.non-static {
   z-index: -1;
 }
 
+<<<<<<< HEAD
+#word-guess {
+=======
 #word-guess::after {
   height: 500px;
+>>>>>>> 19c62779ddc59c436e56c00bce876aafef12b6f9
   background-image: url("../images/word-guess.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -236,24 +245,27 @@ div.non-static {
 }
 
 footer {
-  display: block;
   clear: both;
-  margin-top: 40px;
   margin-bottom: -60px;
   text-align: center;
-  height: 50px;
 }
 
-footer p {
-  display: inline;
-  padding: 0 2em;
+.contact-info li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 30px;
 }
 
-footer a {
+.contact-info a, .contact-info p {
   text-decoration: none;
   color: black;
 }
 
-footer a:hover {
+.contact-info p {
+  font-size: .8em;
+}
+
+
+.contact-info a:hover {
   color: gold;
 }
