@@ -1,1 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+/*All Page Elements*/
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Pacifico', cursive;
+}
+
 /*Styling the header*/
+header h1, header nav {
+  display: inline-block;
+}
+
+header nav {
+}
