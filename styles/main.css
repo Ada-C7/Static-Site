@@ -29,7 +29,7 @@ img {
   left: 0;
 }
 
-.short-bio {
+h3 {
   display: block;
   position: absolute;
   margin: 200px 0 0 200px;
@@ -38,20 +38,21 @@ img {
   color: white;
 }
 
-.short-bio p {
+.short-bio {
   position: absolute;
-  margin: 0 0 0 0;
+  margin: 300px 0 0 200px;
   width: 100%;
-  font-size: 30px;
+  font-size: 25px;
   color: white;
+}
+.short-bio p {
+  padding: 10px 0 10px 0;
 }
 
 footer {
   display: inline-block;
   position: fixed;
   margin: 1000px 1000px 2px 10px;
-  /*padding: 0 60px 0 0;*/
-
 }
 
 #disclaimer {
