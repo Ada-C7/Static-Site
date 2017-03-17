@@ -1,0 +1,158 @@
+* {
+  /*border: 2px black solid;*/
+  font-family: courier, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  top: 0;
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+header h1 > a {
+  color: white;
+  font-size: 2em;
+}
+
+header .nav {
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 2em;
+}
+
+.nav a {
+  color: white;
+}
+
+.nav a:hover, header h1>a:hover {
+  color: gold;
+}
+
+.content:first-child {
+  margin-top: 160px;
+}
+
+.bar {
+  /*font-size: 2em;*/
+  color: white;
+  background-color: tan;
+  text-align: center;
+  height: auto;
+}
+
+.text {
+  vertical-align: middle;
+  padding: 0px 100px;
+  text-align: justify;
+  font-size: 2em;
+  padding-top: 100px;
+}
+
+#queen {
+  height: 500px;
+  color: white;
+  background-image: url("https://thumbs.dreamstime.com/z/queen-bee-bee-hive-laying-eggs-beehive-supported-worker-bees-30903937.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#worker {
+  height: 500px;
+  background-image: url("https://thumbs.dreamstime.com/z/honey-bee-apis-mellifera-variations-isolated-white-background-33590886.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#drone {
+  height: 500px;
+  background-image: url("http://media.istockphoto.com/illustrations/drone-bee-illustration-id516646184");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#comb {
+  height: 500px;
+  background-image: url("http://media.istockphoto.com/illustrations/drone-bee-illustration-id516646184");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#pollen {
+  height: 500px;
+  background-image: url("http://media.istockphoto.com/illustrations/drone-bee-illustration-id516646184");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#honey {
+  height: 500px;
+  background-image: url("http://media.istockphoto.com/illustrations/drone-bee-illustration-id516646184");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#pollination {
+  height: 500px;
+  background-image: url("http://media.istockphoto.com/illustrations/drone-bee-illustration-id516646184");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+
+
+footer {
+  display: block;
+  clear: both;
+  margin-top: 40px;
+  margin-bottom: -60px;
+  text-align: center;
+  height: 50px;
+}
+
+footer p {
+  display: inline;
+  padding: 0 2em;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,124 @@
+* {
+  /*border: 2px black solid;*/
+  font-family: courier, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  top: 0;
+  position: fixed;
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+header h1 > a {
+  color: white;
+  font-size: 2em;
+}
+
+header .nav {
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 2em;
+}
+
+.nav a {
+  color: white;
+}
+
+.nav a:hover, header h1>a:hover {
+  color: gold;
+}
+
+.content:first-child {
+  margin-top: 160px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content a {
+  text-decoration: none;
+  color: white;
+}
+
+.hidden-title {
+  height: 100px;
+  margin: 0;
+  /*padding: 10px 0px;*/
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  font-size: 3em;
+  background-color: skyblue;
+  margin-bottom: -20px;
+}
+
+#projects {
+  height: 300px;
+  background-image: url("../images/projects.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#bees {
+  height: 300px;
+  background-image: url("../images/bee-alt.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#about {
+  height: 300px;
+  background-image: url("../images/about-alt.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+footer {
+  display: block;
+  clear: both;
+  margin-top: 40px;
+  margin-bottom: -60px;
+  text-align: center;
+  height: 50px;
+}
+
+footer p {
+  display: inline;
+  padding: 0 2em;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
