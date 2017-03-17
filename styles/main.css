@@ -77,3 +77,22 @@ section#sticky-lynn {
   bottom: 20px;
   width: 200px;
 }
+
+/*Main contect section*/
+.info article {
+  margin: 10px 0;
+  position: relative;
+  border-width: 3px
+}
+
+article.code {
+  border: dashed #E71A9B;
+}
+
+article.comedy {
+  border: dashed #FF7F1D;
+}
+
+article.contact {
+  border: dashed #18D4C6;
+}
