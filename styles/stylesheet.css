@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+html {
+  /*height: 100%;
+  margins: 0;
+  padding: 0;*/
+height: : 100%;
+margin:0 auto;
+background-color: #999;
+
+}
+
+header {
+  /*background-color: salmon;*/
+  /*position:fixed;*/
+  top: 0px;
+  left:0px;
+  height: 110px;
+  width: 100%;
+  z-index: 1;
+  border-bottom: .1em solid black;
+}
+
+body {
+  font-family: 'Baloo Bhaina';
+}
+
+
+#my-name {
+  float: left;
+  position: relative;
+  top:0px;
+  font-size: 1em;
+  display: inline-block;
+  border: .1em solid black;
+  /*clear:both;*/
+
+}
+
+
+.main-nav li {
+  display: inline-block;
+  float: right;
+  position:relative;
+  color: red;
+  margin:20px;
+  font-size: 1.3em;
+
+}
+
+.about-me img {
+  float:left;
+  display:inline-block;
+  position: relative;
+  top: 150px;
+  height: 300px;
+  width: 300px;
+
+
+}
+
+
+
+/*header {height: 50px;
+margin-bottom: 1em;}
+
+div{font-family:georgia;
+  font-weight: bolder;
+  font-size: 1em;
+position:absolute;
+  top: 50px;
+}
+
+li {display: inline-block;
+position:relative;
+  top: 50px;
+  left: 350px;
+
+width: 100px;
+height: 100px;
+margin-right: .7em}
+
+
+a{text-decoration:none;
+  color: blue;}
+a:hover{color:red;
+
+}
+a img{border: none;}
+a:hover img {border:4px solid #D5975C;}
+
+div.img {
+  position: relative;
+  top: 100px;
+    float: left;
+    width: 30%
+    margin: 5px;
+    border: 1px solid #ccc;
+
+}
+
+
+section {position:relative;
+  left:350px;
+
+
+}
+
+h1{font-family:georgia;
+  top:37px;
+  left:454px;
+  font-size: 6em;
+  font-weight: bolder
+  font-style:oblique;;
+}
+
+  h2{font-family:georgia;
+      font-size: 4em;
+    font-weight: normal;;}
+
+
+q{font-family:georgia;
+  width: 70%;
+font-size: 2em;
+font-style:italic;}
+
+footer
+{
+  background-color: green;
+  width: 150%;
+  height:30%;
+  position: inherit;
+
+}
+
+.social {display:inline;
+
+position:relative;
+margin-right: .7em;
+}*/
