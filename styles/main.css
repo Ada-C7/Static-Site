@@ -64,35 +64,49 @@ header li {
 
 /*Working on top section, set containing element*/
 section.top {
-  background: linear-gradient( 0deg, #FFEFA4, white);
   height: 300px;
-  position: relative;
   margin-top: 50px;
 }
 
 /*COME BACK TO THIS.  CAn't be within top section if want it sticky on the whole page.*/
-section#sticky-lynn {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  width: 200px;
+
+#sticky-lynn {
+  position: sticky;
+  top: 0;
+  float: right;
+  background-color: rgba(255,255,255,0.95);
+  margin: 5px;
 }
 
 /*Main contect section*/
+
 .info article {
   margin: 10px 0;
-  position: relative;
   border-width: 3px
+  border-radius: 20%;
+  overflow: auto;
+  clear: both;
+}
+
+.info img {
+  border-radius: 20%;
+  height: 200px;
+  margin: 30px 20px;
+}
+
+section.right {
+  float: right;
+  width: 50%;
 }
 
 article.code {
-  border: dashed #E71A9B;
-}
-
-article.comedy {
   border: dashed #FF7F1D;
 }
 
+article.comedy {
+  border: dashed #E71A9B;
+}
+
 article.contact {
-  border: dashed #18D4C6;
+  border: dashed #FFD71D;
 }
