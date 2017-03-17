@@ -1,7 +1,17 @@
-.header {
-  /*position:fixed;*/
-  /*width: 100%;*/
-  padding: 10px 10px 10px 10px;
+
+* {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*why can't I see thissssss*/
+.site-nav a {
+  display: inline-block;
+  position: absolute;
+  top: 700px;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-size: 30px;
 }
 
 img {
@@ -14,10 +24,45 @@ img {
   left: 0;
 }
 
-.background-image h3 {
+.short-bio {
+  /*border: double;
+  border-color: white;*/
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.short-bio h3 {
+   /*display: block;
+   float: right;*/
+   z-index: 100;
    position: absolute;
    top: 400px;
-   left: 0;
+   /*left: 900;*/
    width: 100%;
+   font-size: 60px;
    color: white;
+}
+
+.short-bio p {
+  z-index: 100;
+  position: absolute;
+  top: 600px;
+  /*left: 0;*/
+  width: 100%;
+  font-size: 30px;
+  color: white;
+}
+
+footer {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  color: black;
+}
+
+#disclaimer {
+  top: 800px;
+  left: 0;
+  font-size: 20px;
+  color: white;
 }
