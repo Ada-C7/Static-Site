@@ -1,0 +1,19 @@
+/*grey color: #fofofo;
+green color: #c5d5c5;
+grey-green color: #9fa9a3;
+beige color: #e3e0cc
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Vollkorn', serif;*/
+
+
+
+
+.picbox {
+  display: inline-block;
+}
+
+.picbox img {
+  display: inline-block;
+  width: 200px;
+}
