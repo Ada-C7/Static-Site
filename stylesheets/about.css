@@ -97,6 +97,14 @@ main {
   color: gold;
 }
 
+.contact-info a:last-child {
+  padding: 0 20px;
+}
+
+/*.contact-info a:first-child {
+  padding-left: 0;
+}*/
+
 footer {
   display: block;
   clear: both;
