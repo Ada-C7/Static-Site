@@ -33,7 +33,7 @@ html {
   font-family: 'Open Sans', sans-serif;
   color: #4d4d4d;
   font-size: 16px;
-  margin: 10px;
+  margin: 10px 75px;
 }
 
 h1, h2, h3, h4 {
@@ -60,4 +60,20 @@ header nav {
 header li {
   display: inline-block;
   margin: 0 3px;
+}
+
+/*Working on top section, set containing element*/
+section.top {
+  background: linear-gradient( 0deg, #FFEFA4, white);
+  height: 300px;
+  position: relative;
+  margin-top: 50px;
+}
+
+/*COME BACK TO THIS.  CAn't be within top section if want it sticky on the whole page.*/
+section#sticky-lynn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 200px;
 }
