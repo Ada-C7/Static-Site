@@ -73,29 +73,10 @@ header ul li {
   font-size: 2em;
   padding-top: 100px;
   color: violet;
-}
-
-#bank-account {
   height: 500px;
-  background-image: url("../images/bank-account.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-}
-
-#meowspace {
-  height: 500px;
-  /*color: white;*/
-  background-image: url("../images/meowspace.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
 }
 
 #monsterbook {
-  height: 500px;
   background-image: url("../images/monster-book.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -103,48 +84,7 @@ header ul li {
   background-position: center center;
 }
 
-#reviewsy {
-  /*color: white;*/
-  height: 500px;
-  background-image: url("../images/reviewsy-website.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-}
-
-#ride-share {
-  height: 500px;
-  background-image: url("../images/ride-share.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-}
-
-#scrabble {
-  /*color: white;*/
-  height: 500px;
-  background-image: url("../images/scrabble-code.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-}
-
-#solar-system {
-  /*color: white;*/
-  height: 500px;
-  background-image: url("../images/solar-system.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-}
-
 #three-categories {
-  /*color: white;*/
-  height: 500px;
   background-image: url("../images/three-categories.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -152,8 +92,23 @@ header ul li {
   background-position: center center;
 }
 
+#reviewsy {
+  background-image: url("../images/reviewsy-website.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#meowspace {
+  background-image: url("../images/meowspace.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 #word-guess {
-  /*color: white;*/
   height: 500px;
   background-image: url("../images/word-guess.png");
   background-size: cover;
@@ -162,6 +117,37 @@ header ul li {
   background-position: center center;
 }
 
+#solar-system {
+  background-image: url("../images/solar-system.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#scrabble {
+  background-image: url("../images/scrabble-code.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#bank-account {
+  background-image: url("../images/bank-account.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+#ride-share {
+  background-image: url("../images/ride-share.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
 
 footer {
   display: block;
@@ -181,127 +167,7 @@ footer a {
   text-decoration: none;
   color: black;
 }
-* {
-  /*border: 2px black solid;*/
-  font-family: courier, sans-serif;
-}
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  top: 0;
-  position: fixed;
-  height: 150px;
-  width: 100%;
-  background-color: black;
-  padding-bottom: 10px;
-}
-
-header h1 {
-  display: block;
-  text-align: center;
-  vertical-align: middle;
-}
-
-header h1 > a {
-  color: white;
-  font-size: 2em;
-}
-
-header .nav {
-  font-size: 1.5em;
-  display: block;
-  text-align: center;
-}
-
-header a {
-  text-decoration: none;
-}
-
-header ul li {
-  display: inline-block;
-  list-style: none;
-  padding: 0px 2em;
-}
-
-.nav a {
-  color: white;
-}
-
-.nav a:hover, header h1>a:hover {
+footer a:hover {
   color: gold;
-}
-
-.content:first-child {
-  margin-top: 160px;
-}
-
-.content {
-  text-align: center;
-}
-
-.content a {
-  text-decoration: none;
-  color: white;
-}
-
-.hidden-title {
-  height: 100px;
-  margin: 0;
-  /*padding: 10px 0px;*/
-  display: block;
-  width: 100%;
-  padding-top: 5px;
-  font-size: 3em;
-  background-color: violet;
-  margin-bottom: -20px;
-}
-
-#projects {
-  height: 300px;
-  background-image: url("../images/projects.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-}
-
-#bees {
-  height: 300px;
-  background-image: url("../images/bee-alt.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-}
-
-#about {
-  height: 300px;
-  background-image: url("../images/about-alt.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
-}
-
-footer {
-  display: block;
-  clear: both;
-  margin-top: 40px;
-  margin-bottom: -60px;
-  text-align: center;
-  height: 50px;
-}
-
-footer p {
-  display: inline;
-  padding: 0 2em;
-}
-
-footer a {
-  text-decoration: none;
-  color: black;
 }
