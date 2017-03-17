@@ -6,14 +6,116 @@ beige color: #e3e0cc
 font-family: 'Open Sans', sans-serif;
 font-family: 'Vollkorn', serif;*/
 
-
-
-
-.picbox {
-  display: inline-block;
+body {
+  background-color: #f0f0f0;
 }
 
-.picbox img {
+/*
+===================================
+typography
+===================================
+*/
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h3 a, h4 {
+  font-family: 'Vollkorn', serif;
+  color: #9fa9a3;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  color: #c5d5c5;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c5d5c5;
+}
+/*
+===================================
+header
+===================================
+*/
+header {
+  height: 100px;
+}
+
+/*
+===================================
+navigation
+===================================
+*/
+.picbox {
+  display: inline-block;
+  height: 200px;
+  margin: 10px;
+}
+
+/*narrower version of nav for subpages*/
+.navbox {
+  display: inline-block;
+  height: 75px;
+  margin: 10px;
+}
+
+.picbox img, .navbox img  {
   display: inline-block;
   width: 200px;
+}
+
+.picbox h3, .navbox h3 {
+  text-align: center;
+}
+
+
+.picbox h3 {
+  text-align: center;
+}
+
+/*
+===================================
+footer
+===================================
+*/
+
+
+.icons {
+  margin-top: 150px;
+  }
+
+.social-icon {
+  color: #e3e0cc;
+}
+
+/*
+===================================
+about page
+===================================
+*/
+.two-column {
+  margin-top: 30px;
+}
+
+#about-img {
+  height: 250px;
+  margin: 10px;
+  float: left;
+}
+
+.paragraph-lead {
+  display: inline;
+}
+
+#about-txt {
+  width: 75%;
+  margin-left: 10px;
 }
