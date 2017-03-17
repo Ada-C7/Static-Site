@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+  padding: 20px;
+  background-color: #CCCB9E;
+  border-width: 20px;
+}
+
+#inner-frame {
+  border-color: #BEBD84;
+  border-width: 20px;
+  border-style: inset;
+}
+
+main {
+  margin: 0px;
+  background-color: black;
+  color: #00ff00;
+  font-family: courier;
+}
+
+footer {
+  font-family: helvetica;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px #8D8C5E;
+}
+
+footer img {
+  width: 15px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
+footer p {
+  margin-top: 5px;
+}
