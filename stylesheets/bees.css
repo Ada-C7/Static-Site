@@ -53,15 +53,17 @@ header ul li {
 }
 
 .content:first-child {
-  margin-top: 160px;
+  margin-top: 180px;
 }
 
 .bar {
-  /*font-size: 2em;*/
-  color: white;
+  font-size: 2em;
+  color: gold;
   background-color: tan;
   text-align: center;
-  height: auto;
+  /*height: auto;*/
+  padding: 20px 0;
+  margin: -32px 0;
 }
 
 .text {
@@ -72,10 +74,20 @@ header ul li {
   padding-top: 100px;
 }
 
+#bees {
+  height: 500px;
+  color: black;
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/f3/c9/12/f3c912ba9a0abf9565fd582cc5ab6e46.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 #queen {
   height: 500px;
   color: white;
-  background-image: url("https://thumbs.dreamstime.com/z/queen-bee-bee-hive-laying-eggs-beehive-supported-worker-bees-30903937.jpg");
+  background-image: url("http://c8.alamy.com/comp/CNNE94/the-queen-bee-marked-white-dot-laying-eggs-queen-cups-virgin-queen-CNNE94.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -92,8 +104,9 @@ header ul li {
 }
 
 #drone {
+  color: white;
   height: 500px;
-  background-image: url("http://media.istockphoto.com/illustrations/drone-bee-illustration-id516646184");
+  background-image: url("http://media.gettyimages.com/photos/male-drone-bee-from-the-side-picture-id568653347?s=170667a");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -102,7 +115,7 @@ header ul li {
 
 #comb {
   height: 500px;
-  background-image: url("http://media.istockphoto.com/illustrations/drone-bee-illustration-id516646184");
+  background-image: url("http://images.all-free-download.com/images/graphicthumb/cellular_highdefinition_picture_1_167256.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -110,8 +123,9 @@ header ul li {
 }
 
 #pollen {
+  color: white;
   height: 500px;
-  background-image: url("http://media.istockphoto.com/illustrations/drone-bee-illustration-id516646184");
+  background-image: url("http://www.public-domain-photos.com/free-stock-photos-4/insects/bee-pollen-5.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -119,8 +133,9 @@ header ul li {
 }
 
 #honey {
+  color: white;
   height: 500px;
-  background-image: url("http://media.istockphoto.com/illustrations/drone-bee-illustration-id516646184");
+  background-image: url("http://previews.123rf.com/images/daviden/daviden1108/daviden110800022/10261541-The-bees-suck-nectar-of-ventricles-where-it-will-be-enriched-by-enzymes--Stock-Photo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -128,8 +143,9 @@ header ul li {
 }
 
 #pollination {
+  color: white;
   height: 500px;
-  background-image: url("http://media.istockphoto.com/illustrations/drone-bee-illustration-id516646184");
+  background-image: url("https://i0.wp.com/npsot.org/wp/wp-content/uploads/2012/06/sweat_bee.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
