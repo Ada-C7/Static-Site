@@ -1,9 +1,39 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Pacifico");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
+/*MY COLOR PALLET
+
+  TEAL #18D4C6
+    lightest 97EBE5
+    light 4CDBD1
+    dark 00BBAD
+    darkest 00756C
+
+  GOLD #FFD71D
+    lightest FFEFA4
+    ligth FFE258
+    dark FFD200
+    darkest BE9C00
+
+  MAGENTA #E71A9B
+    lightest F49DD4
+    light EB51B2
+    dark D80088
+    darkest 94005D
+
+  ORANGE FF7F1D
+    lightest FFCCA4
+    light FFA158
+    dark FF6F00
+    darkest BE5300
+*/
+
 /*All Page Elements*/
 html {
   font-family: 'Open Sans', sans-serif;
+  color: #4d4d4d;
+  font-size: 16px;
+  margin: 10px;
 }
 
 h1, h2, h3, h4 {
@@ -11,9 +41,23 @@ h1, h2, h3, h4 {
 }
 
 /*Styling the header*/
+header {
+  position: relative;
+  border-bottom: 3px #18D4C6 solid;
+}
+
 header h1, header nav {
   display: inline-block;
+  margin: 20px 10px;
 }
 
 header nav {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+header li {
+  display: inline-block;
+  margin: 0 3px;
 }
