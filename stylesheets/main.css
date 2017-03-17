@@ -1,0 +1,41 @@
+/*********************
+        HEADER
+**********************/
+
+header h1, header nav {
+  display: inline-block;
+  width: 40%;
+}
+
+/*TW: Align Header with Nav*/
+
+header nav {
+  float: right;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+/*********************
+HERO IMAGE AND HEADER
+**********************/
+
+main section:first-of-type {
+  background-image: url(https://placebear.com/200/300);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20em;
+}
+
+main section h1#hero-text {
+  text-align: center;
+  padding: 9em;
+  left: 50%
+}
+
+main section h1 span {
+  border: solid;
+  background: white;
+  padding: 1em;
+}
