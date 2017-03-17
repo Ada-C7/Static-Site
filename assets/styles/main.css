@@ -1,0 +1,71 @@
+/** {
+  border: solid;
+}*/
+
+/*************************
+          HEADER
+*************************/
+header {
+  margin: 0;
+  /*padding: 1% 10%;*/
+}
+
+header h2, header li, header nav {
+  display: inline-block;
+}
+
+header h2 {
+  /*width: 40%;*/
+  margin: 0;
+}
+
+header nav {
+  /*width: 40%;*/
+  float: right;
+}
+
+/*************************
+          FOOTER
+*************************/
+footer #copyright, footer #contact, footer #contact li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer #copyright {
+  margin: 0;
+  width: 45%;
+  /*position: relative;*/
+}
+
+footer #contact {
+  /*float: right;*/
+  /*margin-top: 15px;*/
+}
+
+footer ul {
+  margin: 0;
+  text-align: right;
+  width: 50%;
+  /*position: absolute;
+  right: 5%;*/
+}
+
+footer {
+  background-color: #8EB8E5;
+  /*border: 2px solid black;*/
+  padding: 2.5% 1%;
+  /*line-height: 100%;*/
+  /*vertical-align: middle;*/
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
