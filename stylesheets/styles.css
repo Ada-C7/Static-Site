@@ -1,6 +1,9 @@
 * {
-  /*border: 2px black solid;*/
   font-family: courier, sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
@@ -34,10 +37,6 @@ header .nav {
   text-align: center;
 }
 
-header a {
-  text-decoration: none;
-}
-
 header ul li {
   display: inline-block;
   list-style: none;
@@ -61,14 +60,16 @@ header ul li {
 }
 
 .content a {
-  text-decoration: none;
   color: white;
 }
 
-.hidden-title {
+.content a:hover {
+  color: black;
+}
+
+.title {
   height: 100px;
   margin: 0;
-  /*padding: 10px 0px;*/
   display: block;
   width: 100%;
   padding-top: 5px;
@@ -117,14 +118,12 @@ footer {
 }
 
 .contact-info a, .contact-info p {
-  text-decoration: none;
   color: black;
 }
 
 .contact-info p {
   font-size: .8em;
 }
-
 
 .contact-info a:hover {
   color: gold;

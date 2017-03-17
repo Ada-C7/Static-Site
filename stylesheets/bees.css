@@ -2,6 +2,9 @@
   /*border: 2px black solid;*/
   font-family: courier, sans-serif;
 }
+a {
+  text-decoration: none;
+}
 
 body {
   margin: 0;
@@ -34,10 +37,6 @@ header .nav {
   text-align: center;
 }
 
-header a {
-  text-decoration: none;
-}
-
 header ul li {
   display: inline-block;
   list-style: none;
@@ -61,7 +60,6 @@ header ul li {
   color: white;
   background-color: #002AFF;
   text-align: center;
-  /*height: auto;*/
   padding: 20px 0;
   margin: -32px 0;
 }
@@ -165,7 +163,6 @@ footer {
 }
 
 .contact-info a, .contact-info p {
-  text-decoration: none;
   color: black;
 }
 

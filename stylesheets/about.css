@@ -3,6 +3,10 @@
   font-family: courier, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -32,10 +36,6 @@ header .nav {
   font-size: 1.5em;
   display: block;
   text-align: center;
-}
-
-header a {
-  text-decoration: none;
 }
 
 header ul li {
@@ -69,15 +69,18 @@ main {
   line-height: 1.5;
 }
 
+.bio-info p {
+  width: 40%;
+  font-size: 1.1em;
+}
+
 .tech {
   float: left;
-  width: 40%;
   margin-left: 30px;
 }
 
 .other {
   float: right;
-  width: 40%;
   margin-right: 30px;
 }
 
@@ -94,7 +97,6 @@ footer {
 }
 
 .contact-info a, .contact-info p {
-  text-decoration: none;
   color: black;
 }
 
