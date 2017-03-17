@@ -50,6 +50,27 @@ h3 {
   padding: 10px 0 10px 0;
 }
 
+.icono-linkedIn {
+  position: absolute;
+  margin: 400px 0 0 200px;
+  width: 100%;
+  color: white;
+}
+
+.icono-mail {
+  position: absolute;
+  margin: 400px 0 0 200px;
+  width: 100%;
+  color: white;
+}
+
+.icono-nexus {
+  position: absolute;
+  margin: 400px 0 0 200px;
+  width: 100%;
+  color: white;
+}
+
 footer {
   display: inline-block;
   position: fixed;
