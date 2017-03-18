@@ -1,0 +1,255 @@
+/*======STYLES FOR INDEX.HTML:=========*/
+html{
+  background-color: #03A5E0;
+}
+body{
+  font-family: 'Libre Baskerville', serif;
+}
+/*=======HEADER AND NAV=======*/
+header{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+  background-color: #012A5E;
+  margin-bottom: 100px;
+}
+header a{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+header a:hover{
+  background-color: #F27318;
+  color: #040566;
+  border-radius: 10px;
+}
+li{
+  list-style-type: none;
+}
+nav a{
+  font-family: 'Nixie One';
+  font-size: 1.5em;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+nav{
+  margin-top: 1%;
+}
+nav ul{
+  padding-left: 15%;
+  padding-right: 20%;
+  text-align: center;
+}
+nav li{
+  display: inline-block;
+}
+@media screen and (max-width: 500px){
+  nav li{
+    display: block;
+  }
+}
+.mainphoto_content{
+  position: relative;
+}
+.mainphoto{
+  height: 500px;
+  border-bottom: 2px solid #8E9AAF;
+  position: relative;
+  background-image: url("../images/mainphoto2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.5;
+}
+.mainphoto_content h1{
+  position: absolute;
+  top: 10%;
+  left:5%;
+  right: 5%;
+  font-size: 3.7em;
+  width: 90%;
+  color:#FFFFFF;
+  text-align: center;
+  font-family: 'Nixie One';
+  line-height: 1.5;
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+h1, #portfolio_main_text h2{
+  opacity:0; /*make h1 invisible on load*/
+  animation:fadeIn ease-in 1; /* call keyframe*/
+  animation-fill-mode:forwards;
+  animation-duration:1s;
+  animation-delay: 0.5s;
+}
+@media screen and (max-width: 800px){
+  .mainphoto_content h1, #portfolio_main_text h2{
+    font-size: 3em;
+    top: 20%;
+  }
+}
+@media screen and (max-width: 600px){
+  .mainphoto_content h1, #portfolio_main_text h2{
+    font-size: 2em;
+    top: 35%;
+  }
+}
+
+/*=======MAIN:=======*/
+main{
+  background-color: #FBFFEA;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 3% 3% 3% 3%;
+  overflow:auto;
+}
+/*=======ASIDE:=======*/
+#aside_info {
+  width: 30%;
+  display: inline-block;
+  float: left;
+}
+#aside_info img{
+  padding-left: 4%;
+  width:90%;
+}
+#quote {
+  color:#F27318;
+  text-align: center;
+  line-height: 1.5;
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  border-bottom-width: thin;
+  border-top-width: thin;
+  overflow:auto;
+}
+/*=======MAIN INFO SECTION:=======*/
+#main_info {
+  width: 60%;
+  float: left;
+  display: inline-block;
+  padding-left: 4%;
+}
+#main_info p{
+  line-height: 1.5;
+  text-align: justify;
+}
+#main_info p::first-letter{
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+/*=======FOOTER:=======*/
+footer{
+  clear: both;
+  background-color: #064472;
+  padding-top: 5px;
+  padding-bottom:5px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*======STYLES FOR HOBBY-BLOG.HTML:=========*/
+#hobby_heading{
+  text-align: center;
+  color: #F27318;
+}
+#hobby_main img{
+  width: 32%;
+  border-radius: 10px;
+}
+#hobby_main{
+  padding-top: 100px;
+  padding-left: 5%;
+}
+
+/*======STYLES FOR PORTFOLIO.HTML:=========*/
+#portfolio_main_text h2{
+  position: absolute;
+  top: 37%;
+  left:5%;
+  right: 5%;
+  font-size: 3.1em;
+  width: 90%;
+  color:#FFFFFF;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.5;
+  border-bottom-style: dashed;
+}
+
+.col{
+  width: 44%;
+  display: inline-block;
+  border-radius: 200px;
+  border-style: dashed;
+  border-color: #F27318;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 2%;
+  padding: 0 2% 0 2%;
+  vertical-align: top;
+}
+.col p:first-child{
+  color:#C25633;
+  font-family: 'Nixie One';
+}
+.col a{
+  text-decoration: none;
+  color: #168A2D;
+}
+.col a:hover{
+  background-color: #20C27F;
+  color:#FFFFFF;
+  border-radius: 20px;
+  padding: 0 2px 0 2px;
+}
+
+
+/*======STYLES FOR ABOUT ME.HTML:=========*/
+#about_main{
+  padding-top: 5%;
+  font-family: 'Libre Baskerville', serif;
+}
+#about_main h2{
+  text-align: center;
+  font-family: 'Nixie One';
+  color:  #064472;
+  border-bottom-style: dashed;
+  border-bottom-width: thin;
+}
+@media screen and (max-width: 1100px){
+  #about_main{
+    padding-top: 12%;
+  }
+}
+@media screen and (max-width: 650px){
+  #about_main{
+    padding-top: 20%;
+  }
+}
+@media screen and (max-width: 500px){
+  #about_main{
+    padding-top: 40%;
+  }
+}
+#about_main h3{
+  text-align: left;
+  font-family: 'Nixie One';
+  color:  #064472;
+  border-bottom-style: dashed;
+  border-bottom-width: thin;
+}
+/*Icons:*/
+#about_main i{
+  font-size: 4em;
+  color: #C25429;
+}
+#about_main i:hover{
+  background-color: white;
+  opacity: 0.2;
+}
+#about_main li{
+  list-style-type: disc;
+}
