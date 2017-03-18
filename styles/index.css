@@ -4,6 +4,7 @@
 /* EVENTUALLY
 *********************************/
 /* + Add animation to index page title */
+/* + Align Nav Text Left and Icons Right */
 
 
 /* CSS RESET + DEFAULT SETTINGS
@@ -14,12 +15,20 @@
   padding: 0;
 }
 
-p, a {
+a, h4, footer p {
   font-family: Courier, Georgia, Times, serif;
   font-size: .8em;
-  margin-bottom: 1em;
   color: black;
   text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+p {
+  font-family: Georgia, Times, serif;
+  font-size: .9em;
+  margin-bottom: 1em;
+  color: black;
 }
 
 
@@ -28,7 +37,7 @@ p, a {
 body {
   padding: 5%;
   background: #f1f1f1;
-  background-image: url("../assets/beige-paper.png");
+  background-image: url("../assets/asfalt-dark.png");
   background-repeat: repeat;
 }
 
@@ -43,69 +52,84 @@ header {
 header h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 2.5em;
-  /*margin-bottom: 2em;*/
   letter-spacing: .08em;
   text-align: center;
-	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	-moz-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
-header nav {
-  background: yellow;
-  display: block;
-  position: relative;
-  width: 100%;
-  border-top: 5px;
-  border-bottom: 1px solid black;
-}
-
-#nav-links li, #nav-social li {
-  display: inline-block;
-  float: left;
-  margin: auto;
-  list-style: none;
-  font-size: 1.25em;
-}
-
-header #nav-links li a:active, header #nav-links li a:hover {
+#nav-links a:active, #nav-links a:hover {
   border-bottom: 5px solid black;
 }
 
+#nav-social a:active, #nav-social a:hover {
+  color: pink;
+}
+header nav ul {
+  display: block;
+  float: left;
+  margin: auto;
+  list-style: none;
+  background: yellow;
+  width: 100%;
+  border-top: 5px solid black;
+  border-bottom: 2px solid black;
+}
 
-/* WORK
+header nav ul li {
+display: inline-block;
+float: left;
+margin: auto;
+list-style: none;
+font-size: 1.25em;
+}
+
+
+/* MAIN
 *********************************/
+main {
+  clear: both;
+  position: relative;
+}
 
 
 /* WORK - PROJECTS
 *********************************/
-main {
-  clear: both;
-}
 #work .project {
   background: white;
-  padding: 2em;
-  margin-bottom: 1em;
-  width: 30%;
-  float: right;
-}
 
-#work .project {
+  min-width: 350px;
+  min-height: 400px;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-bottom: 1em;
+  padding: 2em;
+  width: 30%;
+  float: left;
   border-bottom: 5px solid black;
 }
 
-#work p {
+#work ,project .project-desc {
+}
+
+#work .project_desc {
   margin-bottom: 2em;
 }
 
 #work a.button {
   padding: .75em;
   border: 1px solid black;
+  border-radius: 3px;
 }
 
 #work a.button:hover {
   color: white;
   background: black;
+}
+
+h4.project-tags {
+  color: silver;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: none;
 }
 
 
