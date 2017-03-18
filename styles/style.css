@@ -4,10 +4,11 @@
 * {
   margin: 0;
   padding: 0;
+  /*border: solid;*/
 }
 
 body {
-  background-color: rgb(220,220,220);
+  /*background-color: rgb(220,220,220);*/
 }
 
 h1,
@@ -47,7 +48,7 @@ header ul {
 
 header li {
   display: inline-block;
-  padding-right: 4%;
+  padding-right: 7%;
 }
 
 a {
@@ -78,31 +79,9 @@ main {
 /*things don't look lined up when you add left/right margins..*/
 /*this is your red box and adding left/right margins will offset it*/
 div {
-  /*margin-left: 1%;*/
-  /*margin-right: 1%;*/
-  /*margin-top: 1%;*/
-  /*margin-bottom: 1%;*/
   /*background-color: green;*/
-  background-color: rgb(220,220,220);
-  background-color:
-  /*width: 100%;*/
   text-align: center;
-}
-
-/*article styling*/
-
-article {
-  text-align: left;
-  display: inline-block;
-  /*this percentage takes up the most room*/
-  width: 90%;
-  /*height: 300px;*/
-  /*background-color: darkgrey;*/
-  /*border: solid MidnightBlue;*/
-
-  padding: 1.1em;
-  /*margin: 2% 1% 1% 1%;*/
-  margin-bottom: 1%;
+  margin-top: 2%;
 }
 
 h3 {
@@ -110,39 +89,11 @@ h3 {
   font-size: 2em;
   margin-left: 2%;
   margin-right: 2%;
+  margin-bottom: 2%;
 }
 
-article section {
-  text-align: center;
-  /*background-color: lightgreen;*/
-  margin: 0;
-  padding: 0;
-}
-
-article ul {
-  /*display: inline;*/
-  /*text-align: left;*/
-  margin-top: 5%;
-  list-style-type: none;
-  background-color: white;
-  width: 30%;
-  float: left;
-}
-
-article li {
-  padding: 1%;
-}
-
-article img {
+.blog_posts p {
   display: inline-block;
-  margin-top: 2%;
-  margin-right: 2%;
-  width: 40%;
-}
-
-article p {
-  display: inline-block;
-  /*position: relative;*/
   /*background-color: lavender;*/
   margin: 0;
   margin-top: 2%;
@@ -151,13 +102,72 @@ article p {
   /*height: 400px;*/
 }
 
+.blog_posts article {
+  display: inline-block;
+  /*background-color: darkgrey;*/
+  /*border: solid MidnightBlue;*/
+  /*height: 300px;*/
+  margin-bottom: 1%;
+  padding: 1.1em;
+  text-align: left;
+  width: 90%;
+}
 
+.blog_posts section {
+  text-align: center;
+  /*background-color: lightgreen;*/
+  margin: 0;
+  padding: 0;
+}
+
+.blog_posts img {
+  display: inline-block;
+  margin-top: 2%;
+  margin-right: 2%;
+  width: 40%;
+}
+
+.projects article {
+  background-color: white;
+  /*border-radius: 100%;*/
+  /*border: solid;*/
+
+  /*display: inline;*/
+  display: inline-block;
+  /*height: 500px;*/
+  margin: 1%;
+  margin-bottom: 5%;
+  width: 30%;
+  height: 320px;
+}
+
+.projects p {
+
+}
+
+.projects a {
+  color: red;
+
+}
+.projects ul {
+  /*display: inline;*/
+  /*text-align: left;*/
+  margin-top: 5%;
+  list-style-type: none;
+  /*background-color: white;*/
+  /*width: 30%;*/
+  /*float: left;*/
+}
+
+.projects li {
+  padding: 1%;
+}
 
 /*footer styling */
-footer {
+/*footer {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
-  height: 100px;
-  background-color: Darkblue;
-}
+  border: solid;
+
+}*/
