@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-size: cover;
+  background-image: url('../images/tomato.jpeg');
+  /*background-repeat: no-repeat;
+  background-position: center center;*/
+  font-family: 'Patrick Hand SC', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
