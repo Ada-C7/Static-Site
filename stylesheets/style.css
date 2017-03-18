@@ -158,10 +158,28 @@ footer{
 #hobby_main img{
   width: 32%;
   border-radius: 10px;
+  display: inline-block;
+  float: left;
+  clear: both;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 #hobby_main{
   padding-top: 100px;
   padding-left: 5%;
+}
+
+.recipes{
+  display: inline-block;
+  float: right;
+  width: 60%;
+  padding-left: 2%;
+  border-bottom-style: dashed;
+  border-bottom-width: thin;
+  border-bottom-color: #F27318;
+}
+.recipes h3{
+  color:  #F27318;
 }
 
 /*======STYLES FOR PORTFOLIO.HTML:=========*/
