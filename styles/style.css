@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500,700|Cinzel:400,700|Cousine:400,700|Julius+Sans+One|Jura:400,500,600|Poiret+One');
 
+/**********************************************************************
+default styling
+***********************************************************************/
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +12,7 @@
 }
 
 body {
-  /*background-color: rgb(220,220,220);*/
+  background-color: rgb(220,220,220);
 }
 
 h1,
@@ -22,9 +26,22 @@ p {
   font-size: 1.2em;
 }
 
-/*********************
-   header styling
-**********************/
+a {
+  color: MidnightBlue;
+  font-size: 1.2em;
+  font-family: 'Cousine';
+  /*font-family: 'Jura';*/
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5B5BA6;
+}
+
+/**********************************************************************
+header styling
+***********************************************************************/
 
 header {
   /*background-color: grey;*/
@@ -49,19 +66,6 @@ header ul {
 header li {
   display: inline-block;
   padding-right: 7%;
-}
-
-a {
-  color: MidnightBlue;
-  font-size: 1.2em;
-  font-family: 'Cousine';
-  /*font-family: 'Jura';*/
-  font-weight: 700;
-  text-decoration: none;
-}
-
-header a:hover {
-  color: #5B5BA6;
 }
 
 /**********************************************************************
@@ -89,8 +93,12 @@ h3 {
   font-size: 2em;
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 2%;
+  padding-bottom: 1%;
 }
+
+/*****************************************************************************/
+                      /*blog post sytling*/
+/*****************************************************************************/
 
 .blog_posts p {
   display: inline-block;
@@ -127,18 +135,28 @@ h3 {
   width: 40%;
 }
 
+/*****************************************************************************/
+                      /*portfolio sytling*/
+/*****************************************************************************/
+
 .projects article {
   background-color: white;
   /*border-radius: 100%;*/
-  /*border: solid;*/
+  border: solid;
 
   /*display: inline;*/
   display: inline-block;
   /*height: 500px;*/
   margin: 1%;
   margin-bottom: 5%;
-  width: 30%;
+  width: 28%;
   height: 320px;
+}
+
+.projects section {
+  background-color: pink;
+  margin: 3%;
+
 }
 
 .projects p {
