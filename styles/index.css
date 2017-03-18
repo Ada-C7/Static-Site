@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+
+/* EVENTUALLY
+*********************************/
+/* + Add animation to index page title */
+
+
 /* CSS RESET + DEFAULT SETTINGS
 *********************************/
 * {
@@ -9,17 +15,21 @@
 }
 
 p, a {
-  font-family: monospace;
-  font-size: 1em;
+  font-family: Courier, Georgia, Times, serif;
+  font-size: .8em;
   margin-bottom: 1em;
   color: black;
+  text-decoration: none;
 }
 
 
 /* BODY
 *********************************/
 body {
-  margin: 5%;
+  padding: 5%;
+  background: #f1f1f1;
+  background-image: url("../assets/beige-paper.png");
+  background-repeat: repeat;
 }
 
 
@@ -27,35 +37,39 @@ body {
 *********************************/
 header {
   display: block;
+  background: pink;
 }
 
 header h1 {
-  display: inline;
-  width: 40%;
   font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+  /*margin-bottom: 2em;*/
+  letter-spacing: .08em;
   text-align: center;
-}
-
-header #social {
-  display: inline;
-  width: 40%;
-  border-bottom: 1px solid black;
-}
-
-header #social a i {
-  list-style: none;
-  font-size: 1.75em;
-}
-
-li a:active {
-  border-bottom: 5px solid black;
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	-moz-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 header nav {
-  padding-top: .5em;
-  padding-top: .5em;
+  background: yellow;
+  display: block;
+  position: relative;
+  width: 100%;
   border-top: 5px;
-  border-bottom: 1px;
+  border-bottom: 1px solid black;
+}
+
+#nav-links li, #nav-social li {
+  display: inline-block;
+  float: left;
+  margin: auto;
+  list-style: none;
+  font-size: 1.25em;
+}
+
+header #nav-links li a:active, header #nav-links li a:hover {
+  border-bottom: 5px solid black;
 }
 
 
@@ -65,20 +79,41 @@ header nav {
 
 /* WORK - PROJECTS
 *********************************/
+main {
+  clear: both;
+}
+#work .project {
+  background: white;
+  padding: 2em;
+  margin-bottom: 1em;
+  width: 30%;
+  float: right;
+}
 
+#work .project {
+  border-bottom: 5px solid black;
+}
 
-/* WORK - PROJECTS - project1-name
-*********************************/
+#work p {
+  margin-bottom: 2em;
+}
 
+#work a.button {
+  padding: .75em;
+  border: 1px solid black;
+}
 
-/* WORK - PROJECTS - project2-name
-*********************************/
+#work a.button:hover {
+  color: white;
+  background: black;
+}
 
 
 /* FOOTER
 *********************************/
 
 footer {
+  clear: both;
   padding-top: 1em;
   border-top: 1px solid black;
   text-align: center;
