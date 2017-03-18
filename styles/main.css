@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+* {
+  color: black;
+  font-family: 'Slabo 27px', serif;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: gray;
+}
+
+header h2 a {
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-left: 3%;
+}
+
+.emoji:hover::before {
+  content: "📺";
+}
+
+.contents a {
+  text-decoration: none;
+  /*list-style-type: none;*/
+}
+
+header nav {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
+
+header .contents {
+  display: inline-block;
+  /*text-decoration: none;*/
+}
+
+main {
+  margin-top: 125px;
+  text-align: center;
+  /*background-image: url("../assets/Windows.JPG");
+  background-size: 100%;
+  background-repeat: no-repeat;*/
+  height: 500px;
+  width: 100%;
+  vertical-align: center;
+}
+
+#hero {
+  margin-top: 125px;
+  text-align: center;
+  /*background-image: url("../assets/Windows.JPG");*/
+  /*background-size: cover*/
+  /*background-repeat: no-repeat;*/
+  height: 400px;
+  width: 100%;
+  /*vertical-align: center;*/
+}
+
+#hero h1 {
+  font-size: 4em;
+  padding-top: 8%;
+  height: 100px;
+}
+
+#hero p {
+  font-size: 2.5em;
+  height: 100px;
+}
+
+#hero a {
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 1.75em;
+  background-color: gray;
+}
+
+#hero #one {
+  font-size: 1.75em;
+  float: left;
+  text-align: center;
+  width: 15%;
+  margin-left: 18%;
+}
+
+#hero #two, #hero #three {
+  font-size: 1.75em;
+  float: left;
+  text-align: center;
+  width: 15%;
+  margin-left: 8%;
+}
+
+#hero li {
+  /*text-decoration: none;*/
+  list-style-type: none;
+}
+
+/*#hero img {
+  font-size: 30%;
+}*/
+
+footer h4, footer p {
+  display: inline-block;
+}
+
+footer h4 {
+  width: 20%;
+  margin-left: 3%;
+}
+
+footer p {
+  width: 70%;
+}
