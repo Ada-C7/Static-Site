@@ -10,6 +10,17 @@ body {
   background-color: rgb(220,220,220);
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Julius Sans One';
+}
+
+p {
+  font-family: 'Poiret One';
+  font-size: 1.2em;
+}
+
 /*********************
    header styling
 **********************/
@@ -26,13 +37,6 @@ header h1 {
   padding: 0;
   text-align: left;
   font-size: 2em;
-  /*font-family: 'Alegreya Sans SC';*/
-  /*font-family: 'Cinzel';*/
-  font-family: 'Julius Sans One';
-
-  /*great for text*/
-  /*font-family: 'Poiret One';*/
-  /*font-weight: bold;*/
 }
 
 header ul {
@@ -43,10 +47,10 @@ header ul {
 
 header li {
   display: inline-block;
-  padding-left: 1.5%;
+  padding-right: 4%;
 }
 
-header a {
+a {
   color: MidnightBlue;
   font-size: 1.2em;
   font-family: 'Cousine';
@@ -59,14 +63,14 @@ header a:hover {
   color: #5B5BA6;
 }
 
-/**************
+/**********************************************************************
 section styling
-****************/
+***********************************************************************/
 
 /*this worked to create equal margin space on left and right side of page*/
 main {
-  /*margin-left: 3%;*/
-  /*margin-right: 3%;*/
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 /*h1 styling*/
@@ -78,74 +82,73 @@ div {
   /*margin-right: 1%;*/
   /*margin-top: 1%;*/
   /*margin-bottom: 1%;*/
-  background-color: green;
+  /*background-color: green;*/
+  background-color: rgb(220,220,220);
+  background-color:
   width: 100%;
+  text-align: center;
 }
 
-div #title {
+/*article styling*/
+
+article {
+  text-align: left;
   display: inline-block;
-  width: 100%;
-  background-color: pink;
+  /*this percentage takes up the most room*/
+  width: 90%;
+  /*height: 300px;*/
+  /*background-color: darkgrey;*/
+  /*border: solid MidnightBlue;*/
+
+  padding: 1.1em;
+  /*margin: 2% 1% 1% 1%;*/
+  margin-bottom: 1%;
 }
 
-#title img {
-  /*display: inline;*/
-  width: 60%;
-  height: 300px;
-  float: left;
-  background-color: purple;
+h3 {
+  border-bottom: solid;
+  font-size: 2em;
 }
 
-#title p {
+article section {
+  text-align: center;
+  /*background-color: lightgreen;*/
   margin: 0;
   padding: 0;
 }
 
-/*h1 {
-  clear: left;
-  width: 35%;
-  display: inline-block;
-  /*clear: left;*/
-}*/
-
-/*article styling*/
-
-.articles div {
-
-  /*margin-top: 5%;*/
-  /*margin-bottom: 5%;*/
-  background-color: red;
-  width: 100%;
-
-  /*# OMG this centered my article blocks :)*/
-  text-align: center;
-}
-
-.articles article {
-  text-align: center;
-  display: inline-block;
-  /*this percentage takes up the most room*/
-  width: 27%;
-  height: 300px;
-  background-color: grey;
-  border: solid;
-
-  padding: 1.1em;
-  margin: 2% 1% 2% 1%;
-}
-
-.artcles h3 {
-  font-size: 2em;
-  font-family: Arial;
-}
-
-.articles ul {
+article ul {
+  /*display: inline;*/
+  /*text-align: left;*/
+  margin-top: 5%;
   list-style-type: none;
+  background-color: white;
+  width: 30%;
+  float: left;
 }
 
-.articles li {
+article li {
   padding: 1%;
 }
+
+article img {
+  display: inline-block;
+  margin-top: 2%;
+  margin-right: 2%;
+  width: 35%;
+}
+
+article p {
+  display: inline-block;
+  /*position: relative;*/
+  /*background-color: lavender;*/
+  margin: 0;
+  text-align: left;
+  width: 55%;
+  /*height: 400px;*/
+}
+
+
 
 /*footer styling */
 footer {
