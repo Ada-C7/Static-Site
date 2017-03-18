@@ -16,8 +16,8 @@ body {
   font-size: 26px;
 }
 
-a:visited {
-  color: gray;
+a:hover {
+  color:black;
 }
 
 img {

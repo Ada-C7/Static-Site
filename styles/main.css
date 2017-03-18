@@ -5,7 +5,7 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-/*space these words out more*/
+/*ideally space these words out more*/
 .site-nav {
   display: inline-block;
   position: relative;
@@ -16,9 +16,10 @@ body {
   font-size: 26px;
 }
 
-a:visited {
-  color: gray;
+a:hover {
+  color:black;
 }
+
 
 img {
   min-height: 100%;
