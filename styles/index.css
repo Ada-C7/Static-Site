@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Oswald|Lato');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 
 /* EVENTUALLY
@@ -26,7 +26,7 @@ a, h4, footer p {
 }
 
 p {
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Georgia','Times','Times New Roman', serif;
   font-size: .9em;
   line-height: 1.9em;
   margin-bottom: 1em;
@@ -38,8 +38,9 @@ p {
 *********************************/
 body {
   padding: 5%;
-  background: #f1f1f1;
-  background-image: url("../assets/asfalt-dark.png");
+  background: white;
+  background-image: url("../assets/specks.png");
+  background-size: 500px;
   background-repeat: repeat;
 }
 
@@ -79,6 +80,7 @@ header nav ul {
 float: left;
 list-style: none;
 font-size: 1.25em;
+font-weight: 400;
 padding-top: .5em;
 padding-bottom: .5em;
 }
@@ -100,6 +102,8 @@ main {
   clear: both;
   position: relative;
   display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 
@@ -112,12 +116,14 @@ main {
 
 #work .project {
   display: block;
-  background: white;
+  background: rgba(255, 255, 255, 0.7);
   width: 375px;
   height: 600px;
   margin-top: 1em;
   float: left;
   border-bottom: 5px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 #work .project img {
@@ -128,13 +134,6 @@ main {
 #work .project .project-desc {
   display: block;
   padding: 2em;
-}
-
-#work .project h4 {
-  color: silver;
-  font-weight: normal;
-  font-style: italic;
-  text-transform: none;
 }
 
 #work a.button {
@@ -156,6 +155,22 @@ main {
   display: block;
 }
 
+#blog-posts .post {
+  border-bottom: 5px solid black;
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#blog-posts .details-top {
+  border-top: 2px solid black;
+  padding-top: .5em;
+}
+
+#blog-posts .post img {
+  width: 100%;
+  padding-bottom: 25px;
+}
 
 
 /* FOOTER
