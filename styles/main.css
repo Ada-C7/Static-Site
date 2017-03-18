@@ -39,14 +39,12 @@ header .contents {
 }
 
 main {
-  margin-top: 125px;
-  text-align: center;
+  /*margin-top: 75px;*/
   /*background-image: url("../assets/Windows.JPG");
   background-size: 100%;
   background-repeat: no-repeat;*/
   height: 500px;
   width: 100%;
-  vertical-align: center;
 }
 
 #hero {
@@ -98,10 +96,6 @@ main {
   /*text-decoration: none;*/
   list-style-type: none;
 }
-
-/*#hero img {
-  font-size: 30%;
-}*/
 
 footer h4, footer p {
   display: inline-block;
