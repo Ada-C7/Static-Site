@@ -33,42 +33,40 @@ img {
 .hiking {
   position: absolute;
   display: inline-block;
-  margin: 30px 30px 30px 30px;
+  margin: 30px 30px 0 30px;
   width: 100%;
-  font-size: 25px;
   color: white;
 }
 
 .gaming {
   position: absolute;
   display: inline-block;
-  margin: 30px 0 30px 800px;
+  margin: 30px 0 0 600px;
   width: 100%;
-  font-size: 25px;
   color: white;
 }
 
 h3 {
-  color: white;
   padding: 0 0 0 10px;
+  font-size: 30px;
 }
 
-section article {
+#hobbies article {
   border-style: double;
   border-width: thin;
   border-radius: 25px;
   margin: 10px 0 10px 0;
 }
 
-.hobby-blog p {
-  padding: 0 0 5px 10px;
-  font-size: 20px;
+#hobbies p {
+  padding: 0 10px 0 10px;
+  font-size: 25px;
 }
 
 footer {
-  display: inline-block;
+  width: 100%;
+  bottom: 0;
   position: fixed;
-  margin: 1000px 1000px 2px 10px;
 }
 
 #disclaimer {
