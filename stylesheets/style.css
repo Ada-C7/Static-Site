@@ -87,6 +87,7 @@ nav li::first-letter {
 nav img {
   width: 25px;
   margin-bottom: -5px;
+  background-color: black;
 }
 
 footer {
