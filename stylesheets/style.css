@@ -10,7 +10,7 @@
 
 body {
   margin: 0px;
-  padding: 20px;
+  padding: 30px;
   background-color: #CCCB9E;
   border-width: 20px;
   color: white;
@@ -19,16 +19,19 @@ body {
 
 #inner-frame {
   border-color: #BEBD84;
-  border-width: 20px;
+  border-width: 30px;
   border-style: inset;
   background-color: black;
+  width: 800px;
+  height: 600px;
+  overflow: scroll;
+  position: relative;
 }
 
 a {
   text-decoration: none;
   color: white;
 }
-
 
 header p {
   background-color: #3F6BEC;
