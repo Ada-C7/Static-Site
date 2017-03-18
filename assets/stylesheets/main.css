@@ -6,8 +6,9 @@ header {
 }
 body {
   background-color: #fffff9;
+  font-family: 'Open Sans';
 }
-header a {
+header a { 
   color:#fffff9
 }
 
@@ -53,4 +54,11 @@ footer {
 
 footer p {
   padding-top: 7px;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: purple;
 }
