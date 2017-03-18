@@ -1,24 +1,19 @@
 body {
-  margin-top: 75px;
+  margin-top: 90px;
 }
 
 main {
-
+  padding-bottom: 100px;
+  text-align: center;
 }
-
 article {
   width: 27%;
   height: 225px;
-  padding: 20px;
+  padding: 100px 20px 20px 20px;
   display: inline-block;
   text-align: center;
 }
 
 h2 {
   text-align: center;
-}
-
-footer {
-  clear: both;
-  bottom: 0px;
 }

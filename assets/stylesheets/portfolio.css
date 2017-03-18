@@ -1,0 +1,20 @@
+article {
+  width: 27%;
+  height: 225px;
+  padding: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+body {
+  margin-top: 90px;
+}
+
+h2 {
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  padding-bottom: 100px;
+}

@@ -1,15 +1,17 @@
+header a {
+  color: #fffff9;
+}
+
 header {
   width: 100%;
   background-color: #1c1b17;
   position: fixed;
   top: 0px;
 }
+
 body {
   background-color: #fffff9;
   font-family: 'Open Sans';
-}
-header a { 
-  color:#fffff9
 }
 
 li {
@@ -60,5 +62,4 @@ footer p {
   content: "";
   display: table;
   clear: both;
-  background-color: purple;
 }
