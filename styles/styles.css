@@ -1,3 +1,115 @@
 /* color1: #09B3C4 */
 /* color2: #e7b43f */
 /* color3: #d05664 */
+
+@import url('https://fonts.googleapis.com/css?family=Cabin|Homemade+Apple');
+
+/* general element rules */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*general + body rules*/
+body {
+  font-family: 'Cabin', sans-serif;
+  font-size: 18px;
+  color: #09B3C4;
+}
+
+h1 a, h2, h4 {
+  font-family: 'Homemade Apple', cursive;
+}
+
+a {
+  color: #09B3C4;
+  text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+  color: #e7b43f;
+}
+
+a:visited {
+  color: #d05664;
+}
+
+
+/*header rules*/
+header {
+  /*padding: 0 5%;*/
+  /*min-width: 90%;*/
+}
+
+nav {
+  min-width: 1000px;
+}
+
+nav * {
+  display: inline;
+  text-align: center;
+}
+
+nav h1 {
+  padding: 0 2.5%;
+}
+
+.prof {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+
+/*main rules*/
+/*try 900px width of content, 300 each article*/
+section.gallery {
+  padding: 5% 7%;
+}
+
+article.project {
+  /*border-style: solid;
+  border-width: medium;
+  border-color: #A9E4FF;*/
+  /*above for debugging*/
+
+  display: inline-block;
+  width: 30%;
+  padding: 1% 2%;
+  /*min-height: 500px;*/
+  vertical-align: text-top;
+}
+
+article.project p.desc {
+  /*visibility: hidden;*/
+  /*position: absolute;*/
+  /*top: 15%;*/
+}
+
+article.project img a:hover p.desc {
+  /*visibility: visible;*/
+}
+
+article.project h3 {
+  /*visibility: hidden;*/
+  /*position: absolute;*/
+}
+
+article.project img {
+  max-width: 100%;
+  max-height: 100%;
+  /*position: relative;*/
+}
+
+
+/*footer rules*/
+footer {
+  padding: 0 20%;
+}
+
+footer * {
+  display: inline;
+  padding: 0 1%;
+}
