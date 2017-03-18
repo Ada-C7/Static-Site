@@ -5,13 +5,15 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+header {
+  position: fixed;
+  width: 100%;
+}
+
 /*space these words out more*/
 .site-nav {
-  display: inline-block;
-  position: relative;
-  left: 1500px;
-  margin: 10px;
-  padding: 0 60px 0 60px;
+  float: right;
+  padding: 10px 15px 0 0;
   color: white;
   font-size: 26px;
 }
@@ -31,18 +33,18 @@ img {
 }
 
 .hiking {
-  position: absolute;
+  position: relative;
   display: inline-block;
-  margin: 30px 30px 0 30px;
-  width: 100%;
+  margin: 150px 30px 0 30px;
+  width: 35%;
   color: white;
 }
 
 .gaming {
   position: absolute;
   display: inline-block;
-  margin: 30px 0 0 600px;
-  width: 100%;
+  margin: 150px 0 0 70px;
+  width: 30%;
   color: white;
 }
 
