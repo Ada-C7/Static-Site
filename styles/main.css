@@ -1,0 +1,51 @@
+
+main {
+  font-family: 'Muli';
+
+}
+header {
+
+}
+
+h1 {
+    color: #c1513f;
+    letter-spacing: 6px;
+    text-align: center;
+    font-size: 2n;
+    padding-top: 70px;
+    font-weight: 400;
+    border-bottom: solid 1px #5e5555;
+    padding-bottom: 15px;
+    display: inline-block;
+    border-width: 65%;
+    padding-left: 356px;
+}
+
+#sec-do-things {
+  padding-left: 376px;
+}
+
+#do-things a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #7c6e6c;
+  padding-left: 35px;
+}
+
+#side-nav li {
+  list-style-type: none;
+  color: #7c6e6c;
+}
+#side-nav a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #7c6e6c;
+}
+
+article.scroll-environments {
+  display: inline-flex;
+  border: solid 1px #5e5555;
+  width: 460px;
+  height: 320px;
+  margin-left: 150px;
+}
