@@ -5,3 +5,8 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+body {
+  background-size: cover;
+  background-image: url('../images/12.jpeg'); 
+}
