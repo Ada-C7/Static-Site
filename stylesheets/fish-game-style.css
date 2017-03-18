@@ -7,10 +7,6 @@ table {
   border-collapse: collapse;
 }
 
-main {
-  padding-bottom: 20px;
-}
-
 #secret-salmon-cell:hover {
   background-image: url("../images/salmon.png");
   background-position: center;

@@ -24,13 +24,17 @@ body {
   background-color: black;
   width: 800px;
   height: 600px;
-  overflow: scroll;
-  position: relative;
 }
 
 a {
   text-decoration: none;
   color: white;
+}
+
+header {
+  position: absolute;
+  width: 800px;
+  background-color: black;
 }
 
 header p {
@@ -41,7 +45,9 @@ header p {
 }
 
 main {
-  margin: 0px 10px;
+  height: 505px;
+  overflow: scroll;
+  margin: 35px 10px 0px;
   background-color: black;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
@@ -51,6 +57,10 @@ main {
 main ul {
   list-style-type: none;
   padding-left: 15px;
+}
+
+nav {
+  position: absolute;
 }
 
 nav ul {
