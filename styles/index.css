@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Oswald|Lato');
 
 
 /* EVENTUALLY
 *********************************/
 /* + Add animation to index page title */
 /* + Align Nav Text Left and Icons Right */
+/* + Restructure heading so that social icons are on same line as title */
 
 
 /* CSS RESET + DEFAULT SETTINGS
@@ -25,8 +26,9 @@ a, h4, footer p {
 }
 
 p {
-  font-family: Georgia, Times, serif;
+  font-family: 'Lato', Helvetica, sans-serif;
   font-size: .9em;
+  line-height: 1.9em;
   margin-bottom: 1em;
   color: black;
 }
@@ -46,14 +48,13 @@ body {
 *********************************/
 header {
   display: block;
-  background: pink;
 }
 
 header h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 2.5em;
   letter-spacing: .08em;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 #nav-links a:active, #nav-links a:hover {
@@ -64,22 +65,32 @@ header h1 {
   color: pink;
 }
 header nav ul {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   float: left;
   margin: auto;
   list-style: none;
-  background: yellow;
   width: 100%;
   border-top: 5px solid black;
   border-bottom: 2px solid black;
 }
 
-header nav ul li {
-display: inline-block;
+#nav-links li, #nav-social li {
 float: left;
-margin: auto;
 list-style: none;
 font-size: 1.25em;
+padding-top: .5em;
+padding-bottom: .5em;
+}
+
+#nav-links li {
+text-align: left;
+padding-right: 1em;
+}
+
+#nav-social li {
+text-align: right;
+padding-left: .75em;
 }
 
 
@@ -88,30 +99,42 @@ font-size: 1.25em;
 main {
   clear: both;
   position: relative;
+  display: block;
 }
 
 
-/* WORK - PROJECTS
+/* INDEX - WORK / PROJECTS
 *********************************/
-#work .project {
-  background: white;
+#work {
+  display: block;
+  justify-content: space-between;
+}
 
-  min-width: 350px;
-  min-height: 400px;
+#work .project {
+  display: block;
+  background: white;
+  width: 375px;
+  height: 600px;
   margin-top: 1em;
-  margin-right: auto;
-  margin-bottom: 1em;
-  padding: 2em;
-  width: 30%;
   float: left;
   border-bottom: 5px solid black;
 }
 
-#work ,project .project-desc {
+#work .project img {
+  width: 375px;
+  height: 225px;
 }
 
-#work .project_desc {
-  margin-bottom: 2em;
+#work .project .project-desc {
+  display: block;
+  padding: 2em;
+}
+
+#work .project h4 {
+  color: silver;
+  font-weight: normal;
+  font-style: italic;
+  text-transform: none;
 }
 
 #work a.button {
@@ -125,12 +148,14 @@ main {
   background: black;
 }
 
-h4.project-tags {
-  color: silver;
-  font-weight: normal;
-  font-style: italic;
-  text-transform: none;
+
+/* BLOG POSTS
+*********************************/
+
+#blog-posts {
+  display: block;
 }
+
 
 
 /* FOOTER
