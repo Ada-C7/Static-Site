@@ -74,8 +74,20 @@ section.top {
   position: sticky;
   top: 0;
   float: right;
-  background-color: rgba(255,255,255,0.95);
-  margin: 5px;
+  background-color: rgba(255,255,255,0.90);
+  margin: 15px;
+  padding: 10px;
+  width: 20%;
+  border-radius: 10%;
+}
+
+#sticky-lynn h2 {
+  margin: 0;
+}
+
+#sticky-lynn img {
+  width: 25px;
+  margin: 10px 5px;
 }
 
 /*Main contect section*/
@@ -91,11 +103,12 @@ section.top {
 .info img {
   border-radius: 20%;
   height: 200px;
-  margin: 30px 20px;
+  margin: 30px 10px 30px 30px;
 }
 
 section.right {
   float: right;
+  margin-right: 50px;
   width: 50%;
 }
 
@@ -109,4 +122,18 @@ article.comedy {
 
 article.contact {
   border: dashed #FFD71D;
+}
+
+/*arrange footer section*/
+footer {
+  display: inline-block;
+}
+
+footer h3 {
+  display: inline-block;
+}
+
+.copyright p {
+  width: 200px;
+  font-size: .5em;
 }
