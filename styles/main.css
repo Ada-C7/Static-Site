@@ -51,6 +51,7 @@ h3 {
 }
 
 .icono-linkedIn {
+  /*display: inline-block;*/
   position: absolute;
   margin: 400px 0 0 200px;
   width: 100%;
