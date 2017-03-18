@@ -1,0 +1,145 @@
+/*;/** {*/
+border: black solid;
+}*/
+
+.clearfix {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.center-text-trick {
+  height: 100px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+/*.flex-center-vertically {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}*/
+
+h1 {
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 4em;
+  font-family: Charcoal;
+  color: white;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: darkblue;
+}
+
+header {
+  background-color: #99ccff;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  top: 0px;
+  height: 200px;
+}
+
+header nav {
+  /*text-decoration: none;*/
+  float: right;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+main {
+  margin-top: 200px;
+}
+
+main section {
+  display: inline-block;
+  background-color: #fff2e6;
+  width: 100%;
+  position: relative;
+
+}
+
+.left {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+main img {
+  float: right;
+  display: inline-block;
+  border: 6px double black;
+  width: 242px;
+}
+
+footer {
+  background-color: green;
+  /*position: fixed;*/
+  /*align-items: center;*/
+  width: 100%;
+  bottom: 0px;
+  height: 100px;
+}
+
+
+h6 {
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 0.5em;
+  /*font-family: Charcoal;*/
+  /*font: white;*/
+
+}
+
+
+header nav {
+  /*text-decoration: none;*/
+  float: right;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+footer nav {
+  /*text-decoration: none;*/
+  float: right;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom:0px;
+  width: 300px;
+
+}
+/*
+#social_right {
+  float: right;
+  display: inline-block;;
+}*/
+
+footer ul, footer li, header li {
+  display: inline-block;
+  /*height: 65px;*/
+}
+
+footer img {
+  /*float: right;*/
+  display: inline-block;
+  /*border: 6px double black;*/
+  width: 20px;
+}
