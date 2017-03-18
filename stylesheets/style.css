@@ -61,6 +61,7 @@ main ul {
 
 nav {
   position: absolute;
+  width: inherit;
 }
 
 nav ul {
