@@ -220,16 +220,29 @@ a:hover {
 }
 
 /*Journal Styling*/
+#food {
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 80px;
 
+
+}
 .meals img {
   height: 250px;
   width:250px;
+}
+
+.meals li{
+  width: 300px;
+  list-style: none;
+  margin-top: 0px;
 }
 
 .meals {
   /*position: relative;
   top:20px;*/
 -webkit-column-count: 3;
+/*-webkit-margin-right: 5px;*/
 /*-moz-column-gap: 5px;*/
  column-span: 10px;
 
@@ -237,6 +250,7 @@ a:hover {
 column-count: 3;
 /*column-gap: 10px;*/
 padding-right: 5px;
+margin-left: 50px;
 }
 
 
