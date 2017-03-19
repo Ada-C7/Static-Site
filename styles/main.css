@@ -33,7 +33,8 @@ html {
   font-family: 'Open Sans', sans-serif;
   color: #4d4d4d;
   font-size: 16px;
-  margin: 10px 100px;
+  margin: 10px 150px;
+  overflow: auto;
 }
 
 h1, h2, h3, h4 {
@@ -43,12 +44,16 @@ h1, h2, h3, h4 {
 /*Styling the header*/
 header {
   position: relative;
-  border-bottom: 3px #18D4C6 solid;
+  border-bottom: 3px #E71A9B solid;
 }
 
-header h1, header nav {
+header h1{
+  font-size: 1.5em;
+}
+
+header nav {
   display: inline-block;
-  margin: 20px 10px;
+  bottom: 0;
 }
 
 header nav {
@@ -64,8 +69,13 @@ header li {
 
 /*Working on top section, set containing element*/
 section.top {
-  height: 300px;
   margin-top: 50px;
+}
+
+section.top {
+  float: right;
+  margin-right: 100px;
+  margin-top: 0;
 }
 
 /*COME BACK TO THIS.  CAn't be within top section if want it sticky on the whole page.*/
@@ -73,7 +83,7 @@ section.top {
 #sticky-lynn {
   position: sticky;
   top: 0;
-  float: right;
+  float: left;
   background-color: rgba(255,255,255,0.90);
   margin: 15px 0;
   padding: 10px;
@@ -90,43 +100,34 @@ section.top {
   text-align: justify;
 }
 
-#sticky-lynn img {
+#sticky-lynn i {
   width: 25px;
   margin: 0 5px 10px 5px;
+  font-size: 1.5em;
 }
 
 /*Main contect section*/
 
 .info article {
   margin: 30px 0 0px 0;
-  border-width: 3px
-  border-radius: 20%;
+  border: 3px #FF7F1D dashed;
+  /*background-color: #FFCCA4;*/
   overflow: auto;
   clear: both;
 }
 
 .info img {
   border-radius: 20%;
-  height: 300px;
-  margin: 30px 10px 30px 30px;
+  height: 150px;
+  margin: 20px 30px;
 }
 
 section.right {
   float: right;
   margin-right: 50px;
-  width: 50%;
-}
-
-article.code {
-  border: dashed #FF7F1D;
-}
-
-article.comedy {
-  border: dashed #E71A9B;
-}
-
-article.contact {
-  border: dashed #FFD71D;
+  margin-top: 15px;
+  width: 60%;
+  text-align: justify;
 }
 
 /*arrange footer section*/
@@ -157,15 +158,11 @@ section.social a{
   text-decoration: none;
 }
 
-section.social a:hover {
-  color: #E71A9B
-}
-
 a {
   color: #18D4C6;
   text-decoration: none;
 }
 
 a:hover {
-  color: #E71A9B
+  color: #FFD71D
 }
