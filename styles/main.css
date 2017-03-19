@@ -1,0 +1,113 @@
+* {
+  font-family: fantasy;
+}
+
+/** {
+border: .05px solid black;
+}*/
+
+.icono-home {
+  background-color: red;
+  color: green;
+}
+
+.name ul li  {
+  display: inline-block;
+}
+
+/*.name ul {
+margin: 0 auto;
+}*/
+
+.name {
+  text-align: center;
+}
+.star {
+  font-size: 2em;
+  color: yellow;
+}
+
+#index-section h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#index-section h2 {
+  text-align: center;
+  font-style: italic;
+}
+
+header {
+  padding: 2%;
+}
+
+#index-header h2, nav {
+  display: inline-block;
+}
+
+header nav {
+  float: right;
+  padding-right: 5%;
+}
+
+header h2 {
+  padding-left: 40px;
+  font-size: 2em;
+}
+header li {
+  display: inline-block;
+  text-align: right;
+  margin-left: 15px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+#index-section p {
+  text-align: center;
+}
+
+.images img {
+  width: 161px;
+  height: 107px;
+}
+
+.images {
+  text-align: center;
+}
+
+#resume {
+  text-align: center;
+}
+
+#quote {
+  font-style: italic;
+  color: hotpink;
+  text-align: center;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+footer div a{
+  text-decoration: none;
+}
+
+footer div li {
+  display: inline-block;
+}
+
+footer div {
+  text-align: center;
+}
+
+#index-section p {
+  max-width: 1047px;
+  margin: 0 auto;
+}
+
+.icons li {
+  margin: 0 15px;
+}
