@@ -67,29 +67,27 @@ header li {
   margin: 0 3px;
 }
 
-/*Working on top section, set containing element*/
-
-.top img {
-  width: 80%;
-  margin: 2% 0;
-  float: left;
-  position: absolute;
+/*Main Section*/
+section.top {
+  margin: 10px;
 }
 
-section.top {
-  margin-top: 0;
+.top img {
+  width: 50%;
+  float: left;
+  margin: 10px 0px 30px 60px;
+  border-radius: 20%;
 }
 
 #sticky-lynn {
-  position: sticky;
-  float: right;
-  top: 0;
-  background-color: rgba(255,255,255,0.90);
-  margin: 460px 10px 40px 0;
   padding: 10px;
-  width: 200px;
+  width: 30%;
   border-radius: 10%;
   text-align: center;
+  display: inline-block;
+  float: right;
+  margin-right: 60px;
+  margin-top: 100px;
 }
 
 #sticky-lynn h2 {
@@ -108,29 +106,33 @@ section.top {
 }
 
 /*Main contect section*/
-.info article {
-  margin: 20px 0 0px 0;
-  border: 3px #FF7F1D dashed;
-  overflow: auto;
+#info {
   clear: both;
 }
 
-/*section.info article.code {
-  margin-top: 1000px;
-}*/
-
-.info img {
-  border-radius: 20%;
-  height: 150px;
-  margin: 20px 30px;
+section#info article {
+  margin: 1%;
+  border: 3px #FF7F1D dashed;
+  overflow: auto;
+  width: 30%;
+  height: 400px;
+  display: inline-block;
+  clear: both;
 }
 
-section.right {
-  float: right;
-  margin-right: 50px;
-  margin-top: 15px;
-  width: 60%;
-  text-align: justify;
+section#info img {
+  border-radius: 20%;
+  height: 150px;
+  margin: 10px 45px;
+  border: 3px white dashed;
+}
+
+section#info article:hover {
+  background-color: #FF7F1D;
+}
+
+#info p, #info h2 {
+  margin: 10% 7%;
 }
 
 /*arrange footer section*/
