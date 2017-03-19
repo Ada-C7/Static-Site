@@ -1,0 +1,35 @@
+main{
+  width: 80%;
+  margin-left: 175px;
+}
+
+h1{
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+}
+article{
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  border: 3px solid #C5CAE9;
+  margin: 10px;
+  text-align:center;
+  border-radius: 40%;
+}
+
+article img{
+  width: 80%;
+  margin: 20px;
+}
+
+article p{
+  text-align: justify;
+  margin: 20px;
+  color:white;
+}
+article h2{
+  text-align: center;
+  font-size: 2rem;
+  color: #FF9800;
+}

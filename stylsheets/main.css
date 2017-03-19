@@ -13,19 +13,13 @@ body{
   position:fixed;
   bottom:0;
   width:100%;
-  filter: drop-shadow(8px 9px 13px rgba(255,255,0,.5));
+  filter: drop-shadow(8px 9px 13px rgba(255,193,7,.5));
 }
 
 header{
-  position: fixed;
   top:0px;
   width:100%;
   z-index:100;
-  background: linear-gradient(#C5CAE9 50%, rgba(255,255,255,0) 0) 0 0,
-  radial-gradient(circle closest-side, #C5CAE9 53%, rgba(255,255,255,0) 0) 0 0,
-  radial-gradient(circle closest-side, #C5CAE9 50%, rgba(255,255,255,0) 0) 55px 0 #3F51B5;
-  background-size:35px 260px;
-  background-repeat:repeat-x;
   height: 150px;
   text-align: center;
 }
@@ -35,30 +29,40 @@ a{
 }
 
 header a.logo img{
-  height: 125px;
-  display: inline;
+  height: 150px;
+  display:inline-flex;
+  transition: .5s ease-in-out;
 }
 nav{
   display: inline;
 }
 
-nav a{
+header a{
   color:#FF5722;
+}
+
+header a b.nav-word{
+  opacity:0;
+  transition: .5s ease-in-out;
+}
+
+header a:hover b.nav-word{
+  opacity:100;
   font-size: 2rem;
+  transition: .5s ease-in-out;
 }
 
 ul.work{
   display: inline-block;
   float:left;
-  margin-left: 10%;
-  line-height: 100px;
+  margin-top:50px;
 }
 
 ul.me{
   display: inline-block;
   float:right;
-  margin-right: 10%;
-  line-height: 100px;
+  margin-top:50px;
+  padding: 0;
 }
 
 ul.work li{
@@ -71,10 +75,9 @@ ul.me li{
   margin-left: 30px;
 }
 
-main{
-  margin-top: 150px;
+nav .material-icons{
+  font-size: 36px;
 }
-
 
 footer{
   color: #C5CAE9;
@@ -93,11 +96,11 @@ footer{
   animation: blimp 3s linear infinite;
 }
 
-.preloader{
+.clouds{
   width:100%;
 }
 
-.preloader:before {
+.clouds:before {
   content: "";
   display: block;
   width: 200px;
@@ -109,7 +112,7 @@ footer{
   animation: cloud 6s linear infinite;
 }
 
-.preloader:after {
+.clouds:after {
   content: "";
   display: inline-block;
   width: 200px;
@@ -135,7 +138,7 @@ footer{
 
 @keyframes cloud {
   0% {
-    transform: translate(20px, 0);
+    transform: translate(0px, 0);
     opacity: 0;
   }
   10% {
