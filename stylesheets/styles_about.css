@@ -24,6 +24,25 @@
   color: white;
 }
 
+#future {
+  background: url("../assets/silicon-valley.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 304px;
+}
+
+
+#future-banner {
+  margin-top: 100px;
+  color: white;
+}
+
+#hint {
+  font-size: 1em;
+  margin-top: 150px;
+}
+
 p {
   margin: 0;
 }
