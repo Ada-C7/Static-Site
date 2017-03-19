@@ -1,3 +1,79 @@
+
 *{
-  border: 1px solid lightgrey
+  /*border: 1px solid lightgrey;*/
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 4px 4px 4px #aaa;
+  text-decoration: none;
+  font-size: 16px;
+}
+/*nav bar*/
+
+nav li {
+  display: inline-block;
+  width: 25%;
+  float: right;
+  font-size: 1.7em;
+  /*border: 1px solid grey;*/
+  text-align: center;
+}
+
+nav a{
+  font-size: 1em;
+  color: black;
+}
+
+nav li:hover{
+  color: lightsalmon;
+}
+
+h2{
+  width: 100%;
+  text-align: left;
+  font-size: 2.2em;
+  text-shadow: none;
+}
+ul{
+  margin-bottom: 2%;
+}
+/*section/article*/
+h1{
+  background-image: url(http://www.oldmapsofparis.com/system/maps/23/original/paris1900.jpg?1329725696);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 8em;
+  padding-top: 144px;
+  padding-bottom: 144px;
+  color: black;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+#intro{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+p{
+  font-size: 18px;
+  text-shadow: none;
+}
+p::first-letter{
+  font-size: 1.5em;
+  text-shadow: 4px 4px 4px #aaa;
+}
+span{
+  font-size: 2rem;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+/*footer*/
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+h4 {
+  margin: 0%;
+  padding: 1%;
 }
