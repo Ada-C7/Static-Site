@@ -1,0 +1,32 @@
+/***************
+MAIN
+****************/
+
+#about {
+  margin-top: 100px;
+}
+
+img {
+  height: 300px;
+  float: left;
+  margin-top: 7%;
+}
+
+img, h1, #about ul {
+  display: inline-block;
+  margin-left: 5%;
+}
+
+h1 {
+  clear: both;
+  width: 40%;
+  margin-top: 7%;
+}
+
+ul {
+  clear: both;
+}
+
+li {
+  margin-bottom: 3%;
+}
