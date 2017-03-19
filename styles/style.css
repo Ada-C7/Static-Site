@@ -83,9 +83,35 @@ article p {
   text-align: left;
 }
 
+#code article {
+  padding: 10px;
+}
+
 #illustration {
   float: right;
   clear: right;
   width: 35%;
   margin: 50px 20px;
+}
+
+#illustration li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  text-align: left;
+}
+
+#illustration article {
+  padding: 50px;
+  border-radius: 25%;
+}
+
+#wicked_brew:hover {
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/f54b5419764259.562dfe1a4b105.JPG');
+  background-position: top;
+}
+
+#liv:hover {
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/f5a83810661815.560e8bdd1282a.jpg');
+  background-position: top;
+  background-size: cover;
 }
