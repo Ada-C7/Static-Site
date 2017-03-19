@@ -68,13 +68,16 @@ footer {
   border-top: solid;
 }
 
-footer p, footer nav {
+footer h4 {
   text-align: center;
 }
 
 footer nav {
-  margin: 0;
   text-align: center;
+}
+
+footer nav ul {
+  padding: 0;
 }
 
 footer nav li {

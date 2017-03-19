@@ -34,6 +34,10 @@ main section h1#hero-text {
   left: 50%
 }
 
+/*********************
+MAIN BLURB AND HEADER
+**********************/
+
 main section h1 span {
   border: solid;
   background: white;
@@ -56,17 +60,24 @@ main {
   margin-bottom: 8em;
 }
 
+/*********************
+FOOTER
+**********************/
+
 footer {
   border-top: solid;
 }
 
-footer p, footer nav {
+footer h4 {
   text-align: center;
 }
 
 footer nav {
-  margin: 0;
   text-align: center;
+}
+
+footer nav ul {
+  padding: 0;
 }
 
 footer nav li {
