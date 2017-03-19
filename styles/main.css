@@ -1,11 +1,8 @@
 
 main {
   font-family: 'Muli';
-
 }
-header {
 
-}
 
 #center-container {
   margin-left: 60px;
@@ -36,14 +33,15 @@ h1 {
   padding-left: 35px;
 }
 
-#side-nav li {
-  list-style-type: none;
-  color: #7c6e6c;
+.fa-telegram {
+  line-height: normal;
+  list-style-position: outside;
 }
 #side-nav a {
+  color: #7c6e6c;
   list-style-type: none;
   text-decoration: none;
-  color: #7c6e6c;
+
 }
 
 article.scroll-environments {
@@ -54,14 +52,6 @@ article.scroll-environments {
   margin-left: 120px;
   border-radius: 3px;
   overflow: scroll
-}
-
-/*div.scroll-environments {
-  width: 15px;
-}*/
-
-#pads span {
-  width: 25px;
 }
 
 div.scroll-environments {
@@ -96,12 +86,24 @@ article.scroll-code {
   overflow: scroll
 }
 
+div.scroll-code {
+  display: inline-flex;
+  float: right;
+  margin-right: 30px;
+  width: 28px;
+  overflow-y: auto;
+  height: 160px;
+  border-radius: 2px;
+  color: #c1513f;
+}
+
 .scroll-code h4 {
-  padding-left: 164px;
+  padding-left: 140px;
   padding-top: 115px;
   color: #5e5555;
   opacity: 0.7;
 }
+
 
 article.scroll-images {
   /*float: right;*/
@@ -115,6 +117,17 @@ article.scroll-images {
   margin-top: 190px;
   border-radius: 3px;
   overflow: scroll
+}
+
+div.scroll-images {
+  display: inline-flex;
+  float: right;
+  margin-right: 130px;
+  width: 8px;
+  overflow-y: auto;
+  height: 160px;
+  border-radius: 2px;
+  color: #c1513f;
 }
 
 .scroll-images h4 {
