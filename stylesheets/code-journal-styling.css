@@ -50,18 +50,26 @@ MAIN BLURB AND HEADER
 **********************/
 
 main div{
-  padding-top: 8em;
+  padding-top: 6em;
 }
 
 main article {
   border: solid;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-bottom: 3em;
 }
 
-/*main article p {
-  text-align: right;
-  margin-top: 45%;
-  margin-right: 13%;
-}*/
+main h3 {
+  margin: 0;
+  padding: 1em;
+  padding-left: 1.7em;
+  border-bottom: solid;
+}
+
+main p {
+  margin: 2em;
+}
 
 /*********************
 FOOTER
@@ -69,7 +77,7 @@ FOOTER
 
 footer {
   border-top: transparent;
-  margin-top: 10%;
+  margin-top: 3%;
 }
 
 footer h4 {
