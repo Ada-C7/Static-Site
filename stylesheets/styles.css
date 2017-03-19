@@ -81,9 +81,23 @@ p {
   display: block;
   text-align: justify;
   width: calc(75% - 10px);
+  margin-left: calc(5% + 10px);
   /*align-items: center;*/
 }
+.body a {
+  display: inline-block;
+  /*justify-content: center;*/
+  margin: auto;
+  width: 25%;
+  text-align: center;
+  /*position: absolute;*/
+  /*top: 20%;*/
+  left: 25%;
+  /*transform: translate(-50%, -50%);*/
 
+
+
+}
 .github, .instagram, .twitter, .facebook {
   text-decoration: none;
   color: inherit;
