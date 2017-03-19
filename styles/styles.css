@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700|Rubik:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700|Rubik:300,400,500,900');
 
 /* EVENTUALLY
 *********************************/
@@ -22,7 +22,7 @@ h1 {
   color: FloralWhite;
   font-family: 'Rubik', sans-serif;
   font-weight: 900;
-  font-size: 4vw;
+  font-size: 5vw;
   letter-spacing: .05em;
   margin-top: 1em;
 }
@@ -53,10 +53,9 @@ h3 {
 }
 
 h4 {
-  font-family: 'Roboto Mono', sans-serif;
-  font-weight: 400;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
   font-size: 1.2em;
-  margin-bottom: 1em;
 }
 
 h5{
@@ -92,8 +91,8 @@ body {
 }
 
 body#work, #work a.button:hover {
-  background: orangered;
-  border: 1px solid orangered;
+  background: #FF3333;
+  border: 1px solid #FF3333;
 }
 
 body#blog {
@@ -107,8 +106,12 @@ body#about {
 }
 
 body#sample-proj {
-  background: SlateBlue;
-  border: 1px solid orangered;
+  background: #66D37E;
+  border: 1px solid #66D37E;
+}
+
+body#resume {
+  background: #09A8FA;
 }
 
 
@@ -118,15 +121,6 @@ body#sample-proj {
 header, #header-top, #header-bottom {
   display: block;
   width: 100%;
-}
-
-header#header-top {
-  background: orange;
-}
-
-header#header-bottom {
-  background: pink;
-  clear: both;
 }
 
 header .left, header .right {
@@ -161,7 +155,7 @@ header .left, header .right {
 }
 
 #header-bottom .right li {
-  padding-top: 85px;
+  padding-top: 115px;
 }
 
 /* MAIN
@@ -182,6 +176,7 @@ main {
 
 #projects .project {
   display: block;
+  position: relative;
   background: FloralWhite;
   width: 33.333%;
   height: 700px;
@@ -207,6 +202,9 @@ a.button {
   padding: .75em;
   border: 2pt solid black;
   border-radius: 3px;
+  position: absolute;
+  bottom: 1.5em;
+  left: 2em;
 }
 
 a.button:hover {
@@ -223,7 +221,6 @@ a.button:hover {
 
 #blog-posts .post {
   margin-top: 2em;
-  padding-bottom: 1em;
   background: FloralWhite ;
   border-bottom: 10px solid black;
 }
@@ -238,9 +235,7 @@ a.button:hover {
 }
 
 #blog-posts h5 {
-  border-top: 2pt solid black;
   border-bottom: 2pt solid black;
-  padding-top: .5em;
   padding-bottom: .5em;
 }
 
@@ -250,6 +245,10 @@ a.button:hover {
 
 #blog-posts h3 {
   margin-top: 2em;
+}
+
+.post p:last-of-type {
+  margin-bottom: 2em;
 }
 
 
@@ -265,13 +264,32 @@ a.button:hover {
 }
 
 #about-contact {
-  background: FloralWhite ;
   padding: 2em;
   padding-bottom: 1em;
   background: #e5e1d8 ;
   border-bottom: 10px solid black;
 }
 
+
+/* RESUME
+*********************************/
+#km-resume  {
+  background: FloralWhite ;
+  padding: 2em;
+  margin-top: 2em;
+  padding: 2em;
+  display: block;
+  border-bottom: 10px solid black;
+}
+
+#km-resume ul {
+  padding-left: 1em;
+  margin-bottom: 1em;
+}
+
+#km-resume h4, #km-resume h5 {
+  color: black;
+}
 
 
 /* FOOTER
