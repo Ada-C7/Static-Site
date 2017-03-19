@@ -83,7 +83,7 @@ header a {
 }
 
 header a:hover {
-  color: tomato;
+  color: deeppink;
 }
 /*end header*/
 
@@ -98,7 +98,7 @@ main {
 
 /*hobby blog begin*/
 #hoblog {
-  height: 500px;
+  height: 350px;
 
   background: none;
 }
@@ -106,7 +106,7 @@ main {
 
 /*home begin*/
 #home {
-  height: 500px;
+  height: 350px;
   background-image: url("../images/furry.gif");
   background-attachment: fixed;
   background-position: center;
@@ -117,78 +117,97 @@ main {
 
 /*portfolio begin*/
 #portfolio {
-  height: 500px;
-
-
+  /*height: 350px;*/
   background-image: url("../images/Giphy.gif");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#portfolio article {
+    display: inline-block;;
+    height: 180px;
+    width: 180px;
+    margin: 1%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#subjects {
+  text-align: center;
+  padding: 5% 0%;
+}
+
+.subject a {
+  color: white;
+  text-decoration: none;
+}
+.subject:hover {
+  border: 1px dashed white;
+  opacity: .7;
+}
+
+.subject h2 {
+  font-family: 'Permanent Marker';
+  font-size: 1.5em;
+  text-align: center;
+padding-top: 35%;
+letter-spacing: 2.0;
+}
 /*end portfolio*/
 
 /*about begin*/
 #about {
-  background-color: white;
-  opacity: .7;
-  /*
-  position: static;*/
-}
-
-#about section:last-child{
-  font-size: .5rem;
-  text-align: right;
-  overflow: hidden;
-  margin: 0% 2% 2% 0%;
-}
-
-#aboutme {
+  background:none;
   border-bottom: 1px solid black;
-  overflow: hidden;
-  margin: 0% 2% 3% 0%;
-  min-width: 200px;
+
 }
 
+#about section:first-of-type {
+  padding: 0% 10% 0% 10%;
+}
 
 #face {
-  width: 400px;
-  margin: 0px 1% 0px 1%;
-  float: left;
-  clear: both;
-}
-
-#face img {
-  padding: 6%;
-  text-align: right;
-  width: 90%;
+  width: 350px;
   height: auto;
+  float: right;
+  clear: both;
+  margin-right: 10%;
+  /*overflow: hidden;*/
   border-radius: 50%;
+  text-align: center;
 }
 
 #intro {
-vertical-align: middle;
-padding-left: 5%;
+  max-width: 300px;
 }
-
 #intro h2 {
-  text-align: center;
+  text-align: right;
   line-height: .9;
   color: black;
-  font-size: 3.0rem;
+  font-size: 4em;
   font-family: 'Permanent Marker';
-  padding: 3% 0%;
+padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 #intro p {
-  text-align: center;
-  /*min-width: 250px;*/
-  max-width: 400px;
-  display: inline;
-  font-size: .9rem;
-  padding: 0% 2%;
+  text-align: right;
+
+  /*text-align: center;*/
+  font-size: .8rem;
+  margin-bottom: 15%;
   line-height:  1.5;
 }
+
+#about section:last-child {
+  font-size: .5rem;
+  text-align: right;
+  margin: 10% 2% 2% 0%;
+  padding-top: 3%;
+}
+
 /*end about*/
 /*end main*/
 
