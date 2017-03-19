@@ -87,6 +87,12 @@ article p {
   padding: 10px;
 }
 
+#meowspace:hover {
+  background-image: url('../assets/meowspace_img.png');
+  background-position: center;
+  background-size: cover;
+}
+
 #illustration {
   float: right;
   clear: right;
