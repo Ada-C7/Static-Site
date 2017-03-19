@@ -18,3 +18,29 @@ a {
 a:hover {
   color:red;
 }
+
+header {
+  background-color: orange;
+  position: relative;
+}
+
+header h2 {
+max-width: 40%;
+text-align: center;
+padding-left: 10%;
+padding-right: 10%;
+font-size: 2em;
+}
+
+header nav {
+padding-left: 5%;
+}
+
+.center-block {
+  display: inline-block;
+  vertical-align:middle;
+}
+
+#hero {
+  text-align: center;
+}
