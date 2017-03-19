@@ -86,11 +86,12 @@ FOOTER
 
 footer {
   border-top: transparent;
-  margin-top: 10%;
+    margin-top: 10%;
 }
 
 footer h4 {
   text-align: center;
+  color: #FF4E50;
 }
 
 footer nav {
@@ -99,8 +100,16 @@ footer nav {
 
 footer nav ul {
   padding: 0;
+  margin: 2px;
 }
 
 footer nav li {
   display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+
+footer nav li a:link, footer nav li a:visited {
+  color: #FC913A;
+  text-decoration: none;
 }
