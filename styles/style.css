@@ -45,3 +45,25 @@ article {
   margin: 50px 100px 50px 100px;
   box-shadow: 10px 10px 5px #757D75;
 }
+
+.circle {
+  background: yellow;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+  box-shadow: 5px 5px 2px #757D75;
+  z-index: 0;
+  position: absolute;
+  display: block;
+}
+
+article h3 {
+  position: relative;
+  display: block;
+  z-index: 100;
+  float: left;
+}
+
+article p {
+  z-index: 50;
+}
