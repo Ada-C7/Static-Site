@@ -8,11 +8,11 @@ default styling
 * {
   margin: 0;
   padding: 0;
-  /*border: solid;*/
+  border: solid;
 }
 
 body {
-  background-color: rgb(220,220,220);
+  /*background-color: rgb(220,220,220);*/
 }
 
 h1,
@@ -24,13 +24,13 @@ h3 {
 p {
   font-family: 'Poiret One';
   font-size: 1.2em;
+  color: Dimgrey;
 }
 
 a {
   color: MidnightBlue;
   font-size: 1.2em;
   font-family: 'Cousine';
-  /*font-family: 'Jura';*/
   font-weight: 700;
   text-decoration: none;
 }
@@ -109,6 +109,7 @@ section {
   text-align: center;
   display: inline-block;
   padding: 1.1em;
+  margin: 1%;
 }
 
 h1 {
@@ -128,22 +129,26 @@ h1~p {
 p {
   display: inline-block;
   /*background-color: lavender;*/
+  color: Dimgrey;
   margin: 0;
   margin-top: 2%;
   text-align: left;
   width: 55%;
-  /*height: 400px;*/
+  vertical-align: text-top;
+}
+
+li {
+  padding: 1%;
+  font-family: 'Jura';
+  font-size: 1.2em;
+  color: Dimgrey;
 }
 
 .blog_posts article {
   display: inline-block;
-  /*background-color: darkgrey;*/
-  /*border: solid MidnightBlue;*/
-  /*height: 300px;*/
   margin-bottom: 1%;
   /*padding: 1.1em;*/
   text-align: left;
-  /*width: 90%;*/
 }
 
 .posts section {
@@ -155,6 +160,7 @@ p {
 
 .blog_posts img {
   display: inline-block;
+  vertical-align: text-top;
   margin-top: 2%;
   margin-right: 2%;
   width: 40%;
@@ -165,47 +171,83 @@ p {
 /*****************************************************************************/
 
 .projects article {
-  background-color: white;
-  /*border-radius: 100%;*/
-  border: solid;
-
-  /*display: inline;*/
+  /*background-color: white;*/
+  /*background-color: rgb(220,220,220);*/
+  /*border: solid;*/
   display: inline-block;
-  /*height: 500px;*/
+
   margin: 1%;
   margin-bottom: 5%;
-  width: 28%;
-  height: 320px;
+  width: 45%;
 }
 
 .projects section {
-  background-color: pink;
+  /*background-color: pink;*/
   margin: 2%;
   width: 80%;
   padding: 1.1em;
   display: inline-block;
   text-align: center;
+  vertical-align: text-top;
 
 }
 
 .projects a {
   color: red;
-
+  color: Purple;
 }
+
+.projects a:hover {
+  color: #440044;
+  color: #D050D0;
+}
+
 .projects ul {
-  /*display: inline;*/
-  /*text-align: left;*/
-  margin-top: 5%;
+  margin: 5%;
+  text-align: left;
+}
+
+/*****************************************************************************/
+                      /*about sytling*/
+/*****************************************************************************/
+
+.about section {
+  /*display: inline-block;*/
+  /*text-align: center;*/
+  /*margin: 0;*/
+  /*padding: 2%;*/
+}
+
+.about img {
+  vertical-align: text-top;
+  width: 40%;
+  padding: 1em;
+  clear: left;
+}
+
+.about div {
+  float: left;
+  width: 50%;
+  vertical-align: text-top;
+  margin: 0;
+}
+
+.about p {
+  width: 100%;
+  margin: 0;
+}
+
+.about ul {
+  text-align: left;
   list-style-type: none;
-  /*background-color: white;*/
-  /*width: 30%;*/
-  /*float: left;*/
+  margin: 0;
+  padding: 0;
 }
 
-.projects li {
-  padding: 1%;
+.about li {
+  /*margin: 0;*/
+  /*padding: 0;*/
 }
-
 /*footer styling */
 /*footer {
   margin-left: 0;
