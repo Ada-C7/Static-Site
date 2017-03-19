@@ -41,6 +41,7 @@ footer li {
 }
 
 article {
-  width: 100vw;
   clear: both;
+  margin: 50px 100px 50px 100px;
+  box-shadow: 10px 10px 5px #757D75;
 }
