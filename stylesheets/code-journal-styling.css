@@ -1,0 +1,106 @@
+/*********************
+        HEADER
+**********************/
+
+header h1, header nav {
+  display: inline-block;
+  width: 40%;
+}
+
+header h1 {
+  margin-left: 5%;
+}
+
+header nav {
+  float: right;
+}
+
+header nav li {
+  display: inline-block;
+}
+
+/*********************
+HERO IMAGE AND HEADER
+**********************/
+
+main section:first-of-type {
+    /*TING: CHANGE TO IMAGE */
+  /*background-image: url(https://placebear.com/200/300);
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  height: 20em;
+  background-color: #FFA07A;
+}
+
+main section h1#hero-text {
+  text-align: center;
+  padding: 9em;
+  left: 50%
+}
+
+main section h1 span {
+  border: solid;
+  background: white;
+  padding: 1em;
+}
+
+/*********************
+MAIN BLURB AND HEADER
+**********************/
+
+main {
+  margin: 0;
+
+}
+
+main section.portfolio{
+  margin-top: 7%;
+  padding: 3em;
+  padding-top: 0;
+  text-align: center;
+  background: white;
+  /*TW: Why is there a background here?*/
+}
+
+/*TW: How can I make the boxes align under each other like meowspace?*/
+
+main article {
+  border: transparent;
+  border-radius: 10px;
+  background: #ADFF2F;
+  width: 20%;
+  height: 10em;
+  display: inline-block;
+  margin: 2em;
+}
+
+main article p {
+  text-align: right;
+  margin-top: 45%;
+  margin-right: 13%;
+}
+
+/*********************
+FOOTER
+**********************/
+
+footer {
+  border-top: transparent;
+  margin-top: 10%;
+}
+
+footer h4 {
+  text-align: center;
+}
+
+footer nav {
+  text-align: center;
+}
+
+footer nav ul {
+  padding: 0;
+}
+
+footer nav li {
+  display: inline-block;
+}
