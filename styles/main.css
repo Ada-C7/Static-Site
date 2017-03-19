@@ -1,13 +1,38 @@
+html {
+  background-image: url("../assets/bg48.gif")
+}
+
 header {
-  border-style: solid;
   padding-top:5%;
   padding-bottom:5%;
   text-align: center;
+  background-image:  url(../assets/logo.gif);
+  background-size:  cover;
+  background-attachment: fixed;                 /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
+  color:white;
+
+}
+
+a {
+  text-decoration:none;
+  color:white;
 }
 
 #synopsis {
-  border-style:solid;
-  padding:10%
+  border-stye:solid;
+  padding:10%;
+  color:white;
+}
+
+#synopsis img {
+  display: block;
+  margin: 0 auto;
+}
+
+#synopsis p {
+  text-align:center;
 }
 
 #about {
@@ -16,16 +41,35 @@ header {
 }
 
 .options {
-  border-style:solid;
   padding-left:5%;
   padding-right:5%s
 }
 
 .link {
-  border-style:solid;
   display:inline-block;
   height:450px;
   width:350px;
+}
+
+#projects {
+  background-image:  url(../assets/Ufospin.gif);
+  background-size:  cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+#me {
+  background-image:  url(../assets/starball.gif);
+  background-size:  cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+#writing {
+  background-image:  url(../assets/fire.gif);
+  background-size:  cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
 }
 
 .project {
