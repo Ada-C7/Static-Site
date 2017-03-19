@@ -42,6 +42,8 @@ nav.pages {
 a {
   text-decoration: none;
   color: #DCDCDD;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 p {
