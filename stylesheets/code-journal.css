@@ -11,6 +11,11 @@ main section.all-articles {
   float: right;
 }
 
+ul li img {
+  height: 50px;
+  width: auto;
+  margin: 4px;
+}
 
 
 section article {

@@ -53,7 +53,7 @@ div div p {
 	transform-style: inherit;
 }
 
-img {
+ img.side-pic {
   position: absolute;
   top: 50%;
   left: 35%;
@@ -66,7 +66,7 @@ img {
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
-img:last-of-type {
+img.side-pic:last-of-type {
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
 }
 
@@ -133,7 +133,6 @@ img:last-of-type {
   background-image: url("../images/orange_sunset.jpg");
 }
 
-
 footer {
   color: #9ebcab;
   display: inline-block;
@@ -141,12 +140,6 @@ footer {
   position: absolute;
   left: 0;
   bottom: 0;
-}
-footer nav ul {
-  display: inline-block;
-  list-style: none;
-  width: 30%;
-  float: right;
 }
 
 footer h4 {
@@ -161,19 +154,18 @@ footer nav ul li a {
   display: inline-block;
 }
 
-footer nav {
+/*footer nav {
   display: inline-block;
   width: 30%;
   float: right;
-}
+}*/
 
 #disclaimer {
     display: inline-block;
-    width: 50%;
+    /*width: 50%;*/
     float: left;
     font-size: .7em;
     text-align: left;
     margin-top: 17px;
     color: #9ebcab;
-
   }
