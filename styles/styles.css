@@ -15,15 +15,21 @@ body {
 
 p {
   line-height: 1.5em;
+  margin-bottom: 0;
 }
 
 a {
   text-decoration: none;
+  color: #808080;
+}
+
+a:hover {
+  color: #BBB;
 }
 
 hr {
   border: 0;
-  border-bottom: dashed #808080 1px;
+  border-bottom: dashed #ffa249 1px;
 }
 
 img {
@@ -35,14 +41,6 @@ img {
 header {
   font-family: 'Coming Soon', cursive;
   /*border-bottom: dashed #CCC 1px;*/
-}
-
-header a {
-  color: #808080;
-}
-
-header a:hover {
-  color: #BBB;
 }
 
 /*** main nav ***/
@@ -85,8 +83,8 @@ header nav li a {
 }
 
 header nav a.selected {
-  border-top: dashed #808080 1px;
-  border-bottom: dashed #808080 1px;
+  border-top: dashed #ffa249 1px;
+  border-bottom: dashed #ffa249 1px;
 }
 
 /*** nav dropdown menu ***/
@@ -101,10 +99,23 @@ header nav a.selected {
 .dropdown ul li {
   float: none;
   width: 100%;
+  background-color: #ffe3c8;
+  background-image: url(../images/fresh-snow.png);
 }
 
 .dropdown:hover ul {
   display: block;
+}
+
+/*** footer ***/
+footer {
+  text-align: right;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 2%;
 }
 
 /*** columns ***/
@@ -122,15 +133,15 @@ header nav a.selected {
   vertical-align: top;
 }
 
-main {
-  padding: 3%;
-  margin-top: 3%;
-}
-
-#main-info {
+.indent {
   width: 90%;
   max-width: 800px;
   margin: auto;
+}
+
+main {
+  padding-top: 3%;
+  margin-top: 3%;
 }
 
 #main-info h1, p {
