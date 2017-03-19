@@ -1,11 +1,29 @@
 #prague {
-  background: url("../assets/hipster-prague-more-cropped.jpg");
+  background: url("../assets/hipster-prague-cropped-a-lot.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 450px;
+  height: 304px;
 }
 
 #prague-banner {
-  margin-top: 300px;
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+
+#seattle {
+  background: url("../assets/seattle-dusk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 304px;
+}
+
+#seattle-banner {
+  margin-top: 150px;
+  color: white;
+}
+
+p {
+  margin: 0;
 }
