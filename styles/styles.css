@@ -25,21 +25,26 @@ header {
 }
 
 header h2 {
-max-width: 40%;
-text-align: center;
-padding-left: 10%;
-padding-right: 10%;
-font-size: 2em;
+  max-width: 30%;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 2em;
 }
 
 header nav {
-padding-left: 5%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  width: 30%;
+  transform: translate(0, -50%);
 }
 
-.center-block {
+/*.center-block {
   display: inline-block;
   vertical-align:middle;
-}
+}*/
 
 #hero {
   text-align: center;
