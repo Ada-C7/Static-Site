@@ -49,3 +49,12 @@ a {
 p {
   color: #201f1f;
 }
+
+img.me-pic {
+  border-radius: 20px;
+}
+
+img.project {
+  height: 200px;
+  width: auto;
+}
