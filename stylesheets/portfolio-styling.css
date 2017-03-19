@@ -5,10 +5,17 @@
 header h1, header nav {
   display: inline-block;
   width: 40%;
+  margin: 0;
+}
+
+header {
+  padding: 1em;
+  padding-left: 7%;
 }
 
 header h1 {
-  margin-left: 5%;
+  margin-top: 5px;
+  /*color: #FF4E50;*/
 }
 
 header nav {
@@ -17,6 +24,17 @@ header nav {
 
 header nav li {
   display: inline-block;
+  margin-right: 1em;
+}
+
+header nav li a:link {
+  color: #FF4E50;
+  text-decoration: none;
+}
+
+header nav li a:visited {
+  color: #FC913A;
+  text-decoration: none;
 }
 
 /*********************
@@ -29,12 +47,13 @@ main section:first-of-type {
   background-size: cover;
   background-repeat: no-repeat;*/
   height: 20em;
-  background-color: #FFA07A;
+  background-color: #EDE574;
 }
 
 main section h1#hero-text {
   text-align: center;
   padding: 9em;
+  margin-top: 0;
   left: 50%
 }
 
@@ -50,7 +69,6 @@ MAIN BLURB AND HEADER
 
 main {
   margin: 0;
-
 }
 
 main section.portfolio{
@@ -66,8 +84,8 @@ main section.portfolio{
 
 main article {
   border: transparent;
-  border-radius: 10px;
-  background: #ADFF2F;
+  /*border-radius: 10px;*/
+  background: #E1F5C4;
   width: 20%;
   height: 10em;
   display: inline-block;

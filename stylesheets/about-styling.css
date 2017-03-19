@@ -5,10 +5,17 @@
 header h1, header nav {
   display: inline-block;
   width: 40%;
+  margin: 0;
+}
+
+header {
+  padding: 1em;
+  padding-left: 7%;
 }
 
 header h1 {
-  margin-left: 5%;
+  margin-top: 5px;
+  /*color: #FF4E50;*/
 }
 
 header nav {
@@ -17,6 +24,17 @@ header nav {
 
 header nav li {
   display: inline-block;
+  margin-right: 1em;
+}
+
+header nav li a:link {
+  color: #FC913A;
+  text-decoration: none;
+}
+
+header nav li a:visited {
+  color: #F9D423;
+  text-decoration: none;
 }
 
 /*********************
