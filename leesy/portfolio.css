@@ -9,9 +9,11 @@ html, body {
 
 header {
   position: fixed;
-  /*bottom: 40px;*/
   left: 65px;
   z-index: 999;
+
+    text-align: right;
+
 }
 
 .nav_container {
@@ -27,7 +29,7 @@ header {
 
 .page_link {
   display: inline-block;
-  /*margin: 0 12px 0 0;*/
+  margin: 0 40px 0 0;
 }
 
 .nav_container a{
