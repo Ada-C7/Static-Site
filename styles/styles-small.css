@@ -1,0 +1,60 @@
+.col1of2, .col2of2 {
+  display: block;
+  float: none;
+  width: 100%;
+  margin: auto;
+}
+
+.col2of2 {
+  margin-top: 10px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+/*** main nav ***/
+header nav {
+  width: 100%;
+}
+
+header nav li {
+  width: 30%;
+  margin: 1.666666%
+}
+
+header nav li.selected {
+  display: none;
+}
+
+header nav li a {
+  width: 100%;
+  padding: 5px 0;
+  border-radius: 5px;
+  border: dashed #ffa249 1px;
+}
+
+.dropdown:hover ul {
+  display: none;
+}
+
+#main-info p {
+  border-top: none;
+}
+
+footer {
+  text-align: center;
+}
+
+footer li + li {
+  margin-left: 7%;
+}
+
+/*** responsive classes ***/
+.mobile-hidden {
+  display: none;
+}
+
+h1.mobile-only {
+  display: block;
+}
