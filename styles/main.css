@@ -33,7 +33,7 @@ html {
   font-family: 'Open Sans', sans-serif;
   color: #4d4d4d;
   font-size: 16px;
-  margin: 10px 150px;
+  margin: 10px 10%;
   overflow: auto;
 }
 
@@ -77,8 +77,6 @@ section.top {
   margin-right: 100px;
   margin-top: 0;
 }
-
-/*COME BACK TO THIS.  CAn't be within top section if want it sticky on the whole page.*/
 
 #sticky-lynn {
   position: sticky;
