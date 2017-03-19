@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   height: 100%;
   width:200%;
+  color: #033C6B;
 
 }
 
@@ -12,7 +13,7 @@ header {
   left: 65px;
   z-index: 999;
 
-    text-align: right;
+  text-align: right;
 
 }
 
@@ -30,6 +31,7 @@ header {
 .page_link {
   display: inline-block;
   margin: 0 40px 0 0;
+  font-style: oblique;
 }
 
 .nav_container a{
@@ -57,7 +59,9 @@ a:hover {
 
 #swipe{
   display: inline-block;
-  padding: 20px 0 0 55vw;
+  padding: 20px 0 0 47vw;
+  font-style: oblique;
+  color: #033C6B;
 }
 
 
@@ -89,7 +93,7 @@ right:20%;
   /*padding: 1%;*/
   padding-left: 65px;
   margin-right: 4%;
-  background:pink;
+  background:#FFC9C9;
   width: 35vw !important;
 
 }
@@ -129,8 +133,10 @@ right:20%;
 
 #text-container {
   margin-right: 25%;
-  margin-top: 24vh;
+  margin-top: 16vh;
   line-height: 1.9;
-  font-size: 0.8em;
-  color: black;
+  font-size: 1em;
+  color: #033C6B;
+  font: helvetica;
+
 }
