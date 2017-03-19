@@ -1,7 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Monoton');*/
-/*@import url('https://fonts.googleapis.com/css?family=Bungee+Outline');*/
-@import url('https://fonts.googleapis.com/css?family=Megrim');
-/*@import url('https://fonts.googleapis.com/css?family=Raleway');*/
+@import url('https://fonts.googleapis.com/css?family=Megrim|Raleway:100,200,300,400');
 
 html {
   box-sizing: border-box;
@@ -11,9 +8,18 @@ html {
   box-sizing: inherit;
 }
 
-body {
+.home {
   background-size: cover;
   background-image: url('../images/tomato.jpeg');
+  background-repeat: no-repeat;
+  /*background-position: center center;*/
+  height: 100%;
+  font-family: 'Megrim', cursive;
+}
+
+.portfolio {
+  background-size: cover;
+  background-image: url('../images/pencils2.jpg');
   background-repeat: no-repeat;
   /*background-position: center center;*/
   height: 100%;
@@ -24,12 +30,15 @@ a:link {
   text-decoration: none;
 }
 
-ul li {
+header ul li, footer ul li {
   list-style-type: none;
   display: inline-block;
   margin: auto;
 }
 
+ul li {
+  list-style-type: circle;
+}
 /*-------------------------------------------------------*/
 
 header {
@@ -52,6 +61,31 @@ header nav {
 
 /*--------------------------------------------------------*/
 
+main {
+  overflow: auto;
+  position: absolute;
+  top: 96px;
+  bottom: 89px;
+}
+
+#ride-share p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+#projects i, h4, a {
+  display: inline-block;
+}
+
+#projects {
+  margin-left: 52vw;
+}
+
+#projects section {
+  margin-bottom: 8vw;
+}
+/*--------------------------------------------------------*/
+
 footer {
   position: absolute;
   right: 0;
@@ -70,5 +104,5 @@ footer h4 {
   margin: 0px;
   display: inline-block;
   float: left;
-  font-size: 1.5vw;
+  font-size: 1vw;
 }
