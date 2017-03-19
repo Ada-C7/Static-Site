@@ -196,7 +196,8 @@ a:hover {
   height: 100px;
   /*margin: 0px;*/
   width: 600px;
-  border-radius: 30px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
   padding: 30px;
   border: .2em solid brown;
   background-color: light-blue;
@@ -292,7 +293,7 @@ footer {
   top: 800px;
   /*border: .1em solid black;*/
   /*background-color: #ff6e7f;*/
-  background-color: #B5AC49;
+  /*background-color: #B5AC49;*/
   background: linear-gradient(to right,#B5AC49,#5FC3E4) ;
 
 
