@@ -24,7 +24,7 @@ HERO IMAGE AND HEADER
 **********************/
 
 main section:first-of-type {
-    /*TING: CHANGE TO IMAGE */
+  /*TING: CHANGE TO IMAGE */
   /*background-image: url(https://placebear.com/200/300);
   background-size: cover;
   background-repeat: no-repeat;*/
@@ -35,6 +35,7 @@ main section:first-of-type {
 main section h1#hero-text {
   text-align: center;
   padding: 9em;
+  padding-bottom: 4em;
   left: 50%
 }
 
@@ -48,37 +49,19 @@ main section h1 span {
 MAIN BLURB AND HEADER
 **********************/
 
-main {
-  margin: 0;
-
+main div{
+  padding-top: 8em;
 }
-
-main section.portfolio{
-  margin-top: 7%;
-  padding: 3em;
-  padding-top: 0;
-  text-align: center;
-  background: white;
-  /*TW: Why is there a background here?*/
-}
-
-/*TW: How can I make the boxes align under each other like meowspace?*/
 
 main article {
-  border: transparent;
-  border-radius: 10px;
-  background: #ADFF2F;
-  width: 20%;
-  height: 10em;
-  display: inline-block;
-  margin: 2em;
+  border: solid;
 }
 
-main article p {
+/*main article p {
   text-align: right;
   margin-top: 45%;
   margin-right: 13%;
-}
+}*/
 
 /*********************
 FOOTER
