@@ -6,3 +6,60 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+header {
+  font-size: 1.5em;
+  float: left;
+  max-width: 40%;
+  margin: 9%;
+  padding: 5%;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+header a {
+  border: solid;
+  padding: .4em;
+  color: black;
+}
+
+header a:hover {
+  color: white;
+  background-color: black;
+}
+
+section > img {
+  float: right;
+  max-width: 45%;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  border-top: solid;
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0.5em 0em;
+}
+
+footer ul {
+  padding-left: 0px;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li img:first-child {
+  height: 50px;
+  width: 50px;
+}
