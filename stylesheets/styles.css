@@ -15,25 +15,79 @@ header {
   display: flex;
   width: 100%;
   margin: 10px auto;
-  align-items: center;
-  justify-content: center;
+  /*align-items: center;*/
+  justify-content: space-between;
   box-shadow: 0 3px 3px rgba(47,47,47,0.05);
-  position: fixed;
-  z-index: 100;
+  /*position: fixed;*/
   top: 0;
   margin-top: 0;
   height: 60px;
 }
 
+.header-name a {
+  font-size: 3rem;
+  text-transform: uppercase;
+  /*margin top: 10%;*/
+  color: #f9f0f6;
+}
+h1 {
+  font-weight: 300;
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  font-family: Lato,sans-serif;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+h1 div {
+  display: block;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-size: 3rem;
+  width: 100%;
+  line-height: 5rem;
+  font-family: Playfair Display,serif;
+}
 .right li {
   list-style: none;
 }
 
-a[href] {
+a {
+  text-decoration: none;
+  color: #fff5f5;
+  font-family: Harmattan;
+  /*font-stretch: extra-expanded;*/
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+.btn {
+padding: 10px 30px;
+border: solid 2px #ed6464;
+position: relative;
+border-radius: 8px;
+display: inline-block;
+background-color: #ed6464;
+font-weight: 600;
+
+}
+.introduction {
+  display: inline-block;
+  vertical-align: text-top;
+}
+p {
+  display: block;
+  text-align: justify;
+  width: calc(75% - 10px);
+  /*align-items: center;*/
+}
+
+.github, .instagram, .twitter, .facebook {
   text-decoration: none;
   color: inherit;
 }
-
 .top-nav li {
   display: inline-block;
   padding: 0;
