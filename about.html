@@ -2,18 +2,21 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Addie Land</title>
+  <title>Addie Land - about</title>
   <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" media="only screen and (min-width: 501px) and (max-width: 800px)" href="styles/styles-medium.css">
+	<link rel="stylesheet" media="only screen and (min-width: 50px) and (max-width: 500px)" href="styles/styles-small.css">
 </head>
 <body>
   <header>
-    <!-- <h1><a href="index.html">Addie Land</a></h1> -->
+    <h1 class="mobile-only"><a href="index.html">Addie Land - about</a></h1>
     <nav class="clearfix">
       <ul>
         <li><a href="index.html">home</a></li>
         <li><a href="portfolio.html">portfolio</a></li>
-        <li><a class="selected" href="about.html">about</a></li>
+        <li class="selected"><a href="about.html">about</a></li>
         <li class="dropdown">
           <a href="blog/index.html">blog</a>
 					<ul>
@@ -25,21 +28,44 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <section id="main-info" class="clearfix">
-      <img class="col1of2" src="https://placeimg.com/400/400/animals">
+  <main id="main-content" class="indent clearfix">
+    <section id="about-content">
+      <img class="col1of2" src="images/addie-square.jpg">
       <article class="col2of2">
-        <h1>Addie Land</h1>
-        <hr>
+        <h1 class="mobile-hidden">Addie Land - about</h1>
+        <hr class="mobile-hidden">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam risus lorem, dictum non nisi et, lobortis dignissim sapien. Morbi viverra et dolor eget accumsan. Duis eget ipsum orci. Etiam sit amet vulputate erat, id dictum neque. Suspendisse in sodales sapien. Vivamus mattis, arcu id venenatis aliquet, diam dolor condimentum nisi, vel mattis lacus mi sed risus. Curabitur auctor nulla ut viverra vulputate. Vestibulum sed ante molestie, hendrerit est ac, varius lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+          Addie was born and raised in Seattle, and is very fond of her city. She has bachelor's degree from The Evergreen State College with an emphasis in linguistics and mathematics.
+        </p>
+        <p>
+
         </p>
       </article>
-
     </section>
   </main>
-  <footer>
-
+  <footer class="indent">
+    <ul id="footer-links">
+      <li>
+        <a href="#">
+          <i class="fa fa-envelope-square fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/addie-land/" target="_blank">
+          <i class="fa fa-linkedin fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/add2point71dots" target="_blank">
+          <i class="fa fa-github fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/commonbirdclub/" target="_blank">
+          <i class="fa fa-instagram fa-2x"></i>
+        </a>
+      </li>
+    </ul>
   </footer>
 </body>
 </html>

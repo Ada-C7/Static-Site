@@ -160,7 +160,7 @@ h1 {
   font-weight: normal;
 }
 
-img.col1of2 {
+#home-content img {
   background-image: url('../images/inflicted.png');
   border: dashed #808080 1px;
 }
