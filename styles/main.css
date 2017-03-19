@@ -12,7 +12,6 @@ h1 {
   color: #c1513f;
   letter-spacing: 6px;
   text-align: center;
-  font-size: 2n;
   padding-top: 70px;
   font-weight: 400;
   border-bottom: solid 1px #8e8080;
@@ -37,13 +36,14 @@ h1 {
   line-height: normal;
   list-style-position: outside;
 }
-#side-nav a {
+#side-nav li, a {
+  display: inline;
+  clear: left;
   color: #7c6e6c;
   list-style-type: none;
   text-decoration: none;
 
 }
-
 article.scroll-environments {
   display: inline-flex;
   border: solid 1px #8e8080;
@@ -56,7 +56,7 @@ article.scroll-environments {
 
 div.scroll-environments {
   display: inline-flex;
-  float: right;
+  /*float: right;*/
   margin-right: 500px;
   width: 8px;
   overflow-y: auto;
@@ -97,12 +97,14 @@ div.scroll-code {
   color: #c1513f;
 }
 
-.scroll-code h4 {
+/*.scroll-code h4 {
+  display: inline;
   padding-left: 140px;
   padding-top: 115px;
   color: #5e5555;
   opacity: 0.7;
-}
+  text-align: center;
+}*/
 
 
 article.scroll-images {
@@ -130,12 +132,12 @@ div.scroll-images {
   color: #c1513f;
 }
 
-.scroll-images h4 {
+/*.scroll-images h4 {
   padding-left: 164px;
   padding-top: 115px;
   color: #5e5555;
   opacity: 0.7;
-}
+}*/
 
 .social a {
   position: absolute;
@@ -145,5 +147,26 @@ div.scroll-images {
   width: 60px;
   height: 60px;
   border: solid 1px #8e8080;
-  border-radius: 33px;
+  border-radius: 50px;
+}
+
+  #bio p {
+  position: relative;
+  display: inline;
+  float: right;
+  /*margin-bottom: 150px;*/
+  padding-top: 50px;
+  height: 180px;
+  width: 400px;
+  margin-right: 128px;
+  /*border-style: 1px solid #8e8080;*/
+  border-radius: 3px;
+  border-top-right-radius: 33px;
+  border-bottom-right-radius: 33px;
+  background-color: #8e8080;
+  opacity: .8;
+  word-wrap: break-word;
+  color: black;
+  text-align: center;
+  overflow-y: auto;
 }
