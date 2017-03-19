@@ -1,0 +1,142 @@
+html {
+  background-image: url("../assets/bg48.gif")
+}
+
+header {
+  padding-top:5%;
+  padding-bottom:5%;
+  text-align:center;
+  background-image:url(../assets/logo.gif);
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  background-position:center center;
+  color:white;
+
+}
+
+a {
+  text-decoration:none;
+  color:white;
+}
+
+#synopsis {
+  padding:10%;
+  color:white;
+}
+
+#synopsis img {
+  display:block;
+  margin:0 auto;
+}
+
+#synopsis p {
+  text-align:center;
+}
+
+#about {
+  margin-top:10px;
+  padding:25%;
+  background-image:url(../assets/hackerman.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+
+}
+
+.options {
+  padding-left:5%;
+  padding-right:5%s
+}
+
+.link {
+  display:inline-block;
+  height:450px;
+  width:350px;
+  vertical-align:middle;
+}
+
+.link h2 {
+  text-align:center;
+  vertical-align:middle;
+  line-height:450px;
+}
+
+#projects {
+  background-image:url(../assets/Ufospin.gif);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+#me {
+  background-image:url(../assets/starball.gif);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+#writing {
+  background-image:url(../assets/fire.gif);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+.project {
+  height:150px;
+  width:700px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.project h2 {
+  text-align:center;
+  vertical-align:middle;
+  line-height:150px;
+  color:white;
+}
+
+#one {
+  background-image:url(../assets/AniSkull.gif);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+#two {
+  background-image:url(../assets/dnreacto.gif);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+#three {
+  background-image:url(../assets/crane46.gif);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+.article {
+  height:300px;
+  width:300px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  color:white;
+  text-align:center;
+  background-image:url(../assets/RobotSkull.gif);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+
+}
+
+footer {
+  color:white;
+  font-size:0.75em;
+}
