@@ -133,6 +133,8 @@ footer {
   display: inline-block;
   position: relative;
   width: 100%;
+  border-top: 3px #E71A9B solid;
+  margin-top: 10px;
 }
 
 footer h3 {
