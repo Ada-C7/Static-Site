@@ -11,12 +11,12 @@ body {
 
 h1 {
   font-family: 'Kaushan Script', cursive;
-  font-size: 10em;
-  color: white;
   text-align: center;
 }
 
 a {
   text-decoration: none;
-  color: midnightblue;
+  color: #0f0f4a;
+  font-size: 10em;
+  text-align: center;
 }

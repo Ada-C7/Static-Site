@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
+
+header {
+  background-image: url("../Assets/tropical.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: fixed;
+  width: 100%;
+}
+
+header h1 {
+  color: white;
+  text-align: left;
+  font-family: 'Jim Nightshade', cursive;
+  float: left;
+}
+
+header ul {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  width: 60%;
+}
+
+header li {
+  color: white;
+  text-align: center;
+  list-style-type: none;
+  font-family: 'Jim Nightshade', cursive;
+  display: inline-block;
+  font-size: 2em;
+  width: 200px;
+}
