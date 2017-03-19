@@ -2,15 +2,11 @@
   display: block;
   float: none;
   margin: auto;
-}
-
-.col1of2 {
-  width: 80%;
+  width: 100%;
 }
 
 .col2of2 {
   margin-top: 10px;
-  width: 100%;
 }
 
 header h1 {
@@ -42,8 +38,12 @@ header nav li a {
   display: none;
 }
 
-#main-info p {
-  border-top: none;
+main {
+  margin-top: 0;
+}
+
+#main-info img {
+  width: 60%;
 }
 
 footer {
