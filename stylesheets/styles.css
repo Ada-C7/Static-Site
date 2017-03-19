@@ -8,5 +8,19 @@ html {
 
 body {
   background-size: cover;
-  background-image: url('../images/12.jpeg'); 
+  background-image: url('../images/12.jpeg');
+}
+
+header {
+  /*position: fixed;*/
+
+}
+
+.right li {
+  list-style: none;
+}
+
+.facebook, .github, .instagram , .twitter {
+  text-decoration: none;
+  color: inherit;
 }
