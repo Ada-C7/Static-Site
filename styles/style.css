@@ -37,5 +37,10 @@ header li {
 
 footer li {
   display: inline-block;
-  margin: 20px; 
+  margin: 20px;
+}
+
+article {
+  width: 100vw;
+  clear: both;
 }
