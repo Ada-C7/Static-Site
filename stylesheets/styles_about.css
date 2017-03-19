@@ -1,0 +1,11 @@
+#prague {
+  background: url("../assets/hipster-prague-more-cropped.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 450px;
+}
+
+#prague-banner {
+  margin-top: 300px;
+}
