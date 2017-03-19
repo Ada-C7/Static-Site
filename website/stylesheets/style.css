@@ -1,0 +1,37 @@
+html {
+    display: block;
+    background-color: #46494C;
+}
+
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  font-size: 80px;
+  color: #DCDCDD;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Amatic SC', cursive;
+  color: #80919e;
+  font-size: 45px;
+  text-align: center;
+}
+
+body {
+  font-family: 'Andika', sans-serif;
+  text-align: center;
+  padding: 90px 0;
+}
+
+nav.front {
+/*TODO*/
+}
+
+nav {
+  /*TODO*/
+}
