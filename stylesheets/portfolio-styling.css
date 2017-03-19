@@ -54,13 +54,15 @@ main {
 }
 
 main section.portfolio{
-  margin-top: 10%;
+  margin-top: 7%;
   padding: 3em;
   padding-top: 0;
   text-align: center;
   background: white;
   /*TW: Why is there a background here?*/
 }
+
+/*TW: How can I make the boxes align under each other like meowspace?*/
 
 main article {
   border: transparent;
