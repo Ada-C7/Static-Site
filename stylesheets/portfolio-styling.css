@@ -92,10 +92,11 @@ main article {
   margin: 2em;
 }
 
-main article p {
+main article h3 {
   text-align: right;
   margin-top: 45%;
-  margin-right: 13%;
+  margin-right: 8%;
+  color: #FC913A;
 }
 
 /*********************
