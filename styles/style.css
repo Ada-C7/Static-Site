@@ -73,9 +73,19 @@ article p {
 #code {
   float: left;
   clear: left;
+  width: 35%;
+  margin: 50px 20px;
+}
+
+#code li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  text-align: left;
 }
 
 #illustration {
   float: right;
   clear: right;
+  width: 35%;
+  margin: 50px 20px;
 }
