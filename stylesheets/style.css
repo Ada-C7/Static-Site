@@ -1,19 +1,40 @@
+/*Google font import*/
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
-*{  margin: 0px;
+/*regarding all*/
+* {
+  margin: 0px;
   border: 0px;
   font-family: 'helvetica';
 }
 
+/*bgimg for hobby blog*/
+#swim {
+  background-image: url("../images/Giphy1.gif");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*bgimg for about*/
+#space {
+  background-image: url("../images/space.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*header begin*/
 header {
-  padding-top: 2%;
+  margin-left: -1%;
+  padding-top: 3%;
   padding-bottom: 4%;
   height: 100px;
   width: 100%;
   top: 0px;
   left: 0px;
-  /*background-color: black;*/
-  /*text-align: center;*/
 }
 
 header h1 {
@@ -25,8 +46,6 @@ header h1 {
 
 #banner {
   text-align: center;
-  /*display: inline-block;*/
-  /*margin-left: 10%;*/
 }
 
 #banner p {
@@ -36,7 +55,7 @@ header h1 {
 }
 
 #banner p:nth-child(n+3)::before{
-  content: " | ";
+  content: "| ";
 }
 
 header nav {
@@ -60,17 +79,154 @@ header a {
   color: black;
   font-size: 1.0rem;
   font-family: 'Permanent Marker';
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 
 header a:hover {
   color: tomato;
 }
+/*end header*/
 
+/*main begin*/
 main {
   margin-left: 9%;
   margin-right: 10%;
-  height: 500px;
+  height: 50%;
   top: 0px;
   background-color: black;
 }
+
+/*hobby blog begin*/
+#hoblog {
+  height: 500px;
+
+  background: none;
+}
+/*end hobby blog*/
+
+/*home begin*/
+#home {
+  height: 500px;
+  background-image: url("../images/furry.gif");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*end home*/
+
+/*portfolio begin*/
+#portfolio {
+  height: 500px;
+
+
+  background-image: url("../images/Giphy.gif");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*end portfolio*/
+
+/*about begin*/
+#about {
+  background-color: white;
+  opacity: .7;
+  /*
+  position: static;*/
+}
+
+#about section:last-child{
+  font-size: .5rem;
+  text-align: right;
+  overflow: hidden;
+  margin: 0% 2% 2% 0%;
+}
+
+#aboutme {
+  border-bottom: 1px solid black;
+  overflow: hidden;
+  margin: 0% 2% 3% 0%;
+  min-width: 200px;
+}
+
+
+#face {
+  width: 400px;
+  margin: 0px 1% 0px 1%;
+  float: left;
+  clear: both;
+}
+
+#face img {
+  padding: 6%;
+  text-align: right;
+  width: 90%;
+  height: auto;
+  border-radius: 50%;
+}
+
+#intro {
+vertical-align: middle;
+padding-left: 5%;
+}
+
+#intro h2 {
+  text-align: center;
+  line-height: .9;
+  color: black;
+  font-size: 3.0rem;
+  font-family: 'Permanent Marker';
+  padding: 3% 0%;
+}
+
+#intro p {
+  text-align: center;
+  /*min-width: 250px;*/
+  max-width: 400px;
+  display: inline;
+  font-size: .9rem;
+  padding: 0% 2%;
+  line-height:  1.5;
+}
+/*end about*/
+/*end main*/
+
+
+
+
+
+
+
+
+/*footer begin*/
+footer {
+  margin: 2% 10% 0% 9%;
+  height: 200px;
+}
+
+#disc-copy {
+  max-width: 550px;
+  font-size: 0.5em;
+  float: left;
+  clear: both;
+  margin: 0px 0px 0px 9%;
+  text-align: left;
+}
+
+#contact {
+  height:40px;
+  margin-right: 5%;
+  text-align: right;
+}
+
+#contact img {
+  width: 30px;
+  height: auto;
+}
+
+#contact img:hover {
+  border: 1px dashed black;
+  border-radius: 50%;
+}
+/*end footer*/
