@@ -16,6 +16,9 @@ body {
 
 p {
   line-height: 1.7em;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+  text-align: justify;
 }
 
 a {
@@ -146,7 +149,7 @@ footer li {
 }
 
 main {
-  padding-top: 3%;
+  padding-top: 5%;
   margin-top: 3%;
 }
 
@@ -157,18 +160,12 @@ h1 {
   font-weight: normal;
 }
 
-#main-info img {
+img.col1of2 {
   background-image: url('../images/inflicted.png');
   border: dashed #808080 1px;
 }
 
-#main-info p {
-  margin-bottom: 0;
-  padding-bottom: 15px;
-  text-align: justify;
-}
-
-#main-info p:last-child {
+.col2of2 p:last-child {
   border-bottom: dashed #ffa249 1px;
 }
 

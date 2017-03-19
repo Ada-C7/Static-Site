@@ -1,3 +1,7 @@
+p {
+  padding-bottom: 5px;
+}
+
 .col1of2, .col2of2 {
   display: block;
   float: none;
@@ -40,9 +44,10 @@ header nav li a {
 
 main {
   margin-top: 0;
+  padding-top: 3%;
 }
 
-#main-info img {
+img.col1of2 {
   width: 60%;
 }
 
