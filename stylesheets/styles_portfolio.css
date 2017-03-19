@@ -1,8 +1,12 @@
-article:nth-of-type(odd) div {
+main {
+  padding: 0 10%
+}
+
+article:nth-of-type(odd) .image-box {
   float: left;
 }
 
-article:nth-of-type(even) div {
+article:nth-of-type(even) .image-box {
   float: right;
 }
 
@@ -14,7 +18,24 @@ img {
   box-sizing: border-box;
   width: 300px;
   height: 300px;
-  height: auto;
   border-radius: 100%;
   border: solid 3px;
+}
+
+.image-box {
+  width: 300px;
+  height: 300px;
+  /*padding: 0 5% 0 10%;*/
+}
+
+.text {
+  box-sizing: border-box;
+  max-height: 300px;
+  text-align: justify;
+}
+
+h4 {
+  display: inline-block;
+  margin: 0;
+  font-size: 3em;
 }
