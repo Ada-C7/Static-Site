@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700|Rubik:300,400,900');
+
+/* EVENTUALLY
+*********************************/
+/* + Add animation to index page title */
+/* + Align Nav Text Left and Icons Right */
+/* + Restructure heading so that social icons are on same line as title */
+/* + Create style for pullquote */
+/* + Duo tone */
+
+
+/* CSS RESET + DEFAULT SETTINGS
+*********************************/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1 {
+  color: FloralWhite;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: 4vw;
+  letter-spacing: .05em;
+  margin-top: 1em;
+}
+
+h2, h3, h4 p {
+  color: black;
+}
+
+header, a {
+  color: FloralWhite;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  word-spacing: .2em;
+}
+
+h3 {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: uppercase;
+
+}
+
+h4 {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+h5{
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 700;
+  font-size: .9em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+p {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.8em;
+  margin-bottom: 1em;
+}
+
+a {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 700;
+  line-height: 1.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+
+/* BODY
+*********************************/
+body {
+  padding: 5%;
+}
+
+body#work {
+  background: orangered;
+}
+
+body#blog {
+  background: MediumSpringGreen;
+}
+
+body#about {
+  background: SlateBlue;
+}
+
+body#sample-proj {
+  background: SlateBlue;
+}
+
+
+/* HEADER
+*********************************/
+
+header, #header-top, #header-bottom {
+  display: block;
+  width: 100%;
+}
+
+header#header-top {
+  background: orange;
+}
+
+header#header-bottom {
+  background: pink;
+  clear: both;
+}
+
+header .left, header .right {
+  display: inline-block;
+}
+
+#header-top .left h5, #header-bottom .left h1 {
+  display: inline-block;
+  float: left;
+}
+
+#header-top .right, #header-bottom .right {
+  display: inline-block;
+  float: right;
+}
+
+#header-top li, #header-bottom li {
+  display: inline-block;
+  list-style-type: none;
+  float: right;
+  padding-right: 1em;
+}
+
+/* Had to fudge this to get it on the same baseline.. is there a better way to do this? */
+
+#header-top .left {
+  padding-top: 5px;
+}
+
+#header-top .right i {
+  font-size: 1.5em;
+}
+
+#header-bottom .right li {
+  padding-top: 85px;
+}
+
+/* MAIN
+*********************************/
+main {
+  clear: both;
+  position: relative;
+  display: block;
+}
+
+
+/* INDEX - WORK / PROJECTS
+*********************************/
+#projects {
+  display: block;
+  justify-content: space-between;
+}
+
+#projects .project {
+  display: block;
+  background: FloralWhite;
+  width: 33.333%;
+  height: 700px;
+  float: left;
+  border-bottom: 10pt solid black;
+  margin-top: 2.5%;
+}
+
+#projects .project img {
+  width: 100%;
+  height: 225px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#projects .project .project-desc {
+  display: block;
+  padding: 2em;
+}
+
+a.button {
+  color: black;
+  padding: .75em;
+  border: 2pt solid black;
+  border-radius: 3px;
+}
+
+a.button:hover {
+  color: FloralWhite ;
+  background: black;
+}
+
+
+/* BLOG POSTS
+*********************************/
+
+#blog-posts {
+  display: block;
+}
+
+#blog-posts .post {
+  margin-top: 2em;
+  padding-bottom: 1em;
+  background: FloralWhite ;
+  border-bottom: 10px solid black;
+}
+
+#blog-posts img {
+  width: 100%;
+}
+
+#blog-posts .content  {
+  background: FloralWhite ;
+  padding: 2em;
+}
+
+#blog-posts h5, #blog-posts .details-bottom {
+  border-top: 2pt solid black;
+  border-bottom: 2pt solid black;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+#blog-posts h2 {
+  margin-bottom: 1em;
+}
+
+#blog-posts .details-bottom {
+  display: block;
+}
+
+#blog-posts .details-bottom h3 {
+  display: inline-block;
+  float: left;
+}
+
+/* ABOUT
+*********************************/
+#about-info  {
+  background: FloralWhite ;
+  padding: 2em;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  background: FloralWhite ;
+  display: block;
+}
+
+#about-contact {
+  background: FloralWhite ;
+  padding: 2em;
+  padding-bottom: 1em;
+  background: #e5e1d8 ;
+  border-bottom: 10px solid black;
+}
+
+
+
+/* FOOTER
+*********************************/
+
+footer {
+  clear: both;
+  padding-top: 2em;
+  text-align: center;
+}
