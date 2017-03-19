@@ -1,0 +1,41 @@
+/*General Styling*/
+
+
+/*Header Styling*/
+ht;
+
+ }
+header nav > ul{
+  display: inline-block;
+}
+#main-body{
+  margin-top: 50px;
+}
+aside{
+  vertical-align: top;
+width: 30%;
+display: inline-block;
+}
+
+aside a{
+  color:gray;
+  font-size: 25px;
+}
+
+
+
+aside [class*=icono-] {
+    color: gray;
+
+}
+
+#text-body{
+  width: 50%;
+  display: inline-block;
+}
+/*Splash Section Styling*/
+
+nav.footer{
+  position:absolute;
+  bottom: 100px;
+}
