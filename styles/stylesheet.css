@@ -7,9 +7,10 @@ html {
   padding: 0;*/
 /*height: :100%;*/
   margin:0 auto;
-  background-color: #e0e0e0;
+  /*background-color: #e0e0e0;*/
   /*background: linear-gradient(to right,#FFAFBD, #ffc3a0);*/
-  background: linear-gradient(to right,#ff6e7f, #ffc3a0);
+  /*background: linear-gradient(to right,#ff6e7f, #ffc3a0);*/
+  background: linear-gradient(to right,#5FC3E4,#E55D87) ;
 
 
 /*background-color: #999;*/
@@ -18,7 +19,8 @@ html {
 }
 
 body {
-  color: #7d4c4c;
+  /*color: #7d4c4c;*/
+  color: black;
 
   /*font-family: "Goudy Old Style",Garamond,"Big Caslon","Times New Roman","serif";*/
  /*font-family: "Arial", "Helvetica", "sans-serif";*/
@@ -82,7 +84,8 @@ body {
 }
 a {
   text-decoration: none;
-  color: #7d4c4c;
+  /*color: #7d4c4c;*/
+  color:black;
 }
 a:hover {
   color: blue;
@@ -157,19 +160,10 @@ a:hover {
 
 }
 
-/*.projects h2{
-  font-size: 1.1em;
-  line-height: 40px;
-}*/
-/*.projects section {
-  position: relative;
-  display: inline-block;
-
-}*/
 
 .projects section p::before{
   content:"project #"
-  
+
 
 }
 
@@ -178,8 +172,7 @@ a:hover {
 
 }*/
 
-
-
+/*aboutme styling*/
 
 
 
