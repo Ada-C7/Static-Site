@@ -39,10 +39,15 @@
 }
 
 #hint {
-  font-size: 1em;
-  margin-top: 150px;
+  font-size: 2em;
+  margin-top: 210px;
+  color: white;
 }
 
-p {
-  margin: 0;
+.text {
+  text-align: justify;
+  column-count: 2;
+  column-gap: 100px;
+  column-rule: 1px solid grey;
+  margin: 5% 10%;
 }
