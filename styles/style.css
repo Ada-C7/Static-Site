@@ -57,13 +57,25 @@ article {
   display: block;
 }
 
-article h3 {
+article h3, h3 a {
   position: relative;
   display: block;
   z-index: 100;
   float: left;
+  width: 100%;
+  color: yellow;
 }
 
 article p {
   z-index: 50;
+}
+
+#code {
+  float: left;
+  clear: left;
+}
+
+#illustration {
+  float: right;
+  clear: right;
 }
