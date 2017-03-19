@@ -46,7 +46,7 @@ main {
   margin-top: 59px;
 }
 
-#welcome-banner {
+.banner {
   position: absolute;
   width: 100%;
   /*font-family: Pacifico;*/
