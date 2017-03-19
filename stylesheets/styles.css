@@ -3,6 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Allerta|Allerta+Stencil|Squada+One');
 
+html {
+  height: 100%;
+}
 
 header {
   height: 5em;
@@ -12,37 +15,33 @@ header nav li {
   list-style: none;
   font-size: 1.7em;
   display: inline-block;
-  /*padding: 1em 1.7em;*/
   float: right;
 }
 
 header nav li:hover {
   text-shadow: 3px 3px 3px #07b6f2;
-  /*font-size: 1.6em;*/
 }
 
 header nav li:hover a{
   color: #f1e6c4;
-
 }
+
 header nav ul li.logo-home {
   font-size: 2.5em;
   position: absolute;
   float: left;
 }
-header nav ul li.logo-home a {
-padding: 0px;
-}
 
+header nav ul li.logo-home a {
+  padding: 0px;
+}
 
 header nav ul li a {
   color: #9ebcab;
   text-decoration: none;
   opacity: .5;
   padding: 1em 1.7em;
-
 }
-
 
 body {
   background: url("../images/orange_sunset.jpg") no-repeat center center fixed;
@@ -51,8 +50,8 @@ body {
   font-family: 'Squada One', cursive;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
-
 
 main {
   display: block;
@@ -64,20 +63,12 @@ main {
   overflow:auto;
   padding-bottom: 150px;
 }
+
 #website-title {
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 5em;
   margin-top: 1em;
 }
-/*main h1 {
-  text-align: center;
-  font-size: 3.5em;
-  color: #f1e6c4;
-  font-family: 'Allerta Stencil', sans-serif;
-  text-align: center;
-  text-shadow: 0 2px 2px #000;
-  margin: 0;
-}*/
 
 main section h1 {
   position: relative;
@@ -86,17 +77,16 @@ main section h1 {
   font-size: 5em;
   color: #f1e6c4;
   margin-bottom: auto;
+  margin-top: auto;
   text-shadow: 0 2px 2px #000;
 }
 
 li {
-list-style: none;
-font-size: 1.5em;
-text-align: center;
-color: #f1e6c4;
-text-shadow: 0 1px 1px #000;
-
-
+  list-style: none;
+  font-size: 1.5em;
+  text-align: center;
+  color: #f1e6c4;
+  text-shadow: 0 1px 1px #000;
 }
 
 main h4 {
@@ -110,8 +100,6 @@ main p {
   font-size: 2em;
   text-align: center;
   color: #f1e6c4;
-
-  /*padding-bottom: 2em;*/
 }
 
 
@@ -123,6 +111,7 @@ footer {
   left: 0;
   bottom: 0;
 }
+
 footer nav ul {
   display: inline-block;
   list-style: none;
@@ -146,22 +135,23 @@ footer nav {
 }
 
 #disclaimer {
-    display: inline-block;
-    float: left;
-    margin-top: 22px;
-  }
-
-  html, body {height: 100%;}
-
-  #wrap {min-height: 100%;}
+  display: inline-block;
+  float: left;
+  margin-top: 22px;
+}
 
 
-  footer {position: relative;
-  	margin-top: -150px; /* negative value of footer height */
-  	height: 150px;
-  	clear:both;
-    font-family: 'Squada One', cursive;
-  }
+
+#wrap {
+  min-height: 100%;
+}
+
+footer {position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  font-family: 'Squada One', cursive;
+}
 
 footer nav ul li {
   display: inline-block;
@@ -170,7 +160,7 @@ footer nav ul li {
   padding-right: .2em;
   padding-left: .2em;
 }
-  footer nav ul.ways-to-connect li img {
 
-    height: 30px;
-  }
+footer nav ul li img {
+  height: 35px;
+}

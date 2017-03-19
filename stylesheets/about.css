@@ -1,12 +1,5 @@
 p.article-text {
   font-size: 1em;
-  /*background-color: white;*/
-}
-
-
-section article h2 {
-  /*text-align: left;*/
-  font-size: 1em;
 }
 
 main section article p.article-text {
@@ -31,11 +24,9 @@ body {
 }
 
 h1 {
-   font-size: 200%;
    color: #f1e6c4;
    text-shadow: 0 2px 2px #000;
 }
-
 
 div div p {
   text-shadow: 0 2px 2px #000;
@@ -53,7 +44,7 @@ div div p {
 	transform-style: inherit;
 }
 
- img.side-pic {
+img.side-pic {
   position: absolute;
   top: 50%;
   left: 35%;
@@ -154,18 +145,11 @@ footer nav ul li a {
   display: inline-block;
 }
 
-/*footer nav {
-  display: inline-block;
-  width: 30%;
-  float: right;
-}*/
-
 #disclaimer {
-    display: inline-block;
-    /*width: 50%;*/
-    float: left;
-    font-size: .7em;
-    text-align: left;
-    margin-top: 17px;
-    color: #9ebcab;
-  }
+  display: inline-block;
+  float: left;
+  font-size: .7em;
+  text-align: left;
+  margin-top: 17px;
+  color: #9ebcab;
+}
