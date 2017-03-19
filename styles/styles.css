@@ -91,20 +91,24 @@ body {
   padding: 5%;
 }
 
-body#work {
+body#work, #work a.button:hover {
   background: orangered;
+  border: 1px solid orangered;
 }
 
 body#blog {
   background: MediumSpringGreen;
+  border: 1px solid MediumSpringGreen;
 }
 
 body#about {
   background: SlateBlue;
+  border: 1px solid SlateBlue;
 }
 
 body#sample-proj {
   background: SlateBlue;
+  border: 1px solid orangered;
 }
 
 
@@ -207,7 +211,6 @@ a.button {
 
 a.button:hover {
   color: FloralWhite ;
-  background: black;
 }
 
 
@@ -234,7 +237,7 @@ a.button:hover {
   padding: 2em;
 }
 
-#blog-posts h5, #blog-posts .details-bottom {
+#blog-posts h5 {
   border-top: 2pt solid black;
   border-bottom: 2pt solid black;
   padding-top: .5em;
@@ -245,14 +248,10 @@ a.button:hover {
   margin-bottom: 1em;
 }
 
-#blog-posts .details-bottom {
-  display: block;
+#blog-posts h3 {
+  margin-top: 2em;
 }
 
-#blog-posts .details-bottom h3 {
-  display: inline-block;
-  float: left;
-}
 
 /* ABOUT
 *********************************/
