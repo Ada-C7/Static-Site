@@ -10,7 +10,7 @@ body {
   color: #808080;
   font-family: 'Coming Soon', sans-serif;
   background-color: #ffe3c8;
-  background-image: url(../images/fresh-snow.png);
+  background-image: url('../images/fresh-snow.png');
   /* background pattern from https://www.transparenttextures.com/ */
 }
 
@@ -31,6 +31,11 @@ a:hover, a:focus, a:active {
 img {
   border-radius: 50%;
   max-width: 100%;
+}
+
+hr {
+  border: 0;
+  border-bottom: dashed #ffa249 1px;
 }
 
 /*** header stuff ***/
@@ -96,7 +101,7 @@ header nav li.selected a {
   float: none;
   width: 100%;
   background-color: #ffe3c8;
-  background-image: url(../images/fresh-snow.png);
+  background-image: url('../images/fresh-snow.png');
 }
 
 .dropdown:hover ul {
@@ -152,11 +157,15 @@ h1 {
   font-weight: normal;
 }
 
+#main-info img {
+  background-image: url('../images/inflicted.png');
+  border: dashed #808080 1px;
+}
+
 #main-info p {
   margin-bottom: 0;
-  padding: 15px 0;
+  padding-bottom: 15px;
   text-align: justify;
-  border-top: dashed #ffa249 1px;
   border-bottom: dashed #ffa249 1px;
 }
 

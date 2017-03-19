@@ -1,12 +1,16 @@
 .col1of2, .col2of2 {
   display: block;
   float: none;
-  width: 100%;
   margin: auto;
+}
+
+.col1of2 {
+  width: 80%;
 }
 
 .col2of2 {
   margin-top: 10px;
+  width: 100%;
 }
 
 header h1 {
