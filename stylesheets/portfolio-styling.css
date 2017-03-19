@@ -50,7 +50,7 @@ MAIN BLURB AND HEADER
 
 main {
   margin: 0;
-  /*text-align: center;*/
+
 }
 
 main section.portfolio{
@@ -58,6 +58,8 @@ main section.portfolio{
   padding: 3em;
   padding-top: 0;
   text-align: center;
+  background: white;
+  /*TW: Why is there a background here?*/
 }
 
 main article {
@@ -82,6 +84,7 @@ FOOTER
 
 footer {
   border-top: transparent;
+  margin-top: 10%;
 }
 
 footer h4 {
