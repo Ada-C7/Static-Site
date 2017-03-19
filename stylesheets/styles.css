@@ -25,7 +25,6 @@ body {
 }
 
 a {
-  /*font-family: "Pacifico";*/
   color: white;
   text-decoration: none;
   font-size: 1.5em;
@@ -49,7 +48,6 @@ main {
 .banner {
   position: absolute;
   width: 100%;
-  /*font-family: Pacifico;*/
   font-size: 7em;
   text-align: center;
   margin-top: 100px;
