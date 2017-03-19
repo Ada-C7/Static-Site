@@ -221,10 +221,22 @@ a:hover {
 
 /*Journal Styling*/
 
+.meals img {
+  height: 250px;
+  width:250px;
+}
+
 .meals {
--moz-column-count: 3;
+  /*position: relative;
+  top:20px;*/
 -webkit-column-count: 3;
+/*-moz-column-gap: 5px;*/
+ column-span: 10px;
+
+-webkit-column-count: all;
 column-count: 3;
+/*column-gap: 10px;*/
+padding-right: 5px;
 }
 
 
