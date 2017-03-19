@@ -49,13 +49,14 @@ h3 {
   font-weight: 700;
   font-size: 1.5em;
   text-transform: uppercase;
-
+  letter-spacing: .07em;
 }
 
 h4 {
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
   font-size: 1.2em;
+  /*text-transform: uppercase;*/
 }
 
 h5{
@@ -106,8 +107,8 @@ body#about {
 }
 
 body#sample-proj {
-  background: #66D37E;
-  border: 1px solid #66D37E;
+  background: #FF5335;
+  border: 1px solid #FF5335;
 }
 
 body#resume {
@@ -164,6 +165,7 @@ main {
   clear: both;
   position: relative;
   display: block;
+  margin-top: 5%;
 }
 
 
@@ -182,7 +184,6 @@ main {
   height: 700px;
   float: left;
   border-bottom: 10pt solid black;
-  margin-top: 2.5%;
 }
 
 #projects .project img {
@@ -210,6 +211,23 @@ a.button {
 a.button:hover {
   color: FloralWhite ;
 }
+
+
+/* SAMPLE PROJECT
+*********************************/
+#sample-proj main {
+  background: FloralWhite;
+  border-bottom: 10px solid black;
+  padding: 2em;
+}
+
+#sample-proj {
+  padding: 2em;
+  padding-bottom: 1em;
+  background: #e5e1d8 ;
+  border-bottom: 10px solid black;
+}
+
 
 
 /* BLOG POSTS
