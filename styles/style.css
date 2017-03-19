@@ -42,6 +42,10 @@ header nav ul li {
     margin-right: 50px;
 }
 
+header nav li a:hover {
+    color: #99D3DF;
+}
+
 body {
     background: #CDCDCD;
     /*background: #8e9eab;
@@ -80,15 +84,31 @@ body {
     padding-bottom: 100px;
 }
 
-
-
 #more_info article {
-    height: 300px;
-    width: 20%;
+    height: 400px;
+    width: 22%;
     background-color: #88BBD6;
     display: inline-block;
-    margin-left: 80px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    /*float: left;*/
 }
+
+#more_info article:hover {
+    background: hotpink;
+}
+
+#more_info article a span {
+    display: block;
+    text-align: center;
+}
+/*#more_info article img:hover {
+    visibility: visible;
+}
+
+#more_info article img{
+    visibility: hidden
+}*/
 
 #more_info article:first-child {
     margin-left: 200px;
@@ -96,5 +116,5 @@ body {
 
 footer {
     background-color: #4ABDAC;
-
+    /*clear: both;*/
 }

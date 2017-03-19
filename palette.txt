@@ -23,3 +23,5 @@ watermelon: #FF3B3F
 
 QUESTIONS:::::
 -what is up with the auto margin feature as a centering device?
+-i want for the three images on the index page to have the images disappear or appear on hover; also want these boxes to be clickable links, so can't click on a disappeared image
+-going crazy not being able to center the titles for these three boxes - anywhere would be cool, above, below, inside, just centered!
