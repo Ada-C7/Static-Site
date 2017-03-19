@@ -60,6 +60,23 @@ main article {
   margin-bottom: 3em;
 }
 
+main article a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/*********************
+LINK FORMATTING
+**********************/
+
+main article a:visited {
+  color: black;
+}
+
+main article a:hover {
+  color: green;
+}
+
 main h3 {
   margin: 0;
   padding: 1em;
