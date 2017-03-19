@@ -3,17 +3,6 @@ p.article-text {
   /*background-color: white;*/
 }
 
-main section.all-articles {
-  /*background-color: white;*/
-  /*width: 75%;*/
-  /*margin: auto;*/
-}
-
-section article {
-  /*background-color: white;*/
-  /*width: 75%;*/
-  /*margin: 0 auto;*/
-}
 
 section article h2 {
   /*text-align: left;*/
@@ -24,6 +13,9 @@ main section article p.article-text {
   color: black;
 }
 
+main {
+  overflow: visible;
+  padding-bottom: 0px;}
 
 html {
   height: 100%;
@@ -31,24 +23,24 @@ html {
 }
 
 body {
-  margin:0;
-  padding:0;
 	perspective: 1px;
 	transform-style: preserve-3d;
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: "Helvetica Neue";
 }
 
 h1 {
-   font-size: 250%
+   font-size: 200%;
+   color: #f1e6c4;
+   text-shadow: 0 2px 2px #000;
 }
 
-p {
+
+div div p {
+  text-shadow: 0 2px 2px #000;
   font-size: 140%;
   line-height: 150%;
-  color: #333;
 }
 
 .slide {
@@ -128,7 +120,6 @@ img:last-of-type {
 }
 
 #slide2 {
-  background-image: url("../images/3a.jpg");
   background-attachment: fixed;
 }
 
@@ -182,7 +173,7 @@ footer nav {
     float: left;
     font-size: .7em;
     text-align: left;
-    margin-top: 15px;
+    margin-top: 17px;
     color: #9ebcab;
 
   }

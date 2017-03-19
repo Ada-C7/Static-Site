@@ -11,24 +11,17 @@ main section.all-articles {
   float: right;
 }
 
-main title.title {
-  text-align: center;
-  font-size: 5em;
-  color: #f1e6c4;
-  font-family: "Helvetica Neue";
-  text-align: center;
-  text-shadow: 0 2px 2px #000;
-  display: inline-block;
-}
+
+
 section article {
   background-color: #f1e6c4;
   border-radius: 10px;
   border-style: outset;
   border-color: #e66123;
-  margin: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
 
-  /*width: 75%;*/
-  /*margin: 0 auto;*/
 }
 
 section article h2 {
@@ -37,7 +30,7 @@ section article h2 {
 }
 
 main section article p.article-text {
-  color: black;
+  color: #0f394b;
   padding: 20px;
 
 }
@@ -46,7 +39,7 @@ main section.side-bar {
   display: inline-block;
   position: fixed;
   left: 5%;
-  top: 29%;
+  /*top: 48%;*/
   width: 26%;
   float: left;
   background-color: #f1e6c4;
@@ -57,7 +50,7 @@ main section.side-bar {
 }
 
 main section ul li {
-color: #0f394b;
+  color: #0f394b;
   text-align: left;
   font-size: 1em;
   list-style: disc;
@@ -65,15 +58,28 @@ color: #0f394b;
   font-weight: bold;
 }
 
+main section ul li a {
+  color: #0f394b;
+}
+
+main section ul li a:hover {
+  color: #737c57;
+}
+
 main section ul.ways-to-connect li {
   display: inline-block;
   float: left;
   padding: .2em;
 }
+
 body {
   background: url("../images/orange_sunset.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+footer {
+
 }

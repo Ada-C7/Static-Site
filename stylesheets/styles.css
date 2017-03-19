@@ -10,37 +10,49 @@ header {
 
 header nav li {
   list-style: none;
-  font-size: 1.3em;
+  font-size: 1.7em;
   display: inline-block;
-  padding: 1em 1.7em;
+  /*padding: 1em 1.7em;*/
   float: right;
 }
 
 header nav li:hover {
   text-shadow: 3px 3px 3px #07b6f2;
+  /*font-size: 1.6em;*/
 }
 
+header nav li:hover a{
+  color: #f1e6c4;
+
+}
 header nav ul li.logo-home {
-  font-size: 2.2em;
+  font-size: 2.5em;
   position: absolute;
   float: left;
-  padding: .5em 0;
 }
+header nav ul li.logo-home a {
+padding: 0px;
+}
+
 
 header nav ul li a {
   color: #9ebcab;
   text-decoration: none;
   opacity: .5;
+  padding: 1em 1.7em;
+
 }
+
 
 body {
   background: url("../images/orange_sunset.jpg") no-repeat center center fixed;
-
   background-color: grey;
   background-size: cover;
   font-family: 'Squada One', cursive;
-
+  margin: 0;
+  padding: 0;
 }
+
 
 main {
   display: block;
@@ -49,21 +61,32 @@ main {
   width: 100%;
   text-align: center;
   font-family: "Allerta", sans-serif;
+  overflow:auto;
+  padding-bottom: 150px;
 }
 #website-title {
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 5em;
   margin-top: 1em;
 }
-main h1 {
+/*main h1 {
   text-align: center;
-  font-size: 4em;
+  font-size: 3.5em;
   color: #f1e6c4;
   font-family: 'Allerta Stencil', sans-serif;
   text-align: center;
   text-shadow: 0 2px 2px #000;
   margin: 0;
+}*/
 
+main section h1 {
+  position: relative;
+  text-align: center;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 5em;
+  color: #f1e6c4;
+  margin-bottom: auto;
+  text-shadow: 0 2px 2px #000;
 }
 
 li {
@@ -87,6 +110,7 @@ main p {
   font-size: 2em;
   text-align: center;
   color: #f1e6c4;
+
   /*padding-bottom: 2em;*/
 }
 
@@ -128,4 +152,25 @@ footer nav {
     width: 50%;
     float: left;
     margin-top: 22px;
+  }
+
+  html, body {height: 100%;}
+
+  #wrap {min-height: 100%;}
+
+
+  footer {position: relative;
+  	margin-top: -150px; /* negative value of footer height */
+  	height: 150px;
+  	clear:both;
+    font-family: 'Squada One', cursive;
+  }
+
+  Opera Fix*/
+  /*body:before {
+  	content:"";
+  	height:100%;
+  	float:left;
+  	width:0;
+  	margin-top:-32767px;/
   }
