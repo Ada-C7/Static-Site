@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+section:first-of-type {
+  text-align: center;
+}
+
+h3 a {
+  border-top: solid;
+  border-bottom: solid;
+  font-size: 2em;
+  padding: .3em;
+}
+section > p {
+  padding: .5em;
+}
+
+main {
+padding: 0.5em;
+}
+
+article p {
+  float: right;
+  max-width: 55%;
+  margin: 0;
+}
+
+article img {
+  padding-left: 2em;
+  padding-bottom: 1.5em;
+  float: left;
+  height: auto;
+  width: auto;
+  max-height: 30%;
+  max-width: 30%;
+}
