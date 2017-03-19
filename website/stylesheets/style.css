@@ -63,6 +63,16 @@ p strong {
   font-size: 25px;
 }
 
+section.about {
+  padding-top: 50px;
+  /*margin-left: 70px;
+  margin-right: 70px;*/
+}
+
+ul.about {
+  
+}
+
 footer img {
   height: 50px;
   width: auto;
