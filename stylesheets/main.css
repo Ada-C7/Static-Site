@@ -7,7 +7,9 @@ header h1, header nav {
   width: 40%;
 }
 
-/*TW: Align Header with Nav*/
+header h1 {
+  margin-left: 5%;
+}
 
 header nav {
   float: right;

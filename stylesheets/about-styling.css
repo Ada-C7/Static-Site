@@ -7,7 +7,9 @@ header h1, header nav {
   width: 40%;
 }
 
-/*TW: Align Header with Nav*/
+header h1 {
+  margin-left: 5%;
+}
 
 header nav {
   float: right;
@@ -21,11 +23,12 @@ header nav li {
 HERO IMAGE AND HEADER
 **********************/
 
-main section:first-of-type {
-  background-image: url(https://placebear.com/200/300);
+main section {
+  /*TING: CHANGE TO IMAGE */
+  /*background-image: url(https://placebear.com/200/300);
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 20em;
+  background-repeat: no-repeat;*/
+  background-color: #FFA07A;
 }
 
 main section h1#hero-text {
@@ -50,15 +53,19 @@ main section article h2 {
   margin-bottom: 3em;
 }
 
-main section p {
-  margin-left: 10em;
-  margin-right: 10em;
-  text-align: justify;
-}
+
 
 main {
   margin-bottom: 8em;
 }*/
+
+section > * {
+  margin: 0;
+}
+
+main section p {
+  margin: 0;
+}
 
 /*********************
 FOOTER
