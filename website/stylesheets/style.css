@@ -55,6 +55,21 @@ img.me-pic {
 }
 
 img.project {
-  height: 200px;
+  height: 180px;
   width: auto;
+}
+
+p strong {
+  font-size: 25px;
+}
+
+footer img {
+  height: 50px;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+footer {
+  padding-top: 10px;
 }
