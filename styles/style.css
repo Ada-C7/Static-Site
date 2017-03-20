@@ -1,0 +1,282 @@
+* {
+  /*margin: 0*/
+  /*border: solid black;*/
+}
+li, p, h3, h1 {
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+#title a {
+  color: red;
+}
+
+#title a:hover {
+  color: yellow;
+}
+
+li a {
+  color: black;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  background-color: #fff;
+  z-index: 100;
+}
+
+header ul {
+  float: right;
+  clear: right;
+}
+
+header li {
+  display: inline-block;
+  margin: 40px 20px 0 20px;
+}
+
+header li:hover {
+  background: #36D7B7;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+footer li {
+  display: inline-block;
+  margin: 20px;
+}
+
+footer li:hover {
+  background: yellow;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+ /*#hero img {
+  width: 100vw;
+}*/
+
+/* HERO */
+#hero {
+  padding-top: 90px;
+  width: 100vw;
+  height: 75vh;
+  background-color: #6B9362;
+  z-index: -100;
+  position: relative;
+}
+
+.index_circle {
+  display: inline-block;
+  transform: translate(200px, 200px);
+  background: yellow;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.29);
+  z-index: -1;
+  overflow: hidden;
+}
+
+#index_circle_a {
+  background: red;
+}
+
+#index_circle_b {
+  background: #36D7B7;
+}
+
+#triangle {
+  margin-left: -100px;
+  transform: translate(290px, 250px);
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid #006442;
+  display: inline-block;
+  z-index: -1;
+  position: relative;
+}
+
+#title {
+  float: left;
+  clear: left;
+  letter-spacing: 3px;
+  font-size: 3em;
+  color: red;
+}
+
+#page_body {
+  margin: 0 50px;
+}
+
+/* HERO */
+
+/* CODE-JOURNAL */
+#entries {
+  padding-top: 200px;
+  clear: both;
+}
+
+.blog {
+  clear: both;
+  margin: 50px 100px 50px 100px;
+  box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.29);
+  padding: 50px;
+  border-radius: 45px;
+  background-color: #fff;
+  width: 50vw;
+}
+
+.blog_title {
+  float: left;
+  clear: left;
+  width: 50%;
+  color: #36D7B7;
+}
+
+.date {
+  float: right;
+  clear: right;
+  width: 50%;
+  text-align: right;
+  color: #36D7B7;
+}
+
+.circle {
+  position: absolute;
+  transform: translate(600px, -150px);
+  background: yellow;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+  box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.29);
+  z-index: -1;
+}
+
+/* CODE-JOURNAL */
+
+/* PORTFOLIO */
+.portfolio h2, h2 a {
+  position: relative;
+  text-align: center;
+  display: block;
+  z-index: 50;
+  float: left;
+  width: 100%;
+  color: #36D7B7;
+}
+
+.portfolio a:hover {
+  color: yellow;
+}
+
+.portfolio p {
+  text-align: justify;
+  padding: 20px;
+}
+
+#code {
+  float: left;
+  clear: left;
+  width: 45%;
+  margin: 50px 20px;
+}
+
+#code li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  text-align: left;
+}
+
+.portfolio {
+  height: 250px;
+  padding: 50px;
+  margin-bottom: 20px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.29);
+}
+
+#meowspace:hover {
+  background-image: url('../assets/meowspace_img.png');
+  background-position: bottom;
+  background-size: cover;
+}
+
+.portfolio:hover p, .portfolio:hover li, .portfolio:hover h5 {
+  visibility: hidden;
+}
+
+#rideshare:hover {
+  background-image: url('../assets/rideshare.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#scrabble:hover {
+  background-image: url('../assets/scrabble.png');
+  background-position: center;
+  background-size: cover;
+}
+
+#illustration {
+  float: right;
+  clear: right;
+  width: 45%;
+  margin: 50px 20px;
+}
+
+#illustration li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  text-align: left;
+}
+
+#wicked_brew:hover {
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/f54b5419764259.562dfe1a4b105.JPG');
+  background-position: top;
+}
+
+#liv:hover {
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/disp/f5a83810661815.560e8bdd1282a.jpg');
+  background-position: top;
+  background-size: cover;
+}
+
+/* PORTFOLIO */
+
+/* ABOUT ME */
+
+#me {
+  float: left;
+  clear: left;
+  margin: 150px 25px;
+  width: 40%;
+}
+
+#about {
+  float: right;
+  clear: right;
+  margin: 150px 75px 0px 25px;
+  width: 40%;
+}
+
+#about p {
+  font-size: 1.5em;
+  width: 70%;
+  text-align: justify;
+}
+
+#contact li {
+  display: inline-block;
+  margin: 50px 20px;
+  text-align: left;
+}
+
+/* ABOUT ME */
