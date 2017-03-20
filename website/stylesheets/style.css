@@ -50,7 +50,7 @@ p {
   color: #201f1f;
 }
 
-.me-pic {
+#me-pic {
   border-radius: 20px;
   clear: both;
 }
@@ -60,26 +60,35 @@ p {
   width: auto;
 }
 
-.dms {
+#dms {
   font-size: 25px;
 }
 
-.about {
+#about {
   display: flex;
+  margin: 20px 20% 0;
+
+  /*If can't use flexbox use below*/
   /*justify-content: space-between;*/
   /*display: block;*/
-  margin: 20px 20% 0;
 }
 
+.posts {
+  padding: 20px 0;
+}
+
+
 div {
+  flex-basis: 50%;
+
+  /*If can't use flexbox use below*/
   /*display: inline-block;*/
   /*width: 48%;*/
-  /*flex-grow: 1;*/
-  flex-basis: 50%;
 }
 
 ul {
   margin: 0;
+  color: #201f1f;
 }
 
 footer img {
