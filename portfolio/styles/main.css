@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Loved+by+the+King|Quicksand|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Loved+by+the+King|Oswald|Quicksand|Roboto');
 
 html {
   font-family: 'Quicksand', sans-serif;
@@ -26,9 +26,17 @@ header div {
 }
 
 header h2 {
-  font-family: 'Quicksand';
+  font-family: 'Oswald'; sans-serif;
   text-transform: uppercase;
   /*opacity: none;*/
+}
+
+header div a {
+  text-decoration: none;
+}
+
+header div a:visited {
+  color: white;
 }
 
 header nav {
@@ -72,6 +80,7 @@ header nav a:hover {
 
 div.buttons {
   margin: 30px;
+  margin-top: 60px;
 }
 
 .buttons p {
@@ -89,15 +98,12 @@ div.buttons {
   padding: 15px;
   margin: 10px;
   border: solid 2px;
-
 }
 
 .buttons a:hover {
   color: white;
-  background-color: gray;
+  background-color: black;
   border-color: black;
-
-
 }
 
 .page-posts article {
@@ -115,17 +121,21 @@ div.buttons {
 footer {
   background-color: #D0DD97;
   width: 100%;
-  display: inline-block;
   padding: 20px;
   margin-left: -10px;
 }
 
+footer div {
+  display: inline-block;
+  margin-left: 30px;
+}
+
 #copyright {
-  float: left;
-  width: 50%;
+  vertical-align: top;
+  width: 45%;
 }
 
 #connect {
-  float: left;
+  vertical-align: top;
   width: 45%;
-}
+}*
