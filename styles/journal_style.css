@@ -52,11 +52,16 @@ header nav {
 }
 
 main {
-  margin-top: 90px;
+  margin-top: 100px;
 }
 
 h3, section + h6 {
-  margin-bottom: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h6{
+  margin: 0px;
 }
 
 footer {
@@ -64,15 +69,6 @@ footer {
   height: 50px;
   background-color: lightgrey;
 }
-
-
-h6 {
-  display: inline-block;
-  margin-left: 10px;
-  font-size: 0.5em;
-  margin-top: 26px;
-}
-
 
 footer nav {
   float: right;
@@ -89,4 +85,11 @@ footer ul, footer li, header li {
 footer img {
   display: inline-block;
   width: 20px;
+}
+
+#h6_footer {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 0.5em;
+  margin-top: 26px;
 }
