@@ -1,29 +1,10 @@
 /*Google font import*/
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
-
 /*regarding all*/
 * {
   margin: 0px;
   border: 0px;
   font-family: 'helvetica';
-}
-
-/*bgimg for hobby blog*/
-#swim {
-  background-image: url("../images/Giphy1.gif");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/*bgimg for about*/
-#space {
-  background-image: url("../images/space.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /*header begin*/
@@ -44,37 +25,58 @@ header h1 {
   text-transform: uppercase;
 }
 
-#banner {
+.banner {
   text-align: center;
 }
 
-#banner p {
+.banner p {
   display: inline;
   color: black;
   font-size: 0.7rem;
 }
 
-#banner p:nth-child(n+3)::before{
+.banner p:nth-child(n+3)::before{
   content: "| ";
 }
 
-header nav {
+
+.nav {
   text-align: center;
 }
 
-header nav ul {
+.nav ul {
   margin: 1%;
   padding: 0px;
+  background-color: transparent;
 }
 
-header nav li {
-  list-style: none;
+.nav li {
   display: inline;
+  position: relative;
   color: black;
   font-size: 0.7rem;
 }
 
-header a {
+.nav ul ul {
+  position: absolute;
+  left:0;
+  top: 100%;
+  display: none;
+}
+
+.nav li:hover ul {
+  display: block;
+  max-width: 90%;
+  background-color: white;
+  z-index: 999;
+}
+
+.nav a:hover {
+  color:silver;
+  background-color: black;
+}
+
+.nav a {
   text-decoration: none;
   color: black;
   font-size: 1.0rem;
@@ -82,9 +84,6 @@ header a {
   padding: 0px 5px;
 }
 
-header a:hover {
-  color: deeppink;
-}
 /*end header*/
 
 /*main begin*/
@@ -96,127 +95,214 @@ main {
   background-color: black;
 }
 
+main a {
+  text-decoration: none;
+  color: white;
+}
+
+.src {
+  font-size: .5rem;
+  text-align: right;
+  margin: 3% 2% 2% 0%;
+  padding-top: 3%;
+}
+
+.src a {
+  color: black;
+  text-decoration: underline;
+}
+
+
 /*hobby blog begin*/
 #hoblog {
-  height: 350px;
-
-  background: none;
+  padding-top: 1%;
+  margin-bottom: 1%;
+  width: 80%;
+  background-color: transparent;
+  border-bottom: 1px solid black;
 }
+
+.blogtitle h2{
+  margin: 0% 9%;
+  background-color: black;
+  text-align: center;
+  letter-spacing: 2.0;
+  text-transform: lowercase;
+  font-size: 1em;
+  font-family: 'Permanent Marker';
+  padding-top: 3%;
+  height: 50px;
+}
+
+.blogtitle h2:hover {
+  background-image: url("../images/giphy.gif");
+  height: 50px;
+}
+
+.posts {
+  text-align: center;
+  background-color: silver;
+  overflow: hidden;
+}
+.posts a {
+  color: black;
+  text-decoration: underline;
+}
+
+.posts article {
+  margin: 2% 10%;
+  color: black;
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
+.posts img {
+  margin: 1% 12%;
+  width: 70%;
+  padding: 1%;
+}
+
+.posts img:hover {
+  opacity: 0.4;
+  border: 1px dashed black;
+}
+
+ .posts h2 {
+   margin: 0% 10%;
+
+   letter-spacing: 2.0;
+   font-size: 3em;
+   font-family: 'Permanent Marker';
+ }
+
+ .posts p {
+margin: 0% 10%;
+}
+
+
 /*end hobby blog*/
 
 /*home begin*/
 #home {
-  height: 350px;
   background-image: url("../images/furry.gif");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: .8;
+  margin: 1% 10%;
+}
+
+#welcome {
+  height: 300px;
+}
+
+#welcome p {
+  line-height: .9;
+  text-align: center;
+  font-size: 0.7rem;
+  padding-top: 140px;
+  color: black;
+  animation: fade 1s infinite;
+}
+
+@keyframes fade {
+  0% { opacity: 0 }
+  50% { opacity: 1 }
+  100%  {opacity: 0 }
 }
 /*end home*/
 
 /*portfolio begin*/
-#portfolio {
-  /*height: 350px;*/
-  background-image: url("../images/Giphy.gif");
+#swim {
+  background-image: url("../images/Giphy1.gif");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+#portfolio {
+  background: none;
+  border-bottom: 1px solid black;
+}
+
 #portfolio article {
-    display: inline-block;;
-    height: 180px;
-    width: 180px;
-    margin: 1%;
-    border-radius: 50%;
-    background-color: black;
+  display: inline-block;;
+  height: 180px;
+  width: 180px;
+  margin: 1%;
+  border-radius: 50%;
+  background-color: black;
 }
 
-#subjects {
+.subjects {
   text-align: center;
-  padding: 5% 0%;
+  padding: 3% 0%;
 }
 
-.subject a {
-  color: white;
-  text-decoration: none;
-}
-.subject:hover {
-  border: 1px dashed white;
-  opacity: .7;
+.subject:active {
+  border: 2px dashed white;
 }
 
 .subject h2 {
   font-family: 'Permanent Marker';
-  font-size: 1.5em;
+  font-size: 1.3em;
   text-align: center;
-padding-top: 35%;
-letter-spacing: 2.0;
+  padding-top: 35%;
+  letter-spacing: 2.0;
 }
 /*end portfolio*/
 
 /*about begin*/
+#space {
+  background-image: url("../images/space.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #about {
   background:none;
   border-bottom: 1px solid black;
-
 }
 
 #about section:first-of-type {
-  padding: 0% 10% 0% 10%;
+  padding: 2% 10% 0% 10%;
 }
 
 #face {
-  width: 350px;
+  width: 300px;
   height: auto;
   float: right;
   clear: both;
-  margin-right: 10%;
-  /*overflow: hidden;*/
+  margin-right: 0%;
   border-radius: 50%;
   text-align: center;
+  max-width: 400px;
+  position: relative;
+  left: 5%;
 }
 
-#intro {
-  max-width: 300px;
-}
 #intro h2 {
   text-align: right;
   line-height: .9;
   color: black;
   font-size: 4em;
   font-family: 'Permanent Marker';
-padding-top: 5%;
+  margin-top: 12%;
   padding-bottom: 2%;
 }
 
 #intro p {
   text-align: right;
-
-  /*text-align: center;*/
   font-size: .8rem;
-  margin-bottom: 15%;
+  margin-right: 5%;
   line-height:  1.5;
 }
-
-#about section:last-child {
-  font-size: .5rem;
-  text-align: right;
-  margin: 10% 2% 2% 0%;
-  padding-top: 3%;
-}
-
 /*end about*/
 /*end main*/
-
-
-
-
-
-
-
 
 /*footer begin*/
 footer {
@@ -224,27 +310,27 @@ footer {
   height: 200px;
 }
 
-#disc-copy {
+.disc-copy {
   max-width: 550px;
   font-size: 0.5em;
   float: left;
   clear: both;
-  margin: 0px 0px 0px 9%;
+  margin: 0px 0px 5% 9%;
   text-align: left;
 }
 
-#contact {
+.contact {
   height:40px;
   margin-right: 5%;
   text-align: right;
 }
 
-#contact img {
+.contact img {
   width: 30px;
   height: auto;
 }
 
-#contact img:hover {
+.contact img:hover {
   border: 1px dashed black;
   border-radius: 50%;
 }

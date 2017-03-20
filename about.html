@@ -7,56 +7,49 @@
 </head>
 <body>
   <header>
-    <div id="banner" >
+    <div class="banner" >
       <h1>Bo Trethewey</h1>
       <p>Full Stack Developer</p>
       <p>Graphic designer</p>
     </div>
-    <nav>
+    <nav class="nav">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="hobby-blog.html">Extracurricular</a></li>
+        <li><a href="hobby-blog.html">Extracurricular</a>
+          <ul>
+            <li><a href="hobby-blog/entry-one.html">entry one</a></li>
+            <li><a href="hobby-blog/entry-two.html">entry two</a></li>
+          </ul>
+        </li>
         <li><a href="about.html">About</a></li>
       </ul>
     </nav>
-
   </header>
   <main id="about">
-
-
-
-
-
-    <section id="aboutme">
-      <div id="face">
-        <img src="images/facebuzz.gif" alt="3d-profile-pic">
-      </div>
-
-    </div>
+    <section>
+      <img id="face" src="images/facebuzz.gif" alt="3d-profile-pic">
       <div id="intro">
-        <h2>Hello everyone!</h2>
-        <p>My name is Bo and I am a software development student(Cohort 7, Expected to graduate in January 2018) at Ada Developers Academy. Coding makes me smile. Our curriculum covers Ruby, HTML/CSS, Rails and Javascript, in addition to TDD.</p>
+        <h2>Hello!</h2>
+        <p>My name is Bo and I am a software development student(Cohort 7, Expected to graduate in January 2018) at Ada Developers Academy.Our curriculum covers Ruby, HTML/CSS, Rails and Javascript, in addition to TDD.<br> Coding makes me smile.</p>
       </div>
-  </section>
-
-
-  <section>
-    <p> Background Image Source: Orion Nebula<br>
-      Star-forming region	HST ACS/WFC	PRC06-01c<br>
-      NASA, ESA, and The Hubble Heritage Team (STScI/AURA)<br>
-    </p>
-  </section>
-</main>
-<footer>
-  <div id="disc-copy">
-    <p> Unless otherwise stated, content is copyright &copy; 2017 Bo Trethewey </p>
-  </div>
-  <div id="contact">
-    <img src="images/Linkedin.png" alt="Linkedin-icon">
-    <img src="images/Github.png" alt="Github-icon">
-    <img src="images/Instagram.png" alt="Instagram-icon">
-  </div>
-</footer>
+    </section>
+    <section class="src">
+      <p> Background Image Source: Orion Nebula<br>
+        Star-forming region	HST ACS/WFC	PRC06-01c<br>
+        NASA, ESA, and The Hubble Heritage Team (STScI/AURA)<br>
+      </p>
+    </section>
+  </main>
+  <footer>
+    <div class="disc-copy">
+      <p> Unless otherwise stated, content is copyright &copy; 2017 Bo Trethewey </p>
+    </div>
+    <div class="contact">
+      <img src="images/Linkedin.png" alt="Linkedin-icon">
+      <img src="images/Github.png" alt="Github-icon">
+      <img src="images/Instagram.png" alt="Instagram-icon">
+    </div>
+  </footer>
 </body>
 </html>
