@@ -42,12 +42,11 @@ HERO IMAGE AND HEADER
 **********************/
 
 main section:first-of-type {
-    /*TING: CHANGE TO IMAGE */
-  /*background-image: url(https://placebear.com/200/300);
+  background-image: url(../images/portfolio.jpg);
   background-size: cover;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
+  background-position: 100%;
   height: 20em;
-  background-color: #EDE574;
 }
 
 main section h1#hero-text {
@@ -75,21 +74,28 @@ main section.portfolio{
   margin-top: 7%;
   padding: 3em;
   padding-top: 0;
+  padding-left: 13.5em;
   text-align: center;
   background: white;
   /*TW: Why is there a background here?*/
 }
 
-/*TW: How can I make the boxes align under each other like meowspace?*/
+.portfolio div {
+  float: left;
+  height: 216px;
+}
 
-main article {
+.portfolio a {
   border: transparent;
-  /*border-radius: 10px;*/
-  background: #E1F5C4;
-  width: 20%;
-  height: 10em;
+  background: #ABF9DC;
+  width: 6em;
+  height: 10%;
   display: inline-block;
   margin: 2em;
+  padding: 4em;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FF4E50;
 }
 
 main article h3 {
@@ -105,12 +111,13 @@ FOOTER
 
 footer {
   border-top: transparent;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 footer h4 {
   text-align: center;
   color: #FF4E50;
+  clear: both;
 }
 
 footer nav {

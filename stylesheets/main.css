@@ -42,12 +42,11 @@ HERO IMAGE AND HEADER
 **********************/
 
 main section:first-of-type {
-    /*TING: CHANGE TO IMAGE */
-  /*background-image: url(https://placebear.com/200/300);
+  background-image: url(../images/home.png);
   background-size: cover;
-  background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
+  background-position: center;
   height: 20em;
-  background-color: #FFA07A;
 }
 
 main section h1#hero-text {

@@ -42,11 +42,10 @@ HERO IMAGE AND HEADER
 **********************/
 
 main {
-  /*TING: CHANGE TO IMAGE */
-  /*background-image: url(https://placebear.com/200/300);
+  background-image: url(../images/about.jpg);
   background-size: cover;
-  background-repeat: no-repeat;*/
-  background-color: #FFA07A;
+  background-repeat: no-repeat;
+  background-position: 25%;
 }
 
 /*********************
@@ -68,13 +67,21 @@ section > * {
 
 main section p {
   margin: 0;
-  padding-top: 2em;
+  padding-top: 1.5em;
   width: 60%;
 }
 
-/*TING ADD ICONS!!!!*/
-main section#icons {
-  padding-top: 3em;
+section#icons {
+  padding-top: 1em;
+}
+
+section#icons img {
+  height: 40px;
+  padding: 2%;
+}
+
+section#icons img:first-of-type {
+  padding-left: 0;
 }
 
 /*********************
