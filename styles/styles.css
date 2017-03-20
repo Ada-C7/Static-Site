@@ -22,16 +22,26 @@ p {
 }
 
 a {
+  color: #fc7b00;
   text-decoration: none;
-  color: #808080;
   transition: all 0.5s;
 }
 
-a:hover, a:focus, a:active {
+a:hover {
+  color: #ffbc7c;
+}
+
+header a, footer a {
+  color: #808080;
+}
+
+header a:hover, header a:focus, header a:active,
+footer a:hover, footer a:focus, footer a:active {
   color: #BBB;
 }
 
 img {
+  border: solid #808080 1px;
   border-radius: 50%;
   max-width: 100%;
 }
@@ -39,6 +49,7 @@ img {
 hr {
   border: 0;
   border-bottom: dashed #ffa249 1px;
+  margin-bottom: 0;
 }
 
 /*** header stuff ***/
@@ -180,6 +191,41 @@ h1 {
   height: 0;
   clear: both;
   visibility: hidden;
+}
+
+#portfolio-content h1 {
+  text-align: center;
+}
+
+#portfolio-content h2 {
+  text-align: right;
+  background-image: url('../images/inflicted.png');
+  margin: 0;
+  padding: 10px 3px;
+}
+
+#portfolio-content h3 {
+  padding: 5px 0;
+
+}
+
+#portfolio-content img {
+  float: left;
+  margin-right: 4%;
+  margin-bottom: 2%;
+}
+
+#portfolio-content article {
+  clear: both;
+  margin-top: 10px;
+}
+
+#portfolio-content h3 {
+  padding-top: 10px;
+}
+
+#portfolio-content article p:last-child {
+  border-bottom: dashed #ffa249 1px;
 }
 
 /*** responsive classes ***/

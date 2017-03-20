@@ -2,17 +2,20 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Addie Land</title>
+  <title>Addie Land - portfolio</title>
   <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" media="only screen and (min-width: 501px) and (max-width: 800px)" href="styles/styles-medium.css">
+	<link rel="stylesheet" media="only screen and (min-width: 50px) and (max-width: 500px)" href="styles/styles-small.css">
 </head>
 <body>
   <header>
-    <!-- <h1><a href="index.html">Addie Land</a></h1> -->
+    <h1 class="mobile-only"><a href="index.html">Addie Land - portfolio</a></h1>
     <nav class="clearfix">
       <ul>
         <li><a href="index.html">home</a></li>
-        <li><a class="selected" href="portfolio.html">portfolio</a></li>
+        <li class="selected"><a href="portfolio.html">portfolio</a></li>
         <li><a href="about.html">about</a></li>
         <li class="dropdown">
           <a href="blog/index.html">blog</a>
@@ -25,11 +28,64 @@
       </ul>
     </nav>
   </header>
-  <main>
-
+  <main id="main-content" class="indent clearfix">
+    <section id="portfolio-content">
+      <h1 class="mobile-hidden">Addie Land - portfolio</h1>
+      <hr>
+      <section id="ruby-projects">
+        <h2>Ruby Projects</h2>
+        <hr class="mobile-only">
+        <article>
+          <img src="images/solar-system.jpg" alt="saturn">
+          <h3>Solar System (2017)</h3>
+          <p>
+            <a href="https://github.com/add2point71dots/Solar-System" target="_blank">Solar System</a> is a Ruby project built to practice creating classes in Ruby. It's a terminal program that utilizes a Planet class and  SolarSystem class. It asks the user what planet they would like to learn about and then outputs information about that planet. For instance, did you know that Saturn is a gas giant planet that is 72,367 miles in diameter? It's also 795.24 million miles away from Earth. How about that?
+          </p>
+        </article>
+      </section>
+      <section id="html-projects">
+        <h2>Websites</h2>
+        <hr class="mobile-only">
+        <article>
+          <img src="images/flyingcatcreations.jpg" alt="flying cat creations">
+          <h3>Flying Cat Creations (2013)</h3>
+          <p>
+            <a href="http://flyingcatcreations.com/" target="_blank">flyingcatcreations.com</a> was built as a project for a web design class at Seattle Central Community College in 2013. It's a website for Seattle artist and small business owner Mutsuko Mitsui, who makes and sells  ceramic pottery at the Pike Place Market. The site is designed responsively with layouts for computer screens, tablets, and mobile phones. Check out <a href="http://flyingcatcreations.com/shop/" target="_blank">her shop</a> to see examples of her beautiful work.
+          </p>
+        </article>
+        <article>
+          <img src="https://placeimg.com/200/200/animals">
+          <h3>Project 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id aliquet dolor. Sed ornare at lorem et euismod. Vivamus dui augue, tincidunt sit amet tempus in, pretium eget odio. Aliquam pharetra, nunc sed gravida aliquet, velit sem sollicitudin massa, at lobortis diam est eu urna. Maecenas aliquet mauris turpis, ut mattis nisi laoreet ac. Integer blandit pretium ex, non mollis mauris consequat eu. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          </p>
+        </article>
+      </section>
+    </section>
   </main>
-  <footer>
-
+  <footer class="indent">
+    <ul id="footer-links">
+      <li>
+        <a href="#">
+          <i class="fa fa-envelope-square fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/addie-land/" target="_blank">
+          <i class="fa fa-linkedin fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/add2point71dots" target="_blank">
+          <i class="fa fa-github fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/commonbirdclub/" target="_blank">
+          <i class="fa fa-instagram fa-2x"></i>
+        </a>
+      </li>
+    </ul>
   </footer>
 </body>
 </html>

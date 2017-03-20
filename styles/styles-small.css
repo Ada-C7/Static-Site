@@ -2,6 +2,10 @@ p {
   padding-bottom: 5px;
 }
 
+hr {
+  margin-top: 0;
+}
+
 .col1of2, .col2of2 {
   display: block;
   float: none;
@@ -64,6 +68,23 @@ footer li + li {
   display: none;
 }
 
-h1.mobile-only {
+h1.mobile-only, hr.mobile-only {
   display: block;
+}
+
+#portfolio-content img {
+  float: none;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#portfolio-content h2 {
+  text-align: center;
+}
+
+#portfolio-content h3 {
+  text-align: center;
+  background-image: none;
+  margin: 10px 0;
 }
