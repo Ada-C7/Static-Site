@@ -1,0 +1,134 @@
+/*grey color: #fofofo;
+green color: #c5d5c5;
+grey-green color: #9fa9a3;
+beige color: #e3e0cc
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Vollkorn', serif;*/
+
+body {
+  background-color: #f0f0f0;
+}
+
+/*
+===================================
+typography
+===================================
+*/
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h3 a, h4 {
+  font-family: 'Vollkorn', serif;
+  color: #9fa9a3;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  color: #c5d5c5;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #9fa9a3;
+}
+
+a:hover {
+  color: #c5d5c5;
+}
+/*
+===================================
+header
+===================================
+*/
+header {
+  height: 100px;
+}
+
+/*
+===================================
+navigation
+===================================
+*/
+nav {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.navbox {
+  display: inline-block;
+  height: 200px;
+  text-align: center;
+}
+
+.skinny {
+  height: 75px;
+}
+
+.navbox img  {
+  display: inline-block;
+  width: 200px;
+}
+
+.navbox.skinny h3 {
+  margin: 0px;
+}
+
+/*
+===================================
+Clearfix
+===================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after,
+.group {
+  clear: both;
+}
+
+
+/*
+===================================
+footer
+===================================
+*/
+footer {
+  padding-top: 60px;
+}
+
+.social-icon {
+  color: #e3e0cc;
+}
+
+/*
+===================================
+subpages
+===================================
+*/
+.container {
+  padding-top: 85px;
+  width: 800px;
+  }
+
+.column {
+  width: 350px;
+  display: inline-block;
+}
+
+.col1 {
+  margin-left: 10px;
+  float: left;
+}
+
+.singlecol {
+  width: 90%;
+  padding: 10px;
+}
