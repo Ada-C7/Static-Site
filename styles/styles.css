@@ -63,7 +63,7 @@ nav h1 {
 }
 
 
-/*main rules*/
+/*main projects/posts page rules*/
 section.gallery {
   padding: 0 10%;
   min-width: 1500px;
@@ -96,6 +96,10 @@ article.project img {
   max-width: 100%;
   max-height: 100%;
 }
+
+/*main bio page rules*/
+
+/*main contact/index page rules*/
 
 
 /*footer rules*/
