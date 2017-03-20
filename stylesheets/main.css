@@ -1,6 +1,4 @@
-/*********************
-        HEADER
-**********************/
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
 
 header h1, header nav {
   display: inline-block;
@@ -15,11 +13,12 @@ header {
 
 header h1 {
   margin-top: 5px;
-  /*color: #FF4E50;*/
+  font-family: 'Pacifico', cursive;
 }
 
 header nav {
   float: right;
+  font-family: 'Roboto', sans-serif;
 }
 
 header nav li {
@@ -41,6 +40,10 @@ header nav li a:visited {
 HERO IMAGE AND HEADER
 **********************/
 
+main {
+  font-family: 'Roboto', sans-serif;
+}
+
 main section:first-of-type {
   background-image: url(../images/home.png);
   background-size: cover;
@@ -53,7 +56,8 @@ main section h1#hero-text {
   margin-top: 0;
   text-align: center;
   padding: 9em;
-  left: 50%
+  left: 50%;
+  font: helvetica;
 }
 
 /*********************
@@ -88,6 +92,7 @@ FOOTER
 
 footer {
   border-top: transparent;
+  font-family: 'Roboto', sans-serif;
 }
 
 footer h4 {

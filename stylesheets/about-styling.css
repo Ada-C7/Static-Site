@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
 /*********************
         HEADER
 **********************/
@@ -15,7 +16,7 @@ header {
 
 header h1 {
   margin-top: 5px;
-  /*color: #FF4E50;*/
+  font-family: 'Pacifico', cursive;
 }
 
 header nav {
@@ -45,7 +46,8 @@ main {
   background-image: url(../images/about.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 25%;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*********************
@@ -90,6 +92,7 @@ FOOTER
 
 footer {
   border-top: transparent;
+  font-family: 'Roboto', sans-serif;
 }
 
 footer h4 {

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
 /*********************
         HEADER
 **********************/
@@ -15,7 +16,7 @@ header {
 
 header h1 {
   margin-top: 5px;
-  /*color: #FF4E50;*/
+  font-family: 'Pacifico', cursive;
 }
 
 header nav {
@@ -40,6 +41,10 @@ header nav li a:visited {
 /*********************
 HERO IMAGE AND HEADER
 **********************/
+
+main {
+  font-family: 'Roboto', sans-serif;
+}
 
 main section:first-of-type {
   background-image: url(../images/portfolio.jpg);
@@ -77,7 +82,6 @@ main section.portfolio{
   padding-left: 13.5em;
   text-align: center;
   background: white;
-  /*TW: Why is there a background here?*/
 }
 
 .portfolio div {
@@ -95,6 +99,7 @@ main section.portfolio{
   padding: 4em;
   text-decoration: none;
   font-weight: bold;
+  font-size: 1em;
   color: #FF4E50;
 }
 
@@ -111,7 +116,8 @@ FOOTER
 
 footer {
   border-top: transparent;
-    margin-top: 8%;
+  margin-top: 8%;
+  font-family: 'Roboto', sans-serif;
 }
 
 footer h4 {
