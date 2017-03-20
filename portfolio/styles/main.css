@@ -186,16 +186,21 @@ div.buttons {
   text-align: justify;
 }
 
+.page-posts h3 {
+  text-transform: capitalize;
+}
+
 .post-image {
   display:inline-block;
   padding: 20px;
+  width: 33%;
 }
 
 .post-blurb {
   display: inline-block;
   padding-top: 20px;
   padding-left: 20px;
-  width: 50%;
+  width: 53%;
   vertical-align: top;
 }
 
