@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
-/*********************
-        HEADER
-**********************/
 
 header h1, header nav {
   display: inline-block;
@@ -38,10 +35,6 @@ header nav li a:visited {
   text-decoration: none;
 }
 
-/*********************
-HERO IMAGE AND HEADER
-**********************/
-
 main {
   font-family: 'Roboto', sans-serif;
 }
@@ -66,10 +59,6 @@ main section h1 span {
   background: white;
   padding: 1em;
 }
-
-/*********************
-MAIN BLURB AND HEADER
-**********************/
 
 main {
   margin: 0;
@@ -109,10 +98,6 @@ main article h3 {
   margin-right: 8%;
   color: #FC913A;
 }
-
-/*********************
-FOOTER
-**********************/
 
 footer {
   border-top: transparent;

@@ -36,9 +36,6 @@ header nav li a:visited {
   text-decoration: none;
 }
 
-/*********************
-HERO IMAGE AND HEADER
-**********************/
 
 main {
   font-family: 'Roboto', sans-serif;
@@ -59,10 +56,6 @@ main section h1#hero-text {
   left: 50%;
   font: helvetica;
 }
-
-/*********************
-MAIN BLURB AND HEADER
-**********************/
 
 main section h1 span {
   border: solid;
@@ -85,10 +78,6 @@ main section p {
 main {
   margin-bottom: 4em;
 }
-
-/*********************
-FOOTER
-**********************/
 
 footer {
   border-top: transparent;
