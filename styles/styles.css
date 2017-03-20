@@ -1,11 +1,13 @@
 header {
   background-image: url('../assets/hero.jpg');
-  background-position: 50% 50%;
+  /*background-position: 50% 50%;*/
+  background-size: cover;
   background-repeat: no-repeat;
   border-bottom: solid;
-  border-color: grey;
+  border-color: #9D9494;
   height: 100px;
-  color: white;
+  color: #93737F;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   margin-top: 0;
   padding: 100px;
@@ -13,26 +15,39 @@ header {
 
 header h1 {
   margin-top: 15px;
-  font-size: 3em
+  font-size: 3em;
 }
 
 
 header nav {
   padding: 0;
-  margin-top: 110px;
+  margin-top: 100px;
 }
 
 header nav li {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 8px;
   margin-right: 40px;
 }
 
 header nav li a {
-  color: white;
+  color: #93737F;
   text-decoration: none;
+  font-size: 1.3em;
 }
 
 a:hover {
   color: black;
+}
+
+#footer {
+  border-top: solid;
+  text-align: center;
+  color: #9D9494;
+}
+
+#footer p {
+  font-family: 'Raleway', sans-serif;
+  color: #93737F;
+  margin: .5%; 0%; 0; 0;
 }
