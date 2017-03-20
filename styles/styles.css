@@ -112,7 +112,7 @@ a {
 
 /* HEADER -- Had to fudge this to get it on the same baseline..is there a better way to do this?
 *********************************/
-#header-top, #header-bottom {
+#header-top *, #header-bottom * {
   color: FloralWhite;
 }
 
@@ -143,18 +143,18 @@ main {
 }
 
 
-/* WORK / PROJECTS
+/* INDEX
 *********************************/
-#work {
+#index {
   background: #FF3333;
 }
 
-#work a.button:hover {
+#index a.button:hover {
   background: #FF3333;
   border: 1px solid #FF3333;
 }
 
-#projects .project {
+#index-projects .index-project {
   position: relative;
   background: FloralWhite;
   width: 33.333%;
@@ -163,18 +163,18 @@ main {
   border-bottom: 10pt solid black;
 }
 
-#projects .project img {
+#index-projects .index-project img {
   width: 100%;
   height: 225px;
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
-#projects .project-desc {
+#index-projects .index-project-desc {
   padding: 2em;
 }
 
-#projects a.button {
+#index-projects a.button {
   color: black;
   padding: .75em;
   border: 2pt solid black;
@@ -184,7 +184,7 @@ main {
   left: 1.5em;
 }
 
-#projects a.button:hover {
+#index-projects a.button:hover {
   color: FloralWhite ;
 }
 
@@ -250,11 +250,11 @@ main {
   padding-bottom: .5em;
 }
 
-.post p:first-of-type {
+#blog-posts .post p:first-of-type {
   margin-top: 2em;
 }
 
-.post p:last-of-type {
+#blog-posts .post p:last-of-type {
   margin-bottom: 2em;
 }
 
