@@ -193,6 +193,7 @@ div.buttons {
 
 .post-blurb {
   display: inline-block;
+  padding-top: 20px;
   padding-left: 20px;
   width: 50%;
   vertical-align: top;
