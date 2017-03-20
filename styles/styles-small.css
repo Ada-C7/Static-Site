@@ -1,0 +1,92 @@
+/*** header ***/
+header h1 {
+  text-align: center;
+}
+
+/*** main nav ***/
+header nav {
+  width: 100%;
+}
+
+header nav li {
+  width: 30%;
+  margin: 1.666666%
+}
+
+header nav li.selected {
+  display: none;
+}
+
+header nav li a {
+  width: 100%;
+  padding: 5px 0;
+  border-radius: 5px;
+  border: dashed #ffa249 1px;
+}
+
+/*** sub nav ***/
+.dropdown:hover ul {
+  display: none;
+}
+
+/*** main ***/
+main {
+  margin-top: 0;
+  padding-top: 3%;
+}
+
+/*** footer ***/
+footer {
+  text-align: center;
+}
+
+footer li + li {
+  margin-left: 7%;
+}
+
+/*** structural classes ***/
+.col1of2, .col2of2 {
+  display: block;
+  float: none;
+  margin: auto;
+  width: 100%;
+}
+
+img.col1of2 {
+  width: 60%;
+}
+
+.col2of2 {
+  margin-top: 10px;
+}
+
+.blurbs img {
+  float: none;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.blurbs h2 {
+  text-align: center;
+}
+
+.blurbs h3 {
+  text-align: center;
+  background-image: none;
+  margin: 10px 0;
+}
+
+/*** non-structural elements ***/
+p {
+  padding-bottom: 5px;
+}
+
+/*** responsive classes ***/
+.mobile-hidden {
+  display: none;
+}
+
+h1.mobile-only, hr.mobile-only {
+  display: block;
+}

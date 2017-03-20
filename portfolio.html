@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Addie Land - portfolio</title>
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" media="only screen and (min-width: 501px) and (max-width: 800px)" href="styles/styles-medium.css">
+  <link rel="stylesheet" media="only screen and (min-width: 50px) and (max-width: 500px)" href="styles/styles-small.css">
+</head>
+<body>
+  <header>
+    <h1 class="mobile-only"><a href="index.html">Addie Land - portfolio</a></h1>
+    <nav class="clearfix">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li class="selected"><a href="portfolio.html">portfolio</a></li>
+        <li><a href="about.html">about</a></li>
+        <li class="dropdown">
+          <a href="blog/index.html">blog</a>
+          <ul>
+            <li><a href="blog/blog1.html">blog entry 1</a></li>
+            <li><a href="blog/blog2.html">blog entry 2</a></li>
+            <li><a href="blog/blog3.html">blog entry 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="indent clearfix">
+    <section id="portfolio-content" class="blurbs">
+      <h1 class="mobile-hidden">Addie Land - portfolio</h1>
+      <hr>
+      <section id="ruby-projects">
+        <h2>Ruby Projects</h2>
+        <hr>
+        <article>
+          <img src="images/ride-share.jpg" alt="car">
+          <h3>Ride Share (Mar 2017)</h3>
+          <p>
+            <a href="https://github.com/add2point71dots/ride-share-two" target="_blank">Ride Share</a> is a Ruby project that reads from CSV files to get information collected from a fictional ride share company and creates Trip, Driver, and Rider objects based on that information. You can call methods on a Trip object to look up the Driver or Rider attached to that Trip, calculate the average rating of a Driver, find out how many Trips a Rider has taken, and more!
+          </p>
+        </article>
+        <article>
+          <img src="images/scrabble.jpg" alt="scrabble tiles spelling WIN">
+          <h3>Scrabble (Mar 2017)</h3>
+          <p>
+            <a href="https://github.com/jackiewatanabe/Scrabble/" target="_blank">Scrabble</a> is a collaborative Ruby project that builds pieces of code that could eventually fit into a game of Scrabble. It was a practice in test driven design (using minitest) and collaborating with a partner through GitHub. The Scrabble classes are Scoring, Player, and TileBag, which all interact with each other. A Player can draw from a TileBag and play words, which will be scored using Scoring.
+          </p>
+        </article>
+        <article>
+          <img src="images/bank-accounts.jpg" alt="pennies">
+          <h3>Bank Accounts (Feb 2017)</h3>
+          <p>
+            <a href="https://github.com/add2point71dots/BankAccounts" target="_blank">BankAccounts</a> is a Ruby project built to practice writing classes that interact with each other. It was also used as an introduction to test drive design, using minitest. This project revolves around an Account class that pulls data from a CSV file to create Account objects. Each Account can be linked to an Owner object, as well. Also included are subclasses of Account: SavingsAccount, CheckingAccount, and MoneyMarketAccount.
+          </p>
+        </article>
+        <article>
+          <img src="images/word-guess.jpg" alt="bulbasaur">
+          <h3>Word Guess (Feb 2017)</h3>
+          <p>
+            <a href="https://github.com/alixhami/Word-Guess" target="_blank">Word Guess</a> is a project built with a partner to practice Ruby classes and pair programming. It's terminal game similar to hangman, but Pokémon themed. Guess letters to reveal secret Pokémon words and evolve your chosen Pokémon companion. Be careful not to guess wrong and kill the Pokémon! Collect badges for fire, water, and grass types. Earn all three badges and become a master trainer! Gotta catch 'em all!
+          </p>
+        </article>
+        <article>
+          <img src="images/solar-system.jpg" alt="saturn">
+          <h3>Solar System (Feb 2017)</h3>
+          <p>
+            <a href="https://github.com/add2point71dots/Solar-System" target="_blank">Solar System</a> is a Ruby project built to practice creating classes in Ruby. It's a terminal program that utilizes a Planet class and  SolarSystem class. It asks the user what planet they would like to learn about and then outputs information about that planet. For instance, did you know that Saturn is a gas giant planet that is 72,367 miles in diameter? It's also 795.24 million miles away from Earth. How about that?
+          </p>
+        </article>
+      </section>
+      <section id="html-projects">
+        <h2>Websites</h2>
+        <hr>
+        <article>
+          <img src="images/addieandtaiyo.jpg" alt="handstanding at the beach">
+          <h3>Addie and Taiyo (2014)</h3>
+          <p>
+            <a href="http://addieandtaiyo.com/" target="_blank">addieandtaiyo.com</a> was built as a project for a web design class at Seattle Central Community College. It's a (now very outdated) wedding website for Addie and her husband, Taiyo. It's a responsive website with layouts for computer screens, tablets, and mobile phones. It uses HTML5, CSS3, JavaScript/jQuery, and a little bit of PHP. If you're in the mood for a good, old-fashioned game of memory, check out the <a href="http://addieandtaiyo.com/memories.php" target="_blank">memories</a> page.
+          </p>
+        </article>
+        <article>
+          <img src="images/flyingcatcreations.jpg" alt="flying cat creations">
+          <h3>Flying Cat Creations (2013)</h3>
+          <p>
+            <a href="http://flyingcatcreations.com/" target="_blank">flyingcatcreations.com</a> was built as a project for a web design class at Seattle Central Community College in 2013. It's a website for Seattle artist and small business owner Mutsuko Mitsui, who makes and sells  ceramic pottery at the Pike Place Market. The site is designed responsively with layouts for computer screens, tablets, and mobile phones. Check out <a href="http://flyingcatcreations.com/shop/" target="_blank">her shop</a> to see examples of her beautiful work.
+          </p>
+        </article>
+      </section>
+    </section>
+  </main>
+  <footer class="indent">
+    <ul id="footer-links">
+      <li>
+        <a href="#">
+          <i class="fa fa-envelope-square fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/addie-land/" target="_blank">
+          <i class="fa fa-linkedin fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/add2point71dots" target="_blank">
+          <i class="fa fa-github fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/commonbirdclub/" target="_blank">
+          <i class="fa fa-instagram fa-2x"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+</html>
