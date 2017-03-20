@@ -1,18 +1,4 @@
-p {
-  padding-bottom: 5px;
-}
-
-.col1of2, .col2of2 {
-  display: block;
-  float: none;
-  margin: auto;
-  width: 100%;
-}
-
-.col2of2 {
-  margin-top: 10px;
-}
-
+/*** header ***/
 header h1 {
   text-align: center;
 }
@@ -38,19 +24,18 @@ header nav li a {
   border: dashed #ffa249 1px;
 }
 
+/*** sub nav ***/
 .dropdown:hover ul {
   display: none;
 }
 
+/*** main ***/
 main {
   margin-top: 0;
   padding-top: 3%;
 }
 
-img.col1of2 {
-  width: 60%;
-}
-
+/*** footer ***/
 footer {
   text-align: center;
 }
@@ -59,13 +44,20 @@ footer li + li {
   margin-left: 7%;
 }
 
-/*** responsive classes ***/
-.mobile-hidden {
-  display: none;
+/*** structural classes ***/
+.col1of2, .col2of2 {
+  display: block;
+  float: none;
+  margin: auto;
+  width: 100%;
 }
 
-h1.mobile-only, hr.mobile-only {
-  display: block;
+img.col1of2 {
+  width: 60%;
+}
+
+.col2of2 {
+  margin-top: 10px;
 }
 
 .blurbs img {
@@ -85,6 +77,16 @@ h1.mobile-only, hr.mobile-only {
   margin: 10px 0;
 }
 
-#blog-entry-content h1 {
-  background-image: url('../images/inflicted.png');
+/*** non-structural elements ***/
+p {
+  padding-bottom: 5px;
+}
+
+/*** responsive classes ***/
+.mobile-hidden {
+  display: none;
+}
+
+h1.mobile-only, hr.mobile-only {
+  display: block;
 }
