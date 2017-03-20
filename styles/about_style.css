@@ -1,0 +1,147 @@
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  /*height: 0;*/
+  clear: both;
+}
+
+.center-text-trick {
+  height: 100px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+h1 {
+  float: left;
+  display: inline-block;
+  margin: 10px 0px 0px 20px;
+  font-size: 4em;
+  font-family: Charcoal;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a{
+  text-decoration: none;
+  color: darkblue;
+  padding: 5px;
+}
+
+header {
+  background-color: #99ccff;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  top: 0px;
+  height: 90px;
+  z-index: 100;
+}
+
+header nav {
+  float: right;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+main {
+  margin-top: 90px;
+  margin-left: 10px;
+}
+
+section:first-child {
+  text-align: center;
+  font-size: 1.2em;
+  font-style: oblique;
+  font-family: initial;
+  color: #0000e6;
+  padding-top: 25px;
+}
+
+section {
+  text-align: center;
+  /*border-bottom: 2px solid blue;*/
+
+}
+
+article {
+  border-top: 3px solid blue;
+
+}
+
+.left {
+  float: left;
+  display: inline-block;
+  width: 45%;
+  margin: 15px;
+}
+
+.right {
+  float: right;
+  display: inline-block;
+  width: 45%;
+  margin: 15px;
+}
+
+main img {
+  display: inline-block;
+  border: 3px solid black;
+  width: 150px;
+  height: 150px;
+  margin-right: 3%;
+  border-radius: 50%
+
+}
+
+h4 {
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+#passions {
+  margin-left: 54%;
+  margin-top: 15px;
+}
+
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: lightgrey;
+  position: absolute;
+}
+
+
+h6 {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 0.5em;
+  margin-top: 26px;
+}
+
+
+footer nav {
+  float: right;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom:0px;
+}
+
+
+footer ul, footer li, header li {
+  display: inline-block;
+}
+
+footer img {
+  display: inline-block;
+  width: 20px;
+}

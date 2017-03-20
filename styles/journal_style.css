@@ -58,35 +58,25 @@ main {
 }
 
 
-main section {
-  margin-top: 45px;
-  display: inline-block;
-  /*background-color: #fff2e6;*/
-  width: 100%;
-  position: relative;
-}
 
-main p {
-  font-size: 1.5em;
-}
 
-.left {
-  float: left;
-  display: inline-block;
-  text-align: center;
-  width: 525px;
-  position: absolute;
-  top: 20%;
-  left: 5%;
-}
 
-main img {
-  float: right;
-  display: inline-block;
-  border: 6px double black;
-  width: 300px;
-  margin-right: 3%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
   width: 100%;

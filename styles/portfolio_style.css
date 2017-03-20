@@ -1,8 +1,8 @@
-.clearfix {
+.clearfix:after {
   content: ".";
   visibility: hidden;
   display: block;
-  height: 0;
+  /*height: 0;*/
   clear: both;
 }
 
@@ -19,13 +19,12 @@ h1 {
   font-size: 4em;
   font-family: Charcoal;
   color: white;
-
-
 }
 
 ul {
   list-style-type: none;
 }
+
 header li {
   display: inline-block;
 }
@@ -55,43 +54,71 @@ header nav {
 
 main {
   margin-top: 90px;
+  margin-left: 10px;
 }
 
-
-main section {
-  margin-top: 45px;
-  display: inline-block;
-  /*background-color: #fff2e6;*/
-  width: 100%;
-  position: relative;
+main:first-child {
+  text-align: center;
+  font-size: 1.2em;
+  font-style: oblique;
+  font-family: initial;
+  color: #0000e6;
+  padding-top: 25px;
 }
 
-main p {
-  font-size: 1.5em;
+article {
+  text-align: center;
+  border-top: 3px solid blue;
+
+  /*border-bottom: 2px solid blue;*/
+
+}
+
+article {
+
 }
 
 .left {
   float: left;
   display: inline-block;
-  text-align: center;
-  width: 525px;
-  position: absolute;
-  top: 20%;
-  left: 5%;
+  width: 45%;
+  margin: 15px;
+}
+
+.right {
+  float: right;
+  display: inline-block;
+  width: 45%;
+  margin: 15px;
 }
 
 main img {
-  float: right;
   display: inline-block;
-  border: 6px double black;
-  width: 300px;
+  border: 3px solid black;
+  width: 150px;
+  height: 150px;
   margin-right: 3%;
+  border-radius: 50%
+
 }
+
+h4 {
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+#passions {
+  margin-left: 54%;
+  margin-top: 15px;
+}
+
 
 footer {
   width: 100%;
   height: 50px;
   background-color: lightgrey;
+  position: absolute;
 }
 
 
