@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Ubuntu, Helvetica, sans-serif;
+}
+
+p, li {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: #0A1612;
+  /*text-decoration: none;*/
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0 3% 1% 0;
+  background-color: #f0f0f0;
+  color: #1a2930;
+
+}
+
+header h1 {
+  padding-left: 6%;
+}
+
+a {
+
+  color: #0A1612;
+  text-decoration: none;
+  border-bottom: dotted;
+  border-width: thin;
+  border-color: #f7ce3e
+}
+a:hover{
+  /*color: #f7ce3e;*/
+  background-color: #f0f0f0;
+  border: none;
+}
+
+
+.hello, .disclaim {
+
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.nav, .contact {
+  clear: both;
+  width: 50%;
+  display: inline-block;
+  text-align: right
+}
+
+.nav li {
+  list-style-type: none;
+  padding-left: 10%;
+  display: inline-block;
+  color: #f0f0f0;
+}
+
+
+main {
+  clear: both;
+  padding: 10% 0;
+  margin: 0 6%;
+}
+
+section.welcome, section.about {
+  width: 60%;
+  padding-left: 2%;
+}
+
+
+article.project {
+
+  min-width: 15%;
+  border-style: solid;
+  padding: 0 2% 0 2%;
+  margin: 4% 0;
+  vertical-align: top;
+
+}
+
+article.project p:first-of-type {
+  font-size: 1.5em;
+
+}
+
+.disclaim p {
+  display: inline-block;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding: 0 3%;
+  background-color: #f0f0f0;
+  width: 100%;
+
+}
+
+section.projects-left, section.projects-right {
+  margin: 2% 0.5%;
+  display: inline-block;
+  max-width: 45%;
+  vertical-align: top;
+}
+
+.social-media li {
+  list-style-type: none;
+  padding-right: 3%;
+  display: inline;
+  color: #f0f0f0;
+}
+
+#ravelry img {
+  border-radius: 20px;
+}
+
+ul.social-media {
+  padding-left: 0;
+}
+
+.social-media a, .projects-intro a {
+  border: none;
+}
+
+.social-media a:hover, .projects-intro a:hover {
+  background-color: inherit;
+
+}
+
+.social-media img:hover, .projects-intro img:hover {
+  background-color: #f7ce3e;
+  border-radius: 20px;
+}
+
+.projects-intro img {
+  vertical-align: middle;
+}
