@@ -157,7 +157,7 @@ nav {
   background-color: white;
   color: black;
   padding: 1%;
-  padding-left: 11%;
+  padding-left: 10%;
   line-height: 1.5;
   clear: both;
   text-align: left;
@@ -201,9 +201,6 @@ footer {
 }
 
 #hunting {
-  position: relative;
-  top: 0;
-  left: 0;
   background-image: url("../images/hunting_scene.png");
   background-position: top;
   background-size: cover;
