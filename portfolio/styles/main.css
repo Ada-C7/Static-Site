@@ -22,7 +22,7 @@ header {
 header div {
   float: left;
   width: 55%;
-
+  padding-left: 20px;
 }
 
 header h2 {
@@ -69,6 +69,22 @@ header nav a:hover {
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
+
+#intro-text p a {
+  display: inline-block;
+  color: black;
+  border: solid 2px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+#intro-text p a:hover {
+  color: white;
+  background-color: gray;
+  border-color: black;
+}
+
 
 footer {
   background-color: #D0DD97;
