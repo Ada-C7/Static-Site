@@ -8,7 +8,7 @@ default styling
 * {
   margin: 0;
   padding: 0;
-  border: solid;
+  /*border: solid;*/
 }
 
 body {
@@ -40,7 +40,7 @@ a:hover {
 }
 
 /**********************************************************************
-header styling
+                            header styling
 ***********************************************************************/
 
 header {
@@ -71,7 +71,7 @@ header li {
 }
 
 /**********************************************************************
-section styling
+                          section styling
 ***********************************************************************/
 
 /*this worked to create equal margin space on left and right side of page*/
@@ -104,26 +104,20 @@ h3 {
 
 /*#intro {*/
 section {
-  /*background-color: green;*/
-  /*width: 90%;*/
+  /*background-color: lightblue;*/
   text-align: center;
-  display: inline-block;
-  padding: 1.1em;
+  /*display: inline-block;*/
+  padding: 1%;
   margin: 1%;
 }
 
 h1 {
-  /*text-align: center;*/
   font-size: 3em;
   width: 100%;
-  /*margin: 1%;*/
-  /*text-align: left;*/
 }
 
 h1~p {
-  /*color: pink;*/
   width: 100%;
-  /*margin: 1%;*/
 }
 
 p {
@@ -140,34 +134,33 @@ p {
 li {
   padding: 1%;
   font-family: 'Jura';
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: Dimgrey;
 }
 
 .blog_posts article {
   display: inline-block;
   margin-bottom: 1%;
-  /*padding: 1.1em;*/
   text-align: left;
 }
 
 .posts section {
   text-align: center;
-  /*background-color: lightgreen;*/
   margin: 0;
   padding: 0;
 }
 
 .blog_posts img {
   display: inline-block;
-  vertical-align: text-top;
+  margin-bottom: 2%;
   margin-top: 2%;
   margin-right: 2%;
   width: 40%;
+  vertical-align: text-top;
 }
 
 /*****************************************************************************/
-                      /*portfolio sytling*/
+                          /*portfolio sytling*/
 /*****************************************************************************/
 
 .projects article {
@@ -175,54 +168,51 @@ li {
   /*background-color: rgb(220,220,220);*/
   /*border: solid;*/
   display: inline-block;
-
   margin: 1%;
   margin-bottom: 5%;
-  width: 45%;
+  width: 30%;
 }
 
 .projects section {
   /*background-color: pink;*/
-  margin: 2%;
-  width: 80%;
-  padding: 1.1em;
   display: inline-block;
   text-align: center;
+  width: 100%;
   vertical-align: text-top;
-
 }
 
 .projects a {
-  color: red;
-  color: Purple;
+  color: purple;
+  font-size: 1.5em;
 }
 
 .projects a:hover {
-  color: #440044;
+  /*color: #440044;*/
   color: #D050D0;
 }
 
 .projects ul {
+  list-style-type: none;
   margin: 5%;
   text-align: left;
 }
 
-/*****************************************************************************/
-                      /*about sytling*/
-/*****************************************************************************/
-
-.about section {
-  /*display: inline-block;*/
-  /*text-align: center;*/
-  /*margin: 0;*/
-  /*padding: 2%;*/
+.projects li {
+  text-align: left;
+  margin: 1%;
 }
 
+/*****************************************************************************/
+                          /*about sytling*/
+/*****************************************************************************/
+
 .about img {
-  vertical-align: text-top;
+  /*vertical-align: text-top;*/
   width: 40%;
-  padding: 1em;
-  clear: left;
+}
+
+.about h3 {
+  margin-top: 3%;
 }
 
 .about div {
@@ -241,13 +231,14 @@ li {
   text-align: left;
   list-style-type: none;
   margin: 0;
+  margin-top: 3%;
   padding: 0;
 }
 
-.about li {
-  /*margin: 0;*/
-  /*padding: 0;*/
-}
+/*****************************************************************************/
+                      /*footer sytling*/
+/*****************************************************************************/
+
 /*footer styling */
 /*footer {
   margin-left: 0;
