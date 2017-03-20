@@ -12,7 +12,6 @@ html {
   background-size: cover;
   background-image: url('../images/tomato.jpeg');
   background-repeat: no-repeat;
-  /*background-position: center center;*/
   height: 100%;
   font-family: 'Megrim', cursive;
 }
@@ -21,7 +20,14 @@ html {
   background-size: cover;
   background-image: url('../images/pencils2.jpg');
   background-repeat: no-repeat;
-  /*background-position: center center;*/
+  height: 100%;
+  font-family: 'Megrim', cursive;
+}
+
+.hobby {
+  background-size: cover;
+  background-image: url('../images/orange.jpeg');
+  background-repeat: no-repeat;
   height: 100%;
   font-family: 'Megrim', cursive;
 }
@@ -68,11 +74,6 @@ main {
   bottom: 89px;
 }
 
-#ride-share p {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 100;
-}
-
 #projects i, h4, a {
   display: inline-block;
 }
@@ -84,6 +85,16 @@ main {
 #projects section {
   margin-bottom: 8vw;
 }
+
+#projects section ul {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+/*--------------------------------------------------------*/
+
+
+
 /*--------------------------------------------------------*/
 
 footer {
