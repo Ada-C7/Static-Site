@@ -40,6 +40,50 @@ a:hover {
   color: black;
 }
 
+h2 {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #93737F;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+  color: #93737F;
+}
+
+#welcome {
+  clear: both
+}
+
+#welcome h2 {
+  width: 40%;
+  padding-top: 1%;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#welcome p {
+  width: 40%;
+  float: left;
+}
+
+#welcome img {
+  width: 40%;
+  float: right;
+}
+
+#footer {
+  clear: both;
+}
 #footer {
   border-top: solid;
   text-align: center;
@@ -49,5 +93,5 @@ a:hover {
 #footer p {
   font-family: 'Raleway', sans-serif;
   color: #93737F;
-  margin: .5%; 0%; 0; 0;
+  margin: .5%; 0; 0; 0;
 }
