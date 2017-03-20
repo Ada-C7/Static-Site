@@ -271,3 +271,9 @@ footer{
 #about_main li{
   list-style-type: disc;
 }
+
+#about_main form {
+  margin-top: 3%;
+  font-family: 'Libre Baskerville', serif;
+  color:  #064472;
+}
