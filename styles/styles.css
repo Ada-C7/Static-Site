@@ -98,9 +98,10 @@ a {
 }
 
 .container {
-  width: 800px;
+  width: 100%;
   padding: 0;
   position: relative;
+  display: block;
 }
 
 .left, .right {
@@ -112,17 +113,17 @@ a {
 }
 
 .highlight-text {
-  width: 600px;
-  color: white;
-  font-family: 'Roboto Mono', sans-serif;
-  font-weight: 300;
-  line-height: 2.3em;
-  padding: .25em .25em .5em .25em;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: black;
+  line-height: 2em;
+  padding: 0px;
+  margin-left: .5em;
+  margin-bottom: 1em;
 }
 
 .highlight-bg {
-  padding: .25em .25em .5em .25em;
-  box-shadow: -10px 0 0 SlateBlue, 10px 0 0 SlateBlue;
+  padding: .25em;
 }
 
 
@@ -162,12 +163,12 @@ main {
 /* INDEX
 *********************************/
 #index, #index .highlight-bg {
-  background: #FF3333;
+  background: #4F86F7;
 }
 
 #index a.button:hover {
-  background: #FF3333;
-  border: 1px solid #FF3333;
+  background: #4F86F7;
+  border: 1px solid #4F86F7;
 }
 
 #index-projects .index-project {
@@ -212,12 +213,16 @@ main {
   margin-right: 2em;
 }
 
+#index .highlight-bg {
+  box-shadow: -.5em 0 0 #4F86F7, .5em 0 0 #4F86F7;
+}
+
 
 
 /* SAMPLE PROJECT
 *********************************/
-#sample-proj, #sample-proj . {
-  background: #FF5335;
+#sample-proj, #sample-proj .highlight-bg {
+  background: ORANGERED;
 }
 
 #sample-proj main {
@@ -247,6 +252,10 @@ main {
 
 #project-nav a:hover {
   color: FloralWhite;
+}
+
+#sample-proj .highlight-bg {
+  box-shadow: -.5em 0 0 ORANGERED, 5em 0 0 ORANGERED;
 }
 
 
@@ -283,28 +292,50 @@ main {
   margin-bottom: 2em;
 }
 
+#blog h4 {
+  width: 800px;
+}
+
+#blog .highlight-bg {
+  box-shadow: -.5em 0 0 MediumSpringGreen, .5em 0 0 MediumSpringGreen;
+}
+
 
 /* ABOUT
 *********************************/
 #about, #about .highlight-bg {
-  background: SlateBlue;
+  background: #01dddd
+;
 }
 
-#about-info  {
+#about .container  {
   background: FloralWhite ;
   padding: 2em;
 }
 
 #about-contact {
+  clear: both;
   padding: 2em;
   background: #e5e1d8 ;
   border-bottom: 10px solid black;
 }
 
+#about .highlight-bg {
+  box-shadow: -.5em 0 0 #01dddd
+, .5em 0 0 #01dddd;
+}
+
+#about-info {
+  width: 650px;
+  display: inline-block;
+  float: right;
+}
+
+
 /* RESUME
 *********************************/
 #resume, #resume .highlight-bg {
-  background: #09A8FA;
+  background: #e0e300;
 }
 
 #resume-content  {
@@ -326,6 +357,10 @@ main {
   margin-bottom: 2em;
   margin-top: .5em;
   padding-top: 1em;
+}
+
+#resume .highlight-bg {
+  box-shadow: -10px 0 0 #e0e300, 10px 0 0 #e0e300;
 }
 
 
