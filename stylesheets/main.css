@@ -83,7 +83,7 @@ main {
   bottom: 89px;
 }
 
-#projects i, h4, a {
+#projects i, h4, h3, a {
   display: inline-block;
 }
 
@@ -150,6 +150,10 @@ img {
   width: 50%;
   display: flex;
   flex-direction: column;
+}
+
+#descrip i, h3 {
+  display: inline-block;
 }
 
 /*--------------------------------------------------------*/
