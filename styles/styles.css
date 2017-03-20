@@ -3,12 +3,11 @@
 /* EVENTUALLY
 *********************************/
 /* + Add animation to index page title */
-/* + Align Nav Text Left and Icons Right */
 /* + Restructure heading so that social icons are on same line as title */
-/* + Create style for pullquote */
 /* + Duo tone */
 /* + Add descriptionsn to index page projects */
 /* + Add contact me form to about page */
+/* + Add style for code snipet on blog */
 
 
 /* GLOBAL SETTINGS
@@ -151,7 +150,7 @@ a {
   padding-top: 115px;
 }
 
-#header-bottom li h3 a:hover, #header-bottom li h3 a:active {
+#header-bottom li h3 a:hover {
   border-bottom: 5px solid white;
 }
 
@@ -304,6 +303,11 @@ main {
   box-shadow: -.5em 0 0 MediumSpringGreen, .5em 0 0 MediumSpringGreen;
 }
 
+#blog .code-snip {
+  font: 1.25em/1.75em 'Roboto Mono';
+  background: #e5e1d8;
+  padding: 1.6em;
+}
 
 /* ABOUT
 *********************************/
