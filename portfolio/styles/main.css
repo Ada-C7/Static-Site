@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Loved+by+the+King|Quicksand|Roboto');
+
+html {
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  background-color: #D0DD97;
+  position: fixed;
+
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  /*right: 0px;*/
+  top: 0px;
+  padding-left: 20px;
+
+
+}
+
+header div {
+  float: left;
+  width: 55%;
+
+}
+
+header h2 {
+  font-family: 'Quicksand';
+  text-transform: uppercase;
+}
+
+header nav {
+  float: left;
+  width: 40%;
+}
+header nav li {
+  float: left;
+  margin: 10px;
+  list-style: none;
+}
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: lowercase;
+}
+
+header nav a:hover {
+  color: black;
+}
+
+#intro-text {
+  clear: both;
+  text-align: center;
+  margin-top: auto;
+  padding-top: 50px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+#intro-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 7em;
+  font-weight: normal;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+footer {
+  background-color: #D0DD97;
+  width: 100%;
+  display: block;
+  padding: 20px;
+  margin: 0px;
+
+}
