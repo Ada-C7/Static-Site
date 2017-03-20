@@ -50,7 +50,7 @@ body {
 
 }
 
-#name p {
+#name  {
 	position: relative;
 	bottom: 0.7em;
 	margin-bottom: 0%;
