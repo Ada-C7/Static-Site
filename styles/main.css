@@ -78,7 +78,8 @@ footer .fa{
 /********************************
 MAIN - INDEX.HTML
 **********************************/
-#index {
+#index,
+#me{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -87,12 +88,14 @@ MAIN - INDEX.HTML
 
 }
 
-.erica{
-  font-size: 4em;
+.erica
+{
+  font-size: 4rem;
   font-family: 'Indie Flower';
 }
 
-.ecologist{
+.ecologist,
+#me{
   font-size: 2rem;
   font-family: 'Space Mono';
 }
@@ -107,78 +110,75 @@ footer{
 /********************************
 MAIN - PROJECT.HTML
 **********************************/
-#projects {
+#projects,
+#blog
+{
   z-index: 0;
   margin: 8rem 10%;
   display: flex;
   justify-content:space-around;
 }
 
-#projects section{
+#projects section,
+#blog article{
   text-align: left;
-  padding: 1%;
-  font-size: 2rem;
+  padding: 1.5%;
 }
 
-#projects h2{
+#projects h2,
+#blog h2{
   font-family: 'Mono Space';
   font-size: 3rem;
   text-align: center;
 }
 
-#projects h3{
-  font-size: 1.5rem;
+#projects h3,
+#blog h3{
+  font-size: 2rem;
+  text-align: center;
 
 }
 
 .pubs{
-width: 20%
-}
-
-.pubs {
+  width: 30%;
   font-size: 1rem;
 }
+
 .pubs li{
-  margin: 2%;
-  font-size: 1rem;
+  margin: 4% 1%;
 }
 
-/****************************************************
-THIS LITERALLY JUST MAKES AN ARROW FOR THE PROJECTS PAGE
-*****************************************************/
-.arrow{
-  width: 6em;
-
+.development,
+#blog p{
+  font-size: 1.5rem;
+  margin-left: 5%;
 }
 
-.arrow-left{
-  width: 0;
-  height: 0;
-  margin: 0;
-  border-top: 0.5em solid transparent;
-  border-bottom: 0.5em solid transparent;
-  border-right: 0.5em solid white;
-  display: inline-block;
+.development li{
+  margin: 4% 0;
+}
+/**********************************************
+Blog
+************************************************/
+
+#blog article p {
+  margin: 10% 0;
 }
 
-.bar{
-  background-color: white;
-  height: 20px;
-  width: 200px;
-  margin: 0 0 14px 0;
-  display: inline-block;
+#blog article a {
+  top: -3;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-width: thin;
+  background-color: #119156;;
 }
 
-.arrow-right {
-  width: 0;
-  height: 0;
-  margin: 0;
-  border-top: 0.5em solid transparent;
-  border-bottom: 0.5em solid transparent;
-  border-left: 0.5em solid white;
-  display: inline-block;
+#blog h2{
+  margin-top: 10%;
 }
-
 
 /**********************************************
 FOOTER
