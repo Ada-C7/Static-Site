@@ -154,7 +154,7 @@ footer {
 }
 
 #page2 {
-  background-color: white;
+  background-color: #ad8585;
 }
 
 #porfolio h1 {
@@ -169,4 +169,36 @@ footer {
   margin-right: 10px;
 
   /*vertical-align: text-top;*/
+}
+
+.projects img {
+  width: 700px;
+  height: 700px;
+  margin-top: 5%;
+  margin-left: 25%;
+  border: 5px solid #a26f6f;
+  border-radius: 20px;
+}
+
+.projects {
+  display: inline-flex;
+}
+/*.projects.ride {
+  width: 60%;
+}*/
+
+/*.projects .scrabble {
+  justify-content: center;
+}*/
+h3 {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 20%;
+  text-transform: capitalize;
+  font-size: 1em;
+  /*font-style: italic;*/
+  text-align: right;
+  font-family: Lato;
+  font-weight: lighter;
+  color: white;
 }
