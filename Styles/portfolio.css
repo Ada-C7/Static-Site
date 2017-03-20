@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
-@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Dancing+Script|The+Girl+Next+Door');
 
 header {
   background-image: url("../Assets/tropical.jpg");
@@ -50,99 +49,39 @@ body {
   text-align: center;
 }
 
-.font1 {
-  font-family: 'The Girl Next Door', cursive;
-  color: #E84578;
-  font-size: 8rem;
-}
-
-.font2 {
-  font-family: 'Covered By Your Grace', cursive;
-  color: #E84578;
-  font-size: 8rem;
-}
-
-.font3 {
-  font-family: 'Dancing Script', cursive;
-  color: #E84578;
-  font-size: 8rem;
+main {
+  padding-top: 10%;
 }
 
 main h2 {
-  display: inline-block;
-  padding-top: 3%;
-  margin-bottom: 20px;
-}
-
-main p {
-  color: #FF7084;
-  font-size: 3rem;
+  color: #E84578;
   font-family: 'Jim Nightshade', cursive;
+  font-size: 5em;
+}
+
+main article {
+  border-style: solid;
+  border-radius: 45%;
+  border-color: #FFC8AB;
+  display: inline-block;
   text-align: center;
+  vertical-align: top;
   background-color: white;
-  /*border: 5px solid #FFC8AB;*/
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.sentence-one {
-  margin-bottom: 0;
-  border: 5px solid #FFC8AB;
-  border-bottom: 0;
-}
-
-.sentence-two {
-  margin-top: 0;
-  border: 5px solid #FFC8AB;
-  border-top: 0;
-}
-
-main ul {
-  list-style-type: none;
-}
-
-main li {
-display: inline-block;
-background-color: white;
-height: 200px;
-width: 200px;
-border-style: solid;
-border-radius: 100%;
-border-color: #FF7084;
+  width: 20%;
+  margin: 5%;
+  color: #FF7084;
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 1.2rem;
+  height: 200px;
 }
 
 main a {
   text-decoration: none;
-  color: #E84578
-}
-
-main a:hover {
-  background-color: white;
-  font-family: 'Jim Nightshade', cursive;
   color: #FF7084;
-  height: 200px;
-  width: 200px;
-  border-style: solid;
-  border-radius: 100%;
-  border-color: #FF7084;
 }
 
-.about {
-  background-image: url("../Assets/orangeflower.jpg");
-  background-size: contain;
-  background-position: center;
-}
-
-.portfolio {
-  background-image: url("../Assets/pinkrose.jpg");
-  background-size: contain;
-  background-position: center;
-}
-
-.passions {
-  background-image: url("../Assets/redflower.jpeg");
-  background-size: contain;
-  background-position: center;
+main a:hover{
+  color: #E84578;
 }
 
 footer {
