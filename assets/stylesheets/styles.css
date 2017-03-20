@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded');
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
+
+
+
 /*General Styling*/
 body{
-
-
-
-  font-family:Helvetica,sans-serif;
+  font-family:'Pontano Sans',Helvetica,sans-serif;
 
   background: #3a7bd5; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #3a7bd5 , #3a6073); /* Chrome 10-25, Safari 5.1-6 */
@@ -21,8 +23,12 @@ body *{
 /*Header Styling*/
  header h2{
    display:inline-block;
-   font-family: Helvetica, serif;
+   font-family: 'Stint Ultra Expanded',Helvetica, serif;
    width: 30%;
+   color:gray;
+   font-style: italic;
+   font-size:30px;
+   /*font-weight: 200;*/
  }
 
  header nav:first-of-type{
@@ -44,7 +50,6 @@ display: inline-block;
     vertical-align: text-bottom;
     text-align: center;
     padding-top: 20%;
-    border:solid;
     margin-top: 10%;
     margin-left: 0px
     margin-bottom: 30%;
