@@ -1,0 +1,65 @@
+header a {
+  color: #fffff9;
+}
+
+header {
+  width: 100%;
+  background-color: #1c1b17;
+  position: fixed;
+  top: 0px;
+}
+
+body {
+  background-color: #fffff9;
+  font-family: 'Open Sans';
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25em;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.hero {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding: 50px;
+  color: #1c1b17;
+}
+
+.social-media {
+  text-align: center;
+  padding: 50px;
+  margin-right: 40px;
+}
+
+section li {
+  padding: 0px 30px 0px 30px;
+}
+
+footer {
+  width: 100%;
+  background-color: #1c1b17;
+  height: 30px;
+  color: #fffff9;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 7px;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
