@@ -63,10 +63,30 @@ footer li {
   margin: 20px;
 }
 
-#blog {
+#entries {
+  padding-top: 100px;
+  clear: both;
+}
+
+.blog {
   clear: both;
   margin: 50px 100px 50px 100px;
-  box-shadow: 10px 10px 5px #757D75;
+  box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.29);
+  padding: 50px;
+  border-radius: 45px;
+}
+
+.blog_title {
+  float: left;
+  clear: left;
+  width: 50%;
+}
+
+.date {
+  float: right;
+  clear: right;
+  width: 50%;
+  text-align: right;
 }
 
 .circle {
@@ -74,7 +94,7 @@ footer li {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
-  box-shadow: 5px 5px 2px #757D75;
+  box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.29);
   z-index: 0;
   position: absolute;
   display: block;
