@@ -1,0 +1,121 @@
+*{
+  /*border: 1px solid lightgrey;*/
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 4px 4px 4px #c5c3c3;
+  text-decoration: none;
+  font-size: 16px;
+}
+/*nav bar*/
+
+nav li {
+  display: inline-block;
+  width: 25%;
+  float: right;
+  font-size: 1.7em;
+  /*border: 1px solid grey;*/
+  text-align: center;
+}
+
+nav a{
+  font-size: 1em;
+  color: black;
+}
+
+nav a:hover{
+  color: lightsalmon;
+}
+
+#page-title{
+  text-align: center;
+  font-size: 4em;
+  margin-top: 3%;
+}
+h2{
+  text-align: center;
+  font-size: 2.5em;
+}
+ul{
+  margin-bottom: 2%;
+}
+h1{
+  background-image: url(../assets/paris1900.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 8em;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: black;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+div {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+}
+article{
+  border-bottom: 1px solid black double;
+  /*border-style: double;*/
+  margin-bottom: 7%;
+  margin-top: 7%;
+}
+
+p{
+  font-size: 15px;
+  text-shadow: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+p::first-letter{
+  font-size: 2em;
+  font-family: 'Indie Flower', cursive;
+}
+
+span{
+  font-size: 2em;
+
+}
+
+.bientot{
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bientot::first-letter{
+  font-size: 20px;
+
+}
+.blog-signature{
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 4px 4px 4px #aaa;
+  text-decoration: none;
+  font-size: 20px;
+  color: lightsalmon;
+}
+
+#logos{
+  text-align: center;
+}
+img{
+  height: 60px;
+  width: 60px;
+}
+section li{
+  width: 10%;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+/*footer*/
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+h4 {
+  margin: 0%;
+  padding: 1%;
+}
