@@ -91,17 +91,30 @@ ul {
   color: #201f1f;
 }
 
-.description,
-#show,
-#hide:target {
+#description1,
+#show1,
+#hide1:target {
   display: none;
 }
 
-#hide:target + #show,
-#hide:target ~ .description {
+#hide1:target + #show1,
+#hide1:target ~ #description1 {
   display: inline-block;
   width: 546.84px;
   margin: 10px auto;
+}
+
+#description2,
+#show2,
+#hide2:target {
+  display: none;
+}
+
+#hide2:target + #show2,
+#hide2:target ~ #description2 {
+  display: inline-block;
+  width: 546.84px;
+  margin: 20px auto;
 }
 
 footer img {
