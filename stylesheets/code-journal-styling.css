@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Roboto');
+
+header h1, header nav {
+  display: inline-block;
+  width: 40%;
+  margin: 0;
+}
+
+header {
+  padding: 1em;
+  padding-left: 7%;
+}
+
+header h1 {
+  margin-top: 5px;
+  font-family: 'Pacifico', cursive;
+}
+
+header nav {
+  float: right;
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+header nav li a:link {
+  color: #FC913A;
+  text-decoration: none;
+}
+
+header nav li a:visited {
+  color: #F9D423;
+  text-decoration: none;
+}
+
+main {
+  font-family: 'Roboto', sans-serif;
+}
+
+main section:first-of-type {
+  background-image: url(../images/code-journal.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20em;
+  background-position: center;
+}
+
+main section h1#hero-text {
+  text-align: center;
+  padding: 9em;
+  margin-top: 0;
+  padding-bottom: 4em;
+  left: 50%
+}
+
+main section h1 span {
+  border: solid;
+  background: white;
+  padding: 1em;
+}
+
+main div{
+  padding-top: 6em;
+}
+
+main article {
+  border: solid;
+  margin-left: 10em;
+  margin-right: 10em;
+  margin-bottom: 3em;
+}
+
+main h3 {
+  margin: 0;
+  padding: 1em;
+  padding-left: 1.7em;
+  border-bottom: solid;
+}
+
+main h3 {
+  background: #ABF9DC;
+}
+
+main p {
+  margin: 2em;
+}
+
+footer {
+  border-top: transparent;
+  margin-top: 3%;
+  font-family: 'Roboto', sans-serif;
+}
+
+footer h4 {
+  text-align: center;
+  color: #FF4E50;
+}
+
+footer nav {
+  text-align: center;
+}
+
+footer nav ul {
+  padding: 0;
+  margin: 2px;
+}
+
+footer nav li {
+  display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+
+footer nav li a:link, footer nav li a:visited {
+  color: #FC913A;
+  text-decoration: none;
+}
