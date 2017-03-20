@@ -53,12 +53,63 @@ display: inline-block;
     margin-top: 10%;
     margin-left: 0px
     margin-bottom: 30%;
-    background-image: url('/Users/tehutgetahun/ada/que/week6/hw/meowspace/assets/hero.jpg');
+    background-image: url('/Users/tehutgetahun/ada/que/week6/hw/Static-Site/assets/photos/market.JPG');
+    opacity: .5;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
+@keyframes bounce-in-top {
+  0% {
+    transform: translateY(-500px);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    transform: translateY(-65px);
+    animation-timing-function: ease-in;
+  }
+  72% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translateY(-28px);
+    -webkit-animation-timing-function: ease-in;
+  }
+  90% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+  95% {
+    transform: translateY(-8px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateY(0);
+    animation-timing-function: ease-out;
+  }
+}
+.my-object {
+   animation-name: bounce-in-top;
+   animation-duration: 5s;
+   font-size: 50px;
+   font-family: "Stint Ultra Expanded", cursive;
+   text-shadow: 1px 1px 2px gray, 0 0 1em #3a7bd5, 0 0 0.2em teal;
+   color:white;
+   position: absolute;
+   top: 20%;
+   right:97%;
+   display: inline-block;
+   z-index: 40;
+   width:30px;
+ }
 nav.footer{
   position:absolute;
   bottom: 100px;

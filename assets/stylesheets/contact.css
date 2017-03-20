@@ -10,6 +10,7 @@
   padding-left: 0px;
   padding-right:0px;
 }
+
 header nav > ul{
   display: inline-block;
 }
@@ -19,54 +20,58 @@ aside{
   width: 20%;
   display: inline-block;
 }
+
 aside [class*=icono-] {
   color: gray;
 }
+
 aside a{
   color:gray;
   font-size: 25px;
   text-shadow: 1px 1px 2px gray, 0 0 1em #3a7bd5, 0 0 0.2em teal;
-
 }
 
 #text-body >article{
 
-  width: 100%;
-  display: inline-block;
-  border-radius: 10px;
-  vertical-align: top;
+width: 100%;
+display: inline-block;
+border-radius: 10px;
+vertical-align: top;
 }
-#text-body a{ color:white;text-decoration: none}
+#text-body a{
+  color:white;
+  text-decoration: none;
+}
 #text-body h2{
-  font-weight: 100;
-  text-align: center;
-  font-family:'Stint Ultra Expanded', cursive;}
+font-weight: 100;
+text-align: center;
+font-family:'Stint Ultra Expanded', cursive;
+}
 
-  #text-body article:nth-child(odd){
-    background: rgba(157,194,213,.3);
-  }
-   #text-body {
-     width: 69%;
-     display: inline-block;
-   }
+#text-body article:nth-child(odd){
+  background: rgba(157,194,213,.3);
+}
+
+#text-body{
+  width: 69%;
+  display: inline-block;
+}
 
 .contact_left{
-    display:inline-block;
-    width: 79%;
+  display:inline-block;
+  width: 79%;
 }
 .contact_right{
   display:inline-block;
   width: 10%;
-vertical-align: top;}
+  vertical-align: top;}
+
 .contact_left img{
   float:left;
   border-radius: 20px;
   margin: 9px;
   width: 60%;
 }
-
-
-  /*Splash Section Styling*/
 
   nav.footer{
     position:absolute;
