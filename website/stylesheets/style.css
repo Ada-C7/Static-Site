@@ -119,6 +119,8 @@ ul {
 
 table {
   margin: 0px auto;
+  table-layout: fixed;
+  width: 50%;
 }
 
 footer img {
