@@ -249,7 +249,18 @@ footer img {
 #portfolio article{
   display: inline-block;
   text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
 }
+
+#portfolio h3{
+  text-align: left;
+}
+
+#portfolio p {
+  width: 100%;
+}
+
 #portfolio a{
   font-family: Average Sans;
   font-size: 1.2em;
