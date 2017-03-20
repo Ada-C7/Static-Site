@@ -103,10 +103,6 @@ footer li {
   z-index: -1;
 }
 
-#portfolio_page {
-  margin: 100px;
-}
-
 .portfolio h2, h2 a {
   position: relative;
   text-align: center;
@@ -149,7 +145,7 @@ footer li {
   background-size: cover;
 }
 
-.portfolio:hover p, .portfolio:hover li, .portfolio:hover h5, {
+.portfolio:hover p, .portfolio:hover li, .portfolio:hover h5 {
   visibility: hidden;
 }
 
