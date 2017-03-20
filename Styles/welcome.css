@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #E8536C;
+  font-size: 10em;
+  text-align: center;
+}

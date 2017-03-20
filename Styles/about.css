@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
+
+header {
+  background-image: url("../Assets/tropical.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  position: fixed;
+  width: 100%;
+}
+
+header h1 {
+  color: white;
+  text-align: left;
+  font-family: 'Jim Nightshade', cursive;
+  float: left;
+}
+
+header ul {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+  width: 60%;
+}
+
+header li, header a {
+  color: white;
+  text-align: center;
+  list-style-type: none;
+  font-family: 'Jim Nightshade', cursive;
+  display: inline-block;
+  font-size: 2rem;
+  width: 200px;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #FF7084;
+}
+
+body {
+  background-color:white;
+  background-image:
+  radial-gradient(#FFAD84 9px, transparent 10px),
+  repeating-radial-gradient(#FFC8AB 0, #FFC8AB 4px, transparent 5px, transparent 20px, #FFC8AB 21px, #FFC8AB 25px, transparent 26px, transparent 50px);
+  background-size: 30px 30px, 90px 90px;
+  background-position: 0 0;
+  text-align: center;
+}
+
+main {
+  padding-top: 5%;
+}
+
+main h1 {
+  font-family: 'Jim Nightshade', cursive;
+  color: #FF7084;
+  font-size: 8rem;
+}
+
+main section {
+  margin: 200px;
+  text-align: center;
+  background-color: white;
+  border: 5px solid #FFC8AB;
+  border-radius: 13%;
+}
+
+main li {
+  list-style-type: none;
+  font-family: 'Jim Nightshade', cursive;
+  color: #FF7084;
+  font-size: 4rem;
+}
+
+footer {
+  background-image: url("../Assets/tropical.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 2rem;
+  padding: 2rem;
+  border: 5px solid #FFC8AB;
+  margin-top: 10rem;
+}
+
+.footer-year {
+  text-align: left;
+  color: #FF7084;
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 2rem;
+  vertical-align: bottom;
+  margin: 0;
+}
