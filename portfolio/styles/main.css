@@ -68,6 +68,10 @@ header nav a:hover {
   color: black;
 }
 
+main {
+  min-height: 700px;
+
+}
 #intro-text {
   clear: both;
   text-align: center;
