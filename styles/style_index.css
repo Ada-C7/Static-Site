@@ -1,3 +1,4 @@
+@import './normalize.css';
 @import url('https://fonts.googleapis.com/css?family=Cousine:400,700|Julius+Sans+One');
 
 * {
@@ -5,16 +6,10 @@
   padding: 0;
 }
 
-body {
-  /*background-color: rgba(220,220,220,.7);*/
-  /*background-color: rgb(220,220,220);*/
-}
-
 header {
   background-image: url('../images/hero_pano.jpeg');
-  background-size: 100% 100%;
   background-position: center;
-
+  background-size: 100% 100%;
   margin-top: 15%;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -23,14 +18,15 @@ header {
 }
 
 h1 {
-  text-align: center;
   font-size: 7em;
   font-family: 'Julius Sans One';
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
   list-style-type: none;
-  /*padding-top: 1%;*/
   text-align: center;
 }
 
@@ -40,17 +36,13 @@ li {
 }
 
 a {
-  /*background-color: rgba(220,220,220,0.1);*/
-  color: MidnightBlue;
   color: white;
-  font-size: 2.5em;
   font-family: 'Cousine';
+  font-size: 2.5em;
   font-weight: 700;
   text-decoration: none;
 }
 
 a:hover {
-  /*color: #5B5BA6;*/
   color: Purple;
-  /*color: Midnightblue;*/
 }
