@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700');
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+}
+
+header {
+  position: relative;
+  text-align: right;
+  color: pink;
+  z-index: 98;
+}
+
+.nav_container {
+  line-height: 60px;
+  padding-left: 47px;
+  padding-top: 35px;
+  position: fixed;
+  white-space: nowrap;
+  z-index:99;
+}
+
+
+.page_link {
+  display: inline-block;
+  margin: 0 40px 0 0;
+}
+
+.nav_container a{
+  color: pink;
+  padding: 20px 0 0 0;
+  text-decoration: none;
+}
+
+.page_link a {
+  border-bottom: 0px solid #cccccc;
+}
+
+a:hover{
+  color: #0000FF;
+  border-bottom: 10px solid #0000FF;
+}
+
+a:hover {
+  border-bottom: 10px solid #0000FF;
+  color: #0000FF;
+  font-weight: bold;
+}
+
+
+  #posts {
+    width:30vw;
+    margin-top:3px;
+    z-index:2;
+    /*margin-left:-300px;*/
+    right: auto ;
+    left:20%;
+    /*background:transparent;*/
+    /*border-left:1px solid #eee;
+    border-right:1px solid #eee;*/
+    margin-right:auto;
+    position:relative;
+    overflow-y: wrap;
+  }
+
+  .entry {
+    float:right;
+    display: block;
+    margin:50px;
+    /*overflow:hidden;*/
+    width:30vw;
+    padding:10px;
+  }
+
+
+  .entry:nth-child(1){background:#FF9999;}
+  .entry:nth-child(2){background:#FAC8FA;}
+  .entry:nth-child(3){background:#00AFFA;}
+  .entry:nth-child(4){background:#25E5CB;}
+  .entry:nth-child(5){background:#8698CE;}
+  .entry:nth-child(6){background:#DFC0B7;}
+
+  .entry img{max-width:100%;}
+
+
+  .blog-title {
+    text-align:center;
+    color: white;
+    font-family: helvetica;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2vh;
+    /*letter-spacing: 3px;*/
+    text-transform: capitalize;
+
+    /*border:1px solid #eee;*/
+    margin-bottom: 5px;
+  }
+
+  .blog-text{
+    color: white;
+    /*letter-spacing; 0.04px;*/
+    font: 'Merriweather'
+    font-stretch: expanded;
+  }
