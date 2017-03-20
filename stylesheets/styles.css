@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  height: 100%;
+  width: 100%;
 }
 
 *, *:before, *:after {
@@ -79,13 +81,13 @@ a {
 }
 
 .btn {
-padding: 10px 30px;
-border: solid 2px #ed6464;
-position: relative;
-border-radius: 8px;
-display: inline-block;
-background-color: #ed6464;
-font-weight: 600;
+  padding: 10px 30px;
+  border: solid 2px #ed6464;
+  position: relative;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #ed6464;
+  font-weight: 600;
 
 }
 .introduction {
@@ -146,7 +148,7 @@ footer {
   margin: 14px;
 }
 
- /*Portfolio */
+/*Portfolio */
 #porfolio {
   background-color: #ed6464;
   display: flex;
@@ -184,11 +186,11 @@ footer {
   display: inline-flex;
 }
 /*.projects.ride {
-  width: 60%;
+width: 60%;
 }*/
 
 /*.projects .scrabble {
-  justify-content: center;
+justify-content: center;
 }*/
 h3 {
   position: absolute;
@@ -205,14 +207,14 @@ h3 {
 
 /*about me*/
 #page3 {
-  background-color: #65beb4;
+  background: #65beb4;
 }
 
-.bio img {
-  /*display: flex;*/
+#page3 img {
+  display: flex;
   position: relative;
-left: 35%;
-margin-top: 6%;
+  left: 35%;
+  margin-top: 6%;
   /*float: left;*/
   height: 300px;
   width: 300px;
@@ -226,6 +228,9 @@ margin-top: 6%;
   margin-left: 60px;
 }
 
-/*#page3 h2 {
-  left: 18%;
-}*/
+#page3 h2, p {
+  text-align: center;
+  font-family: cursive;
+}
+
+/*hobbies*/
