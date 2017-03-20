@@ -8,6 +8,7 @@
 /* + Create style for pullquote */
 /* + Duo tone */
 /* + Add descriptionsn to index page projects */
+/* + Add contact me form to about page */
 
 
 /* GLOBAL SETTINGS
@@ -97,8 +98,7 @@ a {
 }
 
 .container {
-  width: 100%;
-  margin: 0;
+  width: 800px;
   padding: 0;
   position: relative;
 }
@@ -285,6 +285,17 @@ main {
   padding: 2em;
   background: #e5e1d8 ;
   border-bottom: 10px solid black;
+}
+
+#about .highlight {
+  display: inline;
+  color: white;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
+  line-height: 2.1em;
+  background: SlateBlue;
+  padding: .25em 0;
+  box-shadow: 10px 0 0 SlateBlue, -20px 0 0;
 }
 
 
