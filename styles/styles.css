@@ -40,8 +40,8 @@ a:visited {
 
 /*header rules*/
 header {
-  padding: 0 18%;
-  margin-bottom: 5%;
+  padding: 0 20%;
+  margin-bottom: 3%;
 }
 
 nav {
@@ -64,12 +64,12 @@ nav h1 {
 
 
 /*main projects/posts page rules*/
-section.gallery {
+section.gallery, section.blog {
   padding: 0 10%;
   min-width: 1500px;
 }
 
-article.project {
+article.project, article.post {
   display: inline-block;
   width: 400px;
   padding: 1% 2%;
@@ -77,27 +77,38 @@ article.project {
   position: relative;
 }
 
-article.project p.desc {
+article.project p.desc,
+article.post p.desc {
   display: none;
 }
 
 article.project img:hover + p.desc,
 article.project h3:hover + p.desc,
-article.project p.desc:hover {
+article.project p.desc:hover,
+article.post img:hover + p.desc,
+article.post h3:hover + p.desc,
+article.post p.desc:hover {
   display: inline-block;
   background: rgba(0, 0, 0, 0.6);
   text-align: justify;
+  padding: 1%;
   position: absolute;
   bottom: 1%;
   width: 350px;
 }
 
-article.project img {
+article.project img,
+article.post img {
   max-width: 100%;
   max-height: 100%;
 }
 
 /*main bio page rules*/
+section.bio {
+  margin: 0 18%;
+  /*width: 55%;*/
+  text-align: justify;
+}
 
 /*main contact/index page rules*/
 
