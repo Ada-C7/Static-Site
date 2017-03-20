@@ -210,7 +210,7 @@ h3 {
   background-color: #ffe7f8;
 }
 
-#page3 img {
+#page3 img, #page4 img {
   display: flex;
   position: relative;
   left: 35%;
@@ -235,3 +235,9 @@ h3 {
 }
 
 /*hobbies*/
+
+section .hobby:nth-child(odd) {
+  display: inline-block;
+  background-color: lightgray;
+  /*justify-content: space-between;*/
+}
