@@ -28,6 +28,7 @@ nav a:hover{
 #page-title{
   text-align: center;
   font-size: 4em;
+  margin-top: 3%;
 }
 h2{
   text-align: center;
@@ -37,7 +38,7 @@ ul{
   margin-bottom: 2%;
 }
 h1{
-  background-image: url(http://www.oldmapsofparis.com/system/maps/23/original/paris1900.jpg?1329725696);
+  background-image: url(../assets/paris1900.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -94,6 +95,19 @@ span{
   color: lightsalmon;
 }
 
+#logos{
+  text-align: center;
+}
+img{
+  height: 60px;
+  width: 60px;
+}
+section li{
+  width: 10%;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
 /*footer*/
 footer{
   text-align: center;

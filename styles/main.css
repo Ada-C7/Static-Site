@@ -30,13 +30,14 @@ h2{
   width: 100%;
   text-align: center;
   font-size: 2.2em;
+  margin-top: 3%;
 }
 ul{
   margin-bottom: 2%;
 }
 /*section/article*/
 h1{
-  background-image: url(http://www.oldmapsofparis.com/system/maps/23/original/paris1900.jpg?1329725696);
+  background-image: url(../assets/paris1900.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -72,7 +73,19 @@ span{
   font-size: 2rem;
   text-shadow: 4px 4px 4px #aaa;
 }
-
+#logos{
+  text-align: center;
+}
+img{
+  height: 60px;
+  width: 60px;
+}
+section li{
+  width: 10%;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
 /*footer*/
 footer{
   text-align: center;
