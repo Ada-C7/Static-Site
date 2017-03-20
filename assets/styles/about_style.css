@@ -1,0 +1,24 @@
+#about_hero {
+  background-image: url("../images/amb_placeholder2.jpg");
+}
+
+#about_hero:after {
+  /* Marlin */
+  background-color: rgba(82,90,136, 0.50);
+}
+
+
+/* SECTION_1 */
+.about_article {
+  display: inline-block;
+  width: 55%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* Marlin */
+  background-color: rgba(82,90,136, 1);
+  /* Gold */
+  color: rgba(200,179,116, 1);
+  text-align: justify;
+  padding: 10px;
+
+}
