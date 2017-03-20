@@ -25,6 +25,10 @@ header {
   color: red;
 }
 
+#page_body {
+  margin: 0 50px;
+}
+
 header ul {
   float: right;
   clear: right;
@@ -84,14 +88,29 @@ article p {
 }
 
 #code article {
-  padding: 10px;
+  height: 250px;
+  padding: 50px;
+  border-radius: 15%;
 }
 
 #meowspace:hover {
   background-image: url('../assets/meowspace_img.png');
+  background-position: bottom;
+  background-size: cover;
+}
+
+#rideshare:hover {
+  background-image: url('../assets/rideshare.png');
   background-position: center;
   background-size: cover;
 }
+
+#scrabble:hover {
+  background-image: url('../assets/scrabble.png');
+  background-position: center;
+  background-size: cover;
+}
+
 
 #illustration {
   float: right;
@@ -107,8 +126,9 @@ article p {
 }
 
 #illustration article {
+  height: 250px;
   padding: 50px;
-  border-radius: 25%;
+  border-radius: 15%;
 }
 
 #wicked_brew:hover {
