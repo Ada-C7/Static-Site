@@ -37,12 +37,8 @@ h1 {
   margin-top: 1em;
 }
 
-h2, h3, h4 p {
+h2, h3, h4, h5, p, a{
   color: black;
-}
-
-header, a {
-  color: FloralWhite;
 }
 
 h2 {
@@ -66,7 +62,6 @@ h4 {
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
   font-size: 1.2em;
-  /*text-transform: uppercase;*/
 }
 
 h5{
@@ -103,26 +98,22 @@ a {
   width: 100%;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
-/* HEADER
-*********************************/
-
-header, #header-top, #header-bottom {
-  /*display: block;*/
-  /*width: 100%;*/
-}
-
-header .left, header .right {
+.left, .right {
   display: inline-block;
 }
 
-#header-top .left h5, #header-bottom .left h1 {
-  float: left;
+.right {
+  float: right;
 }
 
-#header-top .right, #header-bottom .right {
-  float: right;
+
+/* HEADER -- Had to fudge this to get it on the same baseline..is there a better way to do this?
+*********************************/
+#header-top, #header-bottom {
+  color: FloralWhite;
 }
 
 #header-top li, #header-bottom li {
@@ -130,8 +121,6 @@ header .left, header .right {
   float: right;
   padding-right: 1em;
 }
-
-/* Had to fudge this to get it on the same baseline.. is there a better way to do this? */
 
 #header-top .left {
   padding-top: 5px;
@@ -145,30 +134,27 @@ header .left, header .right {
   padding-top: 115px;
 }
 
+
 /* MAIN
 *********************************/
 main {
   clear: both;
-  position: relative;
-  display: block;
   margin-top: 5%;
 }
 
 
-/* INDEX - WORK / PROJECTS
+/* WORK / PROJECTS
 *********************************/
-body#work, #work a.button:hover {
+#work {
+  background: #FF3333;
+}
+
+#work a.button:hover {
   background: #FF3333;
   border: 1px solid #FF3333;
 }
 
-#projects {
-  display: block;
-  justify-content: space-between;
-}
-
 #projects .project {
-  display: block;
   position: relative;
   background: FloralWhite;
   width: 33.333%;
@@ -184,12 +170,11 @@ body#work, #work a.button:hover {
   overflow-y: hidden;
 }
 
-#projects .project .project-desc {
-  display: block;
+#projects .project-desc {
   padding: 2em;
 }
 
-a.button {
+#projects a.button {
   color: black;
   padding: .75em;
   border: 2pt solid black;
@@ -199,7 +184,7 @@ a.button {
   left: 1.5em;
 }
 
-a.button:hover {
+#projects a.button:hover {
   color: FloralWhite ;
 }
 
@@ -208,21 +193,17 @@ a.button:hover {
 *********************************/
 #sample-proj {
   background: #FF5335;
-  border: 1px solid #FF5335;
 }
 
 #sample-proj main {
   background: FloralWhite;
-  border-bottom: 5px solid black;
   padding: 2em;
 }
 
 #project-nav {
-  display: block;
-  position: relative;
   color: black;
   padding: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 3em;
   background: #e5e1d8;
   border-bottom: 10px solid black;
 }
@@ -240,18 +221,14 @@ a.button:hover {
 }
 
 #project-nav a:hover {
-  color: black;
+  color: FloralWhite;
 }
+
 
 /* BLOG POSTS
 *********************************/
 #blog {
   background: MediumSpringGreen;
-  border: 1px solid MediumSpringGreen;
-}
-
-#blog-posts {
-  display: block;
 }
 
 #blog-posts .post {
@@ -265,7 +242,6 @@ a.button:hover {
 }
 
 #blog-posts .content  {
-  background: FloralWhite ;
   padding: 2em;
 }
 
@@ -274,11 +250,7 @@ a.button:hover {
   padding-bottom: .5em;
 }
 
-#blog-posts h2 {
-  margin-bottom: 1em;
-}
-
-#blog-posts h3 {
+.post p:first-of-type {
   margin-top: 2em;
 }
 
@@ -291,21 +263,15 @@ a.button:hover {
 *********************************/
 #about {
   background: SlateBlue;
-  border: 1px solid SlateBlue;
 }
 
 #about-info  {
   background: FloralWhite ;
   padding: 2em;
-  margin-top: 2em;
-  padding-bottom: 1em;
-  background: FloralWhite ;
-  display: block;
 }
 
 #about-contact {
   padding: 2em;
-  padding-bottom: 1em;
   background: #e5e1d8 ;
   border-bottom: 10px solid black;
 }
@@ -317,7 +283,7 @@ a.button:hover {
   background: #09A8FA;
 }
 
-#km-resume  {
+#resume-content  {
   background: FloralWhite ;
   padding: 2em;
   margin-top: 2em;
@@ -326,13 +292,9 @@ a.button:hover {
   border-bottom: 10px solid black;
 }
 
-#km-resume ul {
+#resume-content .resume-section ul {
   padding-left: 1em;
   margin-bottom: 1em;
-}
-
-#km-resume h4, #km-resume h5 {
-  color: black;
 }
 
 
