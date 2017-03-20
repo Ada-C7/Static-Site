@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cormorant+SC|Harmattan|IM+Fell+English+SC|Jacques+Francois+Shadow|Jim+Nightshade|Josefin+Sans|Londrina+Outline|Playfair+Display|Raleway');
 
-body {
+h1, h2 {
   font-family: "IM Fell English SC";
-
 }
 
 .header-and-footer {
@@ -61,7 +60,7 @@ main {
   }
 
 .background {
-  background: url("../assets/old-world-map-cropped-top.jpg");
+  background: url("../assets/old-world-map-cropped-top-path.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -78,10 +77,25 @@ main {
   background-position: center center;
 }
 
+.plane {
+ width: 100px;
+ padding: 5% 10% 0 10%;
+ height: auto;
+ float: left;
+}
+
+.plane-right {
+  width: 100px;
+  padding: 5% 0 0 10%;
+  height: auto;
+  float: right;
+}
+
 #introduction {
   text-align: center;
   font-size: 1.2em;
   padding: 1% 10%;
+  font-family: "Josefin Sans";
 }
 
 #footer {
