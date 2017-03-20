@@ -6,7 +6,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
+#page1 {
   background-size: cover;
   background-image: url('../images/12.jpeg');
   font-family: Josefin Sans, serif;
@@ -33,6 +33,7 @@ header {
   text-transform: uppercase;
   /*margin top: 10%;*/
   color:  #ed6464;
+  line-height: 4rem;
 }
 h1, h2 {
   font-weight: 300;
@@ -126,6 +127,7 @@ footer {
   background-color: #ed6464;
   margin-top: 4%;
 }
+
 .left {
   font-size: 12px;
   line-height: 4rem;
@@ -142,4 +144,29 @@ footer {
   display: block;
   list-style-type: disc;
   margin: 14px;
+}
+
+ /*Portfolio */
+#porfolio {
+  background-color: #ed6464;
+  display: flex;
+  justify-content: space-between;
+}
+
+#page2 {
+  background-color: white;
+}
+
+#porfolio h1 {
+  /*text-align: center;*/
+}
+
+#porfolio nav ul {
+  display: inline-flex;
+  width: 300px;
+  list-style: none;
+  justify-content: space-between;
+  margin-right: 10px;
+
+  /*vertical-align: text-top;*/
 }
