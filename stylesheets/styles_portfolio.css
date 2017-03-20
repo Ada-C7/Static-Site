@@ -5,7 +5,8 @@ main {
 
 #title {
   font-size: 6em;
-  font-family: "Cormorant SC";
+  font-family: "Poiret One";
+  font-weight: lighter;
   text-align: center;
   border-bottom: solid black 1px;
   margin: 0;
