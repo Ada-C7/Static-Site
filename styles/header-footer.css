@@ -14,7 +14,6 @@ header {
   left: 0;
   background-color: maroon;
   margin: 0px auto;
-  /*padding: 10px, 30px, 10px;*/
   /*Opacity start*/
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=80);
