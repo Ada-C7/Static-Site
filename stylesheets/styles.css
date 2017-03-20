@@ -21,10 +21,8 @@ header {
   display: flex;
   width: 100%;
   margin: 10px auto;
-  /*align-items: center;*/
   justify-content: space-between;
   box-shadow: 0 3px 3px rgba(47,47,47,0.05);
-  /*position: fixed;*/
   top: 0;
   margin-top: 0;
   height: 60px;
@@ -33,10 +31,10 @@ header {
 .header-name a {
   font-size: 3rem;
   text-transform: uppercase;
-  /*margin top: 10%;*/
   color:  #ed6464;
   line-height: 4rem;
 }
+
 h1, h2 {
   font-weight: 300;
   font-size: 1.7rem;
@@ -52,17 +50,15 @@ h1 div {
   letter-spacing: 0;
   font-weight: 700;
   font-size: 3rem;
-  width: 100%;
   line-height: 5rem;
   font-family: Playfair Display,serif;
 }
+
 .right li {
   list-style: none;
   display: inline;
   width: 100%;
-  /*padding: 5%;*/
   margin-right: 20px;
-  /*list-style-type: disc;*/
 }
 
 .top-nav li.btn {
@@ -80,6 +76,10 @@ a {
   line-height: 2.4rem;
 }
 
+a:hover {
+  color: green;
+}
+
 .btn {
   padding: 10px 30px;
   border: solid 2px #ed6464;
@@ -88,12 +88,13 @@ a {
   display: inline-block;
   background-color: #ed6464;
   font-weight: 600;
-
 }
+
 .introduction {
   display: inline-block;
   vertical-align: text-top;
 }
+
 p {
   display: block;
   text-align: justify;
@@ -101,19 +102,14 @@ p {
   margin-left: calc(5% + 10px);
   /*align-items: center;*/
 }
+
 .body a {
   display: inline-block;
-  /*justify-content: center;*/
   margin: auto;
   width: 22%;
   text-align: center;
-  /*position: absolute;*/
-  /*top: 20%;*/
   left: 25%;
   margin-top: 5%;
-  /*transform: translate(-50%, -50%);*/
-
-
 
 }
 .github, .instagram, .twitter, .facebook {
@@ -159,18 +155,12 @@ footer {
   background-color: #ad8585;
 }
 
-#porfolio h1 {
-  /*text-align: center;*/
-}
-
 #porfolio nav ul {
   display: inline-flex;
   width: 300px;
   list-style: none;
   justify-content: space-between;
   margin-right: 10px;
-
-  /*vertical-align: text-top;*/
 }
 
 .projects img {
@@ -185,20 +175,13 @@ footer {
 .projects {
   display: inline-flex;
 }
-/*.projects.ride {
-width: 60%;
-}*/
 
-/*.projects .scrabble {
-justify-content: center;
-}*/
 h3 {
   position: absolute;
   margin-top: 15%;
   margin-left: 20%;
   text-transform: capitalize;
   font-size: 1em;
-  /*font-style: italic;*/
   text-align: right;
   font-family: Lato;
   font-weight: lighter;
@@ -231,12 +214,11 @@ h3 {
 #page3 h2, #page3 p {
   text-align: center;
   font-family: cursive;
-
 }
 
 /*hobbies*/
 
-section .hobby:nth-child(odd) {
+.hobby:nth-child(odd) {
   display: inline-block;
   background-color: lightgray;
   /*justify-content: space-between;*/
