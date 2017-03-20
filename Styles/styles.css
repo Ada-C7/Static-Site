@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Dancing+Script|The+Girl+Next+Door');
 
 header {
   background-image: url("../Assets/tropical.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
+  height: 150px;
   position: fixed;
   width: 100%;
 }
@@ -24,12 +25,142 @@ header ul {
   width: 60%;
 }
 
-header li {
+header li, header a {
   color: white;
   text-align: center;
   list-style-type: none;
   font-family: 'Jim Nightshade', cursive;
   display: inline-block;
-  font-size: 2em;
+  font-size: 2rem;
   width: 200px;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #FF7084;
+}
+
+header a:visited {
+  color: #FFC8AB;
+}
+
+body {
+  background-color:white;
+  background-image:
+  radial-gradient(#FFAD84 9px, transparent 10px),
+  repeating-radial-gradient(#FFC8AB 0, #FFC8AB 4px, transparent 5px, transparent 20px, #FFC8AB 21px, #FFC8AB 25px, transparent 26px, transparent 50px);
+  background-size: 30px 30px, 90px 90px;
+  background-position: 0 0;
+  text-align: center;
+}
+
+.font1 {
+  font-family: 'The Girl Next Door', cursive;
+  color: #FF7084;
+  font-size: 8rem;
+}
+
+.font2 {
+  font-family: 'Covered By Your Grace', cursive;
+  color: #FF7084;
+  font-size: 8rem;
+}
+
+.font3 {
+  font-family: 'Dancing Script', cursive;
+  color: #FF7084;
+  font-size: 8rem;
+}
+
+main h2 {
+  display: inline-block;
+  padding-top: 3%;
+  margin-bottom: 20px;
+}
+
+main p {
+  color: #FF7084;
+  font-size: 3rem;
+  font-family: 'Jim Nightshade', cursive;
+  text-align: center;
+  background-color: white;
+  /*border: 5px solid #FFC8AB;*/
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.sentence-one {
+  margin-bottom: 0;
+  border: 5px solid #FFC8AB;
+  border-bottom: 0;
+}
+
+.sentence-two {
+  margin-top: 0;
+  border: 5px solid #FFC8AB;
+  border-top: 0;
+}
+
+main ul {
+  list-style-type: none;
+}
+
+main li {
+display: inline-block;
+background-color: white;
+height: 200px;
+width: 200px;
+border-style: solid;
+border-radius: 100%;
+border-color: #FF7084;
+}
+
+main a {
+  text-decoration: none;
+}
+
+main a:hover {
+  background-color: white;
+  font-family: 'Jim Nightshade', cursive;
+  color: #FF7084;
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-radius: 100%;
+  border-color: #FF7084;
+}
+
+.about {
+  background-image: url("../Assets/orangeflower.jpg");
+  background-size: contain;
+  background-position: center;
+}
+
+.portfolio {
+  background-image: url("../Assets/pinkrose.jpg");
+  background-size: contain;
+  background-position: center;
+}
+
+.passions {
+  background-image: url("../Assets/redflower.jpeg");
+  background-size: contain;
+  background-position: center;
+}
+
+footer {
+  background-color: white;
+  height: 2rem;
+  padding: 2rem;
+  border: 5px solid #FFC8AB;
+  margin-top: 10rem;
+}
+
+.footer-year {
+  text-align: left;
+  color: #FF7084;
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 2rem;
+  vertical-align: bottom;
+  margin: 0;
 }

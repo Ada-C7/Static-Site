@@ -23,7 +23,7 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
-
+html, 
 body {
   margin: 0;
 }
