@@ -33,7 +33,7 @@ nav img {
   width: auto;
 }
 
-nav.pages {
+.pages {
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
   font-size: 30px;
@@ -50,27 +50,36 @@ p {
   color: #201f1f;
 }
 
-img.me-pic {
+.me-pic {
   border-radius: 20px;
+  clear: both;
 }
 
-img.project {
+.project {
   height: 180px;
   width: auto;
 }
 
-p strong {
+.dms {
   font-size: 25px;
 }
 
-section.about {
-  padding-top: 50px;
-  /*margin-left: 70px;
-  margin-right: 70px;*/
+.about {
+  display: flex;
+  /*justify-content: space-between;*/
+  /*display: block;*/
+  margin: 20px 20% 0;
 }
 
-ul.about {
-  
+div {
+  /*display: inline-block;*/
+  /*width: 48%;*/
+  /*flex-grow: 1;*/
+  flex-basis: 50%;
+}
+
+ul {
+  margin: 0;
 }
 
 footer img {
