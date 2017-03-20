@@ -7,6 +7,7 @@
 /* + Restructure heading so that social icons are on same line as title */
 /* + Create style for pullquote */
 /* + Duo tone */
+/* + Add descriptionsn to index page projects */
 
 
 /* GLOBAL SETTINGS
@@ -188,6 +189,11 @@ main {
 #index-projects a.button:hover {
   color: FloralWhite ;
 }
+
+.row-two {
+  margin-top: 2em;
+}
+
 
 
 /* SAMPLE PROJECT
