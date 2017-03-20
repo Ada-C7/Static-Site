@@ -295,7 +295,6 @@ html, body {
 
 				.social-facebook {
 					margin-right: 3em;
-					position: relative;
 
 					background-image: url("../images/social-facebook.png");
 					background-size: cover;
@@ -474,7 +473,7 @@ input {
 	border-bottom: none;
 	border-right: none;
 	border-top: none;
-	border-radius: .6em;
+	border-radius: .4em;
 
 	color: white;
 	font-size: 1.8em;
@@ -487,7 +486,7 @@ input {
 input:hover {
 	background: white;
 	color: #af4f35;
-	border: solid 1rem #af4f35;
+	border: solid .6em #af4f35;
 	border-bottom: none;
 	border-right: none;
 	border-top: none;
@@ -503,7 +502,7 @@ textarea {
 	border-bottom: none;
 	border-right: none;
 	border-top: none;
-	border-radius: .6em;
+	border-radius: .4em;
 
 	color: white;
 	font-size: 1.8em;
@@ -516,7 +515,7 @@ textarea {
 textarea:hover {
 	background: white;
 	color: #af4f35;
-	border: solid 1rem #af4f35;
+	border: solid .6em #af4f35;
 	border-bottom: none;
 	border-right: none;
 	border-top: none;
