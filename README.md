@@ -13,10 +13,10 @@ This is an individual, [stage 2](https://github.com/Ada-Developers-Academy/pedag
 This is an individual project. It consists of a baseline and a single wave. You are only permitted to use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript of any time are not allowed.
 
 ### Baseline
-- Create an `index.html` that has the necessary meta information to link a stylesheet called `styles.css`.
-- Add a `<header>`, `<footer>`, and `<nav>` to your `index.html`.
-- Create a `portfolio.html` page that also includes `styles.css`.
-- Include a link to both pages in the `<nav>` on both pages.
+*-* Create an `index.html` that has the necessary meta information to link a stylesheet called `styles.css`.
+*-* Add a `<header>`, `<footer>`, and `<nav>` to your `index.html`.
+*-* Create a `portfolio.html` page that also includes `styles.css`.
+*-* Include a link to both pages in the `<nav>` on both pages.
 
 ### Primary Requirements
 - Add pages to your static site. The requirement is a minimum of four pages. These pages should be:
