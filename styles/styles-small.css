@@ -84,3 +84,7 @@ h1.mobile-only, hr.mobile-only {
   background-image: none;
   margin: 10px 0;
 }
+
+#blog-entry-content h1 {
+  background-image: url('../images/inflicted.png');
+}
