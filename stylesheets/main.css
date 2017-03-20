@@ -1,0 +1,93 @@
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 5.6rem;
+  background-color: black;
+}
+
+
+a:link {
+  color: #1820e6;
+}
+
+a:visited{
+color: # 1820e6;
+  }
+
+a:hover {
+  color: lightblue;
+}
+
+
+.logo {
+  /*margin-left: 6%;*/
+  margin-top: 0;
+  float:left;
+  width: 40%;
+}
+
+.logo img{
+  float:left;
+  height: 5.6rem;
+  max-width: 40%;
+  margin-right: 4%;
+}
+
+.logo div{
+  display:inline-block;
+  margin-top: 5px;
+}
+
+.name h2{
+  margin: 0}
+}
+
+
+.logo img {
+display: inline-block;
+vertical-align: top;
+}
+
+header nav {
+  margin-right: 5%;
+  /*margin-top: 25px;*/
+  float:right;
+
+}
+
+header ul {
+  margin: 2.225rem 0 0 0;
+  list-style-type: none;
+  height:5.6rem;
+}
+
+header li {
+  padding-right:25px;
+  display: inline-block;
+
+}
+
+a {
+  /*text-decoration: none;*/
+}
+
+/*body{
+    background-image:url(http://weather.jimlittle.net/web/pages/backgrounds/gradient_background2.jpg);
+}*/
+body{
+  /*background-color: #69baf2;*/
+  background-image:url(http://weather.jimlittle.net/web/pages/backgrounds/gradient_background2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:5.6rem;
+  padding-bottom:30rem;
+}
+
+.welcome-message {
+  padding: 3rem;
+  text-align: left;
+  width: 30%;
+  margin: 0 auto;
+}

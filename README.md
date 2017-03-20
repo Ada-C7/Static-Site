@@ -1,16 +1,10 @@
 # Static Site: Code Journal & Portfolio
+__Learning Goal:__ Practice creating semantic HTML and applying visual styles with CSS. The goal is to explore the relationship between HTML and CSS, and how visual styles add to the semantics and hierarchy established by the foundational HTML.
 
-You will create a _static_ web site using HTML & CSS. This static site will serve as the foundation for later projects, and will contain information about your programming projects and efforts at Ada.
-
-This is an individual, [stage 2](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md) project.
-
-## Learning Goals:
-- Practice creating semantic HTML
-- Practice applying visual styles with CSS
-- Use both HTML & CSS together to create a comprehensive design
+You will create a _static_ web site using HTML & CSS. This static site will serve as the foundation for later projects, and will contain information about your programming projects and efforts at Ada. 
 
 ## Project Requirements
-This is an individual project. It consists of a baseline and a single wave. You are only permitted to use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript of any time are not allowed.
+This is an individual project. It consists of a baseline and a single wave. You are only permitted to use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript are not allowed. 
 
 ### Baseline
 - Create an `index.html` that has the necessary meta information to link a stylesheet called `styles.css`.
@@ -27,17 +21,22 @@ This is an individual project. It consists of a baseline and a single wave. You 
 - The site should follow best practices including:
   - All markup should be semantic, with consideration of hierarchy and accessibility.
   - CSS should be concise and well formatted
-  - Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively.
+  - Images and stylesheets should be kept in their own folders, called `images` and `styles`, respectively.
 
 ### Optional Enhancements
 - Create a `blog/` or `code-journal/` directory. Within this directory...
   - create single `html` file for each entry in your blog/journal
-  - update the nav on the rest of your site to reference each entry as a sublist/subnav.
-  - update any tags with path references (`img`, `link`, `a` tags) to accomodate for the entries being in a different directory.
-- Create any number of additional pages or directories.
+  - update the nav on the rest of your site to reference each entry as a sublist/subnav
+  - update any tags with path references (`img`, `link`, `a` tags) to accomodate for the entries being in a different directory
+- Create any number of additional pages or directories
+
+### Hosting
+Websites will be hosted using Github Pages. Before creating the repository, read [ Github Pages documentation ](https://pages.github.com/). 
+
 
 ### A Word of Caution
 Lots of developers find their initial foray into CSS frustrating. Every browser implements the CSS standard a little (or a lot) differently. Learning to manipulate elements and understand the _box model_ takes time. Floats can be especially challenging to developers new to CSS. For this project, focus on understanding the mechanics and semantics of HTML and CSS, and how the two work together.
+
 
 ### Inspiration 👯
 - [http://lizabinante.com/](http://lizabinante.com/)
