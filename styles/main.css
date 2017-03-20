@@ -111,42 +111,43 @@ MAIN - PROJECT.HTML
   z-index: 0;
   margin: 8rem 10%;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
 }
-
 
 #projects section{
-  display:inline-block;
+  text-align: left;
+  padding: 1%;
   font-size: 2rem;
-  display: inline-block;
 }
 
-
-#projects section h2{
-  height: 5rem;
-  font-family: 'Space_Mono';
-}
-
-
-
-.pubs{
-font-size: 0.5em;
+#projects h2{
+  font-family: 'Mono Space';
+  font-size: 3rem;
+  text-align: center;
 }
 
 #projects h3{
-  font-size: 1.5em;
+  font-size: 1.5rem;
+
+}
+
+.pubs{
+width: 20%
+}
+
+.pubs {
+  font-size: 1rem;
+}
+.pubs li{
   margin: 2%;
+  font-size: 1rem;
 }
 
-#projects .fa{
-  font-size: 8rem;
-  height: 5rem;
-  margin-top: -40px;
-}
-
+/****************************************************
+THIS LITERALLY JUST MAKES AN ARROW FOR THE PROJECTS PAGE
+*****************************************************/
 .arrow{
-  height: 10em;
-  width: 10em;
+  width: 6em;
 
 }
 
@@ -164,7 +165,7 @@ font-size: 0.5em;
   background-color: white;
   height: 20px;
   width: 200px;
-  margin: 0 0 15px 0;
+  margin: 0 0 14px 0;
   display: inline-block;
 }
 
