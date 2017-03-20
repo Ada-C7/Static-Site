@@ -42,7 +42,6 @@ a:visited {
 header {
   padding: 0 18%;
   margin-bottom: 5%;
-  /*min-width: 90%;*/
 }
 
 nav {
@@ -65,54 +64,51 @@ nav h1 {
 
 
 /*main rules*/
-/*try 900px width of content, 300 each article*/
 section.gallery {
   padding: 0 10%;
   min-width: 1500px;
 }
 
 article.project {
-  /*border-style: solid;
-  border-width: medium;
-  border-color: #A9E4FF;*/
-  /*above for debugging*/
-
   display: inline-block;
   width: 400px;
   padding: 1% 2%;
-  /*min-height: 500px;*/
   vertical-align: text-top;
+  position: relative;
 }
 
 article.project p.desc {
-  /*visibility: hidden;*/
-  /*position: absolute;*/
-  /*top: 15%;*/
+  display: none;
 }
 
-article.project img a:hover p.desc {
-  /*visibility: visible;*/
-}
-
-article.project h3 {
-  /*visibility: hidden;*/
-  /*position: absolute;*/
+article.project img:hover + p.desc,
+article.project h3:hover + p.desc,
+article.project p.desc:hover {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.6);
+  text-align: justify;
+  position: absolute;
+  bottom: 1%;
+  width: 350px;
 }
 
 article.project img {
   max-width: 100%;
   max-height: 100%;
-  /*position: relative;*/
 }
 
 
 /*footer rules*/
 footer {
-  padding: 0 20%;
+  padding: 0 30%;
   margin-top: 5%;
 }
 
 footer * {
   display: inline;
   padding: 0 1%;
+}
+
+footer img {
+  width: 50px;
 }
