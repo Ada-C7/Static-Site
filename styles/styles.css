@@ -111,6 +111,20 @@ a {
   float: right;
 }
 
+.highlight-text {
+  width: 600px;
+  color: white;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 300;
+  line-height: 2.3em;
+  padding: .25em .25em .5em .25em;
+}
+
+.highlight-bg {
+  padding: .25em .25em .5em .25em;
+  box-shadow: -10px 0 0 SlateBlue, 10px 0 0 SlateBlue;
+}
+
 
 /* HEADER -- Had to fudge this to get it on the same baseline..is there a better way to do this?
 *********************************/
@@ -147,7 +161,7 @@ main {
 
 /* INDEX
 *********************************/
-#index {
+#index, #index .highlight-bg {
   background: #FF3333;
 }
 
@@ -202,7 +216,7 @@ main {
 
 /* SAMPLE PROJECT
 *********************************/
-#sample-proj {
+#sample-proj, #sample-proj . {
   background: #FF5335;
 }
 
@@ -238,7 +252,7 @@ main {
 
 /* BLOG POSTS
 *********************************/
-#blog {
+#blog, #blog .highlight-bg {
   background: MediumSpringGreen;
 }
 
@@ -272,7 +286,7 @@ main {
 
 /* ABOUT
 *********************************/
-#about {
+#about, #about .highlight-bg {
   background: SlateBlue;
 }
 
@@ -287,21 +301,9 @@ main {
   border-bottom: 10px solid black;
 }
 
-#about .highlight {
-  display: inline;
-  color: white;
-  font-family: 'Roboto Mono', sans-serif;
-  font-weight: 400;
-  line-height: 2.1em;
-  background: SlateBlue;
-  padding: .25em 0;
-  box-shadow: 10px 0 0 SlateBlue, -20px 0 0;
-}
-
-
 /* RESUME
 *********************************/
-#resume {
+#resume, #resume .highlight-bg {
   background: #09A8FA;
 }
 
