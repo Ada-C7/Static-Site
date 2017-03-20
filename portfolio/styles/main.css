@@ -72,8 +72,18 @@ header nav a:hover {
 footer {
   background-color: #D0DD97;
   width: 100%;
-  display: block;
+  display: inline-block;
   padding: 20px;
-  margin: 0px;
+  margin-left: -10px;
+}
 
+
+#copyright {
+  float: left;
+  width: 50%;
+}
+
+#connect {
+  float: left;
+  width: 45%;
 }
