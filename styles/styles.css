@@ -41,7 +41,7 @@ footer a:hover, footer a:focus, footer a:active {
 }
 
 img {
-  border: solid #808080 1px;
+  border: solid #ffa249 1px;
   border-radius: 50%;
   max-width: 100%;
 }
@@ -173,7 +173,7 @@ h1 {
 
 #home-content img {
   background-image: url('../images/inflicted.png');
-  border: dashed #808080 1px;
+  /*border: solid #ffa249 1px;*/
 }
 
 .col2of2 p:last-child {
