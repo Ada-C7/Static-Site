@@ -5,36 +5,23 @@ html {
   box-sizing: inherit;
 }
 
-section:first-of-type {
-  text-align: center;
-}
-
-h3 a {
-  border-top: solid;
-  border-bottom: solid;
-  font-size: 2em;
-  padding: .3em;
-}
-section > p {
-  padding: .5em;
-}
-
-main {
-padding: 0.5em;
-}
-
-article p {
+section article {
   float: right;
-  max-width: 55%;
-  margin: 0;
+  max-width: 50%;
+  padding-right: 2em;
 }
 
 article img {
-  padding-left: 2em;
-  padding-bottom: 1.5em;
   float: left;
-  height: auto;
-  width: auto;
-  max-height: 30%;
-  max-width: 30%;
+  clear: both;
+  padding-left: 1.5em;
+  padding-bottom: 1.5em;
+  height: 300px;
+  width: 400px;
+  max-width: 100%;
+  /*vertical-align: top;*/
 }
+
+/*footer {
+  position: absolute;
+}*/

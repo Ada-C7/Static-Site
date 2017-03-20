@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Amatic+SC:700");
+
 html {
   box-sizing: border-box;
 }
@@ -21,24 +23,35 @@ header {
   opacity: 0.8;
   /*Opacity end*/
   vertical-align: bottom;
-
 }
 
 header h2 a {
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Acme', sans-serif;
   color: white;
   float: left;
   padding-left: 2em;
   padding-bottom: .4em;
 }
 
+header h2 a:hover {
+  color: black;
+}
+
 header ul li {
   display: inline-block;
   float: right;
-
 }
+
 header ul li a {
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Acme', sans-serif;
   color: white;
   padding-right: 2em;
+}
+
+header ul li a:hover {
+  color: black;
 }
 
 a{
@@ -48,6 +61,24 @@ a{
 main section {
 clear: both;
 padding-top: 70px;
+}
+
+section:first-of-type {
+  text-align: center;
+}
+
+h3 a {
+  border-top: solid;
+  border-bottom: solid;
+  font-size: 2em;
+  padding: .3em;
+}
+section > p {
+  padding: .5em;
+}
+
+main {
+  padding: 0.5em;
 }
 
 footer {

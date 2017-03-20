@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+#code-projects {
+  margin-left: 3em;
+}
+
+#code-projects article {
+  display: inline-block;
+  max-width: 30%;
+  padding: 1.5em;
+  border-top: solid maroon 2em;
+  padding-top: 0;
+  height: 300px;
+  vertical-align: top;
+}

@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#dance h4{
+  text-align: center;
+  color: grey;
+  font-size: 3em;
+  background-image: url(../images/competition.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20%;
+}
+
+#backpacking h4{
+  text-align: center;
+  color: grey;
+  font-size: 3em;
+  background-image: url(../images/backpacking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20%;
+}
+
+#dogs h4{
+  text-align: center;
+  color: grey;
+  font-size: 3em;
+  background-image: url(../images/stella.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20%;
+}
