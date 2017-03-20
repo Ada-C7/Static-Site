@@ -51,7 +51,8 @@ a:hover{
   clear: both;
   width: 50%;
   display: inline-block;
-  text-align: right
+  text-align: right;
+
 }
 
 .nav li {
@@ -59,8 +60,8 @@ a:hover{
   padding-left: 10%;
   display: inline-block;
   color: #f0f0f0;
+  margin-top: 10px;
 }
-
 
 main {
   clear: both;
@@ -68,11 +69,10 @@ main {
   margin: 0 6%;
 }
 
-section.welcome, section.about {
+section.welcome, section.about, section.all-interests {
   width: 60%;
   padding-left: 2%;
 }
-
 
 article.project {
 
@@ -93,7 +93,6 @@ article.project p:first-of-type {
   display: inline-block;
 }
 
-
 footer {
   position: fixed;
   bottom: 0;
@@ -102,7 +101,6 @@ footer {
   padding: 0 3%;
   background-color: #f0f0f0;
   width: 100%;
-
 }
 
 section.projects-left, section.projects-right {
@@ -112,7 +110,7 @@ section.projects-left, section.projects-right {
   vertical-align: top;
 }
 
-.social-media li {
+.social-media li, .interest li {
   list-style-type: none;
   padding-right: 3%;
   display: inline;
