@@ -2,52 +2,31 @@
 @import url('https://fonts.googleapis.com/css?family=Droid Serif');
 
 html {
-  /*height: 100%;
-  margins: 0;
-  padding: 0;*/
-/*height: :100%;*/
   margin:0 auto;
-  /*background-color: #e0e0e0;*/
-  /*background: linear-gradient(to right,#FFAFBD, #ffc3a0);*/
-  /*background: linear-gradient(to right,#ff6e7f, #ffc3a0);*/
   background: linear-gradient(to right,#5FC3E4,#E55D87) ;
-
-
-/*background-color: #999;*/
-/*max-height: 150px;*/
-
 }
 
 body {
-  /*color: #7d4c4c;*/
   color: black;
-
-  /*font-family: "Goudy Old Style",Garamond,"Big Caslon","Times New Roman","serif";*/
- /*font-family: "Arial", "Helvetica", "sans-serif";*/
- /*font-family: Geneva, Tahoma, Verdana, sans-serif;*/
  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-
 }
 
-
+/*Styling home page*/
 #home-header {
-  /*background-color: salmon;*/
   top: 0px;
   left:0px;
   height: 110px;
   width: 100%;
   z-index: 1;
   margin-left: 50px;
-  /*padding-right: 150px;*/
-  /*border-bottom: .1em solid black;*/
 }
+
 .name-role h1{
   font-size: 3em;
-  /*color: #7d4c4c;*/
 }
+
 .name-role h2{
   font-size: 2em;
-  /*color: #7d4c4c;*/
 }
 
 .name-role {
@@ -57,7 +36,6 @@ body {
   margin-left: 30px;
   line-height: 5px;
   top:0px;
-
 }
 
 #my-name {
@@ -66,12 +44,12 @@ body {
   top:0px;
   font-size: 1em;
   display: inline-block;
-  /*border: .1em solid black;*/
-  /*clear:both;*/
 }
+
 .main-nav {
   margin-right: 180px;
 }
+
 .main-nav li {
   display: inline-block;
   float: right;
@@ -79,21 +57,20 @@ body {
   margin:30px;
   font-size: 1.1em;
   font-weight: bold;
-  /*clear: both;*/
 
 }
+
 a {
   text-decoration: none;
-  /*color: #7d4c4c;*/
   color:black;
 }
+
 a:hover {
   color: blue;
 }
 
 .about-me img {
   float:left;
-  /*display:inline-block;*/
   position: relative;
   top: 50px;
   margin-left:-300px;
@@ -112,7 +89,6 @@ a:hover {
   line-height: 5px;
 }
 
-
 .about-me section{
   display: inline-block;
   position: relative;
@@ -120,12 +96,11 @@ a:hover {
   margin-right: 150px;
   float: right;
   width: 40%;
-  /*border: .1em solid black;*/
   padding: 10px;
   text-align:justify;
 }
 
-/*projects.html styling*/
+/*Styling projects page*/
 .projects h1 {
   font-size:2.7em;
   font-weight: 100;
@@ -146,8 +121,6 @@ a:hover {
   margin-left: 70px;
   margin-bottom: 10px;
   font-weight: bold;
-  /*vertical-align: middle;*/
-
 }
 
 .projects p {
@@ -157,14 +130,10 @@ a:hover {
   position: relative;
   width: 70%;
   margin-left: 40px;
-
 }
-
 
 .projects section p::before{
   content:"project #"
-
-
 }
 
 /*.projects section p::before{
@@ -172,29 +141,9 @@ a:hover {
 
 }*/
 
-/*aboutme styling*/
-
-/*.personal {
-  background-image: url("../images/paper.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 700px;
-  margin: 0px;
-  width: 100%;
-
-}*/
-/*.personal {
-  width:500px;
-  height: 200px;
-
-}*/
+/*Styling about me page*/
 .personal p {
-  /*width: 700px;*/
-  /*background-image: url("../images/circle.png");
-  background-size: cover;
-  background-repeat: no-repeat;*/
   height: 100px;
-  /*margin: 0px;*/
   width: 600px;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -202,9 +151,6 @@ a:hover {
   border: .2em solid brown;
   background-color: light-blue;
   margin: 25px;
-
-
-
 }
 
 .personal p:nth-of-type(2n+1){
@@ -229,43 +175,24 @@ a:hover {
 
 }
 
-
 .personal p:nth-of-type(2n){
   float:right;
   text-align: justify;
-
 }
 
-/*Journal Styling*/
+/*Styling Journal page */
 #food {
   height: 35px;
   margin-top: 25px;
   margin-left: 80px;
-
-
 }
+/*Styling table element*/
 .meals img {
   height: 250px;
   width:250px;
 }
 
-/*.meals table{
-  width: 300px;
-  list-style: none;
-  margin-top: 0px;
-}*/
-
-/*.meals {
-  -webkit-column-count: 3;
-   column-span: 10px;
-  -webkit-column-count: all;
-  column-count: 3;
-  padding-right: 5px;
-  margin-left: 50px;
-}*/
-
 .meals {
-  /*padding: 10px;*/
   position: relative;
   margin-left: 60px;
 }
@@ -274,19 +201,19 @@ td {
   padding: 20px;
 }
 
-/*footer styling*/
+/*Styling footer for ALL PAGES. Also, the header styling was for ALL PAGES.*/
 .social img {
   width: 35px;
   height: 35px;
 
 }
+
 .social li {
   float: left;
   position: relative;
   top: 15px;
   margin-right: 20px;
   display: inline;
-  /*clear:both;*/
 }
 
 #disclaimer {
@@ -297,7 +224,6 @@ td {
   padding-right: 40px;
   font-size: .9em;
   color: black;
-  /*font-weight: bold;*/
 }
 
 footer {
@@ -311,6 +237,4 @@ footer {
   /*background-color: #ff6e7f;*/
   /*background-color: #B5AC49;*/
   background: linear-gradient(to right,#B5AC49,#5FC3E4) ;
-
-
 }
