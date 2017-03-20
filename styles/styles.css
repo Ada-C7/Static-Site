@@ -140,21 +140,25 @@ footer {
 
 /*
 ===================================
-about page
+subpages
 ===================================
 */
-.columns {
+.container {
   padding-top: 85px;
-  width: 960px;
+  width: 800px;
   }
 
 .column {
-  width: 30%;
+  width: 350px;
   display: inline-block;
-  /*margin: 0px 10px;*/
 }
 
 .col1 {
   margin-left: 10px;
   float: left;
+}
+
+.singlecol {
+  width: 90%;
+  padding: 10px;
 }
