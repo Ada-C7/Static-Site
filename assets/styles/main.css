@@ -11,6 +11,10 @@
     color: #C4D3E5;
   }
 
+  html {
+    background-color: #8EB8E5;
+  }
+
 /*************************
           HEADER
 *************************/
@@ -83,6 +87,68 @@ main #hero {
 }
 
 /*************************
+         PROJECTS
+*************************/
+
+/*#project-title, .projects {
+  margin: 0 3%;
+}*/
+
+#projects {
+  padding: 5% 3%;
+  text-align: center;
+  background-image: url("../../assets/imgs/woodgrain6.jpg");
+  /*opacity: 0.5;*/
+}
+
+#projects p {
+  text-align: left;
+  /*opacity: 1;*/
+  font-weight: bolder;
+}
+
+#projects h1 {
+  margin: 0;
+  font-size: 3.5em;
+  /*font-weight: bolder;*/
+  /*color: #C4D3E5;*/
+  /*opacity: 1;*/
+  /*line-height: auto;*/
+}
+
+#projects section a h2 {
+  font-size: 1.8em;
+  /*font-weight: bolder;*/
+}
+
+.project a {
+  color: black;
+}
+
+.project:hover {
+  background-color: rgba(171, 137, 165, 0.4);
+  border-radius: 30%;
+}
+
+.project {
+  /*border: 2px solid black;*/
+  border-radius: 20%;
+  display: inline-block;
+  width: 25%;
+  height: 300px;
+  vertical-align: top;
+  padding: 0 2%;
+  margin: 5% 1%;
+  background-color: rgba(255, 248, 241, 0.4);
+  /*background-color:rgba(3,3,3,0.3);*/
+  /*filter: opacity();
+  color: #C4D3E5;*/
+  /*opacity: 0.5;*/
+  /*font-weight: bolder;*/
+  /*opacity: 0.7;*/
+}
+
+/*************************
           FOOTER
 *************************/
 footer #copyright, footer #contact, footer #contact li {
@@ -110,6 +176,9 @@ footer li {
 footer {
   background-color: #8EB8E5;
   padding: 0.5% 3%;
+  /*position: fixed;
+  bottom: 0;
+  width: 100%;*/
 }
 
 footer img:hover {
