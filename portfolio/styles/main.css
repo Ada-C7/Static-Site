@@ -98,6 +98,17 @@ div.buttons {
   padding: inherit;
 }
 
+.page-posts article {
+  width: 30%;
+  margin: 30px;
+  padding: 20px;
+}
+
+.page-posts p {
+  padding: 0px;
+}
+
+
 
 footer {
   background-color: #D0DD97;
