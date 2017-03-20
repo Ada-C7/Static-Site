@@ -108,6 +108,11 @@ section.top {
   font-size: 1.5em;
 }
 
+#sticky-lynn:hover {
+  background-color: #E71A9B;
+  color: white;
+}
+
 /*Main contect section*/
 #info {
   clear: both;
@@ -126,7 +131,7 @@ section#info article {
 section#info img {
   border-radius: 20%;
   height: 150px;
-  margin: 10px 45px;
+  margin: 10px 15%;
   border: 3px white dashed;
 }
 

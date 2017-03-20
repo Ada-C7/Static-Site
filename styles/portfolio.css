@@ -31,14 +31,14 @@
 
 .middle {
   position: absolute;
-  left: 35%;
+  left: 37%;
   right: 35%;
   background-color: #FFD71D;
 }
 
 .right {
   position: absolute;
-  right: 0;
+  left: 75%;
   background-color: #FF7F1D;
 }
 
