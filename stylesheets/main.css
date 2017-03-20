@@ -12,3 +12,269 @@ COLOR SCHEME:
 
 /* custom Google font: "press start 2P" OR "VT323" */
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P|VT323');
+
+body, html {
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: #020202;
+  color: #FEFEFE;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #15A319;
+}
+
+ul li {
+  list-style: none;
+}
+
+nav {
+  text-align: right;
+  padding: 1rem;
+  float: right;
+}
+
+.top-bar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: left;
+  font-size: 1.25rem;
+  float: left;
+}
+
+.plain-bar {
+  margin: 0;
+  padding: 0.5rem;
+  width: 100%;
+  text-align: center;
+  clear: both;
+}
+
+.plain-bar-black {
+  color: black;
+  margin: 0;
+  padding: 0.5rem;
+  width: 100%;
+  text-align: center;
+  clear: both;
+  font-size: 1.25rem;
+}
+
+.left-bar {
+  margin: 0;
+  padding-left: 1rem;
+  width: 49%;
+  float: left;
+  clear: right;
+}
+
+
+#test{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  float: left;
+}
+
+.centered {
+  text-align: center;
+  width: auto;
+  padding: 1rem;
+  margin-top: 0;
+}
+
+#next-page {
+}
+.button {
+  color: white;
+  padding: 0.5rem;
+  /* PLACEHOLDER */
+  border-color: white;
+  border-style: solid;
+  border-width: 0.4rem;
+  border-radius: 0.3rem;
+  clear: left;
+  background-color: black;
+}
+
+.box {
+  display: block;
+  width: 100%;
+  height:auto;
+  background-color: #FEFEFE;
+  color: #020202;
+}
+
+.box-green {
+  display: block;
+  width: 100%;
+  height: 12%;
+  background-color: #15A319;
+}
+
+#header-image {
+  background-image: url("../images/header-edited.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 30%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#column-one {
+  display: block;
+  width: 50%;
+  float: left;
+  height: auto;
+  text-align: right;
+  background-color: #FEFEFE;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#column-two {
+  display: block;
+  width: 50%;
+  float: right;
+  height: auto;
+  text-align: left;
+  background-color: #FEFEFE;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.box-padding {
+  display: block;
+  width: 100%;
+  padding-top: 3%;
+  padding-left: 15%;
+}
+
+#banner-menu {
+  background-color: white;
+  color: black;
+  padding: 1%;
+  padding-left: 11%;
+  line-height: 1.5;
+  clear: both;
+  text-align: left;
+}
+
+.underline {
+  text-decoration: underline;
+  font-size: 1.25rem;
+}
+
+.fixed-bottom {
+  position: fixed;
+  bottom: 10%;
+  width: 100%;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 10%;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.5rem;
+  padding: 1rem;
+}
+
+#menu-choices {
+  padding-left: 10%;
+  line-height: 2.5;
+}
+
+.clear {
+  clear: both;
+}
+
+#about {
+  padding: 4%;
+  line-height: 1.5;
+}
+
+#hunting {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-image: url("../images/hunting_scene.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+
+#project1 {
+  position: fixed;
+  bottom: 3rem;
+  left:20px;
+  clear: both;
+}
+
+#project2 {
+  position: fixed;
+  bottom: 270px;
+  left: 50px;
+  clear: both;
+}
+#project3 {
+  position: fixed;
+  bottom: 80px;
+  right:50px;
+  clear: both;
+}
+#project4 {
+  position: fixed;
+  top: 100px;
+  clear: both;
+}
+
+#map {
+  background-image: url("../images/map_clear.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90%;
+  width: 100%;
+  float: left;
+}
+
+.large {
+  font-size: 1.25rem;
+  width: 100%;
+  height: 100%;
+}
+
+#link1 {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+}
+
+#link2 {
+  position: absolute;
+  top: 83%;
+  left: 57%;
+}
+
+#link3 {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
+
+
+#link4 {
+  position: absolute;
+  top: 36%;
+  left: 15%;
+}
