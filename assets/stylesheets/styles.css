@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded');
 @import url('https://fonts.googleapis.com/css?family=Pontano+Sans');
 
-
-
 /*General Styling*/
+body *{
+  margin: 0px;
+  padding: 0px;
+  border-width: 0px;
+}
+
 body{
   font-family:'Pontano Sans',Helvetica,sans-serif;
 
@@ -13,27 +17,41 @@ body{
 
 }
 
-body *{
-  margin: 0px;
-  padding: 0px;
-  border-width: 0px;
+body a{
+  color: #B9C9D9;
+  text-decoration: none;
 }
 
-
 /*Header Styling*/
+/*Header animation*/
+ @keyframes fade-in {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+
  header h2{
    display:inline-block;
    font-family: 'Stint Ultra Expanded',Helvetica, serif;
-   width: 30%;
+   width: 50%;
    color:gray;
    font-style: italic;
    font-size:30px;
-   /*font-weight: 200;*/
+   animation-name: fade-in;
+   animation-duration: 10s;
+   animation-delay: -1s;
+   font-size: 50px;
+   font-family: "Stint Ultra Expanded", cursive;
+   text-shadow: 1px 1px 2px gray, 0 0 1em #3a7bd5, 0 0 0.2em teal;
+
  }
 
  header nav:first-of-type{
    display: inline-block;
-   width: 60%;
+   width: 39%;
    text-align: right;
 
  }
@@ -43,6 +61,7 @@ header nav > ul{
 
 nav li {
 display: inline-block;
+padding: .1em;
 }
 /*Splash Section Styling*/
 #splash {
@@ -60,56 +79,8 @@ display: inline-block;
     background-position: center;
 }
 
-@keyframes bounce-in-top {
-  0% {
-    transform: translateY(-500px);
-    animation-timing-function: ease-in;
-    opacity: 0;
-  }
-  38% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  55% {
-    transform: translateY(-65px);
-    animation-timing-function: ease-in;
-  }
-  72% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-  81% {
-    transform: translateY(-28px);
-    -webkit-animation-timing-function: ease-in;
-  }
-  90% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-  95% {
-    transform: translateY(-8px);
-    animation-timing-function: ease-in;
-  }
-  100% {
-    transform: translateY(0);
-    animation-timing-function: ease-out;
-  }
-}
-.my-object {
-   animation-name: bounce-in-top;
-   animation-duration: 5s;
-   font-size: 50px;
-   font-family: "Stint Ultra Expanded", cursive;
-   text-shadow: 1px 1px 2px gray, 0 0 1em #3a7bd5, 0 0 0.2em teal;
-   color:white;
-   position: absolute;
-   top: 20%;
-   right:97%;
-   display: inline-block;
-   z-index: 40;
-   width:30px;
- }
+
+
 nav.footer{
   position:absolute;
   bottom: 100px;
