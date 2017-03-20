@@ -2,11 +2,23 @@
   /*margin: 0*/
   /*border: solid black;*/
 }
-li, p, h5 {
+li, p, h3, h1 {
   font-family: 'Poppins', sans-serif;
 }
 a {
   text-decoration: none;
+}
+
+#title a {
+  color: red;
+}
+
+#title a:hover {
+  color: yellow;
+}
+
+li a {
+  color: black;
 }
 
 header {
