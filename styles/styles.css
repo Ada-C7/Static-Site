@@ -190,8 +190,12 @@ main {
   color: FloralWhite ;
 }
 
-.row-two {
+#index-projects .row-two {
   margin-top: 2em;
+}
+
+#index-projects .space {
+  margin-right: 2em;
 }
 
 
@@ -302,6 +306,13 @@ main {
 #resume-content .resume-section ul {
   padding-left: 1em;
   margin-bottom: 1em;
+}
+
+#resume-content .resume-section {
+  border-top: 2px solid black;
+  margin-bottom: 2em;
+  margin-top: .5em;
+  padding-top: 1em;
 }
 
 
