@@ -26,6 +26,14 @@ html {
 
 .hobby {
   background-size: cover;
+  background-image: url('../images/flower.jpeg');
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Megrim', cursive;
+}
+
+.about {
+  background-size: cover;
   background-image: url('../images/orange.jpeg');
   background-repeat: no-repeat;
   height: 100%;
@@ -45,6 +53,7 @@ header ul li, footer ul li {
 ul li {
   list-style-type: circle;
 }
+
 /*-------------------------------------------------------*/
 
 header {
@@ -93,7 +102,55 @@ main {
 
 /*--------------------------------------------------------*/
 
+.hobby {
+  color: linen;
+}
 
+.hobby a {
+  color: linen;
+}
+
+#fx {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+#secretary, #stencil, #chair {
+  display: block;
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.5);
+  padding: 10px;
+}
+
+img[src="images/fx/ChairBefore.jpg"], img[src="images/fx/SecretaryAfter.jpg"] {
+  transform: rotate(90deg);
+}
+
+#chair, #secretary {
+  overflow: hidden
+}
+
+img {
+  height: 20vw;
+}
+
+.hobby p {
+  display: inline-block;
+  width: 50%;
+}
+
+#furniture > h3 {
+  margin-left: 10px;
+}
+/*--------------------------------------------------------*/
+
+#descrip article {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
 
 /*--------------------------------------------------------*/
 
