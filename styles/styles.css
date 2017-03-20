@@ -54,6 +54,30 @@ border: black solid;
   1px 1px 0 white;
 }
 
+
+.link {
+    display: inline-block;
+    /*padding: 10px;*/
+}
+
+/*.link-alt {
+    padding: 10px;
+}*/
+
+span {
+    display: inline-block;
+    width: 30%
+}
+
+.left {
+    text-align: left
+}
+
+.right {
+    text-align: right
+}
+
+
 li {
   display: inline-block;
   padding: 3px ;
@@ -69,7 +93,7 @@ a {
 }
 
 a:hover {
-filter:invert(60%);
+  filter:invert(60%);
 }
 
 header {
@@ -79,29 +103,23 @@ header {
   margin-bottom: 5%;
   position: relative;
   z-index: 1;
+  text-align:center;
 }
 
+
 header h2 {
-  max-width: 30%;
-  text-align: center;
   margin: 0px;
-  padding-left: 20%;
-  padding-right: 10%;
-  /*font-size: 1em;*/
   display: inline-block;
 }
 
 header nav {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  right: 18%;
-  width : 50%;
-  transform: translate(50%, -50%);
+  display: inline-block;
 }
 
 header ul {
   display: inline-block;
+  padding: 0px;
+  margin: 0px;
 }
 
 
@@ -114,25 +132,32 @@ header ul {
 }
 
 main img {
+  align-items: center;
   width: 200px;
   height: 200px;
   border-radius: 50%;
   border-style: solid;
 }
 
+main h1 {
+  text-align: center;
+  align-items: center;
+}
+
 main p {
   width: 60%;
   display: inline-block;
-  text-align: center;
+  text-align: right;
+  align-self: center;
 }
 
 footer {
-  /*clear: both;
-  float: right;
-  padding-right: 4%;
-  padding-left: 0px;*/
-  display: block;
+  display:list-item;
   text-align: center;
+}
+
+footer ul {
+  padding: 0px;
 }
 
 footer li {
@@ -140,5 +165,4 @@ footer li {
 }
 footer img {
   width: 40px;
-  height: 40px;
 }
