@@ -1,9 +1,11 @@
 main {
-  padding: 0 10%
+  padding: 0 10%;
+  font-family: "Josefin Sans";
 }
 
 #title {
   font-size: 6em;
+  font-family: "Cormorant SC";
   text-align: center;
   border-bottom: solid black 1px;
   margin: 0;
@@ -68,7 +70,7 @@ article {
 }
 
 .git-icon {
-  max-width: 80px;
+  max-width: 70px;
   height: auto;
   border-radius: 100%;
   margin-left: 42%
