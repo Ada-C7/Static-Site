@@ -161,7 +161,7 @@ footer div {
 
 #copyright {
   vertical-align: bottom;
-  width: 45%;
+  width: 48%;
 }
 
 #connect {
@@ -173,6 +173,7 @@ footer div {
 #connect h4 {
   margin: 5px;
   margin-bottom: 10px;
+  text-transform: lowercase;
 }
 
 .fa {
