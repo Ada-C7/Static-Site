@@ -19,8 +19,6 @@ h1 {
   font-size: 4em;
   font-family: Charcoal;
   color: white;
-
-
 }
 
 ul {
@@ -57,26 +55,9 @@ main {
   margin-top: 90px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h3, section + h6 {
+  margin-bottom: 0px;
+}
 
 footer {
   width: 100%;
