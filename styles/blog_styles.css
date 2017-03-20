@@ -1,0 +1,50 @@
+/*****************
+MAIN
+*******************/
+
+#portfolio {
+  margin-top: 50px;
+}
+
+#portfolio h1 {
+  font-size: 3.5em;
+  text-align: center;
+  padding-top: 8%;
+  height: 60px;
+}
+
+#subtitle {
+  font-size: 2em;
+  text-align: center;
+  height: 75px;
+}
+
+article {
+  display: block;
+  margin-left: 10%;
+}
+
+article h2 {
+  display: inline-block;
+  width: 15%;
+  text-align: left;
+  vertical-align: top;
+  height: 40%;
+  margin-top: 0px;
+}
+
+.blog {
+  width: 60%;
+  display: inline-block;
+  font-size: 1.5em;
+  margin-left: 10%;
+  margin-top: 0px;
+}
+
+/*****************
+FOOTER
+*******************/
+
+footer {
+  margin-top: 5%;
+}

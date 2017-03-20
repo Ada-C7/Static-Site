@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+* {
+  color: black;
+  font-family: 'Slabo 27px', serif;
+}
+
+/***********************
+HEADER
+***************************/
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: gray;
+}
+
+header h2 a {
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-left: 3%;
+}
+
+.emoji:hover::before {
+  content: "⎈";
+}
+
+.contents a {
+  text-decoration: none;
+}
+
+header nav {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
+
+header .contents {
+  display: inline-block;
+}
+
+
+/***********************
+MAIN
+***************************/
+
+main {
+  width: 100%;
+}
+
+#hero {
+  margin-top: 125px;
+  text-align: center;
+  height: 400px;
+  width: 100%;
+}
+
+#hero h1 {
+  font-size: 4em;
+  padding-top: 8%;
+  height: 100px;
+}
+
+#hero p {
+  font-size: 2.5em;
+  height: 100px;
+}
+
+#hero a {
+  border-radius: 10px;
+  font-size: 1.75em;
+  background-color: gray;
+}
+
+#hero #one {
+  font-size: 1.75em;
+  float: left;
+  text-align: center;
+  width: 15%;
+  margin-left: 18%;
+}
+
+#hero #two, #hero #three {
+  font-size: 1.75em;
+  float: left;
+  text-align: center;
+  width: 15%;
+  margin-left: 8%;
+}
+
+#hero li {
+  list-style-type: none;
+}
+
+/***********************
+FOOTER
+***************************/
+
+footer h4, footer p {
+  display: inline-block;
+}
+
+footer h4 {
+  width: 20%;
+  margin-left: 3%;
+}
+
+footer p {
+  width: 30%;
+}
+
+footer {
+  margin-top: 8%;
+  margin-bottom: 1%;
+}

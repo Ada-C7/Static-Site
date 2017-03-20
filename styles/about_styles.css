@@ -1,0 +1,39 @@
+/***************
+MAIN
+****************/
+
+#about {
+  margin-top: 60px;
+}
+
+img, div {
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+img {
+  height: 300px;
+}
+
+div {
+  width: 55%;
+}
+
+h1 {
+  margin-left: 2%;
+}
+
+#about li {
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+
+
+/***************
+FOOTER
+****************/
+
+footer {
+  margin-top: 10%;
+}
