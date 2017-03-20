@@ -1,0 +1,240 @@
+/*@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');*/
+@import url('https://fonts.googleapis.com/css?family=Droid Serif');
+
+html {
+  margin:0 auto;
+  background: linear-gradient(to right,#5FC3E4,#E55D87) ;
+}
+
+body {
+  color: black;
+ font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+/*Styling home page*/
+#home-header {
+  top: 0px;
+  left:0px;
+  height: 110px;
+  width: 100%;
+  z-index: 1;
+  margin-left: 50px;
+}
+
+.name-role h1{
+  font-size: 3em;
+}
+
+.name-role h2{
+  font-size: 2em;
+}
+
+.name-role {
+  display: inline-block;
+  float: left;
+  position: relative;
+  margin-left: 30px;
+  line-height: 5px;
+  top:0px;
+}
+
+#my-name {
+  float: left;
+  position: relative;
+  top:0px;
+  font-size: 1em;
+  display: inline-block;
+}
+
+.main-nav {
+  margin-right: 180px;
+}
+
+.main-nav li {
+  display: inline-block;
+  float: right;
+  position:relative;
+  margin:30px;
+  font-size: 1.1em;
+  font-weight: bold;
+
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.about-me img {
+  float:left;
+  position: relative;
+  top: 50px;
+  margin-left:-300px;
+  height: 380px;
+  width: 380px;
+  border-radius: 50%;
+}
+
+.about-me h2 {
+  font-size: 2em;
+  line-height: 5px;
+}
+
+.about-me h3 {
+  font-size: 2em;
+  line-height: 5px;
+}
+
+.about-me section{
+  display: inline-block;
+  position: relative;
+  top:90px;
+  margin-right: 150px;
+  float: right;
+  width: 40%;
+  padding: 10px;
+  text-align:justify;
+}
+
+/*Styling projects page*/
+.projects h1 {
+  font-size:2.7em;
+  font-weight: 100;
+  text-align: center;
+}
+.projects a {
+  float:left;
+  display: inline-block;
+  position: relative;
+  background-image: url("../images/circle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 120px;
+  clear: both;
+  line-height: 120px;
+  text-align: center;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.projects p {
+  float: left;
+  display: inline-block;
+  /*top:20px;*/
+  position: relative;
+  width: 70%;
+  margin-left: 40px;
+}
+
+.projects section p::before{
+  content:"project #"
+}
+
+/*.projects section p::before{
+  counter-increment: inherit;
+
+}*/
+
+/*Styling about me page*/
+.personal p {
+  height: 100px;
+  width: 600px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 30px;
+  border: .2em solid brown;
+  background-color: light-blue;
+  margin: 25px;
+}
+
+.personal p:nth-of-type(2n+1){
+  float:left;
+  text-align: justify;
+  clear:both;
+
+}
+.personal aside {
+  position: relative;
+  float: right;
+  top: 70px;
+  right: 120px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  width: 300px;
+  font-size: 1.7em;
+  vertical-align: middle;
+  background-color: #B5AC49;
+  border-radius: 30px;
+
+}
+
+.personal p:nth-of-type(2n){
+  float:right;
+  text-align: justify;
+}
+
+/*Styling Journal page */
+#food {
+  height: 35px;
+  margin-top: 25px;
+  margin-left: 80px;
+}
+/*Styling table element*/
+.meals img {
+  height: 250px;
+  width:250px;
+}
+
+.meals {
+  position: relative;
+  margin-left: 60px;
+}
+
+td {
+  padding: 20px;
+}
+
+/*Styling footer for ALL PAGES. Also, the header styling was for ALL PAGES.*/
+.social img {
+  width: 35px;
+  height: 35px;
+
+}
+
+.social li {
+  float: left;
+  position: relative;
+  top: 15px;
+  margin-right: 20px;
+  display: inline;
+}
+
+#disclaimer {
+  display: inline-block;
+  position: relative;
+  float: right;
+  top: 5px;
+  padding-right: 40px;
+  font-size: .9em;
+  color: black;
+}
+
+footer {
+  position:absolute;
+  width: 100%;
+  height: 90px;
+  margin-bottom:0px;
+  margin-left: -8px;
+  top: 800px;
+  /*border: .1em solid black;*/
+  /*background-color: #ff6e7f;*/
+  /*background-color: #B5AC49;*/
+  background: linear-gradient(to right,#B5AC49,#5FC3E4) ;
+}
