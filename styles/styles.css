@@ -151,6 +151,10 @@ a {
   padding-top: 115px;
 }
 
+#header-bottom li h3 a:hover, #header-bottom li h3 a:active {
+  border-bottom: 5px solid white;
+}
+
 
 /* MAIN
 *********************************/
