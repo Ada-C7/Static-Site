@@ -1,0 +1,15 @@
+#blog_hero {
+  background-image: url("../images/amb_placeholder2.jpg");
+}
+
+.blog_section1 {
+  background-color: white;
+}
+
+.blog_article {
+  display: inline-block;
+  width: 55%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}

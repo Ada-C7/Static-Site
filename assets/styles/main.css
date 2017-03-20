@@ -1,0 +1,175 @@
+
+
+/********************************************************
+help borders used at development
+*********************************************************/
+
+/*header {
+  border: 4px solid blue;
+}
+
+main {
+  border: 4px solid green;
+}
+
+section {
+  border: 2px solid red;
+}
+
+article {
+  border: 1px solid red;
+}
+
+div {
+  border: 1px dashed red;
+}
+
+footer {
+  border: 4px solid blue;
+}*/
+
+
+/********************************************************
+header
+*********************************************************/
+
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0px;
+   /* Marlin */
+  background-color: rgba(82,90,136, 1);
+  /* Gold */
+  color: rgba(200,179,116, 1);
+}
+
+header div {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+header nav {
+  display: inline-block;
+  float: right;
+}
+
+header ul {
+  margin-top: 20px;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  text-decoration: none;
+  /* Gold */
+  color: rgba(200,179,116, 1);
+  margin-right: 50px;
+}
+
+
+/********************************************************
+main for INDEX, PORTFOLIO, BLOG
+*********************************************************/
+main {
+  margin-top: 58px;
+}
+
+.hero {
+  position: relative;
+  clear: both;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  text-align: center;
+  vertical-align: middle;
+  height: 300px;
+  line-height: 256px;
+}
+
+.hero:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.section1  {
+  /* Gold */
+  background-color: rgba(200,179,116, 0.5);
+  text-align: center; /*centers the blocks articles within section1 as well as all text within section 1*/
+}
+
+/********************************************************
+main for INDEX
+*********************************************************/
+
+/* HERO */
+#index_hero {
+  background-image: url("../images/amb_placeholder2.jpg");
+}
+
+#index_hero:after {
+  /* Greenery */
+  background-color: rgba(134,175,73, 0.5);
+}
+
+
+/* SECTION_1 */
+
+
+.index_section1 a {
+  /* Gold */
+  color: rgba(200,179,116, 0.5);
+}
+
+.index_article {
+  /*position: relative;*/
+  display: inline-block;
+  height: 400px;
+  width: 25%;
+  margin: 2%;
+
+  /* Greenery */
+  background-color: rgba(134,175,73, 0.5);
+  /* Marlin */
+  color: rgba(82,90,136, 1);
+  border-radius: 30px;
+}
+
+.index_article p {
+  text-align: justify;
+  padding: 3%;
+}
+
+/********************************************************
+main css for PORTFOLIO, BLOG and ABOUT
+in separate files:
+portfolio_style.css
+blog_style.css
+about_style.css
+*********************************************************/
+
+
+/********************************************************
+footer
+*********************************************************/
+
+footer {
+  /* Marlin */
+ background-color: rgba(82,90,136, 1);
+ text-align: center;
+ /* Gold */
+ color: rgba(200,179,116, 1);
+}
+
+footer h4 {
+  margin: 0;
+  padding: 20px;
+
+}
