@@ -36,10 +36,11 @@ a {
 
 a:visited {
   text-decoration: none;
+  color: #ffeecc;
 }
 
 a:hover {
-  color: #775DB2;
+  color: #ffaa00;
 }
 
 main {
@@ -54,7 +55,7 @@ main {
 }
 
 .background {
-  background: url("../assets/old-world-map-cropped-top-path.jpg");
+  background: url("../images/old-world-map-cropped-top-path.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -75,7 +76,7 @@ main {
 }
 
 #bottom-image {
-  background: url("../assets/old-world-map-cropped-bottom.jpg");
+  background: url("../images/old-world-map-cropped-bottom.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
