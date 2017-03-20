@@ -9,14 +9,24 @@
 /* + Duo tone */
 
 
-/* CSS RESET + DEFAULT SETTINGS
+/* GLOBAL SETTINGS
 *********************************/
+html {
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+body {
+  min-width: 100%;
+  padding: 5%;
+}
 
 h1 {
   color: FloralWhite;
@@ -85,43 +95,22 @@ a {
   margin-bottom: 1em;
 }
 
-/* BODY
-*********************************/
-body {
-  padding: 5%;
+.button {
+  margin: 0;
 }
 
-body#work, #work a.button:hover {
-  background: #FF3333;
-  border: 1px solid #FF3333;
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
-
-body#blog {
-  background: MediumSpringGreen;
-  border: 1px solid MediumSpringGreen;
-}
-
-body#about {
-  background: SlateBlue;
-  border: 1px solid SlateBlue;
-}
-
-body#sample-proj {
-  background: #FF5335;
-  border: 1px solid #FF5335;
-}
-
-body#resume {
-  background: #09A8FA;
-}
-
 
 /* HEADER
 *********************************/
 
 header, #header-top, #header-bottom {
-  display: block;
-  width: 100%;
+  /*display: block;*/
+  /*width: 100%;*/
 }
 
 header .left, header .right {
@@ -129,17 +118,14 @@ header .left, header .right {
 }
 
 #header-top .left h5, #header-bottom .left h1 {
-  display: inline-block;
   float: left;
 }
 
 #header-top .right, #header-bottom .right {
-  display: inline-block;
   float: right;
 }
 
 #header-top li, #header-bottom li {
-  display: inline-block;
   list-style-type: none;
   float: right;
   padding-right: 1em;
@@ -171,6 +157,11 @@ main {
 
 /* INDEX - WORK / PROJECTS
 *********************************/
+body#work, #work a.button:hover {
+  background: #FF3333;
+  border: 1px solid #FF3333;
+}
+
 #projects {
   display: block;
   justify-content: space-between;
@@ -205,7 +196,7 @@ a.button {
   border-radius: 3px;
   position: absolute;
   bottom: 1.5em;
-  left: 2em;
+  left: 1.5em;
 }
 
 a.button:hover {
@@ -215,23 +206,49 @@ a.button:hover {
 
 /* SAMPLE PROJECT
 *********************************/
+#sample-proj {
+  background: #FF5335;
+  border: 1px solid #FF5335;
+}
+
 #sample-proj main {
   background: FloralWhite;
-  border-bottom: 10px solid black;
+  border-bottom: 5px solid black;
   padding: 2em;
 }
 
-#sample-proj {
+#project-nav {
+  display: block;
+  position: relative;
+  color: black;
   padding: 2em;
   padding-bottom: 1em;
-  background: #e5e1d8 ;
+  background: #e5e1d8;
   border-bottom: 10px solid black;
 }
 
+#project-nav a{
+  width: 50%;
+  display: inline-block;
+  float: left;
+  color: black;
+}
 
+#project-nav a#right {
+  float: right;
+  text-align: right;
+}
+
+#project-nav a:hover {
+  color: black;
+}
 
 /* BLOG POSTS
 *********************************/
+#blog {
+  background: MediumSpringGreen;
+  border: 1px solid MediumSpringGreen;
+}
 
 #blog-posts {
   display: block;
@@ -272,6 +289,11 @@ a.button:hover {
 
 /* ABOUT
 *********************************/
+#about {
+  background: SlateBlue;
+  border: 1px solid SlateBlue;
+}
+
 #about-info  {
   background: FloralWhite ;
   padding: 2em;
@@ -291,6 +313,10 @@ a.button:hover {
 
 /* RESUME
 *********************************/
+#resume {
+  background: #09A8FA;
+}
+
 #km-resume  {
   background: FloralWhite ;
   padding: 2em;
