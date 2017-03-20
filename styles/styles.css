@@ -96,6 +96,7 @@ body {
   padding-top: 1%;
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  font-size: 2em;
   text-align: center;
 }
 
@@ -103,11 +104,38 @@ body {
   width: 40%;
   float: left;
   margin-left: 4%;
+  font-size: 1.5em;
 }
 
 #welcome img {
   width: 40%;
   float: right;
+  margin-right: 4%;
+}
+
+#about {
+  clear: both
+}
+
+#about h2 {
+  width: 40%;
+  padding-top: 1%;
+  margin-left: 60%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+#about p {
+  width: 40%;
+  float: right;
+  margin-right: 4%;
+  font-size: 1.5em;
+}
+
+#about img {
+  width: 40%;
+  float: left;
   margin-right: 4%;
 }
 
