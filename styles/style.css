@@ -28,10 +28,40 @@ header {
   z-index: 100;
 }
 
+header ul {
+  float: right;
+  clear: right;
+}
+
+header li {
+  display: inline-block;
+  margin: 40px 20px 0 20px;
+}
+
+header li:hover {
+  background: #36D7B7;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+footer li {
+  display: inline-block;
+  margin: 20px;
+}
+
+footer li:hover {
+  background: yellow;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
  /*#hero img {
   width: 100vw;
 }*/
 
+/* HERO */
 #hero {
   padding-top: 90px;
   width: 100vw;
@@ -44,7 +74,6 @@ header {
 .index_circle {
   display: inline-block;
   transform: translate(200px, 200px);
-  /*position: absolute;*/
   background: yellow;
   border-radius: 50%;
   width: 200px;
@@ -87,28 +116,9 @@ header {
   margin: 0 50px;
 }
 
-header ul {
-  float: right;
-  clear: right;
-}
+/* HERO */
 
-header li {
-  display: inline-block;
-  margin: 40px 20px 0 20px;
-}
-
-header li:hover {
-  background: #36D7B7;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
-
-footer li {
-  display: inline-block;
-  margin: 20px;
-}
-
+/* CODE-JOURNAL */
 #entries {
   padding-top: 200px;
   clear: both;
@@ -150,6 +160,9 @@ footer li {
   z-index: -1;
 }
 
+/* CODE-JOURNAL */
+
+/* PORTFOLIO */
 .portfolio h2, h2 a {
   position: relative;
   text-align: center;
@@ -212,7 +225,6 @@ footer li {
   background-size: cover;
 }
 
-
 #illustration {
   float: right;
   clear: right;
@@ -237,17 +249,21 @@ footer li {
   background-size: cover;
 }
 
+/* PORTFOLIO */
+
+/* ABOUT ME */
+
 #me {
   float: left;
   clear: left;
-  margin: 50px 25px;
+  margin: 150px 25px;
   width: 40%;
 }
 
 #about {
   float: right;
   clear: right;
-  margin: 50px 75px 0px 25px;
+  margin: 150px 75px 0px 25px;
   width: 40%;
 }
 
@@ -263,9 +279,4 @@ footer li {
   text-align: left;
 }
 
-footer li:hover {
-  background: yellow;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-}
+/* ABOUT ME */
