@@ -78,24 +78,26 @@ div.buttons {
   display: inline-block;
   width: 20%;
   min-width: 120px;
-  border: solid 2px;
-  padding: 15px;
-  margin: 10px;
+
 }
 
-
-#intro-text p a {
+.buttons a {
   color: black;
   text-decoration: none;
-  width: 120px;
+  width: 20%;
+  min-width: 120px;
+  padding: 15px;
+  margin: 10px;
+  border: solid 2px;
+
 }
 
-#intro-text p a:hover {
+.buttons a:hover {
   color: white;
   background-color: gray;
   border-color: black;
-  width: 120px;
-  padding: inherit;
+
+
 }
 
 .page-posts article {
