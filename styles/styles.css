@@ -52,10 +52,13 @@ hr {
   margin-bottom: 0;
 }
 
+h2 + hr {
+  margin-top: 0;
+}
+
 /*** header stuff ***/
 header {
   font-family: 'Coming Soon', cursive;
-  /*border-bottom: dashed #CCC 1px;*/
 }
 
 /*** main nav ***/
@@ -85,17 +88,11 @@ header nav li a {
   display: block;
   padding: .3em;
   width: 130px;
-  /*border: dashed #808080 1px;
-  border-radius: 35%;*/
-  /*border: dashed #808080 1px;*/
-  /*border-radius: 10px;*/
   margin: auto;
-  /*background-color: rgba(255, 214, 174, 0.4);*/
-  /*background-color: #ffe8c8;*/
   font-size: 1.2em;
 }
 
-header nav li.selected a {
+header nav li.selected > a {
   border-top: dashed #ffa249 1px;
   border-bottom: dashed #ffa249 1px;
 }
@@ -173,7 +170,6 @@ h1 {
 
 #home-content img {
   background-image: url('../images/inflicted.png');
-  /*border: solid #ffa249 1px;*/
 }
 
 .col2of2 p:last-child {
@@ -193,38 +189,43 @@ h1 {
   visibility: hidden;
 }
 
-#portfolio-content h1 {
+.blurbs h1 {
   text-align: center;
 }
 
-#portfolio-content h2 {
+.blurbs h2 {
   text-align: right;
   background-image: url('../images/inflicted.png');
   margin: 0;
   padding: 10px 3px;
 }
 
-#portfolio-content h3 {
+.blurbs h3 {
   padding: 5px 0;
 
 }
 
-#portfolio-content img {
+.blurbs img {
   float: left;
   margin-right: 4%;
   margin-bottom: 2%;
 }
 
-#portfolio-content article {
+.blurbs article {
   clear: both;
   margin-top: 10px;
 }
 
-#portfolio-content h3 {
+.blurbs h3 {
   padding-top: 10px;
 }
 
-#portfolio-content article p:last-child {
+.blurbs p.read-more {
+  margin-top: 0;
+  text-align: right;
+}
+
+.blurbs article p:last-child {
   border-bottom: dashed #ffa249 1px;
 }
 

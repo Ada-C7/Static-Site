@@ -2,20 +2,23 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Addie Land</title>
+  <title>Addie Land - blog</title>
   <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" media="only screen and (min-width: 501px) and (max-width: 800px)" href="../styles/styles-medium.css">
+	<link rel="stylesheet" media="only screen and (min-width: 50px) and (max-width: 500px)" href="../styles/styles-small.css">
 </head>
 <body>
   <header>
-    <!-- <h1><a href="index.html">Addie Land</a></h1> -->
+    <h1 class="mobile-only"><a href="index.html">Addie Land - blog</a></h1>
     <nav class="clearfix">
       <ul>
         <li><a href="../index.html">home</a></li>
         <li><a href="../portfolio.html">portfolio</a></li>
         <li><a href="../about.html">about</a></li>
-        <li class="dropdown">
-          <a class="selected" href="index.html">blog</a>
+        <li class="dropdown selected">
+          <a href="index.html">blog</a>
 					<ul>
 						<li><a href="blog1.html">blog entry 1</a></li>
 						<li><a href="blog2.html">blog entry 2</a></li>
@@ -25,11 +28,65 @@
       </ul>
     </nav>
   </header>
-  <main>
-
+  <main class="indent clearfix">
+    <section id="blog-content" class="blurbs">
+      <h1 class="mobile-hidden">Addie Land - blog</h1>
+      <hr class="mobile-hidden">
+      <article>
+        <img src="https://placeimg.com/200/200/animals" alt="placeholder image">
+        <h3><a href="blog1.html">blog entry 1</a></h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut mi ipsum, laoreet ac ultrices in, auctor nec nunc. Cras nec sem accumsan, volutpat metus nec, vulputate libero. Nullam egestas magna in felis suscipit cursus. Vestibulum vitae dui vel nisi condimentum tincidunt ac a neque. Mauris eget nibh nunc. Aenean at lectus at massa varius auctor non nec velit. Sed pellentesque lacinia neque vitae finibus.
+        </p>
+        <p class="read-more">
+          <a href="blog1.html">read more</a>
+        </p>
+      </article>
+      <article>
+        <img src="https://placeimg.com/200/200/nature" alt="placeholder image">
+        <h3><a href="blog2.html">blog entry 2</a></h3>
+        <p>
+          Nullam malesuada, leo vitae fringilla efficitur, libero ex fringilla leo, quis cursus neque ligula quis metus. Maecenas blandit tristique mi sit amet congue. Donec non consequat tellus. Cras risus dui, dapibus sed magna sit amet, sodales lobortis ante. Donec rhoncus congue augue, eu pharetra sem. Sed blandit purus magna, et maximus metus gravida in. Etiam at lacus ornare, tristique mauris id, finibus nulla. Sed convallis lacinia pharetra. Aliquam vel mollis ligula, nec mattis urna. Aliquam interdum blandit sem imperdiet tristique. Duis non viverra ipsum, at consequat arcu. Duis eu dolor a leo pharetra dictum vel sed est. Mauris et augue tempor, finibus purus vehicula, bibendum elit. Integer mollis felis sed hendrerit tempus. In dui tortor, condimentum a viverra ullamcorper, sagittis ac mi.
+        </p>
+        <p class="read-more">
+          <a href="blog2.html">read more</a>
+        </p>
+      </article>
+      <article>
+        <img src="https://placeimg.com/200/200/arch" alt="placeholder image">
+        <h3><a href="blog3.html">blog entry 3</a></h3>
+        <p>
+          Vestibulum feugiat tincidunt sapien, et efficitur leo fringilla sagittis. Quisque tincidunt diam felis. Maecenas id urna eleifend, consequat mauris quis, fermentum eros. Nunc ante turpis, consequat at sodales a, tincidunt id mi. Cras ac erat eget tortor elementum pellentesque facilisis finibus lectus. Praesent aliquet tortor sed tincidunt tincidunt. Nam at purus nunc. Duis sed purus quam. Mauris congue sapien vitae finibus mollis. Phasellus viverra turpis vehicula lorem elementum, at pulvinar ipsum scelerisque.
+        </p>
+        <p class="read-more">
+          <a href="blog3.html">read more</a>
+        </p>
+      </article>
+    </section>
   </main>
-  <footer>
-
+  <footer class="indent">
+    <ul id="footer-links">
+      <li>
+        <a href="#">
+          <i class="fa fa-envelope-square fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/addie-land/" target="_blank">
+          <i class="fa fa-linkedin fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/add2point71dots" target="_blank">
+          <i class="fa fa-github fa-2x"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/commonbirdclub/" target="_blank">
+          <i class="fa fa-instagram fa-2x"></i>
+        </a>
+      </li>
+    </ul>
   </footer>
 </body>
 </html>
