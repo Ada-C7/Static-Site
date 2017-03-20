@@ -91,7 +91,7 @@ span {
 }
 
 
-li {
+nav li {
   display: inline-block;
   padding: 3px ;
 }
@@ -161,7 +161,7 @@ header ul {
   align-items: center;
   font-family: Amatic SC;
   font-size: 2.3em;
-  font-weight: bolder;;
+  font-weight: bolder;
 }
 
 #hero p {
@@ -195,4 +195,32 @@ footer img {
   font-family: Amatic SC;
   font-size: 1.4em;
 
+}
+
+/************hobby.html**************/
+#carpentry h2 {
+  font-family: Amatic SC;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bolder;
+}
+.vertical-list li{
+  font-family: Average Sans;
+  font-size: .6em;
+  font-weight: normal;
+  padding : 1%;
+}
+
+.vertical-list ol li{
+  padding : .2%;
+  font-family: Average Sans;
+  font-size: .5em;
+  font-weight: normal;
+}
+
+.vertical-list {
+  list-style-type: circle;
+  color: black;
+  padding-left: 5%;
+  text-align: left;
 }
