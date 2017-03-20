@@ -30,10 +30,7 @@ body {
 }
 
 h1 {
-  color: FloralWhite;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 900;
-  font-size: 5vw;
+  font: 900 5vw 'Rubik', sans-serif;
   letter-spacing: .05em;
   margin-top: 1em;
 }
@@ -43,40 +40,31 @@ h2, h3, h4, h5, p, a{
 }
 
 h2 {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 900;
-  font-size: 2em;
-  line-height: 1.1em;
+  font: 900 2em/1.1em 'Rubik', sans-serif;
   text-transform: uppercase;
   word-spacing: .2em;
 }
 
 h3 {
-  font-family: 'Roboto Mono', sans-serif;
-  font-weight: 700;
-  font-size: 1.5em;
+  font: 700 1.5em 'Roboto Mono', sans-serif;
   text-transform: uppercase;
   letter-spacing: .05em;
   word-spacing: -0.3em;
 }
 
 h4 {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-  font-size: 1.2em;
+  font: 500 1.2em 'Rubik', sans-serif;
 }
 
 h5{
-  font-family: 'Roboto Mono', sans-serif;
-  font-weight: 700;
-  font-size: .9em;
+  font: 700 .9em 'Roboto Mono', sans-serif;
   letter-spacing: .1em;
   text-transform: uppercase;
   margin-bottom: 1em;
 }
 
 p {
-  font-family: 'Rubik', sans-serif;
+  font: 400 1em/1.8em 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 1em;
   line-height: 1.8em;
@@ -150,7 +138,7 @@ a {
   padding-top: 115px;
 }
 
-#header-bottom li h3 a:hover {
+#header-bottom a:hover {
   border-bottom: 5px solid white;
 }
 
@@ -225,7 +213,7 @@ main {
 /* SAMPLE PROJECT
 *********************************/
 #sample-proj, #sample-proj .highlight-bg {
-  background: ORANGERED;
+  background: OrangeRed;
 }
 
 #sample-proj main {
@@ -234,7 +222,6 @@ main {
 }
 
 #project-nav {
-  color: black;
   padding: 2em;
   padding-bottom: 3em;
   background: #e5e1d8;
@@ -245,7 +232,6 @@ main {
   width: 50%;
   display: inline-block;
   float: left;
-  color: black;
 }
 
 #project-nav a#right {
@@ -258,7 +244,7 @@ main {
 }
 
 #sample-proj .highlight-bg {
-  box-shadow: -.5em 0 0 ORANGERED, 5em 0 0 ORANGERED;
+  box-shadow: -.5em 0 0 OrangeRed, 5em 0 0 OrangeRed;
 }
 
 
@@ -312,8 +298,7 @@ main {
 /* ABOUT
 *********************************/
 #about, #about .highlight-bg {
-  background: #01dddd
-;
+  background: #01dddd;
 }
 
 #about .container  {
@@ -329,8 +314,8 @@ main {
 }
 
 #about .highlight-bg {
-  box-shadow: -.5em 0 0 #01dddd
-, .5em 0 0 #01dddd;
+  box-shadow: -.5em 0 0 #01dddd,
+  .5em 0 0 #01dddd;
 }
 
 #about-info {
@@ -350,7 +335,6 @@ main {
   background: FloralWhite ;
   padding: 2em;
   margin-top: 2em;
-  padding: 2em;
   display: block;
   border-bottom: 10px solid black;
 }
@@ -362,13 +346,12 @@ main {
 
 #resume-content .resume-section {
   border-top: 2px solid black;
-  margin-bottom: 2em;
-  margin-top: .5em;
+  margin: .5em 2em 0 0;
   padding-top: 1em;
 }
 
 #resume .highlight-bg {
-  box-shadow: -10px 0 0 #e0e300, 10px 0 0 #e0e300;
+  box-shadow: -.5em 0 0 #e0e300, 5em 0 0 #e0e300;
 }
 
 
