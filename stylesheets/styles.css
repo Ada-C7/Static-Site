@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cormorant+SC|Harmattan|IM+Fell+English+SC|Jacques+Francois+Shadow|Jim+Nightshade|Josefin+Sans|Londrina+Outline|Playfair+Display|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC|Harmattan|IM+Fell+English+SC|Jacques+Francois+Shadow|Josefin+Sans|Poiret+One');
 
 h1, h2 {
   font-family: "IM Fell English SC";
@@ -6,6 +6,8 @@ h1, h2 {
 
 .header-and-footer {
   background-color: black;
+  font-family: "Cormorant SC";
+  font-weight: lighter;
   box-sizing: border-box;
   position: fixed;
   width: 100%;
@@ -44,20 +46,12 @@ main {
   margin-top: 59px;
 }
 
-.banner {
-  position: absolute;
-  width: 100%;
-  font-size: 7em;
-  text-align: center;
-  margin-top: 100px;
+#name {
+  font-size: 3em;
   font-weight: normal;
-  animation: fadein 4s;
+  margin-top: 1%;
+  margin-bottom: 0;
 }
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-  }
 
 .background {
   background: url("../assets/old-world-map-cropped-top-path.jpg");
@@ -70,12 +64,31 @@ main {
   height: 335px;
 }
 
+.banner {
+  position: absolute;
+  width: 100%;
+  font-size: 7em;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: normal;
+  animation: fadein 4s;
+}
+
 #bottom-image {
   background: url("../assets/old-world-map-cropped-bottom.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+#content {
+  animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
 
 .plane {
  width: 100px;
