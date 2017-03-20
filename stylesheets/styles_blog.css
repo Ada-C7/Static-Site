@@ -1,0 +1,38 @@
+#books {
+  background: url("../assets/books.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 300px;
+}
+
+#books-banner {
+  color: white;
+}
+
+.blog {
+  padding: 0 10%;
+}
+
+aside {
+  box-sizing: border-box;
+  float: left;
+  width: 15%;
+  text-align: right;
+  padding-right: 1%;
+}
+
+.blog-post {
+  box-sizing: border-box;
+  float:right;
+  width: 85%;
+  padding-right: 15%;
+  text-align: justify;
+  font-family: "Josefin Sans";
+}
+
+h3 {
+  font-family: "Jacques Francois Shadow";
+  font-size: 2em;
+  font-weight: lighter;
+}
