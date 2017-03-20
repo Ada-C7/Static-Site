@@ -199,16 +199,17 @@ footer img {
 }
 
 /************hobby.html**************/
-#carpentry h2 {
+.titlefont {
   font-family: Amatic SC;
   text-align: center;
   font-size: 2.5em;
   font-weight: bolder;
 }
+
 .vertical-list li{
   clear: both;
   font-family: Average Sans;
-  font-size: .6em;
+  font-size: 1.2em;
   font-weight: normal;
   padding: 1em;
 }
@@ -216,7 +217,7 @@ footer img {
 .vertical-list ol li{
   padding : .2%;
   font-family: Average Sans;
-  font-size: .5em;
+  font-size: 1em;
   font-weight: normal;
 }
 
@@ -228,13 +229,13 @@ footer img {
   text-align: left;
 }
 
-#carpentry p {
+.article-p-font {
   padding-left: 10px;
   padding-top: 0px;
   margin-top: 0px;
   margin-left: 20px;
   font-family: Average Sans;
-  font-size: .5em;
+  font-size: .8em;
   font-weight: normal;
 }
 
@@ -243,4 +244,8 @@ footer img {
   float: left;
   margin-right: 20px;
   margin-left: 20px;
+}
+/****************portfolio.html****************/
+#portfolio {
+
 }
