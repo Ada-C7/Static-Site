@@ -165,7 +165,7 @@ header ul {
   font-weight: bolder;
 }
 
-#hero p {
+.center-p {
   width: 60%;
   display: inline-block;
   text-align: left;
@@ -246,6 +246,13 @@ footer img {
   margin-left: 20px;
 }
 /****************portfolio.html****************/
-#portfolio {
-
+#portfolio article{
+  display: inline-block;
+  text-align: center;
+}
+#portfolio a{
+  font-family: Average Sans;
+  font-size: 1.2em;
+  font-weight: normal;
+  color: black;
 }
