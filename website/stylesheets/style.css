@@ -91,6 +91,19 @@ ul {
   color: #201f1f;
 }
 
+.description,
+#show,
+#hide:target {
+  display: none;
+}
+
+#hide:target + #show,
+#hide:target ~ .description {
+  display: inline-block;
+  width: 546.84px;
+  margin: 10px auto;
+}
+
 footer img {
   height: 50px;
   width: auto;
