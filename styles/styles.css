@@ -40,7 +40,8 @@ a:visited {
 
 /*header rules*/
 header {
-  /*padding: 0 5%;*/
+  padding: 0 18%;
+  margin-bottom: 5%;
   /*min-width: 90%;*/
 }
 
@@ -66,7 +67,8 @@ nav h1 {
 /*main rules*/
 /*try 900px width of content, 300 each article*/
 section.gallery {
-  padding: 5% 7%;
+  padding: 0 10%;
+  min-width: 1500px;
 }
 
 article.project {
@@ -76,7 +78,7 @@ article.project {
   /*above for debugging*/
 
   display: inline-block;
-  width: 30%;
+  width: 400px;
   padding: 1% 2%;
   /*min-height: 500px;*/
   vertical-align: text-top;
@@ -107,6 +109,7 @@ article.project img {
 /*footer rules*/
 footer {
   padding: 0 20%;
+  margin-top: 5%;
 }
 
 footer * {
