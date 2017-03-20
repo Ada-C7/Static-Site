@@ -1,7 +1,9 @@
+/*****************
+MAIN
+*******************/
+
 #portfolio {
   margin-top: 50px;
-  /*margin-bottom: 10%;*/
-  /*width: 100%;*/
 }
 
 #portfolio h1 {
@@ -22,40 +24,9 @@
   border-radius: 100%;
   height: 10em;
   margin-left: 60px;
-  /*float: left;*/
-  /*font-size: 1.75em;
-  background-color: gray;*/
 }
-
-/*.img-circle {
-    border-radius: 100%;
-}*/
-
-/*#portfolio #one {
-  font-size: 1.75em;
-  float: left;
-  text-align: center;
-  width: 15%;
-  margin-left: 18%;
-}
-
-#portfolio #two, #portfolio #three {
-  font-size: 1.75em;
-  float: left;
-  text-align: center;
-  width: 15%;
-  margin-left: 8%;
-}*/
 
 #portfolio li {
-  /*text-decoration: none;*/
   list-style-type: none;
   display: inline-block;
-  /*text-align: center;*/
-}
-
-footer {
-  margin-top: 6%;
-  /*height: 100px;*/
-  /*text-align: bottom;*/
 }

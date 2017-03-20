@@ -3,30 +3,37 @@ MAIN
 ****************/
 
 #about {
-  margin-top: 100px;
+  margin-top: 60px;
+}
+
+img, div {
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 5%;
 }
 
 img {
   height: 300px;
-  float: left;
-  margin-top: 7%;
 }
 
-img, h1, #about ul {
-  display: inline-block;
-  margin-left: 5%;
+div {
+  width: 55%;
 }
 
 h1 {
-  clear: both;
-  width: 40%;
-  margin-top: 7%;
+  margin-left: 2%;
 }
 
-ul {
-  clear: both;
+#about li {
+    margin-bottom: 3%;
+    margin-left: 2%;
 }
 
-li {
-  margin-bottom: 3%;
+
+/***************
+FOOTER
+****************/
+
+footer {
+  margin-top: 10%;
 }

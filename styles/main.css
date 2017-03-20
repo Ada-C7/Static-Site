@@ -5,6 +5,10 @@
   font-family: 'Slabo 27px', serif;
 }
 
+/***********************
+HEADER
+***************************/
+
 header {
   position: fixed;
   top: 0px;
@@ -19,12 +23,11 @@ header h2 a {
 }
 
 .emoji:hover::before {
-  content: "📺";
+  content: "⎈";
 }
 
 .contents a {
   text-decoration: none;
-  /*list-style-type: none;*/
 }
 
 header nav {
@@ -35,27 +38,22 @@ header nav {
 
 header .contents {
   display: inline-block;
-  /*text-decoration: none;*/
 }
 
+
+/***********************
+MAIN
+***************************/
+
 main {
-  /*margin-top: 75px;*/
-  /*background-image: url("../assets/Windows.JPG");
-  background-size: 100%;
-  background-repeat: no-repeat;*/
-  height: 500px;
   width: 100%;
 }
 
 #hero {
   margin-top: 125px;
   text-align: center;
-  /*background-image: url("../assets/Windows.JPG");*/
-  /*background-size: cover*/
-  /*background-repeat: no-repeat;*/
   height: 400px;
   width: 100%;
-  /*vertical-align: center;*/
 }
 
 #hero h1 {
@@ -70,7 +68,6 @@ main {
 }
 
 #hero a {
-  border: 2px solid black;
   border-radius: 10px;
   font-size: 1.75em;
   background-color: gray;
@@ -93,9 +90,12 @@ main {
 }
 
 #hero li {
-  /*text-decoration: none;*/
   list-style-type: none;
 }
+
+/***********************
+FOOTER
+***************************/
 
 footer h4, footer p {
   display: inline-block;
@@ -107,5 +107,10 @@ footer h4 {
 }
 
 footer p {
-  width: 70%;
+  width: 30%;
+}
+
+footer {
+  margin-top: 8%;
+  margin-bottom: 1%;
 }
