@@ -103,6 +103,10 @@ footer li {
   z-index: -1;
 }
 
+#portfolio_page {
+  margin: 100px;
+}
+
 .portfolio h2, h2 a {
   position: relative;
   text-align: center;
@@ -115,12 +119,13 @@ footer li {
 
 .portfolio p {
   text-align: justify;
+  padding: 20px;
 }
 
 #code {
   float: left;
   clear: left;
-  width: 35%;
+  width: 45%;
   margin: 50px 20px;
 }
 
@@ -130,11 +135,11 @@ footer li {
   text-align: left;
 }
 
-#code article {
+.portfolio {
   height: 250px;
   padding: 50px;
   margin-bottom: 20px;
-  border-radius: 15%;
+  border-radius: 40px;
   box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.29);
 }
 
@@ -144,7 +149,7 @@ footer li {
   background-size: cover;
 }
 
-.portfolio:hover p, .portfolio:hover li, .portfolio:hover h5 {
+.portfolio:hover p, .portfolio:hover li, .portfolio:hover h5, {
   visibility: hidden;
 }
 
@@ -164,7 +169,7 @@ footer li {
 #illustration {
   float: right;
   clear: right;
-  width: 35%;
+  width: 45%;
   margin: 50px 20px;
 }
 
@@ -172,13 +177,6 @@ footer li {
   display: inline-block;
   margin: 0 10px 0 0;
   text-align: left;
-}
-
-#illustration article {
-  height: 250px;
-  padding: 50px;
-  border-radius: 15%;
-  box-shadow: 10px 10px 30px -10px rgba(0,0,0,0.29);
 }
 
 #wicked_brew:hover {
