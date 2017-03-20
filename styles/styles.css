@@ -4,6 +4,19 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Ubuntu, Helvetica, sans-serif;
 }
 
+a {
+  color: #0A1612;
+  text-decoration: none;
+  border-bottom: dotted;
+  border-width: thin;
+  border-color: #f7ce3e
+}
+a:hover{
+  /*color: #f7ce3e;*/
+  background-color: #f0f0f0;
+  border: none;
+}
+
 p, li {
   font-family: 'Open Sans', Helvetica, sans-serif;
   color: #0A1612;
@@ -18,30 +31,13 @@ header {
   padding: 0 3% 1% 0;
   background-color: #f0f0f0;
   color: #1a2930;
-
 }
 
 header h1 {
   padding-left: 6%;
 }
 
-a {
-
-  color: #0A1612;
-  text-decoration: none;
-  border-bottom: dotted;
-  border-width: thin;
-  border-color: #f7ce3e
-}
-a:hover{
-  /*color: #f7ce3e;*/
-  background-color: #f0f0f0;
-  border: none;
-}
-
-
 .hello, .disclaim {
-
   display: inline-block;
   width: 40%;
   vertical-align: top;
@@ -52,7 +48,6 @@ a:hover{
   width: 50%;
   display: inline-block;
   text-align: right;
-
 }
 
 .nav li {
@@ -75,32 +70,19 @@ section.welcome, section.about, section.all-interests {
 }
 
 article.project {
-
   min-width: 15%;
   border-style: solid;
   padding: 0 2% 0 2%;
   margin: 4% 0;
   vertical-align: top;
-
 }
 
 article.project p:first-of-type {
   font-size: 1.5em;
-
 }
 
 .disclaim p {
   display: inline-block;
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  display: block;
-  padding: 0 3%;
-  background-color: #f0f0f0;
-  width: 100%;
 }
 
 section.projects-left, section.projects-right {
@@ -108,6 +90,10 @@ section.projects-left, section.projects-right {
   display: inline-block;
   max-width: 45%;
   vertical-align: top;
+}
+
+.projects-intro img {
+  vertical-align: middle;
 }
 
 .social-media li, .interest li {
@@ -131,7 +117,6 @@ ul.social-media {
 
 .social-media a:hover, .projects-intro a:hover {
   background-color: inherit;
-
 }
 
 .social-media img:hover, .projects-intro img:hover {
@@ -139,6 +124,13 @@ ul.social-media {
   border-radius: 20px;
 }
 
-.projects-intro img {
-  vertical-align: middle;
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding: 0 3%;
+  background-color: #f0f0f0;
+  width: 100%;
 }
