@@ -5,15 +5,18 @@
 /*Header Styling*/
 #main-body{
   margin-top: 120px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right:0px;
 }
 header nav > ul{
   display: inline-block;
-
 }
 
 aside{
   vertical-align: top;
-  width: 30%;
+  width: 20%;
   display: inline-block;
 }
 aside [class*=icono-] {
@@ -28,11 +31,10 @@ aside a{
 
 #text-body >article{
 
-  width: 90%;
+  width: 100%;
   display: inline-block;
   border-radius: 10px;
   vertical-align: top;
-  margin-bottom: 8%;
 }
 #text-body a{ color:white;text-decoration: none}
 #text-body h2{
@@ -43,13 +45,27 @@ aside a{
   #text-body article:nth-child(odd){
     background: rgba(157,194,213,.3);
   }
-  #text-body article:nth-child(even){
-    background: rgba(220,184,188,.3);
-  }
-  #text-body{
-    width: 65%;
-    display: inline-block;
-  }
+   #text-body {
+     width: 69%;
+     display: inline-block;
+   }
+
+.contact_left{
+    display:inline-block;
+    width: 79%;
+}
+.contact_right{
+  display:inline-block;
+  width: 10%;
+vertical-align: top;}
+.contact_left img{
+  float:left;
+  border-radius: 20px;
+  margin: 9px;
+  width: 60%;
+}
+
+
   /*Splash Section Styling*/
 
   nav.footer{
