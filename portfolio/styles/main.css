@@ -1,19 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Loved+by+the+King|Oswald|Quicksand|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Loved+by+the+King|Oswald|Lobster+Two|Quicksand|Roboto');
 
 html {
   font-family: 'Quicksand', sans-serif;
 }
 
+main {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: -10px;
+}
+
 main a {
+  color: gray;
   text-decoration: none;
 }
 
-/*main a:hover {
-  color: red;
-}*/
+main p a:hover {
+  color: #D0DD97;
+}
 
 main a:visited {
-  color: black;
+  color: gray;
   text-decoration: none;
 }
 
@@ -39,10 +46,10 @@ header div.logo {
 }
 
 header h2 {
-  font-family: 'Oswald'; sans-serif;
-  text-transform: uppercase;
+  font-family: 'Lobster Two'; cursive;
+  font-style: italic;
+  text-transform: capitalize;
   margin: 5px;
-
   /*opacity: none;*/
 }
 
@@ -84,6 +91,10 @@ header nav a:hover {
   color: black;
 }
 
+#current-page {
+  color: black;
+}
+
 header div#social {
   display: inline-block;
   vertical-align: top;
@@ -107,8 +118,8 @@ header #social .fa:hover {
 
 main {
   min-height: 700px;
-
 }
+
 #intro-text {
   clear: both;
   text-align: center;
@@ -149,11 +160,61 @@ div.buttons {
   border: solid 2px;
 }
 
+.buttons a:visited {
+  color: black;
+}
+
 .buttons a:hover {
   color: white;
   background-color: black;
   border-color: black;
   opacity: 0.7;
+}
+
+#second-section {
+  width: 100%;
+  display: block;
+  background: url(../images/joshua-tree.jpg) no-repeat;
+  background-size: cover;
+
+}
+
+#second-section {
+  text-align: center;
+  margin-top: auto;
+  padding-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 50px;
+  height: 600px;
+  color: white;
+}
+
+#second-section-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 7em;
+  font-weight: normal;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+#third-section {
+  text-align: center;
+  margin-top: auto;
+  padding-top: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-bottom: 50px;
+  height: 600px;
+  color: black;
+}
+
+#third-section-title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 7em;
+  font-weight: normal;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .page-header {
@@ -172,6 +233,10 @@ div.buttons {
   margin-bottom: 0px;
 }
 
+.page-header h4 {
+  font-style: italic;
+  margin-top: 3px;
+}
 /*.page-posts > a {
   color: black;
 }
@@ -209,6 +274,10 @@ div.buttons {
 
 .page-posts h3 {
   text-transform: capitalize;
+}
+
+.page-posts a:hover {
+  color: #D0DD97;
 }
 
 .post-image {
