@@ -14,6 +14,13 @@ header h2 {
   color: white;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
 #home_body {
   background: -webkit-linear-gradient(to left, #4ECDC4 , #556270); /* Chrome 10-25, Safari 5.1-6 */
