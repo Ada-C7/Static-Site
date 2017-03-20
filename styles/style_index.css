@@ -1,0 +1,48 @@
+@import './normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Cousine:400,700|Julius+Sans+One');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('../images/hero_pano.jpeg');
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: fixed;
+  width: 100%;
+}
+
+h1 {
+  font-size: 7em;
+  font-family: 'Julius Sans One';
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  padding: 1%;
+}
+
+a {
+  color: white;
+  font-family: 'Cousine';
+  font-size: 2.5em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: Purple;
+}

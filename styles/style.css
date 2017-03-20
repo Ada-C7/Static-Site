@@ -1,0 +1,238 @@
+
+@import './normalize.css';
+@import url('https://fonts.googleapis.com/css?family=Cousine:400,700|Julius+Sans+One|Jura:400,500,600|Poiret+One');
+
+/**********************************************************************
+                uniform styling
+***********************************************************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  /*border: solid;*/
+}
+
+body {
+  /*this makes background a light grey color - can't decided between grey and white*/
+  /*background-color: rgb(220,220,220);*/
+}
+
+h1,
+h2 {
+  font-family: 'Julius Sans One';
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3em;
+  width: 100%;
+}
+
+h1~p {
+  width: 100%;
+}
+
+h2 {
+  border-bottom: solid;
+  font-size: 2em;
+  padding-bottom: 1%;
+}
+
+p {
+  color: Dimgrey;
+  display: inline-block;
+  font-family: 'Poiret One';
+  font-size: 1.2em;
+  margin: 0;
+  margin-top: 2%;
+  text-align: left;
+  vertical-align: text-top;
+  width: 55%;
+}
+
+a {
+  color: MidnightBlue;
+  font-family: 'Cousine';
+  font-size: 1.2em;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5B5BA6;
+}
+
+li {
+  color: Dimgrey;
+  font-family: 'Jura';
+  font-size: 1.3em;
+  padding: 1%;
+}
+
+/**********************************************************************
+                            header styling
+***********************************************************************/
+
+header {
+  display: inline-block;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  width: 100%;
+}
+
+header ul {
+  list-style-type: none;
+  padding-top: 1%;
+  text-align: right;
+}
+
+header li {
+  display: inline-block;
+  padding-right: 7%;
+}
+
+/**********************************************************************
+                          section styling
+***********************************************************************/
+
+/*this worked to create equal margin space on left and right side of page*/
+
+section,
+.title-stuff {
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+}
+
+div {
+  margin-top: 2%;
+  text-align: center;
+}
+
+/*****************************************************************************/
+                      /*blog post sytling*/
+/*****************************************************************************/
+
+.blog_posts article {
+  display: inline-block;
+  margin-bottom: 1%;
+  text-align: left;
+}
+
+.posts section {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.blog_posts img {
+  display: inline-block;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  width: 40%;
+  vertical-align: text-top;
+}
+
+/*****************************************************************************/
+                          /*portfolio sytling*/
+/*****************************************************************************/
+
+.projects article {
+  display: inline-block;
+  margin: 1%;
+  margin-bottom: 5%;
+  vertical-align: text-top;
+  width: 30%;
+}
+
+.projects section {
+  display: inline-block;
+  text-align: center;
+  vertical-align: text-top;
+  width: 100%;
+}
+
+.projects a {
+  color: purple;
+  font-size: 1.5em;
+}
+
+.projects a:hover {
+  color: #D050D0;
+}
+
+.projects a:s
+
+.projects ul {
+  list-style-type: none;
+  margin: 5%;
+  text-align: left;
+}
+
+.projects li {
+  margin: 1%;
+  text-align: left;
+}
+
+/*****************************************************************************/
+                          /*about sytling*/
+/*****************************************************************************/
+
+.about img {
+  vertical-align: text-top;
+  width: 45%;
+}
+
+.about h2 {
+  margin-top: 3%;
+}
+
+.about div {
+  float: left;
+  margin: 0;
+  vertical-align: text-top;
+  width: 50%;
+}
+
+.about p {
+  margin: 0;
+  width: 100%;
+}
+
+.about ul {
+  list-style-type: none;
+  margin: 0;
+  margin-top: 3%;
+  padding: 0;
+  text-align: left;
+}
+
+/*****************************************************************************/
+                      /*footer sytling*/
+/*****************************************************************************/
+
+footer div{
+  display: inline-block;
+  padding: 0;
+  padding-bottom: 1%;
+  text-align: right;
+  width: 100%;
+}
+
+footer p,
+a {
+  display: inline;
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+  vertical-align: text-top;
+}
+
+footer a {
+  margin-left: 2%;
+  margin-right: 7%;
+}
