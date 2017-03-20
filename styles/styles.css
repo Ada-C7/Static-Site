@@ -44,6 +44,34 @@ h2 {
   text-align: center;
 }
 
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.portfolio nav li {
+  display: inline-block;
+}
+
+.portfolio li {
+  padding-left: 3%;
+}
+
+.portfolio ul li {
+  display: inline-block;
+  padding: 2%;
+  margin-left: 10%;
+}
+
+.portfolio ul li:nth-child(2) {
+  margin-left: 23%;
+  margin-right: 12%;
+}
+
 li {
   list-style-type: none;
 }
@@ -74,11 +102,13 @@ body {
 #welcome p {
   width: 40%;
   float: left;
+  margin-left: 4%;
 }
 
 #welcome img {
   width: 40%;
   float: right;
+  margin-right: 4%;
 }
 
 #footer {
