@@ -81,6 +81,7 @@ footer li {
   float: left;
   clear: left;
   width: 50%;
+  color: yellow;
 }
 
 .date {
@@ -88,6 +89,7 @@ footer li {
   clear: right;
   width: 50%;
   text-align: right;
+  color: yellow;
 }
 
 .circle {
@@ -101,8 +103,9 @@ footer li {
   z-index: -1;
 }
 
-article h3, h3 a {
+.portfolio h2, h2 a {
   position: relative;
+  text-align: center;
   display: block;
   z-index: 100;
   float: left;
@@ -110,8 +113,8 @@ article h3, h3 a {
   color: yellow;
 }
 
-article p {
-  z-index: 50;
+.portfolio p {
+  text-align: justify;
 }
 
 #code {
@@ -141,7 +144,7 @@ article p {
   background-size: cover;
 }
 
-#meowspace:hover p {
+.portfolio:hover p, .portfolio:hover li, .portfolio:hover h5 {
   visibility: hidden;
 }
 
