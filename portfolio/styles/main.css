@@ -148,6 +148,7 @@ div.buttons {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 50px;
 }
 
 .page-header h2 {
@@ -177,8 +178,15 @@ div.buttons {
 }
 
 .post-image {
-  float: left;
+  display:inline-block;
   padding: 10px;
+}
+
+.post-blurb {
+  display: inline-block;
+  padding-left: 20px;
+  width: 50%;
+  vertical-align: top;
 }
 
 footer {
