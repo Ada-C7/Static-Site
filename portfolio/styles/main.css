@@ -46,6 +46,7 @@ header nav {
   text-align: right;
   display: inline-block;
   width: 43%;
+  margin-top: 3px;
   margin-right: 20px;
 }
 
