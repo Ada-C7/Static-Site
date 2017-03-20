@@ -119,6 +119,21 @@ div.buttons {
   border-color: black;
 }
 
+.page-header {
+  width: 75%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-header h2 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 5em;
+  font-weight: normal;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
 .page-posts article {
   width: 30%;
   margin: 30px;
