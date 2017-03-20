@@ -267,6 +267,39 @@ div.buttons {
   border-bottom: none;
 }
 
+.about-text {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.about-text img {
+  display: inline-block;
+  width: 30%;
+  border-radius: 80%;
+  padding: 20px;
+}
+
+/*.circular {
+  width: 400px;
+  height: 400px;
+  display: block;
+  background: url(../images/AboutMe_Jackie_Watanabe_rs2.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 40%;
+ -webkit-border-radius: 40%;
+ -moz-border-radius: 40%;
+}*/
+
+.about-text p {
+  display: inline-block;
+  width: 55%;
+  vertical-align: top;
+  padding: 20px;
+  margin-right: 20px;
+}
+
 footer {
   clear: left;
   background-color: #D0DD97;
