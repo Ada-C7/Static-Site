@@ -12,7 +12,7 @@ a:link {
 }
 
 a:visited{
-color: # 1820e6;
+color: #1820e6;
   }
 
 a:hover {
@@ -82,12 +82,68 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   margin-top:5.6rem;
-  padding-bottom:30rem;
+  padding-bottom:50rem;
 }
 
 .welcome-message {
   padding: 3rem;
   text-align: left;
   width: 30%;
-  margin: 0 auto;
+  margin-top: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: white;*/
+  /*border: 1px solid black;*/
+  color:white;
+  /*border-radius: 40%;*/
+}
+
+.projects-title{
+  margin-top: 9rem;
+  text-align: center;
+}
+
+.all-images{
+  position:relative;
+}
+
+.project-image section{
+display: inline-block;
+max-width: 25%;
+height: 25vw;
+border: 3px solid black;
+border-radius: 30%;
+overflow:hidden;
+}
+
+.monkey img{
+  width: 25vw;
+  height: 25vw;
+}
+
+.first-project{
+  position: absolute;
+  top: 5vw;
+  left: 5%;
+  /*float:left;
+  margin-left: 10%;*/
+}
+
+.second-project{
+  position: absolute;
+  top: 20vw;
+  left: 35%;
+  /*float:left;
+  margin-left: 10%;*/
+}
+.third-project{
+  position: absolute;
+  top: 35vw;
+  left:65%;
+  /*float:left;
+  margin-left: 10%;*/
+}
+
+.third-project img{
+align-items: center;
 }
