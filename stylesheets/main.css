@@ -147,12 +147,14 @@ img {
 
 #descrip i, h3 {
   display: inline-block;
+
 }
+
 
 #descrip article {
   margin: auto;
   width: 50%;
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
 }
 
