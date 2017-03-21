@@ -111,11 +111,11 @@ ul.social-media {
   padding-left: 0;
 }
 
-.social-media a, .projects-intro a {
+.social-media a {
   border: none;
 }
 
-.social-media a:hover, .projects-intro a:hover {
+.social-media a:hover {
   background-color: inherit;
 }
 
@@ -123,6 +123,8 @@ ul.social-media {
   background-color: #f7ce3e;
   border-radius: 20px;
 }
+
+
 
 
 footer {
