@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Megrim|Raleway:100,200,300,400');
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.home {
+  background-size: cover;
+  background-image: url('../images/tomato.jpeg');
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Megrim', cursive;
+}
+
+.portfolio {
+  background-size: cover;
+  background-image: url('../images/pencils2.jpg');
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Megrim', cursive;
+}
+
+.hobby {
+  background-size: cover;
+  background-image: url('../images/flower.jpeg');
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Megrim', cursive;
+}
+
+.about {
+  background-size: cover;
+  background-image: url('../images/orange.jpeg');
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Megrim', cursive;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+header ul li, footer ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: auto;
+}
+
+ul li {
+  list-style-type: circle;
+}
+
+/*-------------------------------------------------------*/
+
+header {
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 7vw;
+  display: inline-block;
+  margin-top: 0.25rem;
+  padding-left: 1rem;
+}
+
+header nav {
+  float: right;
+  padding-right: 1rem;
+}
+
+/*--------------------------------------------------------*/
+
+main {
+  overflow: auto;
+  position: absolute;
+  top: 96px;
+  bottom: 89px;
+}
+
+#projects i, h4, h3, a {
+  display: inline-block;
+}
+
+#projects {
+  margin-left: 52vw;
+}
+
+#projects section {
+  margin-bottom: 8vw;
+}
+
+#projects section ul {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+/*--------------------------------------------------------*/
+
+.hobby {
+  color: linen;
+}
+
+.hobby a {
+  color: linen;
+}
+
+#fx {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+#secretary, #stencil, #chair {
+  display: block;
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.5);
+  padding: 10px;
+}
+
+img[src="images/fx/ChairBefore.jpg"], img[src="images/fx/SecretaryAfter.jpg"] {
+  transform: rotate(90deg);
+}
+
+#chair, #secretary {
+  overflow: hidden
+}
+
+img {
+  height: 20vw;
+}
+
+.hobby p {
+  display: inline-block;
+  width: 50%;
+}
+
+#furniture > h3 {
+  margin-left: 10px;
+}
+/*--------------------------------------------------------*/
+
+#descrip i, h3 {
+  display: inline-block;
+
+}
+
+
+#descrip article {
+  margin: auto;
+  width: 50%;
+  /*display: flex;*/
+  flex-direction: column;
+}
+
+/*--------------------------------------------------------*/
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: transparent;
+}
+
+footer nav {
+  float: right;
+  vertical-align: top;
+}
+
+footer h4 {
+  margin: 0px;
+  display: inline-block;
+  float: left;
+  font-size: 1vw;
+}
