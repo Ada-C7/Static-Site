@@ -99,7 +99,7 @@ body{
 }
 
 .projects-title{
-  margin-top: 9rem;
+  margin-top: 8.5rem;
   text-align: center;
 }
 
@@ -109,41 +109,49 @@ body{
 
 .project-image section{
 display: inline-block;
-max-width: 25%;
-height: 25vw;
+width: 26%;
+height: 22vw;
 border: 3px solid black;
 border-radius: 30%;
 overflow:hidden;
 }
 
-.monkey img{
-  width: 25vw;
-  height: 25vw;
-}
 
 .first-project{
+  background-image:url(../images/scrabble-2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
-  top: 5vw;
+  top: 0vw;
   left: 5%;
   /*float:left;
   margin-left: 10%;*/
 }
 
 .second-project{
+  background-image:url(../images/ride-share-monkey.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
-  top: 20vw;
-  left: 35%;
+  top: 15vw;
+  left: 37%;
   /*float:left;
   margin-left: 10%;*/
 }
 .third-project{
+  background-image:url(../images/solar-system-6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
-  top: 35vw;
-  left:65%;
+  top: 30vw;
+  left:69%;
   /*float:left;
   margin-left: 10%;*/
 }
 
-.third-project img{
-align-items: center;
+.project-image  img{
+width:100%;
 }
