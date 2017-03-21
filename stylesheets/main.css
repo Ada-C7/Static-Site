@@ -1,19 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+
+header {
+  font-family: "Sacramento";
+  /*font-family: "Dancing Script";*/
+  font-size: 1rem;
+}
+header ul{
+  font-size: 1.4rem;
+}
+
+
+main h1{
+  font-family: "Rokkitt";
+  font-size: 3.5rem;
+}
+
 header {
   position: fixed;
   top: 0px;
   width: 100%;
   height: 5.6rem;
   background-color: black;
+  z-index:1000;
+  opacity: 0.85;
 }
 
+/*.black-under-header{
+  background-color: black;
+  position:absolute;
+  top: 0;
+  width: 100%;
+  height: 5.6rem;
+}*/
 
 a:link {
   color: #1820e6;
 }
 
 a:visited{
-color: #1820e6;
-  }
+  color: #1820e6;
+}
 
 a:hover {
   color: lightblue;
@@ -45,12 +76,12 @@ a:hover {
 
 
 .logo img {
-display: inline-block;
-vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 
 header nav {
-  margin-right: 5%;
+  margin-right: 3%;
   /*margin-top: 25px;*/
   float:right;
 
@@ -69,11 +100,11 @@ header li {
 }
 
 a {
-  /*text-decoration: none;*/
+  text-decoration: none;
 }
 
 /*body{
-    background-image:url(http://weather.jimlittle.net/web/pages/backgrounds/gradient_background2.jpg);
+background-image:url(http://weather.jimlittle.net/web/pages/backgrounds/gradient_background2.jpg);
 }*/
 body{
   /*background-color: #69baf2;*/
@@ -108,12 +139,12 @@ body{
 }
 
 .project-image section{
-display: inline-block;
-width: 26%;
-height: 22vw;
-border: 3px solid black;
-border-radius: 30%;
-overflow:hidden;
+  display: inline-block;
+  width: 26%;
+  height: 22vw;
+  border: 3px solid black;
+  border-radius: 30%;
+  overflow:hidden;
 }
 
 
@@ -125,9 +156,45 @@ overflow:hidden;
   position: absolute;
   top: 0vw;
   left: 5%;
+  /*z-index: 100;*/
   /*float:left;
   margin-left: 10%;*/
 }
+
+
+.first-project section{
+  border:none;
+  width:100%;
+  padding-top: 15%;
+  text-align:center;
+  position: relative;
+  /*z-index: -100;*/
+}
+
+/*.first-project a:hover{
+z-index: 100;
+}*/
+
+.first-project:hover{
+  background-color: red;
+  opacity: 1;
+}
+
+/*.one-third-hover {
+z-index: 100;
+width: 24%;
+height: 20vw;
+position: absolute;
+border: 3px solid b;*/
+/*transition: .2s linear;*/
+/*opacity: 0;
+border-radius: 30%;*/
+
+/*width: 26%;
+height: 22vw;*/
+
+
+
 
 .second-project{
   background-image:url(../images/ride-share-monkey.jpg);
@@ -153,5 +220,5 @@ overflow:hidden;
 }
 
 .project-image  img{
-width:100%;
+  width:100%;
 }
