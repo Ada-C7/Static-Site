@@ -4,7 +4,6 @@
 
 header, footer {
   font-family: "Sacramento";
-  /*font-family: "Dancing Script";*/
   font-size: 1rem;
 }
 header ul{
@@ -17,7 +16,6 @@ main{
 }
 
 main h1{
-  /*font-family: "Rokkitt";*/
   font-size: 3.5rem;
 }
 
@@ -32,11 +30,11 @@ header {
 }
 
 /*.black-under-header{
-  background-color: black;
-  position:absolute;
-  top: 0;
-  width: 100%;
-  height: 5.6rem;
+background-color: black;
+position:absolute;
+top: 0;
+width: 100%;
+height: 5.6rem;
 }*/
 
 a:link {
@@ -44,16 +42,14 @@ a:link {
 }
 
 a:visited{
-  color: #1820e6;
+  color: #5481f2;
 }
 
 a:hover {
   color: lightblue;
 }
 
-
 .logo {
-  /*margin-left: 6%;*/
   margin-top: 0;
   float:left;
   width: 40%;
@@ -83,9 +79,7 @@ a:hover {
 
 header nav {
   margin-right: 3%;
-  /*margin-top: 25px;*/
   float:right;
-
 }
 
 header ul {
@@ -97,7 +91,6 @@ header ul {
 header li {
   padding-right:25px;
   display: inline-block;
-
 }
 
 a {
@@ -121,26 +114,21 @@ body{
   transform: scale(0.6, 0.6);
 }
 
-
 .welcome-message {
   padding: 3rem;
   text-align: left;
   width: 40%;
   margin-top: 6rem;
   margin-left: 10%;
-  /*margin-right: auto;*/
-  /*background-color: white;*/
-  /*border: 1px solid black;*/
   color:white;
-  /*border-radius: 40%;*/
 }
 
 .ships{
-color:white;
-float:right;
-font-size: 1.4rem;
-margin-right: 7%;
-margin-top: 10%;
+  color:white;
+  float:right;
+  font-size: 1.4rem;
+  margin-right: 7%;
+  margin-top: 10%;
 }
 
 /************************************/
@@ -154,7 +142,7 @@ margin-top: 10%;
   position:relative;
 }
 
-.project-image section{
+.project-image section, .post-image section{
   display: inline-block;
   width: 26%;
   height: 22vw;
@@ -163,7 +151,8 @@ margin-top: 10%;
   overflow:hidden;
 }
 
-.first-project{
+.first-project, .first-post{
+  /*Unfortunately, css does not seem to support alt text for background images.*/
   background-image:url(../images/scrabble-2.jpeg);
   background-position: center;
   background-repeat: no-repeat;
@@ -173,7 +162,7 @@ margin-top: 10%;
   left: 5%;
 }
 
-.project section{
+.project section {
   background-color: white;
   border:none;
   border-radius: 0;
@@ -187,6 +176,7 @@ margin-top: 10%;
   width: 100%;
 }
 
+
 .hidden:hover {
   color:black;
   font-size: 2rem;
@@ -194,7 +184,7 @@ margin-top: 10%;
   transition: opacity .5s ease-in-out;
 }
 
-.second-project{
+.second-project, .second-post{
   background-image:url(../images/ride-share-monkey.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -204,7 +194,7 @@ margin-top: 10%;
   left: 37%;
 }
 
-.third-project{
+.third-project, .third-post{
   background-image:url(../images/solar-system-6.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -218,16 +208,17 @@ margin-top: 10%;
   width:100%;
 }
 
+/*************************************/
+
 footer section{
-margin-top: 83vw;
-border-top: 1.5px solid black;
-height: 7vw;
+  margin-top: 83vw;
+  border-top: 1.5px solid black;
+  height: 7vw;
 }
 
 #footer-index{
-margin-top: 50vw;
+  margin-top: 50vw;
 }
-
 
 footer h4, footer p{
   margin: 0 0 0 5%;
@@ -247,4 +238,65 @@ footer h4{
 .footer-name{
   display: block;
   line-height: .1vw;
+}
+
+/*************************************/
+
+.blog-title{
+  margin-top: 8.5rem;
+  padding-left: 5%;
+}
+
+
+.first-post{
+  background-image:url(../images/MandalaDance30.jpg);
+}
+
+.second-post{
+  background-image:url(../images/mystery-hunt-2014-1.jpg);
+}
+
+.third-post{
+  background-image:url(../images/India-1.jpg);
+}
+
+.first-post{
+position: absolute;
+top: 0vw;
+left: 5%;
+}
+
+.second-post{
+position: absolute;
+top: 0vw;
+left: 5%;
+}
+
+.first-post{
+position: absolute;
+top: 0vw;
+left: 5%;
+}
+
+.second-post{
+position: absolute;
+top: 25vw;
+left: 5%;
+}
+
+.third-post{
+position: absolute;
+top: 50vw;
+left: 5%;
+}
+
+section.post:hover{
+  opacity:.5;
+}
+
+article.post{
+display:inline;
+width:60%;
+float:right;
+padding-right: 5%;
 }
