@@ -211,13 +211,24 @@ body{
 /*************************************/
 
 footer section{
-  margin-top: 83vw;
   border-top: 1.5px solid black;
   height: 7vw;
 }
 
+#footer-portfolio{
+  margin-top: 83vw;
+}
+
 #footer-index{
   margin-top: 50vw;
+}
+
+#footer-blog{
+  margin-top: 90vw;
+}
+
+#footer-about{
+  margin-top: 30vw;
 }
 
 footer h4, footer p{
@@ -261,33 +272,33 @@ footer h4{
 }
 
 .first-post{
-position: absolute;
-top: 0vw;
-left: 5%;
+  position: absolute;
+  top: 0vw;
+  left: 5%;
 }
 
 .second-post{
-position: absolute;
-top: 0vw;
-left: 5%;
+  position: absolute;
+  top: 0vw;
+  left: 5%;
 }
 
 .first-post{
-position: absolute;
-top: 0vw;
-left: 5%;
+  position: absolute;
+  top: 0vw;
+  left: 5%;
 }
 
 .second-post{
-position: absolute;
-top: 25vw;
-left: 5%;
+  position: absolute;
+  top: 25vw;
+  left: 5%;
 }
 
 .third-post{
-position: absolute;
-top: 50vw;
-left: 5%;
+  position: absolute;
+  top: 50vw;
+  left: 5%;
 }
 
 section.post:hover{
@@ -295,14 +306,34 @@ section.post:hover{
 }
 
 article.post{
-display:inline;
-float:right;
-margin-top: 2vw;
-margin-bottom: 4vw;
-padding-right: 5%;
-width:60%;
+  display:inline;
+  float:right;
+  margin-top: 2vw;
+  margin-bottom: 4vw;
+  padding-right: 5%;
+  width:60%;
 }
 
-#footer-blog{
-  margin-top: 90vw;
+
+/*************************************/
+
+.about h1{
+  margin-top: 10vw;
+  margin-left: 10vw;
+}
+
+.about h2{
+  margin-left: 20vw;
+}
+
+.about section{
+  width:50%;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vw;
+}
+
+.about img{
+  width:100%;
 }
