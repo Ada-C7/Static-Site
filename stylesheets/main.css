@@ -166,26 +166,26 @@ body{
 
 
 .first-project section{
+  background-color: white;
   border:none;
   border-radius: 0;
-  width: 100%;
-  height: 30%;
-  margin-top: 4.1vw;
-  padding-top: 1.3vw;
-  padding-bottom: 5.25vw;
-  text-align:center;
+  height: 4vw;
+  line-height: 4vw;
+  margin-top: 4vw;
+  padding-bottom: 9.2vw;
   position: relative;
-  background-color: white;
+  text-align:center;
   opacity: 0;
-  /*visibility:hidden;*/
+  width: 100%;
+
 }
 
 
 .hidden:hover {
-  transition: opacity .5s ease-in-out;
-  opacity: .6;
   color:black;
-    /*visibility:visible;*/
+  font-size: 2rem;
+  opacity: .6;
+  transition: opacity .5s ease-in-out;
 }
 /*.first-project a:hover{
 z-index: 100;
