@@ -296,7 +296,13 @@ section.post:hover{
 
 article.post{
 display:inline;
-width:60%;
 float:right;
+margin-top: 2vw;
+margin-bottom: 4vw;
 padding-right: 5%;
+width:60%;
+}
+
+#footer-blog{
+  margin-top: 90vw;
 }
