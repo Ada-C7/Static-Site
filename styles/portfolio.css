@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+#code-projects {
+  margin-left: 3em;
+}
+
+#code-projects article {
+  display: inline-block;
+  max-width: 30%;
+  padding: 1.5em;
+  border-top: solid maroon 2em;
+  padding-top: 0;
+  height: 300px;
+  vertical-align: top;
+}
+
+#code-projects h4 {
+  text-align: center;
+}
+#code-projects h4 a {
+  color: #5C6983;
+  padding: .5em;
+}
+
+#code-projects h4 a:hover {
+  color: black;
+  border: solid;
+}
+
+#code-projects p {
+  text-align: justify;
+}
+
+header li#portfolio a {
+  color: grey;
+}

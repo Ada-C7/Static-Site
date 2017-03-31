@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Amatic+SC:700");
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: maroon;
+  margin: 0px auto;
+  /*Opacity start*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.80;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+  /*Opacity end*/
+  vertical-align: bottom;
+}
+
+header h2 a {
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Acme', sans-serif;
+  color: white;
+  float: left;
+  padding-left: 2em;
+  padding-bottom: .4em;
+}
+
+header h2 a:hover {
+  color: black;
+}
+
+header ul li {
+  display: inline-block;
+  float: right;
+}
+
+header ul li a {
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Acme', sans-serif;
+  color: white;
+  padding-right: 2em;
+}
+
+header ul li a:hover {
+  color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+main section {
+clear: both;
+padding-top: 70px;
+}
+
+section:first-of-type {
+  text-align: center;
+}
+
+h3 a {
+  border-top: solid;
+  border-bottom: solid;
+  font-size: 2em;
+  padding: .3em;
+}
+section > p {
+  padding: .5em;
+}
+
+main {
+  padding: 0.5em;
+}
+
+footer {
+  border-top: solid;
+  clear: both;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0.5em 0em;
+}
+
+footer ul {
+  padding-left: 0px;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li img:first-child {
+  height: 50px;
+  width: 50px;
+}

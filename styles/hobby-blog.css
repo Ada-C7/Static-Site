@@ -1,0 +1,104 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#hobbies {
+  padding: 0;
+}
+
+#dance p:nth-child(4) {
+  float: left;
+  max-width: 50%;
+  padding-bottom: 9em;
+  padding-left: 2em;
+}
+
+#dance h4 {
+  text-align: center;
+  color: grey;
+  font-size: 3em;
+  background-image: url(../images/competition.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20%;
+  margin-bottom: 0;
+}
+
+#dance section {
+  padding: 0;
+}
+
+#dance section iframe {
+  float: right;
+  padding-top: 2em;
+  max-width: 45%;
+}
+
+.info {
+  float: right;
+  font-size: .7em;
+  max-width: 30%;
+}
+
+article p.info:last-child {
+  margin-bottom: 2em;
+  float: right;
+}
+
+#backpacking {
+  clear:both;
+  border-bottom: solid;
+  border-top: solid;
+}
+
+#backpacking h4 {
+  clear: both;
+  text-align: center;
+  color: grey;
+  font-size: 3em;
+  background-image: url(../images/backpacking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20%;
+  margin-bottom: .5em;
+}
+
+#backpacking h2 {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+#backpacking ul {
+  margin: auto;
+  width: 27%;
+  padding-bottom: 1em;
+}
+
+#dogs h4 {
+  text-align: center;
+  color: grey;
+  font-size: 3em;
+  background-image: url(../images/stella.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20%;
+  margin-bottom: .5em;
+}
+
+#dogs p {
+  margin: auto;
+  width: 50%;
+  text-align: justify;
+}
+
+header li#hobbies a {
+  color: grey;
+}

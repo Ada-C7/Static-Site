@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+section article {
+  float: right;
+  max-width: 50%;
+  padding-right: 2em;
+}
+
+article img {
+  float: left;
+  clear: both;
+  padding-left: 1.5em;
+  padding-bottom: 1.5em;
+  height: 300px;
+  width: 400px;
+  max-width: 100%;
+  /*vertical-align: top;*/
+}
+
+/*footer {
+  position: absolute;
+}*/
+ header li#about a {
+   color: grey;
+ }
