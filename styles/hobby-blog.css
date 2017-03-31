@@ -68,6 +68,19 @@ article p.info:last-child {
   margin-bottom: .5em;
 }
 
+#backpacking h2 {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+#backpacking ul {
+  margin: auto;
+  width: 27%;
+  padding-bottom: 1em;
+}
+
 #dogs h4 {
   text-align: center;
   color: grey;
@@ -78,4 +91,14 @@ article p.info:last-child {
   background-attachment: fixed;
   padding: 20%;
   margin-bottom: .5em;
+}
+
+#dogs p {
+  margin: auto;
+  width: 50%;
+  text-align: justify;
+}
+
+header li#hobbies a {
+  color: grey;
 }

@@ -25,3 +25,6 @@ article img {
 /*footer {
   position: absolute;
 }*/
+ header li#about a {
+   color: grey;
+ }

@@ -34,3 +34,7 @@ html {
 #code-projects p {
   text-align: justify;
 }
+
+header li#portfolio a {
+  color: grey;
+}
