@@ -70,9 +70,6 @@ article {
   padding-top: 2%;
 }
 
-.git-icon {
-  max-width: 70px;
-  height: auto;
-  border-radius: 100%;
-  margin-left: 42%
+span {
+  margin-left: 45%;
 }
