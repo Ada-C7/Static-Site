@@ -1,0 +1,54 @@
+#prague {
+  background: url("../images/hipster-prague-cropped-a-lot.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 304px;
+}
+
+#prague-banner {
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+
+#seattle {
+  background: url("../images/seattle-dusk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 304px;
+}
+
+#seattle-banner {
+  margin-top: 150px;
+  color: white;
+}
+
+#future {
+  background: url("../images/silicon-valley.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 304px;
+}
+
+
+#future-banner {
+  margin-top: 100px;
+  color: white;
+}
+
+#hint {
+  font-size: 2em;
+  margin-top: 210px;
+  color: white;
+}
+
+.text {
+  text-align: justify;
+  font-family: "Josefin Sans";
+  column-count: 2;
+  column-gap: 100px;
+  column-rule: 1px solid grey;
+  margin: 5% 10%;
+}

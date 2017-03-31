@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC|Harmattan|IM+Fell+English+SC|Jacques+Francois+Shadow|Josefin+Sans|Poiret+One');
+
+h1,h2, h3 {
+  font-family: "IM Fell English SC";
+}
+
+.header-and-footer {
+  background-color: black;
+  font-family: "Cormorant SC";
+  font-weight: lighter;
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+}
+
+#home, #copyright, li {
+  display: inline;
+}
+
+#home {
+  margin: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding-left: 10px;
+  padding-right: 20px;
+  font-weight: normal;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ffeecc;
+}
+
+a:hover {
+  color: #ffaa00;
+}
+
+main {
+  margin-top: 59px;
+}
+
+#name {
+  font-size: 3em;
+  font-weight: normal;
+  margin-top: 1%;
+  margin-bottom: 0;
+}
+
+.background {
+  background: url("../images/old-world-map-cropped-top-path.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.8;
+  position: relative;
+  width: 100%;
+  height: 335px;
+}
+
+.banner {
+  position: absolute;
+  width: 100%;
+  font-size: 7em;
+  text-align: center;
+  margin-top: 100px;
+  font-weight: normal;
+  animation: fadein 4s;
+}
+
+#bottom-image {
+  background: url("../images/old-world-map-cropped-bottom.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#content {
+  animation: fadein 4s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+.plane {
+ width: 100px;
+ padding: 5% 10% 0 10%;
+ height: auto;
+ float: left;
+}
+
+.plane-right {
+  width: 100px;
+  padding: 5% 0 0 10%;
+  height: auto;
+  float: right;
+}
+
+#introduction {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 1% 10%;
+  font-family: "Josefin Sans";
+}
+
+#footer {
+  position: static;
+  color: white;
+}
+
+#copyright {
+  padding-left: 1%;
+  font-size: 0.7em;
+  margin: 25px;
+}

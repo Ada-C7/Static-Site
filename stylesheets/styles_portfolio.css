@@ -1,0 +1,75 @@
+main {
+  padding: 0 10%;
+  font-family: "Josefin Sans";
+}
+
+#title {
+  font-size: 6em;
+  font-family: "Poiret One";
+  font-weight: lighter;
+  text-align: center;
+  border-bottom: solid black 1px;
+  margin: 0;
+  padding-bottom: 1%;
+}
+
+article:nth-of-type(odd) .image-box {
+  float: left;
+}
+
+article:nth-of-type(even) .image-box {
+  float: right;
+}
+
+article {
+  clear:both;
+}
+
+.project-image {
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  border: solid 3px;
+}
+
+.image-box {
+  width: 300px;
+  height: 300px;
+}
+
+.text {
+  box-sizing: border-box;
+  max-height: 300px;
+  max-width: 70%;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.project-title {
+  display: inline-block;
+  margin: 0;
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
+}
+
+article:nth-of-type(odd) .text {
+  padding-left: 5%;
+  float: right;
+}
+
+article:nth-of-type(even) .text {
+  padding-right: 5%;
+  float: left;
+}
+
+article {
+  height: 300px;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+span {
+  margin-left: 45%;
+}
