@@ -1,0 +1,225 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#page1 {
+  background-size: cover;
+  background-image: url('../images/12.jpeg');
+  font-family: Josefin Sans, serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  margin: 10px auto;
+  justify-content: space-between;
+  box-shadow: 0 3px 3px rgba(47,47,47,0.05);
+  top: 0;
+  margin-top: 0;
+  height: 60px;
+}
+
+.header-name a {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color:  #ed6464;
+  line-height: 4rem;
+}
+
+h1, h2 {
+  font-weight: 300;
+  font-size: 1.7rem;
+  letter-spacing: 2px;
+  font-family: Lato,sans-serif;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+h1 div {
+  display: block;
+  letter-spacing: 0;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 5rem;
+  font-family: Playfair Display,serif;
+}
+
+.right li {
+  list-style: none;
+  display: inline;
+  width: 100%;
+  margin-right: 20px;
+}
+
+.top-nav li.btn {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff5f5;
+  font-family: Harmattan;
+  /*font-stretch: extra-expanded;*/
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+a:hover {
+  color: green;
+}
+
+.btn {
+  padding: 10px 30px;
+  border: solid 2px #ed6464;
+  position: relative;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: #ed6464;
+  font-weight: 600;
+}
+
+.introduction {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+p {
+  display: block;
+  text-align: justify;
+  width: calc(75% - 10px);
+  margin-left: calc(5% + 10px);
+  /*align-items: center;*/
+}
+
+.body a {
+  display: inline-block;
+  margin: auto;
+  width: 22%;
+  text-align: center;
+  left: 25%;
+  margin-top: 5%;
+
+}
+.github, .instagram, .twitter, .facebook {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  margin: auto;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #ed6464;
+  margin-top: 4%;
+}
+
+.left {
+  font-size: 12px;
+  line-height: 4rem;
+}
+
+.top-nav li {
+  display: inline-block;
+  padding: 0;
+  list-style: none;
+  margin-right: 25px;
+}
+
+.top-nav ul {
+  display: block;
+  list-style-type: disc;
+  margin: 14px;
+}
+
+/*Portfolio */
+#porfolio {
+  background-color: #ed6464;
+  display: flex;
+  justify-content: space-between;
+}
+
+#page2 {
+  background-color: #ad8585;
+}
+
+#porfolio nav ul {
+  display: inline-flex;
+  width: 300px;
+  list-style: none;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.projects img {
+  width: 700px;
+  height: 700px;
+  margin-top: 5%;
+  margin-left: 25%;
+  border: 5px solid #a26f6f;
+  border-radius: 20px;
+}
+
+.projects {
+  display: inline-flex;
+}
+
+h3 {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 20%;
+  text-transform: capitalize;
+  font-size: 1em;
+  text-align: right;
+  font-family: Lato;
+  font-weight: lighter;
+  color: white;
+}
+
+/*about me*/
+#page3, #page4 {
+  background-color: #ffe7f8;
+}
+
+#page3 img, #page4 img {
+  display: flex;
+  position: relative;
+  left: 35%;
+  margin-top: 6%;
+  /*float: left;*/
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.bio div {
+  /*float: right;*/
+  width: 100%;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+#page3 h2, #page3 p {
+  text-align: center;
+  font-family: cursive;
+}
+
+/*hobbies*/
+
+.hobby:nth-child(odd) {
+  display: inline-block;
+  background-color: lightgray;
+  /*justify-content: space-between;*/
+}
