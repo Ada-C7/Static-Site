@@ -1,0 +1,25 @@
+/*Styling the top section*/
+#comedy-top {
+  text-align: center;
+  margin: 40px 10px;
+}
+
+/*Styling the posts*/
+.posts article {
+  margin: 2%;
+  border: 3px #FF7F1D dashed;
+  height: 350px;
+}
+
+section.media{
+  display: inline-block;
+  float: left;
+  margin: 15px 10px;
+}
+
+section.desc {
+  float: right;
+  display: inline-block;
+  width: 30%;
+  margin: 30px 20px;
+}

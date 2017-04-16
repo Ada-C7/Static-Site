@@ -1,0 +1,59 @@
+.desc {
+  text-align: center;
+}
+
+/*setting up circles for articles*/
+.projects {
+  position: relative;
+  height: 300px;
+}
+
+.projects a {
+  color: #4d4d4d;
+}
+
+.projects article {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  padding: 30px;
+  padding-top: 35px;
+  margin: 3%;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  background-color: #18D4C6;
+}
+
+.middle {
+  position: absolute;
+  left: 37%;
+  right: 35%;
+  background-color: #FFD71D;
+}
+
+.right {
+  position: absolute;
+  left: 75%;
+  background-color: #FF7F1D;
+}
+
+/*Make the circles bigger!*/
+.projects article:hover {
+  width: 200px;
+  height: 200px;
+}
+
+/* Hide/show content when hover */
+.show {
+  display: none;
+}
+
+.projects article:hover > .show {
+  display: inline-block;
+  width: 200px;
+}
