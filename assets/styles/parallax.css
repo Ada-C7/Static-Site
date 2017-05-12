@@ -1,0 +1,40 @@
+[class*="parallax-"] {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.parallax-img {
+  text-indent: -9999px;
+  height: 100vh;
+}
+
+#travel article section {
+  background-color: #C4D3E5;
+  height: 40vh;
+  padding: 3% 10%;
+  vertical-align: middle;
+  box-shadow: inset 0 0 0.5em #111;
+}
+
+#travel article section h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+#travel article section p:first-of-type::first-letter {
+  font-size: 1.8em;
+}
+
+#travel article:first-of-type .parallax-img  {
+  background-image: url("../../assets/imgs/costa-rica.jpg")
+}
+
+#travel article:nth-of-type(2) .parallax-img {
+  background-image: url("../../assets/imgs/thailand.jpg");
+}
+
+#travel article:last-of-type .parallax-img {
+  background-image: url("../../assets/imgs/foroyar.jpg");
+}
