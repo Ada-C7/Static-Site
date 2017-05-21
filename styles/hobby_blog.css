@@ -1,7 +1,11 @@
+html {
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+}
+
 
 body {
   position: absolute;
-  background-color: #a9bed9;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
