@@ -65,9 +65,9 @@ color: black;
   font-size: 25px;
 }
 
-/*img {
-
-}*/
+img {
+box-shadow: 6px 6px 8px #aaa;
+}
 
 
 .about-me {
