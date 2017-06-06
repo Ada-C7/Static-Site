@@ -75,8 +75,6 @@ color: black;
 }
 
 .portfolio {
-  /*position: relative;*/
-  /*margin: 150px 0 0 80px;*/
   font-size: 25px;
 }
 
@@ -84,13 +82,20 @@ color: black;
   padding-top: 10px;
 }
 
-.hiking {
+.hobbies {
+  font-size: 25px;
+}
+
+/*.picture {
+}*/
+
+/*.hiking {
 font-size: 25px;
 }
 
 .gaming {
 font-size: 25px;
-}
+}*/
 
 
 footer {
