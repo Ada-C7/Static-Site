@@ -36,7 +36,6 @@ h3 {
   /*margin: 150px 0 0 80px;*/
   /*width: 40%;*/
   font-size: 60px;
-  padding-left: 10px;
   /*color: black;*/
 }
 
@@ -63,17 +62,11 @@ color: black;
 }*/
 
 .short-bio {
-  /*position: relative;*/
-  /*margin: 10px 0 0 80px;*/
-  /*width: 40%;*/
   font-size: 25px;
-  padding: 10px;
-  /*color: black;*/
 }
 
 
 .about-me {
-  padding: 10px;
   font-size: 25px;
 }
 
@@ -85,20 +78,18 @@ color: black;
   /*position: relative;*/
   /*margin: 150px 0 0 80px;*/
   font-size: 25px;
-  padding: 10px;
 }
+
 .portfolio p {
   padding-top: 10px;
 }
 
 .hiking {
 font-size: 25px;
-padding-left: 10px;
 }
 
 .gaming {
 font-size: 25px;
-padding-left: 10px;
 }
 
 
