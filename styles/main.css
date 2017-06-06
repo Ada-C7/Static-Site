@@ -65,6 +65,10 @@ color: black;
   font-size: 25px;
 }
 
+/*img {
+
+}*/
+
 
 .about-me {
   font-size: 25px;
@@ -83,14 +87,13 @@ color: black;
 }
 
 .hobbies {
+  padding-top: 10px;
   font-size: 25px;
 }
 
-/*.picture {
-}*/
 
-/*.hiking {
-font-size: 25px;
+/*.interests {
+border-right: solid;
 }*/
 
 
