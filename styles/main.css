@@ -4,7 +4,7 @@ html {
 
 
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Cormorant Garamond', serif;
 }
 
 header {
@@ -27,16 +27,12 @@ a:visited {
 }
 
 
-h3 {
+h4 {
   /*position: relative;*/
-  /*margin: 150px 0 0 80px;*/
+  margin: 50px 0 10px 0;
   /*width: 40%;*/
-  font-size: 60px;
+  /*font-size: 60px;*/
   /*color: black;*/
-}
-
-.contact {
-  padding-left: 5px;
 }
 
 .short-bio {
@@ -45,6 +41,10 @@ h3 {
 
 .picture {
 box-shadow: 6px 6px 8px #aaa;
+}
+
+.contact {
+  padding-top: 10px;
 }
 
 
@@ -68,13 +68,6 @@ box-shadow: 6px 6px 8px #aaa;
   padding-top: 10px;
   font-size: 25px;
   /*background-image: asset_url("hiking.jpg");*/
-}
-
-.interests {
-  display: block;
-  /*background-image: url("hiking.jpg");
-  width: 100px;
-  height: 100px;*/
 }
 
 
