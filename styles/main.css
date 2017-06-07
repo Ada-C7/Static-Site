@@ -7,14 +7,10 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-/*ideally space these words out more*/
 header {
-  /*position: fixed;*/
-  width: 100%;
   padding: 10px;
 }
 
-/*space these words out more*/
 .site-nav {
   /*float: right;*/
   padding: 5px 0 0 0;
@@ -39,33 +35,16 @@ h3 {
   /*color: black;*/
 }
 
-/*.icono-linkedIn {*/
-/*display: inline-block;*/
-/*position: absolute;*/
-/*margin: 10px;*/
-/*width: 100%;
-color: black;*/
-/*}*/
-
-/*.icono-mail {
-position: absolute;
-margin: 400px 0 0 200px;
-width: 100%;
-color: black;
-}*/
-
-/*.icono-nexus {
-position: absolute;
-margin: 400px 0 0 200px;
-width: 100%;
-color: black;
-}*/
+.contact {
+  padding-left: 5px;
+}
 
 .short-bio {
   font-size: 25px;
 }
 
-img {
+.picture {
+  /*background-image: url("blurry_london_bridge.jpg");*/
 box-shadow: 6px 6px 8px #aaa;
 }
 
@@ -89,11 +68,14 @@ box-shadow: 6px 6px 8px #aaa;
 .hobbies {
   padding-top: 10px;
   font-size: 25px;
+  /*background-image: asset_url("hiking.jpg");*/
 }
 
 
 /*.interests {
-border-right: solid;
+  background-image: url("hiking.jpg");
+  width: 100px;
+  height: 100px;
 }*/
 
 
