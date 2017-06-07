@@ -11,10 +11,10 @@ header {
   padding: 10px;
 }
 
-.site-nav {
+.menu {
   /*float: right;*/
   padding: 5px 0 0 0;
-  /*color: black;*/
+  color: black;
   font-size: 26px;
 }
 
@@ -44,7 +44,6 @@ h3 {
 }
 
 .picture {
-  /*background-image: url("blurry_london_bridge.jpg");*/
 box-shadow: 6px 6px 8px #aaa;
 }
 
@@ -71,12 +70,12 @@ box-shadow: 6px 6px 8px #aaa;
   /*background-image: asset_url("hiking.jpg");*/
 }
 
-
-/*.interests {
-  background-image: url("hiking.jpg");
+.interests {
+  display: block;
+  /*background-image: url("hiking.jpg");
   width: 100px;
-  height: 100px;
-}*/
+  height: 100px;*/
+}
 
 
 footer {
