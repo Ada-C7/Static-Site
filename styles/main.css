@@ -12,12 +12,29 @@ body, html {
 }
 
 .bgimg-1 {
-  background-image: url("../assets/hands.jpg");
+  background-image: url("../assets/bangles.jpg");
   min-height: 100%;
 }
 
+.caption {
+  padding-top: 180px;
+  text-align: center;
+}
+
+.caption-1{
+  padding-top: 350px;
+  text-align:center;
+  background-color: #949596;
+  opacity: 0.9;
+  color: white;
+  padding:18px;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+
 .caption span.border{
-  background-color: black;
+  background-color: #949596;
+  opacity: 0.9;
   color: white;
   padding:18px;
   font-size: 45px;
