@@ -12,11 +12,34 @@ body, html {
 }
 
 .bgimg-1 {
-  /*background-image: url("hands.jpg");*/
+  background-image: url("../assets/hands.jpg");
   min-height: 100%;
 }
 
-.bgimg-1 {
+.caption span.border{
+  background-color: black;
+  color: white;
+  padding:18px;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.bgimg-2 {
+  background-image: url("../assets/code.jpg");
+  min-height: 100%;
+}
+
+.bgimg-3 {
+  background-image: url("../assets/hiking.jpg");
+  min-height: 100%;
+}
+
+.bgimg-4 {
+  background-image: url("../assets/spirit.JPG");
+  min-height: 100%;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
   /*opacity: 0.8;*/
   background-attachment: fixed;
@@ -48,7 +71,7 @@ a:hover {
 
 h4 {
   /*position: relative;*/
-  margin: 50px 0 10px 0;
+  margin: 40px 0 40px 0;
   /*width: 40%;*/
   /*font-size: 60px;*/
   /*color: black;*/
@@ -83,11 +106,9 @@ h4 {
   padding-top: 10px;
 }
 
-.hobbies {
-  padding-top: 10px;
+/*.interests {
   font-size: 25px;
-  /*background-image: asset_url("hiking.jpg");*/
-}
+}*/
 
 
 footer {
