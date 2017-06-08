@@ -7,16 +7,39 @@ body {
 font-family: 'Cormorant Garamond', serif;
 }
 
-header {
-  padding: 10px;
+body, html {
+  height: 100%;
 }
 
-.menu {
-  /*float: right;*/
+.bgimg-1 {
+  /*background-image: url("hands.jpg");*/
+  min-height: 100%;
+}
+
+.bgimg-1 {
+  position: relative;
+  /*opacity: 0.8;*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  display: block;
+}
+
+
+/*header {
+  padding: 10px;
+}*/
+
+
+/*.menu {
   padding: 5px 0 0 0;
   color: black;
   font-size: 26px;
-}
+}*/
 
 a:hover {
   color: black;
