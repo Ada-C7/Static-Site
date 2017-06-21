@@ -1,10 +1,90 @@
+
+.flex-container {
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  width: auto;
+}
+
+.menu-hover-lines {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.35s ease;
+}
+
+.menu-hover-lines li a {
+  /*padding: 0.75rem 0;*/
+  color: rgba(10, 10, 10, 0.5);
+  position: relative;
+  margin-left: 1rem;
+}
+
+.menu-hover-lines li:first-child a {
+  margin-left: 0;
+}
+
+.menu-hover-lines li.active > a {
+  background-color: transparent;
+}
+
+.menu-hover-lines a:before,
+.menu-hover-lines a::after {
+  height: 3px;
+  position: absolute;
+  content: '';
+  transition: all 0.35s ease;
+  background-color: #b2203f;
+  width: 0;
+}
+
+.menu-hover-lines a::before {
+  top: 0;
+  left: 0;
+}
+
+.menu-hover-lines a::after {
+  bottom: 0;
+  right: 0;
+}
+
+.menu-hover-lines a:hover,
+.menu-hover-lines li.active > a {
+  color: #0a0a0a;
+  transition: all 0.35s ease;
+}
+
+.menu-hover-lines a:hover::before,
+.menu-hover-lines .active a::before,
+.menu-hover-lines a:hover::after,
+.menu-hover-lines .active a::after {
+  width: 100%;
+}
+
+
+.top {
+  font-size: 60px;
+}
+
+
 html {
   background-color: #fcfdff;
 }
 
 
 body {
-font-family: 'Cormorant Garamond', serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 body, html {
@@ -44,12 +124,12 @@ body, html {
 
 .bgimg-2 {
   background-image: url("../assets/code.jpg");
-min-height: 50%;
+  min-height: 50%;
 }
 
 .bgimg-3 {
   background-image: url("../assets/hiking.jpg");
-min-height: 50%;
+  min-height: 50%;
 }
 
 .bgimg-4 {
@@ -59,7 +139,6 @@ min-height: 50%;
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
-  /*opacity: 0.8;*/
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,29 +149,13 @@ div {
   display: block;
 }
 
-
-/*header {
-  padding: 10px;
-}*/
-
-
-/*.menu {
-  padding: 5px 0 0 0;
-  color: black;
-  font-size: 26px;
-}*/
-
 a:hover {
   color: black;
 }
 
 
 h4 {
-  /*position: relative;*/
   margin: 40px 0 40px 0;
-  /*width: 40%;*/
-  /*font-size: 60px;*/
-  /*color: black;*/
 }
 
 .short-bio {
@@ -105,7 +168,7 @@ h4 {
 }
 
 .contact a {
-font-size: 25px;
+  font-size: 25px;
 }
 
 
@@ -125,15 +188,10 @@ font-size: 25px;
   padding-top: 10px;
 }
 
-/*.interests {
-  font-size: 25px;
-}*/
-
 
 footer {
   color: white;
   width: 100%;
   bottom: 0;
-  /*position: fixed;*/
   margin-top: 30px;
 }
