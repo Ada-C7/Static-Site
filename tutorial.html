@@ -186,7 +186,7 @@
           <p>The next step is to write code to control the drone's movement from within the app but first, there is something <strong>very important</strong> we need to do.</p>
           <h4>Cap Max Altitude (a tale of caution)</h4>
           <p>When I first set up my file, I got ahead of myself and wrote a quick take off, turn, and land block of code and ran it. I didn't realize the default max altitude on the drone was 23.5 meters! The drone flew, with significant force, directly up into my ceiling and bounced around like a moth trying to find a window. </p>
-          <p>We should set the drone's max altitude to a reasonable number, and avoiding flying your drone directly into the ceiling.</p>
+          <p>We should set the drone's max altitude to a reasonable number, and avoid flying your drone directly into the ceiling.</p>
           <p>
             Open the test-Client.js file, you will find it in node_modules>ar-drone>test>unit
           </p>
@@ -309,13 +309,13 @@
                 </code></pre>
 
                 <p>Express is a javascript framework. It is free, open source and minimal. Basically we will have the flixibilty to do what we want, and our project doesn't need much structure. We have no database, only one page, etc. </p>
-                <p>Socket.io is a JavaScript websocket library. We ill discuss websockets in a bit when we start using it.</p>
+                <p>Socket.io is a JavaScript websocket library. We will discuss websockets in a bit when we start using it.</p>
 
                 <h4>Create HTML Page</h4>
                 <p>We also need make a new file called index.html, where we will put the html for our front page.
                  In that file type in your basic html tags </p>
                  <p>
-                   In body of the html document, type in a message of your choice (I chose we are in!)
+                   In body of the html document, type in a message of your choice (I chose "we are in!"")
                  </p>
 
 
@@ -476,7 +476,7 @@
 
                 <p>
                   We just created two buttons. Lets look at the Take Off button.
-                  We are telling it when the button is clicked <code>onClick()</code>, to call the <code>takeOff()</code> function. Same with the Take off button and it's corresponding function.
+                  We are telling it when the button is clicked <code>onClick</code>, to call the <code>takeOff()</code> function. Same with the take off button and it's corresponding function.
                 </p>
                 <p>
                   We also created and empty div and gave it an id of "message" so we can display a message showing what function is being called.
@@ -606,7 +606,7 @@ This basically says, when you receive the "takeOff" call from the client side, d
       <pre>&lt;button type="button" name="button" onclick="streamVideo()"&gt;Stream Video&lt;/button&gt;</pre>
 
       <p>
-        Also in indeex.html, let’s add a div where the video will go:
+        Also in index.html, let’s add a div where the video will go:
       </p>
 
       <pre>&lt;div id="video"&gt;&lt;/div&gt;</pre>
