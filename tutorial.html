@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Drone Build Tutorial</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Theme CSS -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          Menu <i class="fa fa-bars"></i>
+        </button>
+        <!-- <a class="navbar-brand" href="index.html">Drone App</a> -->
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="code-journal.html">Code Journal</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+
+  <!-- Page Header -->
+  <!-- Set your background image for this header on the line below. -->
+  <header class="intro-header" style="background-image: url('images/post-bg.png')">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="post-heading">
+            <h1>“Learning is not attained by chance, it must be sought for with ardor and diligence.”</h1>
+            <span class="meta">― Abigail Adams</span>
+            <!-- <h1>“Self-education is, I firmly believe, the only kind of education there is.”</h1>
+            <span class="meta">― Isaac Asimov</span> -->
+            <!-- <h1>“Study hard what interests you the most in the most undisciplined, irreverent and original manner possible.”</h1> -->
+            <!-- <h2 class="subheading">Problems look mighty small from 150 miles up</h2> -->
+            <!-- <span class="meta">― Richard Feynman</span> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <p>Approaching the last month of <a href="http://adadevelopersacademy.org/">Ada Developers Academy</a>, I was wracking my brain to think of a capstone project which would be both <strong>fun and educational</strong>. I mused to myself, 'when will I ever again have the opportunity to do any project of my choice with so much support?' </p>
+          <p>I went big and chose to program a drone. I mean, really, what more fun project could there be? What other project would have such rewarding and immediate feedback? <strong>Write some code, fly a drone!</strong> I thought it be great. And it was great, and not great, all at the same time. </p>
+          <p>Along with the usual struggles of a capstone, the time crunch, the hours and hours of research, I realized there was a problem which pervaded every step of the project from the very beginning. So much so, that I almost switched to a new project before I even began.</p>
+          <p>That problem is one which exists throughout the tech industry, and it is simply the lack of accesibilty to tech for people who are not already in tech. It is a catch 22. <strong>If you don't already know something, it is hard to learn anything about it</strong>.</p>
+
+          <blockquote>I don't look to jump over 7-foot bars: I look around for 1-foot bars that I can step over. -Warren Buffett</blockquote>
+          <!-- <p>The lingo is frustrating if you don't understand it; I struggled to find anywhere on the internet which could bridge the gap between knowing nothing about drones and being proficient with them.</p> -->
+          <!-- <p>Luckily, <strong>through my school network</strong>, I was able to find a drone hobbyist and developer who could get me started. With the help of my instructors, TAs, the helpful programmer, and my partner, I was able to get over every hurdle.</p> -->
+          <p>Except there were no 1-foot bars...</p>
+          <!-- <p>In a moment of exasperation, I was expressing to my partner my frustration at finding information on programming a drone. I told him, also, how grateful I am for my amazing network of folks to turn to when I get stuck. I was frustrated that people without the resources I have through school, may find this sort of project completely inaccesible.</p> -->
+          <!-- <p>Except there were no 1-foot bars...</p> -->
+          <p>While expressing all of this to my partner, my project hit a turning point when he looked at me and said, "Then why don't you bridge that gap? <strong>You be the one</strong> to build the turorial you needed, for the next person who comes along." </p>
+        </p>He is so right, and here we are...</p>
+
+        <h2 class="section-heading">Overview</h2>
+
+        <p>We will be using lots of tools to build an app, a server, and a front page with simple buttons to control the flight of your drone. We will also learn to stream the drone's video on it's own server and then to your front page.</p>
+        <p>This project will progress smoothest if you have a basic understanding of HTML, CSS, JavaScript and the ability to navigate the terminal. Even if you don't, you should be able to copy the code and understand the gist of what it is doing.</p>
+        <p>We will also be using several other tools and libraries, including, but not limited to Express, AR-Drone library, AR-Drone-Png-Stream library. </p>
+        <p>Don't worry too much about all the tools we will eventually need to use. We will discuss them in depth when we come to them.</p>
+        <blockquote>We cannot take more than one step at a time. - Orison Swett Marden</blockquote>
+        <p>
+          <p>I can't promise that the way I have set up everything in this drone is the best way ever, but that's the great thing about programming, there are a million ways to do everything.</p>
+          <p>Let's talk about the drone itself.</p>
+
+
+          <h2 class="section-heading">Hardware - About the Drone</h2>
+
+          <p>After some amount of research into drones (I won't say a great deal of reasearch honestly), I chose the <a href="https://www.parrot.com/us/drones/parrot-ardrone-20-power-%C3%A9dition#ar-drone-20-power-edition">Parrot AR.Drone 2.0</a> for the hardware of this project. </p>
+          <!-- Link to drone https://www.parrot.com/us/drones/parrot-ardrone-20-power-%C3%A9dition#ar-drone-20-power-edition -->
+          <p>I decided on this specific drone because it had all the required hardware, can be programmed with JavaScript (which I was pretty comfortable with) and was within my budget (on sale!).</p>
+          <p>The first thing I did when I got the drone home was put the battery on the charger while I set up my file. It takes about an hour and a half to fully charge the battery.</p>
+          <p>The drone assembly was quick and easy. There is a place on top of the drone for the battery to sit, held in by velcro straps and connected to the wires.</p>
+          <p>I chose to use the indoor body because I wanted to not destroy my drone blades, walls, or furniture. It slips on easily over the camera, then onto the drone.</p>
+          <p>While that battery charges, shall we set up our file?</p>
+
+
+
+          <!-- <blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote> -->
+
+
+          <h2 class="section-heading">Flight from a File</h2>
+          <br />
+
+          <h4>Overview</h4>
+          <p>In this section, we are going to set up a javascript file install a library which will allow us to control the drone with a bit of code.</p>
+          <p>We will be using the following: </p>
+          <ul>
+            <!-- <li>
+            the terminal
+          </li> -->
+          <li>
+            <a href="https://www.javascript.com/">JavaScript</a>
+          </li>
+          <li>
+            <a href="https://atom.io/">Atom</a> (or any text editor of your choice)
+          </li>
+          <li>
+            <a href="https://nodejs.org/en/">node</a>
+          </li>
+          <li>
+            <a href=" https://www.npmjs.com/get-npm?utm_source=house&utm_medium=homepage&utm_campaign=free%20orgs&utm_term=Install%20npm">node package manager (npm)</a>
+          </li>
+          <li>
+            <a href="https://github.com/felixge/node-ar-drone">node-ar-drone</a>
+          </li>
+        </ul>
+        <p></p>
+        <p>First, go to the node package manager link and follow the instructions there to install it. The npm install includes node as well.</p>
+        <p>From here on out we will use npm to download the libraries we will need.</p>
+        <h4>File Setup</h4>
+        <p>In the terminal:</p>
+        <ul>
+          <li>mkdir &lt;your directory name&gt; </li>
+          <li>cd &lt;your directory name&gt; </li>
+          <li>touch app.js</li>
+          <li>npm install ar-drone</li>
+        </ul>
+
+        <p>Open the app.js file and paste in these lines</p>
+        <ul>
+          <li>var arDrone = require('ar-drone');</li>
+          <li>var client  = arDrone.createClient();</li>
+        </ul>
+        <p>Your files should look like this:</p>
+        <a href="#">
+          <img class="img-responsive" src="images/client_setup.png" alt="">
+        </a>
+        <p>Now we have a client, which is our drone. This is the place in which we can write code to tell the client what actions to perform.
+          I would recommend poking aroung the ar-drone library and see if you can figure out how things work and what actions are available.</p>
+
+          <p>The next step is to write code to control the drone's movement from within the app but first, there is something <strong>very important</strong> we need to do.</p>
+          <h4>Cap Max Altitude (a tale of caution)</h4>
+          <p>When I first set up my file, I got ahead of myself and wrote a quick take off, turn, and land block of code and ran it. I didn't realize the default max altitude on the drone was 23.5 meters! The drone flew, with significant force, directly up into my ceiling and bounced around like a moth trying to find a window. </p>
+          <p>We should set the drone's max altitude to a reasonable number, and avoiding flying your drone directly into the ceiling.</p>
+          <p>
+            Open the test-Client.js file, you will find it in node_modules>ar-drone>test>unit
+          </p>
+          <p>
+            Change the altitudeMeters to the height you want (line 87 in the image below).
+          </p>
+          <a href="#">
+            <img class="img-responsive" src="images/altitude.png" alt="">
+          </a>
+
+
+          <p>On that note, the drone's <strong>emergency shut-off maneuver</strong> is to flip it to a 90 degree angle, essentially tip it so the top is pointing at the wall.</p>
+          <p>Be careful though, I had welts on my thumbs for days from accidentally grabbing too close to the propellers.</p>
+          <h4>Write Commands</h4>
+
+          <p>
+
+          Next we are going to write a few lines of code to tell our client what we would like it to do, as shown in the <a href="https://github.com/felixge/node-ar-drone">node-ar-drone</a> library.
+          </p>
+          <br />
+          <p>
+
+          </p>
+          <pre>
+            <code>
+              client.takeoff();
+
+              client
+              .after(5000, function() {
+                this.clockwise(0.5);
+              })
+              .after(3000, function() {
+                this.stop();
+                this.land();
+              });
+            </code>
+          </pre>
+          <p>
+            All together it should look like this:
+          </p>
+
+          <a href="#">
+            <img class="img-responsive" src="images/client.png" alt="">
+          </a>
+
+          <h4>Fly Drone</h4>
+
+          <p>And thats it! We can go to our teminal and, while in our project folder, type in node app.js, hit enter and the drone flies the pattern we gave it!</p>
+          <p>This is another point at which I would suggest checking out the documentation for the node-ar-drone library. Find out what maneuvers the drone can do. Play around with them a bit.</p>
+          <p>We will get to video stream and app front end next.</p>
+          <p></p>
+
+
+
+
+
+
+
+
+
+
+
+          <!-- <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span> -->
+          <!-- <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p> -->
+          <h2 class="section-heading">Video Stream</h2>
+
+          <p>Are we ready to move on to the video stream?</p>
+          <h4>Library Install</h4>
+          <p>We will use npm to install the ar-drone-png-stream (LINK) library. In your terminal type in:
+
+            <code>npm install ar-drone-png-stream</code>
+
+            <h4> Update App</h4>
+
+            <p>The next step is to require the library in our app.js file with the following:</p>
+
+            <code>require('ar-drone-png-stream')(client, { port: 8000 });</code>
+
+            <p>Here we are requiring the library, telling it which client we want to stream png images from and which port we would like to stream those images.  </p>
+            <p>I do recommend commenting out the flight code, so we can temporarily stream video while drone is “on the ground.” It is optional, but I find it much easier to trouble shoot and work on a stationary drone. </p>
+            <p>If you chose to do so, your file should look like this: </p>
+            <a href="#">
+              <img class="img-responsive" src="images/no_flight_video.png" alt="">
+            </a>
+            <p>We also need to install the http library because the ar-drone-png-stream requires it. In the terminal run<code> npm install http</code>.</p>
+
+
+
+
+            <p>So, let’s stream video. In the terminal run app.js. Open up your browser and go to 	http://localhost:8000 (because, as you know, we set up our client on port 8000)</p>
+
+            <p>You should have png images streaming in localhost:8000 and a bunch of numbers in your terminal.</p>
+            <p>Those numbers are coming from the ar-drone-png-stream/index.js file. See line 22 in the image below. </p>
+
+            <a href="#">
+              <img class="img-responsive" src="images/png_stream_file.png" alt="">
+            </a>
+
+            <p>While you are there, let’s check out the code and see what it is doing. You will see this line of code:</p>
+            <code>png.on('data', sendPng); </code>
+            <p>This line says, when there is new png data, call the sendPng function. Within the sendPng function is <code> res.write(buffer); </code> , this line where the image is written to the page. </p>
+
+            <blockquote>
+              In much of society, research means to investigate something you do not know or understand. Neil Armstrong
+            </blockquote>
+            <p>Spend some time looking around in the ar-drone-png-stream folder, check out the readme, look around the index.js file, etc. It will always serve us well to understand the libraries we are using. </p>
+
+
+
+            <h2 class="section-heading">Building a Front End</h2>
+
+            <p>Ready to have a front end and build buttons to control the drone?<p>
+              <h4>Overview</h4>
+              <p>In this section we are going to use <a href="https://expressjs.com/">Express</a>, <a href="https://socket.io/">Socket.io</a>, and <a href="https://www.w3schools.com/nodejs/nodejs_http.asp">http</a>(which we met briefly in the previous section), to build an app front page with buttons to allow us to  control our drone. We are also going to embed the png stream onto the page.
+                <h4>Library Install</h4>
+                <p>First step is, as always, to install our libraries. In out termal, lets run these commands</p>
+                <pre><code>
+                  npm install express
+                  npm install socket.io
+                </code></pre>
+
+                <p>Express is a javascript framework. It is free, open source and minimal. Basically we will have the flixibilty to do what we want, and our project doesn't need much structure. We have no database, only one page, etc. </p>
+                <p>Socket.io is a JavaScript websocket library. We ill discuss websockets in a bit when we start using it.</p>
+
+                <h4>Create HTML Page</h4>
+                <p>We also need make a new file called index.html, where we will put the html for our front page.
+                 In that file type in your basic html tags </p>
+                 <p>
+                   In body of the html document, type in a message of your choice (I chose we are in!)
+                 </p>
+
+
+
+
+                <a href="#">
+                  <img class="img-responsive" src="images/hello_drone_html.png" alt="">
+                </a>
+
+                <h4>Update App</h4>
+                <p>Let's go back to app.js and require the libraries we just installed. Note that we are also creating an app variable,
+                which allows us to create an express app.  <p>
+                  <pre><code>
+                    var express = require('express');
+                    var app = express();
+                    var server = require("http").createServer(app);
+                    var io = require('socket.io').listen(server);
+                  </code></pre>
+
+                <p>
+                  All together it should look like this.
+                </p>
+
+
+                  <a href="#">
+                    <img class="img-responsive" src="images/front_end_file_setup.png" alt="">
+                  </a>
+
+
+
+                  <h4></h4>
+
+                  <p>Let's connect our app with our html. In app.js paste in this code:</p>
+                  <pre><code>
+                  app.get('/', function(req, res){
+                    res.sendfile('index.html');
+                  });
+                  </pre></code>
+
+                  <p>
+                    Notice the <code> res. </code> again. We are telling the app to send the index.html file when it receives a request to <code>get</code> the main app page <code>'/'</code>.
+                  </p>
+
+                  <p>
+                    The next step, I think, would be to get the index.html to show up in our browser right? Well, we already created a server for our  express app with the line
+                    </p>
+                    <code>var server = require("http").createServer(app);</code>
+                  <p>
+                    Now we can paste in the following code to let it know we want it to listen to port 3000. We also have added a console log, so we can see in our terminal what is happening.
+                  </p>
+                  <pre>
+                    <code>
+                    server.listen(3000, function(){
+                      console.log('listening on *:3000’);
+                    });
+                  </code>
+                </pre>
+
+
+
+                  <p>
+                    Check in browser on http://localhost:3000 you should see your message.
+                  </p>
+                  <a href="#">
+                    <img class="img-responsive" src="images/we_are_in.png" alt="">
+                  </a>
+                  <p>
+                    And also in our terminal we should have our console log.
+                  </p>
+
+                  <a href="#">
+                    <img class="img-responsive" src="images/listening_on_port.png" alt="">
+                  </a>
+                  <p>
+                    Congrats! You now have an app with a client side (front page) and server side (app.js), but whats next?
+
+                     </p>
+                  <p>
+                    I guess we probably want to put things on that front page, like buttons, which will send commands to the app. Then we probably want to add functions in the app which will tell the drone what to do.
+                    That is great and all, but you are probably wondering how our client side communicates with our server side and visa versa.
+                  </p>
+                  <p>
+
+                    Ah! Excellent question. Let's go over that next.
+                  </p>
+
+                  <p>
+                    I think one of the easiest ways to handle what we need is with web sockets.
+                  </p>
+
+                  <p>
+                    Web sockets basically allow for information to be passed back and forth from client side to server side. It is basically an open line of communication between the two.
+                    I like the explanation on the <a href="https://www.pubnub.com/blog/2013-09-11-what-are-websockets/">PubNub "What Are WebSockets?"</a> page, largely because it contains graphics and graphics are great.
+                  </p>
+
+                  <p>
+                    Luckily, we already installed and required socket.io. We even told it to listen to the server. Now we can get right to work.
+                  </p>
+                  <p>
+                    The first step is to tell it what to do when someone connects and disconnects from the server.
+                  </p>
+
+                  <p>
+                    Paste the following code between our app.get block and the server.listen block.
+                  </p>
+
+                  <pre>
+                    <code>
+                    io.on('connection', function(socket){
+                      console.log('A user connected');
+
+                      socket.on('disconnect', function() {
+                        console.log('A user disconnected');
+                      });
+                    });
+                    </code>
+                  </pre>
+
+
+                  <p>
+                    It should look like this:
+                  </p>
+
+
+                  <a href="#">
+                    <img class="img-responsive" src="images/app_front_end_build.png" alt="">
+                  </a>
+
+                  <p>When we run the app, whe should also get our console logs. </p>
+
+
+
+
+
+
+                  <a href="#">
+                    <img class="img-responsive" src="images/user_connected.png" alt="">
+                  </a>
+
+
+
+
+                  <p>
+                    I am going to walk you through creating the take off and land buttons and function. After that, you will be able to add any other functions you would like your app to have.
+                  </p>
+
+                  <p> In the body of the html in the index.html file paste the following code:</p>
+  <pre>
+
+  <xmp>
+  <div id="message"> <br /></div>
+  <button type="button" name="button" onclick="takeOff()">Take Off</button>
+  <br />
+  <button type="button" name="button" onclick="land()">Land</button>
+  <br />
+  </xmp>
+  </pre>
+
+                <p>
+                  We just created two buttons. Lets look at the Take Off button.
+                  We are telling it when the button is clicked <code>onClick()</code>, to call the <code>takeOff()</code> function. Same with the Take off button and it's corresponding function.
+                </p>
+                <p>
+                  We also created and empty div and gave it an id of "message" so we can display a message showing what function is being called.
+                </p>
+                <p>
+                  If you want to start your app and look at the localhost page, you will see two buttons like this:
+                </p>
+                <a href="#">
+                  <img class="img-responsive" src="images/buttons.png" alt="">
+                </a>
+
+                <p>
+                If you click them, it seems nothing happens. In reality we have buttons which call the non-existant functions <code>takeOff()</code> and <code>land()</code>, so perhaps we should create those functions.
+                </p>
+
+                <p>
+                  First we need to include our socket.io scripts on our html page.
+                  After the &lt;/head&gt; tag and before the &lt;body&gt;  tag we will add the scripts.
+                </p>
+                <p>The first one adds socket.io.
+                </p>
+                <pre><xmp><script src=“/socket.io/socket.io.js”></script></xmp></pre>
+
+                <p>
+                  The second script creates client side functions to trigger server side functions (in app.js).
+                </p>
+                <pre><xmp>
+      <script>
+        var socket = io();
+        function takeOff(){
+
+            };
+        function land(){
+
+            };
+      </script></xmp></pre>
+
+      <p>
+        Making progress!! Now we have two empty client side functions which are triggered when the  corresponding button is pressed.  If we consider what we want the functions to do, I can think of three things.
+        <p>
+
+        Most importantly, I want the function in the client side to tell the server side to do someting (like make the drone take off). We do this by telling the socket to "emit" a call to the server side.
+      </p>
+<pre><xmp>socket.emit('takeOff');</xmp></pre>
+
+        <p>
+
+        I also want show a message on our page saying what the drone is (supposed to be) doing. We do this by getting the element we created with the id of "message" and setting the html to whatever we want.
+      </p>
+
+<pre><xmp>document.getElementById('message').innerHTML = "taking off!";</xmp></pre>
+      <p>
+        The third thing, a personal preference, I like to console log something, so I can see in the console when the function has been called.
+      </p>
+
+<pre><xmp> console.log("Flying");</xmp></pre>
+
+      <p>
+        After repeating the same process for the landing function, your index.html file should look something like this.
+      </p>
+
+      <a href="#">
+        <img class="img-responsive" src="images/socket_scripts.png" alt="">
+      </a>
+
+      <p>
+        If we want to start up our app again and check functionality, your buttons would log the commands "taking off!" and "landing!" It also should show our message in the div when the button is pressed:
+      </p>
+
+      <a href="#">
+        <img class="img-responsive" src="images/message.png" alt="">
+      </a>
+
+      <p>
+        Our client side functions are working! They are emitting a call to the server side. Now let's build the functions in app.js which can tell the drone what we want it to do.
+      </p>
+      <p>
+        Lets start with our empty function to receive the call from the client side.
+      </p>
+      <pre><xmp>
+      socket.on('takeOff', function () {
+
+      });
+      socket.on('land', function () {
+
+      });
+    </xmp></pre>
+      <p>
+This basically says, when you receive the "takeOff" call from the client side, do something. Remember way back when we first started we used <code>client.takeOff();</code> to make the drone take off? Well, we are going to do it again, just within the functions this time. Same with <code>client.land();</code>
+      </p>
+      <p>
+        Simply paste those two lines into their corresponding functions.
+
+
+        </p>
+        <a href="#">
+          <img class="img" src="images/socket_app_commands.png" alt="" height="350">
+        </a>
+
+      <p>
+        I also like to add in a <code>console.log("App Takeoff!")</code> and <code>console.log("App land!")</code> so I know we are in the app functions. Below is a screen shot of my browser page and terminal at this point.
+      </p>
+
+      <a href="#">
+        <img class="img-responsive" src="images/message_and_log.png" alt="">
+      </a>
+
+
+      <p>
+        OK now that we have the understanding of how the socket works, add in the rest of the commands you might want (turn left, turn right, etc)
+      </p>
+
+
+      <h4>Embeded Video</h4>
+
+      <p>
+        Through all of this (building the express app) your server port 8000 should still be able to stream video while your port 3000 has the client side.
+        It would be nice if we could see the video on the page with the buttons though, right?
+      </p>
+
+      <p>
+        Lets look at how to do that.
+      </p>
+      <p>
+        First let’s make another button in the index.html file
+      </p>
+      <pre>&lt;button type="button" name="button" onclick="streamVideo()"&gt;Stream Video&lt;/button&gt;</pre>
+
+      <p>
+        Also in indeex.html, let’s add a div where the video will go:
+      </p>
+
+      <pre>&lt;div id="video"&gt;&lt;/div&gt;</pre>
+
+      <p>
+        I also threw a couple line breaks in between, just so things are lined up a bit neater
+      </p>
+
+      <p>
+          Now the body of my html looks like this:
+      </p>
+
+      <a href="#">
+        <img class="img-responsive" src="images/video_button.png" alt="">
+      </a>
+
+      <p>
+
+        Now our button needs a function in the socket.io script to call. In the index.html file we will add a function.
+
+      </p>
+      <pre>
+
+
+      function streamVideo(){
+            socket.emit('streamVideo');
+                  document.getElementById('message').innerHTML = "Streaming Video!";
+                  console.log("streaming");
+                  document.getElementById('video').innerHTML = "&lt;iframe width='640' height='360' src='http://127.0.0.1:8000/index.html'&gt;&lt;/iframe&gt;";
+              };
+
+      </pre>
+
+
+<p>
+  The script portion of our index.html should look like this:
+</p>
+<a href="#">
+  <img class="img-responsive" src="images/video_script.png" alt="">
+</a>
+
+<p>
+   To round out the server side of this function, we will add a function in app.js.
+</p>
+
+<pre><code>socket.on('streamVideo', function () {
+  console.log('App video');
+});</code></pre>
+<p>
+  Which simply logs ‘App video’ in the terminal.
+</p>
+
+<p>
+  Let’s try it out.
+  <ul>
+    <li>connect to the drone</li>
+    <li>run app.js in terminal</li>
+    <li>open localhost:8000 and localhost:3000</li>
+    <li>in localhost:3000 click the stream video button</li>
+    <li>your video should show up in a box just under your stream video button</li>
+  </ul>
+</p>
+
+
+
+
+
+<p>
+  And now you have a drone which you can control from an app you built, while watching the video stream!
+  Check out the drone features and make new buttons!  Do flips! Do fun stuff!
+</p>
+
+<p>
+  Also feel free to style your page as you would like. I used bootstram and my buttons are now much better.
+</p>
+
+<a href="#">
+  <img class="img-responsive" src="images/bootstrap.png" alt="">
+</a>
+
+
+
+
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <hr>
+
+            <!-- Footer -->
+            <footer>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                      <li>
+                        <a href="#">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                          </span>
+                        </a>
+                      </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                  </div>
+                </div>
+              </div>
+            </footer>
+
+            <!-- jQuery -->
+            <script src="vendor/jquery/jquery.min.js"></script>
+
+            <!-- Bootstrap Core JavaScript -->
+            <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+            <!-- Contact Form JavaScript -->
+            <script src="js/jqBootstrapValidation.js"></script>
+            <script src="js/contact_me.js"></script>
+
+            <!-- Theme JavaScript -->
+            <script src="js/clean-blog.min.js"></script>
+
+          </body>
+
+          </html>
