@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
   <title>Drone Build Tutorial</title>
 
@@ -49,17 +51,13 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="index.html">Home</a>
-          </li>
+            <a href="index.html">Home          </li>
           <li>
-            <a href="portfolio.html">Portfolio</a>
-          </li>
+            <a href="portfolio.html">Portfolio          </li>
           <li>
-            <a href="code-journal.html">Code Journal</a>
-          </li>
+            <a href="code-journal.html">Code Journal          </li>
           <li>
-            <a href="about.html">About</a>
-          </li>
+            <a href="about.html">About          </li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -144,43 +142,36 @@
             the terminal
           </li> -->
           <li>
-            <a href="https://www.javascript.com/">JavaScript</a>
-          </li>
+            <a href="https://www.javascript.com/">JavaScript</a>         </li>
           <li>
             <a href="https://atom.io/">Atom</a> (or any text editor of your choice)
           </li>
           <li>
-            <a href="https://nodejs.org/en/">node</a>
-          </li>
+            <a href="https://nodejs.org/en/">node</a>            </li>
           <li>
-            <a href=" https://www.npmjs.com/get-npm?utm_source=house&utm_medium=homepage&utm_campaign=free%20orgs&utm_term=Install%20npm">node package manager (npm)</a>
-          </li>
+            <a href=" https://www.npmjs.com/get-npm?utm_source=house&utm_medium=homepage&utm_campaign=free%20orgs&utm_term=Install%20npm">node package manager (npm) </a>           </li>
           <li>
-            <a href="https://github.com/felixge/node-ar-drone">node-ar-drone</a>
-          </li>
+            <a href="https://github.com/felixge/node-ar-drone">node-ar-drone</a>            </li>
         </ul>
         <p></p>
         <p>First, go to the node package manager link and follow the instructions there to install it. The npm install includes node as well.</p>
         <p>From here on out we will use npm to download the libraries we will need.</p>
         <h4>File Setup</h4>
         <p>In the terminal:</p>
-        <ul>
-          <li>mkdir &lt;your directory name&gt; </li>
-          <li>cd &lt;your directory name&gt; </li>
-          <li>touch app.js</li>
-          <li>npm install ar-drone</li>
-        </ul>
+        <pre>
+          mkdir &lt;your directory name&gt;
+          cd &lt;your directory name&gt;
+          touch app.js
+          npm install ar-drone</pre>
 
         <p>Open the app.js file and paste in these lines</p>
-        <ul>
-          <li>var arDrone = require('ar-drone');</li>
-          <li>var client  = arDrone.createClient();</li>
-        </ul>
+        <pre>
+          var arDrone = require('ar-drone');
+          var client  = arDrone.createClient();</pre>
         <p>Your files should look like this:</p>
-        <a href="#">
+
           <img class="img-responsive" src="images/client_setup.png" alt="">
-        </a>
-        <p>Now we have a client, which is our drone. This is the place in which we can write code to tell the client what actions to perform.
+                <p>Now we have a client, which is our drone. This is the place in which we can write code to tell the client what actions to perform.
           I would recommend poking aroung the ar-drone library and see if you can figure out how things work and what actions are available.</p>
 
           <p>The next step is to write code to control the drone's movement from within the app but first, there is something <strong>very important</strong> we need to do.</p>
@@ -193,9 +184,8 @@
           <p>
             Change the altitudeMeters to the height you want (line 87 in the image below).
           </p>
-          <a href="#">
+
             <img class="img-responsive" src="images/altitude.png" alt="">
-          </a>
 
 
           <p>On that note, the drone's <strong>emergency shut-off maneuver</strong> is to flip it to a 90 degree angle, essentially tip it so the top is pointing at the wall.</p>
@@ -228,9 +218,8 @@
             All together it should look like this:
           </p>
 
-          <a href="#">
+
             <img class="img-responsive" src="images/client.png" alt="">
-          </a>
 
           <h4>Fly Drone</h4>
 
@@ -268,10 +257,9 @@
             <p>Here we are requiring the library, telling it which client we want to stream png images from and which port we would like to stream those images.  </p>
             <p>I do recommend commenting out the flight code, so we can temporarily stream video while drone is “on the ground.” It is optional, but I find it much easier to trouble shoot and work on a stationary drone. </p>
             <p>If you chose to do so, your file should look like this: </p>
-            <a href="#">
+
               <img class="img-responsive" src="images/no_flight_video.png" alt="">
-            </a>
-            <p>We also need to install the http library because the ar-drone-png-stream requires it. In the terminal run<code> npm install http</code>.</p>
+                        <p>We also need to install the http library because the ar-drone-png-stream requires it. In the terminal run<code> npm install http</code>.</p>
 
 
 
@@ -281,9 +269,8 @@
             <p>You should have png images streaming in localhost:8000 and a bunch of numbers in your terminal.</p>
             <p>Those numbers are coming from the ar-drone-png-stream/index.js file. See line 22 in the image below. </p>
 
-            <a href="#">
+
               <img class="img-responsive" src="images/png_stream_file.png" alt="">
-            </a>
 
             <p>While you are there, let’s check out the code and see what it is doing. You will see this line of code:</p>
             <code>png.on('data', sendPng); </code>
@@ -321,9 +308,8 @@
 
 
 
-                <a href="#">
+
                   <img class="img-responsive" src="images/hello_drone_html.png" alt="">
-                </a>
 
                 <h4>Update App</h4>
                 <p>Let's go back to app.js and require the libraries we just installed. Note that we are also creating an app variable,
@@ -340,9 +326,8 @@
                 </p>
 
 
-                  <a href="#">
+
                     <img class="img-responsive" src="images/front_end_file_setup.png" alt="">
-                  </a>
 
 
 
@@ -379,17 +364,15 @@
                   <p>
                     Check in browser on http://localhost:3000 you should see your message.
                   </p>
-                  <a href="#">
+
                     <img class="img-responsive" src="images/we_are_in.png" alt="">
-                  </a>
-                  <p>
+                                    <p>
                     And also in our terminal we should have our console log.
                   </p>
 
-                  <a href="#">
+
                     <img class="img-responsive" src="images/listening_on_port.png" alt="">
-                  </a>
-                  <p>
+                                    <p>
                     Congrats! You now have an app with a client side (front page) and server side (app.js), but whats next?
 
                      </p>
@@ -440,9 +423,8 @@
                   </p>
 
 
-                  <a href="#">
+
                     <img class="img-responsive" src="images/app_front_end_build.png" alt="">
-                  </a>
 
                   <p>When we run the app, whe should also get our console logs. </p>
 
@@ -451,9 +433,8 @@
 
 
 
-                  <a href="#">
+
                     <img class="img-responsive" src="images/user_connected.png" alt="">
-                  </a>
 
 
 
@@ -484,9 +465,8 @@
                 <p>
                   If you want to start your app and look at the localhost page, you will see two buttons like this:
                 </p>
-                <a href="#">
+
                   <img class="img-responsive" src="images/buttons.png" alt="">
-                </a>
 
                 <p>
                 If you click them, it seems nothing happens. In reality we have buttons which call the non-existant functions <code>takeOff()</code> and <code>land()</code>, so perhaps we should create those functions.
@@ -538,17 +518,15 @@
         After repeating the same process for the landing function, your index.html file should look something like this.
       </p>
 
-      <a href="#">
+
         <img class="img-responsive" src="images/socket_scripts.png" alt="">
-      </a>
 
       <p>
         If we want to start up our app again and check functionality, your buttons would log the commands "taking off!" and "landing!" It also should show our message in the div when the button is pressed:
       </p>
 
-      <a href="#">
+
         <img class="img-responsive" src="images/message.png" alt="">
-      </a>
 
       <p>
         Our client side functions are working! They are emitting a call to the server side. Now let's build the functions in app.js which can tell the drone what we want it to do.
@@ -572,17 +550,15 @@ This basically says, when you receive the "takeOff" call from the client side, d
 
 
         </p>
-        <a href="#">
+
           <img class="img" src="images/socket_app_commands.png" alt="" height="350">
-        </a>
 
       <p>
         I also like to add in a <code>console.log("App Takeoff!")</code> and <code>console.log("App land!")</code> so I know we are in the app functions. Below is a screen shot of my browser page and terminal at this point.
       </p>
 
-      <a href="#">
+
         <img class="img-responsive" src="images/message_and_log.png" alt="">
-      </a>
 
 
       <p>
@@ -619,9 +595,8 @@ This basically says, when you receive the "takeOff" call from the client side, d
           Now the body of my html looks like this:
       </p>
 
-      <a href="#">
+
         <img class="img-responsive" src="images/video_button.png" alt="">
-      </a>
 
       <p>
 
@@ -646,7 +621,6 @@ This basically says, when you receive the "takeOff" call from the client side, d
 </p>
 <a href="#">
   <img class="img-responsive" src="images/video_script.png" alt="">
-</a>
 
 <p>
    To round out the server side of this function, we will add a function in app.js.
@@ -683,7 +657,6 @@ This basically says, when you receive the "takeOff" call from the client side, d
 
 <a href="#">
   <img class="img-responsive" src="images/bootstrap.png" alt="">
-</a>
 
 
 
@@ -702,29 +675,26 @@ This basically says, when you receive the "takeOff" call from the client side, d
                   <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
                       <li>
-                        <a href="#">
+
                           <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
                           </span>
-                        </a>
-                      </li>
+                                              </li>
                       <li>
-                        <a href="#">
+
                           <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                           </span>
-                        </a>
-                      </li>
+                                              </li>
                       <li>
-                        <a href="#">
+
                           <span class="fa-stack fa-lg">
                             <i class="fa fa-circle fa-stack-2x"></i>
                             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                           </span>
-                        </a>
-                      </li>
+                                              </li>
                     </ul>
                     <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
                   </div>
