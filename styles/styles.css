@@ -30,8 +30,8 @@ html {
 body {
   min-width: 100%;
   padding: 5%;
-  animation: colorchange 50s;
-  -webkit-animation: colorchange 50s;
+  animation: colorchange 30s infinite;
+  -webkit-animation: colorchange 30s infinite;
 }
 
 @keyframes colorchange
