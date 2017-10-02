@@ -30,7 +30,28 @@ html {
 body {
   min-width: 100%;
   padding: 5%;
+  animation: colorchange 50s;
+  -webkit-animation: colorchange 50s;
 }
+
+@keyframes colorchange
+{
+  0%   {background: red;}
+  25%  {background: yellow;}
+  50%  {background: blue;}
+  75%  {background: green;}
+  100% {background: red;}
+}
+
+@-webkit-keyframes colorchange
+{
+  0%   {background: red;}
+  25%  {background: yellow;}
+  50%  {background: blue;}
+  75%  {background: green;}
+  100% {background: red;}
+}
+
 
 h1 {
   font: 900 5vw 'Rubik', sans-serif;
@@ -156,7 +177,7 @@ main {
 
 /* INDEX
 *********************************/
-#index, #index .highlight-bg {
+#index .highlight-bg {
   background: #4F86F7;
 }
 
@@ -215,7 +236,7 @@ main {
 
 /* SAMPLE PROJECT
 *********************************/
-#sample-proj, #sample-proj .highlight-bg {
+#sample-proj .highlight-bg {
   background: OrangeRed;
 }
 
@@ -253,7 +274,7 @@ main {
 
 /* BLOG POSTS
 *********************************/
-#blog, #blog .highlight-bg {
+#blog .highlight-bg {
   background: MediumSpringGreen;
 }
 
@@ -300,7 +321,7 @@ main {
 
 /* ABOUT
 *********************************/
-#about, #about .highlight-bg {
+#about .highlight-bg {
   background: #01dddd;
 }
 
@@ -330,7 +351,7 @@ main {
 
 /* RESUME
 *********************************/
-#resume, #resume .highlight-bg {
+#resume .highlight-bg {
   background: #e0e300;
 }
 
