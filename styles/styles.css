@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700|Rubik:300,400,500,900');
+
+/* EVENTUALLY
+*********************************/
+/* + Add animation to index page title */
+/* + Restructure heading so that social icons are on same line as title */
+/* + Duo tone */
+/* + Add descriptionsn to index page projects */
+/* + Add contact me form to about page */
+/* + Add style for code snipet on blog */
+/* + Add style for text excerpt on blog */
+/* + Add favicon */
+/* + Add <pre> tag for code snippet in html */
+
+
+/* GLOBAL SETTINGS
+*********************************/
+html {
+  position: relative;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 100%;
+  padding: 5%;
+  animation: colorchange 30s infinite;
+  -webkit-animation: colorchange 30s infinite;
+}
+
+@keyframes colorchange
+{
+  0%   {background: OrangeRed;}
+  25%  {background: #e0e300;}
+  50%  {background: MediumSpringGreen;}
+  75%  {background: #01dddd;}
+  100% {background: #4F86F7;}
+}
+
+@-webkit-keyframes colorchange
+{
+  0%   {background: OrangeRed;}
+  25%  {background: #e0e300;}
+  50%  {background: MediumSpringGreen;}
+  75%  {background: #01dddd;}
+  100% {background: #4F86F7;}
+}
+
+
+h1 {
+  font: 900 5vw 'Rubik', sans-serif;
+  letter-spacing: .05em;
+  margin-top: 1em;
+}
+
+h2, h3, h4, h5, p, a{
+  color: black;
+}
+
+h2 {
+  font: 900 2em/1.1em 'Rubik', sans-serif;
+  text-transform: uppercase;
+  word-spacing: .2em;
+}
+
+h3 {
+  font: 700 1.5em 'Roboto Mono', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  word-spacing: -0.3em;
+}
+
+h4 {
+  font: 500 1.2em 'Rubik', sans-serif;
+}
+
+h5{
+  font: 700 .9em 'Roboto Mono', sans-serif;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+p {
+  font: 400 1em/1.8em 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.8em;
+  margin-bottom: 1em;
+}
+
+a {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 700;
+  line-height: 1.8em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+
+.button {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  padding: 0;
+  position: relative;
+  display: block;
+}
+
+.left, .right {
+  display: inline-block;
+}
+
+.right {
+  float: right;
+}
+
+.highlight-text {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: black;
+  line-height: 2em;
+  padding: 0px;
+  margin-left: .5em;
+  margin-bottom: 1em;
+}
+
+.highlight-bg {
+  padding: .25em;
+}
+
+
+/* HEADER -- Had to fudge this to get it on the same baseline..is there a better way to do this?
+*********************************/
+#header-top *, #header-bottom * {
+  color: FloralWhite;
+}
+
+#header-top li, #header-bottom li {
+  list-style-type: none;
+  float: right;
+  padding-right: 1em;
+}
+
+#header-top .left {
+  padding-top: 5px;
+}
+
+#header-top .right i {
+  font-size: 1.5em;
+}
+
+#header-bottom .right li {
+  padding-top: 115px;
+}
+
+#header-bottom a:hover {
+  border-bottom: 5px solid white;
+}
+
+
+/* MAIN
+*********************************/
+main {
+  clear: both;
+  margin-top: 5%;
+}
+
+
+/* INDEX
+*********************************/
+#index .highlight-bg {
+  background: #4F86F7;
+}
+
+#index a.button:hover {
+  background: #4F86F7;
+  border: 1px solid #4F86F7;
+}
+
+#index-projects .index-project {
+  position: relative;
+  background: FloralWhite;
+  width: 33.333%;
+  height: 700px;
+  float: left;
+  border-bottom: 10pt solid black;
+}
+
+#index-projects .index-project img {
+  width: 100%;
+  height: 225px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#index-projects .index-project-desc {
+  padding: 2em;
+}
+
+#index-projects a.button {
+  color: black;
+  padding: .75em;
+  border: 2pt solid black;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 1.5em;
+  left: 1.5em;
+}
+
+#index-projects a.button:hover {
+  color: FloralWhite ;
+}
+
+#index-projects .row-two {
+  margin-top: 2em;
+}
+
+#index-projects .space {
+  margin-right: 2em;
+}
+
+#index .highlight-bg {
+  box-shadow: -.5em 0 0 #4F86F7, .5em 0 0 #4F86F7;
+}
+
+
+
+/* SAMPLE PROJECT
+*********************************/
+#sample-proj .highlight-bg {
+  background: OrangeRed;
+}
+
+#sample-proj main {
+  background: FloralWhite;
+  padding: 2em;
+}
+
+#project-nav {
+  padding: 2em;
+  padding-bottom: 3em;
+  background: #e5e1d8;
+  border-bottom: 10px solid black;
+}
+
+#project-nav a{
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+
+#project-nav a#right {
+  float: right;
+  text-align: right;
+}
+
+#project-nav a:hover {
+  color: FloralWhite;
+}
+
+#sample-proj .highlight-bg {
+  box-shadow: -.5em 0 0 OrangeRed, 5em 0 0 OrangeRed;
+}
+
+
+/* BLOG POSTS
+*********************************/
+#blog .highlight-bg {
+  background: MediumSpringGreen;
+}
+
+#blog-posts .post {
+  margin-top: 2em;
+  background: FloralWhite ;
+  border-bottom: 10px solid black;
+}
+
+#blog-posts img {
+  width: 100%;
+}
+
+#blog-posts .content  {
+  padding: 2em;
+}
+
+#blog-posts h5 {
+  border-bottom: 2pt solid black;
+  padding-bottom: .5em;
+}
+
+#blog-posts .post p:first-of-type {
+  margin-top: 2em;
+}
+
+#blog-posts .post p:last-of-type {
+  margin-bottom: 2em;
+}
+
+#blog h4 {
+  width: 800px;
+}
+
+#blog .highlight-bg {
+  box-shadow: -.5em 0 0 MediumSpringGreen, .5em 0 0 MediumSpringGreen;
+}
+
+#blog .code-snip {
+  font: 1.25em/1.75em 'Roboto Mono';
+  background: #e5e1d8;
+  padding: 1.6em;
+}
+
+/* ABOUT
+*********************************/
+#about .highlight-bg {
+  background: #01dddd;
+}
+
+#about .container  {
+  background: FloralWhite ;
+  padding: 2em;
+}
+
+#about-contact {
+  clear: both;
+  padding: 2em;
+  background: #e5e1d8 ;
+  border-bottom: 10px solid black;
+}
+
+#about .highlight-bg {
+  box-shadow: -.5em 0 0 #01dddd,
+  .5em 0 0 #01dddd;
+}
+
+#about-info {
+  width: 650px;
+  display: inline-block;
+  float: right;
+}
+
+
+/* RESUME
+*********************************/
+#resume .highlight-bg {
+  background: #e0e300;
+}
+
+#resume-content  {
+  background: FloralWhite ;
+  padding: 2em;
+  margin-top: 2em;
+  display: block;
+  border-bottom: 10px solid black;
+}
+
+#resume-content .resume-section ul {
+  padding-left: 1em;
+  margin-bottom: 1em;
+}
+
+#resume-content .resume-section {
+  border-top: 2px solid black;
+  margin: .5em 2em 0 0;
+  padding-top: 1em;
+}
+
+#resume .highlight-bg {
+  box-shadow: -.5em 0 0 #e0e300, 5em 0 0 #e0e300;
+}
+
+
+/* FOOTER
+*********************************/
+
+footer {
+  clear: both;
+  padding-top: 2em;
+  text-align: center;
+}
