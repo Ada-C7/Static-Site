@@ -1,8 +1,10 @@
 # Static Site: Code Journal & Portfolio
 
-You will create a _static_ web site using HTML & CSS. This static site will serve as the foundation for later projects, and will contain information about your programming projects and efforts at Ada.
+The assignment was to create a _static_ web site using HTML & CSS. This static site will serve as the foundation for later projects, and will contain information about your programming projects and efforts at Ada.
 
 This is an individual, [stage 2](https://github.com/Ada-Developers-Academy/pedagogy/blob/master/rule-of-three.md) project.
+
+I plan to add Javascript and update the portfolio.
 
 ## Learning Goals:
 - Practice creating semantic HTML
