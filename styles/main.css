@@ -1,0 +1,189 @@
+/***************************************
+EVERYWHERE!
+****************************************/
+
+*{
+  color: #fff;
+  font-family:sans-serif;
+  background-color: #119156;
+  margin: 0;
+  padding: 0;
+  text-decoration:none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+
+/********************************
+HEADER / FOOTER (ALL)
+**********************************/
+
+header
+{
+  position: fixed;
+  width: 90%;
+  z-index: 1;
+}
+
+header {
+  left:0;
+  top: 0;
+  padding:20px 5% 0;
+  text-align: center;
+}
+
+header .fa,
+footer .fa{
+  font-size: 5vw;
+}
+
+.home{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.portfolio{
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.blog{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+.me{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+/********************************
+MAIN - INDEX.HTML
+**********************************/
+#index,
+#me{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%)
+
+}
+
+.erica
+{
+  font-size: 4rem;
+  font-family: 'Indie Flower';
+}
+
+.ecologist,
+#me{
+  font-size: 2rem;
+  font-family: 'Space Mono';
+}
+
+/*******************************
+FOOTER
+********************************/
+footer{
+  bottom: 0;
+  left: 0;
+}
+/********************************
+MAIN - PROJECT.HTML
+**********************************/
+#projects,
+#blog
+{
+  z-index: 0;
+  margin: 8rem 10%;
+  display: flex;
+  justify-content:space-around;
+}
+
+#projects section,
+#blog article{
+  text-align: left;
+  padding: 1.5%;
+}
+
+#projects h2,
+#blog h2{
+  font-family: 'Mono Space';
+  font-size: 3rem;
+  text-align: center;
+}
+
+#projects h3,
+#blog h3{
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+.pubs{
+  width: 30%;
+  font-size: 1rem;
+}
+
+.pubs li{
+  margin: 4% 1%;
+}
+
+.development,
+#blog p{
+  font-size: 1.5rem;
+  margin-left: 5%;
+}
+
+.development li{
+  margin: 4% 0;
+}
+/**********************************************
+Blog
+************************************************/
+
+#blog article p {
+  margin: 10% 0;
+}
+
+#blog article a {
+  top: -3;
+  border-style: solid;
+  border-color: white;
+  border-radius: 2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-width: thin;
+  background-color: #119156;;
+}
+
+#blog h2{
+  margin-top: 10%;
+}
+
+/**********************************************
+FOOTER
+**********************************************/
+
+footer {
+  padding: 0 5% 20px;
+}
